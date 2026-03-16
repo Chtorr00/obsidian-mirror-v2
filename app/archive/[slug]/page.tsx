@@ -40,6 +40,12 @@ export default function ArticlePage({ params }: PageProps) {
     year: 'numeric'
   });
 
+  // Clean the body: remove the duplicate H1 and hero image if they exist at the start
+  const cleanBody = article.body
+    .replace(/^# .*\r?\n(\r?\n)*/, '') // Remove leading H1 and following blank lines
+    .replace(/^!\[.*?\]\(.*?\)(\r?\n)*/, '') // Remove leading image and following blank lines
+    .trim();
+
   return (
     <div className="min-h-screen bg-background selection:bg-primary/20">
       {/* Background Decorative Elements */}
@@ -124,14 +130,19 @@ export default function ArticlePage({ params }: PageProps) {
 
         {/* Original Source Quote Block */}
         {article.original_source && article.original_source.trim() !== '' && (
-          <div className="mb-12 p-6 rounded-2xl bg-secondary/10 border border-white/5 border-l-4 border-l-primary/60 text-muted-foreground font-body prose prose-invert prose-p:my-1 prose-a:text-primary max-w-none">
-            <MarkdownRenderer content={article.original_source} />
+          <div className="mb-16 relative">
+            <div className="absolute -top-3 left-6 px-3 py-1 bg-background border border-white/10 rounded-full text-[10px] font-mono font-bold tracking-[0.2em] text-primary/80 z-10">
+              ORIGINAL SIGNAL / PROMPT
+            </div>
+            <div className="p-8 rounded-3xl bg-secondary/10 border border-white/5 border-l-4 border-l-primary/60 text-muted-foreground font-body prose prose-invert prose-p:my-1 prose-a:text-primary max-w-none shadow-inner">
+              <MarkdownRenderer content={article.original_source} />
+            </div>
           </div>
         )}
 
         {/* Content */}
-        <article>
-          <MarkdownRenderer content={article.body} />
+        <article className="prose-p:mb-10">
+          <MarkdownRenderer content={cleanBody} />
         </article>
 
         <footer className="mt-24 pt-12 border-t border-white/5">

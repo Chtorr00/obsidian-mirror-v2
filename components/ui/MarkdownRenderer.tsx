@@ -46,11 +46,23 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content, cla
           p: ({ node, ...props }: any) => {
             const children = React.Children.map(props.children, (child) => {
               if (typeof child === 'string') {
+                // Check for "Act I:", "Act II:", etc. and wrap in strong
+                const actMatch = child.match(/^(Act [IVX]+:)(.*)/);
+                if (actMatch) {
+                  return (
+                    <>
+                      <strong className="text-white font-black tracking-widest uppercase text-sm block mt-8 mb-2">
+                        {actMatch[1]}
+                      </strong>
+                      {renderWithWikiLinks(actMatch[2])}
+                    </>
+                  );
+                }
                 return renderWithWikiLinks(child);
               }
               return child;
             });
-            return <p className="text-muted-foreground font-body leading-relaxed mb-6">{children}</p>;
+            return <p className="text-muted-foreground font-body leading-relaxed mb-8">{children}</p>;
           },
           ul: ({ node, ...props }) => <ul className="list-disc pl-6 mb-6 text-muted-foreground" {...props} />,
           li: ({ node, ...props }) => <li className="mb-2" {...props} />,
