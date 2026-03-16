@@ -3,6 +3,7 @@
 
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkBreaks from 'remark-breaks';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import React from 'react';
@@ -38,7 +39,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content, cla
   return (
     <div className={cn("prose prose-invert max-w-none", className)}>
       <ReactMarkdown 
-        remarkPlugins={[remarkGfm]}
+        remarkPlugins={[remarkGfm, remarkBreaks]}
         components={{
           h1: ({ node, ...props }) => <h1 className="text-4xl font-heading font-black mb-8 tracking-tighter" {...props} />,
           h2: ({ node, ...props }) => <h2 className="text-2xl font-heading font-bold mt-12 mb-4 tracking-tight border-b border-white/10 pb-2" {...props} />,
