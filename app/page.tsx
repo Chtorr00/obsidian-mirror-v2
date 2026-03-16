@@ -22,10 +22,6 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [glossarySort, setGlossarySort] = useState<'az' | 'freq'>('az');
 
-  const clearFilters = () => {
-    setActiveCategory(null);
-    setSearchQuery('');
-  };
 
   // REAL DATA FROM DATA STORE
   const articles = SYNO_DATA.articles as unknown as Article[];
