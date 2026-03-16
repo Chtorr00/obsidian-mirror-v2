@@ -9,6 +9,8 @@ import { ArticleCard } from '@/components/ui/ArticleCard';
 import { SYNO_DATA } from '@/lib/data';
 import { cn } from "@/lib/utils";
 import { STEPCategory, Article, GlossaryEntry } from '@/lib/types';
+import { useRouter } from 'next/navigation';
+import { Hexagon, Clock, SortAsc, BookOpen, Search, Filter, Calendar } from 'lucide-react';
 
 export default function Home() {
   const router = useRouter();
@@ -19,6 +21,11 @@ export default function Home() {
   const [activeCategory, setActiveCategory] = useState<STEPCategory | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [glossarySort, setGlossarySort] = useState<'az' | 'freq'>('az');
+
+  const clearFilters = () => {
+    setActiveCategory(null);
+    setSearchQuery('');
+  };
 
   // REAL DATA FROM DATA STORE
   const articles = SYNO_DATA.articles as unknown as Article[];

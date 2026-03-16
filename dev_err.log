@@ -12,3 +12,68 @@ If you need interactivity, consider converting part of this to a Client Componen
     at stringify (<anonymous>)
     at stringify (<anonymous>)
 digest: "468508676"
+ ⨯ ./app/page.tsx
+Error: 
+  [31mx[0m the name `clearFilters` is defined multiple times
+    ,-[[36;1;4mC:\Users\markj\OneDrive\Documents\Antigravity\general\projects\obsidian-mirror-v2\app\page.tsx[0m:22:1]
+ [2m22[0m |   const [searchQuery, setSearchQuery] = useState('');
+ [2m23[0m |   const [glossarySort, setGlossarySort] = useState<'az' | 'freq'>('az');
+ [2m24[0m | 
+ [2m25[0m |   const clearFilters = () => {
+    : [31;1m        ^^^^^^|^^^^^[0m
+    :               [31;1m`-- [31;1mprevious definition of `clearFilters` here[0m[0m
+ [2m26[0m |     setActiveCategory(null);
+ [2m27[0m |     setSearchQuery('');
+ [2m28[0m |   };
+ [2m29[0m | 
+ [2m30[0m |   // REAL DATA FROM DATA STORE
+ [2m31[0m |   const articles = SYNO_DATA.articles as unknown as Article[];
+ [2m32[0m |   const glossary = (SYNO_DATA as any).glossary as GlossaryEntry[];
+ [2m33[0m | 
+ [2m34[0m |   // Calculate term frequency for the 'Freq' sort
+ [2m35[0m |   const termFrequencies = useMemo(() => {
+ [2m36[0m |     const freqs: Record<string, number> = {};
+ [2m37[0m |     glossary.forEach(g => freqs[g.term] = 0);
+ [2m38[0m |     articles.forEach(a => {
+ [2m39[0m |       a.glossary_refs?.forEach(ref => {
+ [2m40[0m |         if (freqs[ref] !== undefined) freqs[ref]++;
+ [2m41[0m |       });
+ [2m42[0m |     });
+ [2m43[0m |     return freqs;
+ [2m44[0m |   }, [articles, glossary]);
+ [2m45[0m | 
+ [2m46[0m |   const [selectedGlossaryTerm, setSelectedGlossaryTerm] = useState<GlossaryEntry | null>(null);
+ [2m47[0m |   const [selectedTimelineTerm, setSelectedTimelineTerm] = useState<GlossaryEntry | null>(null);
+ [2m48[0m | 
+ [2m49[0m |   const filteredArticles = useMemo(() => {
+ [2m50[0m |     let results = articles.filter((article) => {
+ [2m51[0m |       const matchesCategory = !activeCategory || article.primary === activeCategory;
+ [2m52[0m |       const matchesSearch = !searchQuery || 
+ [2m53[0m |         article.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+ [2m54[0m |         article.preview.toLowerCase().includes(searchQuery.toLowerCase());
+ [2m55[0m |       return matchesCategory && matchesSearch;
+ [2m56[0m |     });
+ [2m57[0m | 
+ [2m58[0m |     results = [...results].sort((a, b) => b.mtime - a.mtime);
+ [2m59[0m | 
+ [2m60[0m |     return results;
+ [2m61[0m |   }, [activeCategory, searchQuery, articles]);
+ [2m62[0m | 
+ [2m63[0m |   const handleCategorySelect = (category: STEPCategory) => {
+ [2m64[0m |     if (activeCategory === category) {
+ [2m65[0m |       setActiveCategory(null);
+ [2m66[0m |     } else {
+ [2m67[0m |       setActiveCategory(category);
+ [2m68[0m |     }
+ [2m69[0m |   };
+ [2m70[0m | 
+ [2m71[0m |   const clearFilters = () => {
+    : [33;1m        ^^^^^^|^^^^^[0m
+    :               [33;1m`-- [33;1m`clearFilters` redefined here[0m[0m
+ [2m72[0m |     setActiveLens(null);
+ [2m73[0m |     setActiveCategory(null);
+ [2m74[0m |     setSearchQuery('');
+    `----
+
+Import trace for requested module:
+./app/page.tsx
