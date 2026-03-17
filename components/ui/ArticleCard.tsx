@@ -11,9 +11,10 @@ interface ArticleCardProps {
   article: Article;
   onClick: () => void;
   index: number;
+  totalArticles?: number;
 }
 
-export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, index }) => {
+export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, index, totalArticles }) => {
   const colorMap: Record<string, string> = {
     'Social': 'social',
     'Technological': 'tech',
@@ -22,11 +23,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, inde
   };
   const categoryColor = `var(--${colorMap[article.primary] || article.primary.toLowerCase()})`;
   
-  const dateStr = new Date(article.mtime * 1000).toLocaleDateString('en-US', {
-    month: 'short',
-    day: 'numeric',
-    year: 'numeric'
-  });
+  const briefSummary = totalArticles ? `Brief ${article.order} of ${totalArticles}` : `Brief ${article.order}`;
 
   return (
     <motion.div
@@ -63,8 +60,8 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, inde
       <div className="p-6 flex flex-col flex-1 pl-6 md:pl-8">
         <div className="flex items-center gap-4 text-[10px] font-mono text-muted-foreground mb-3">
           <div className="flex items-center gap-1">
-            <Calendar size={10} />
-            {dateStr}
+            <Hexagon size={10} />
+            {briefSummary}
           </div>
           <div 
             className="flex items-center gap-1 px-2 py-0.5 rounded-full border border-current"

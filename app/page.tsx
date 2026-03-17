@@ -51,7 +51,7 @@ export default function Home() {
       return matchesCategory && matchesSearch;
     });
 
-    results = [...results].sort((a, b) => b.mtime - a.mtime);
+    results = [...results].sort((a, b) => (b.order || 0) - (a.order || 0));
 
     return results;
   }, [activeCategory, searchQuery, articles]);
@@ -332,6 +332,7 @@ export default function Home() {
                       key={article.filename} 
                       article={article} 
                       index={index}
+                      totalArticles={articles.length}
                       onClick={() => {
                         const slug = article.filename.replace('.md', '');
                         router.push(`/archive/${slug}`);

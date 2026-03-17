@@ -33,18 +33,37 @@ export default function ArticlePage({ params }: PageProps) {
     notFound();
   }
 
-  const categoryColor = `var(--${article.primary.toLowerCase()})`;
-  const dateStr = new Date(article.mtime * 1000).toLocaleDateString('en-US', {
-    month: 'long',
-    day: 'numeric',
-    year: 'numeric'
-  });
+  const cleanBody = React.useMemo(() => {
+    if (!article) return '';
+    let content = article.body;
+    
+    // 1. Remove the "Archaeological Diagnostic" boilerplate if it's in the text
+    const boilerplateRegex = /You are reading an archaeological diagnostic retrieved from the Obsidian Mirror Archive\.\s*The Hindsight Filter has been applied to this artifact\./gi;
+    content = content.replace(boilerplateRegex, '');
 
-  // Clean the body: remove the duplicate H1 and hero image if they exist at the start
-  const cleanBody = article.body
-    .replace(/^# .*\r?\n(\r?\n)*/, '') // Remove leading H1 and following blank lines
-    .replace(/^!\[.*?\]\(.*?\)(\r?\n)*/, '') // Remove leading image and following blank lines
-    .trim();
+    // 2. Remove leading H1 and images
+    content = content.replace(/^# .*\r?\n(\r?\n)*/, '')
+                     .replace(/^!\[.*?\]\(.*?\)(\r?\n)*/, '');
+
+    // 3. Remove leading paragraph if it contains the title or is a source citation
+    const paragraphs = content.trim().split(/\n\s*\n/);
+    if (paragraphs.length > 0) {
+      const firstPara = paragraphs[0].trim();
+      // If it starts with the title or looks like a citation (contains "By " and URLs)
+      if (
+        firstPara.startsWith(article.title) || 
+        (firstPara.includes('By ') && firstPara.includes('http')) ||
+        (firstPara.length < 500 && firstPara.includes('http') && firstPara.includes('202'))
+      ) {
+        paragraphs.shift();
+      }
+    }
+    
+    return paragraphs.join('\n\n').trim();
+  }, [article.body, article.title]);
+
+  const briefLabel = `Brief ${article.order}`;
+  const categoryColor = `var(--${article.primary.toLowerCase()})`;
 
   return (
     <div className="min-h-screen bg-background selection:bg-primary/20">
@@ -95,9 +114,16 @@ export default function ArticlePage({ params }: PageProps) {
             >
               {article.primary}
             </div>
-            <div className="flex items-center gap-2 text-xs font-mono text-muted-foreground">
-              <Calendar size={14} />
-              {dateStr}
+            <div className="flex items-center gap-4 text-xs font-mono text-muted-foreground">
+              <div className="flex items-center gap-2">
+                <Calendar size={14} />
+                {briefLabel}
+              </div>
+              {article.source_meta?.date && (
+                <div className="text-muted-foreground/60 border-l border-white/10 pl-4 uppercase tracking-widest">
+                  Original Publication: {article.source_meta.date}
+                </div>
+              )}
             </div>
           </div>
 
@@ -141,19 +167,75 @@ export default function ArticlePage({ params }: PageProps) {
         )}
 
         {/* Content */}
-        <article className="prose-p:mb-10">
+        <article className="article-body">
           <MarkdownRenderer content={cleanBody} />
         </article>
+
+        {/* Source Meta Section */}
+        {article.source_meta && (
+          <section className="mt-24 p-12 rounded-[2rem] bg-secondary/10 border border-white/5 font-mono text-sm relative overflow-hidden group">
+             <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-1000 pointer-events-none" />
+             <div className="relative z-10">
+              <div className="text-primary/60 uppercase tracking-[0.4em] font-black text-[10px] mb-10 flex items-center gap-3">
+                <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+                ARCHAEOLOGICAL REFERENCE / SOURCE MATERIAL
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+                {article.source_meta.authors && (
+                  <div className="space-y-2">
+                    <div className="text-muted-foreground/40 text-[9px] uppercase tracking-widest font-black">AUTHORS / CONTRIBUTORS</div>
+                    <div className="text-foreground/80 leading-relaxed">{article.source_meta.authors}</div>
+                  </div>
+                )}
+                {article.source_meta.source && (
+                  <div className="space-y-2">
+                    <div className="text-muted-foreground/40 text-[9px] uppercase tracking-widest font-black">ORIGINAL PUBLICATION</div>
+                    <a 
+                      href={article.source_meta.archive_url || article.source_meta.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="inline-block text-primary hover:text-white transition-all duration-300 underline decoration-primary/20 hover:decoration-white underline-offset-8 text-lg font-bold"
+                    >
+                      {article.source_meta.source}
+                    </a>
+                  </div>
+                )}
+                {article.source_meta.date && (
+                  <div className="space-y-2">
+                    <div className="text-muted-foreground/40 text-[9px] uppercase tracking-widest font-black">ESTIMATED ORIGIN DATE</div>
+                    <div className="text-foreground/80">{article.source_meta.date}</div>
+                  </div>
+                )}
+                {(article.source_meta.url || article.source_meta.archive_url) && (
+                  <div className="space-y-2">
+                    <div className="text-muted-foreground/40 text-[9px] uppercase tracking-widest font-black">MIRROR DATA LINKS</div>
+                    <div className="flex flex-col gap-3">
+                      {article.source_meta.url && (
+                        <a href={article.source_meta.url} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors text-xs truncate flex items-center gap-2">
+                          <span className="w-1 h-1 rounded-full bg-white/20" />
+                          Primary Signal Source
+                        </a>
+                      )}
+                      {article.source_meta.archive_url && (
+                        <a href={article.source_meta.archive_url} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-white transition-all text-xs truncate font-bold flex items-center gap-2">
+                          <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                          Hindsight Archive (Cached)
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </section>
+        )}
 
         <footer className="mt-24 pt-12 border-t border-white/5">
           <div className="flex flex-col items-center text-center">
             <div className="w-12 h-12 rounded-2xl bg-secondary/50 flex items-center justify-center mb-6 border border-white/10">
               <span className="font-heading font-bold">OM</span>
             </div>
-            <p className="text-sm text-muted-foreground font-body max-w-sm mb-8">
-              You are reading an archaeological diagnostic retrieved from the Obsidian Mirror Archive. 
-              The Hindsight Filter has been applied to this artifact.
-            </p>
+
             <Link 
               href="/"
               className="inline-flex items-center gap-2 px-8 py-3 rounded-full bg-primary text-primary-foreground font-bold hover:scale-105 transition-transform"
