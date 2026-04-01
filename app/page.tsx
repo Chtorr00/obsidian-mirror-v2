@@ -69,13 +69,16 @@ function ArchiveDashboard() {
       const matchesSearch = !searchQuery || 
         article.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         article.preview.toLowerCase().includes(searchQuery.toLowerCase());
-      return matchesCategory && matchesSearch;
+      const matchesGlossary = !selectedGlossaryTerm || (article.glossary_refs && article.glossary_refs.includes(selectedGlossaryTerm.term));
+      const matchesTimeline = !selectedTimelineTerm || (article.glossary_refs && article.glossary_refs.includes(selectedTimelineTerm.term));
+
+      return matchesCategory && matchesSearch && matchesGlossary && matchesTimeline;
     });
 
     results = [...results].sort((a, b) => (b.order || 0) - (a.order || 0));
 
     return results;
-  }, [activeCategory, searchQuery, articles]);
+  }, [activeCategory, searchQuery, selectedGlossaryTerm, selectedTimelineTerm, articles]);
 
   const handleCategorySelect = (category: STEPCategory) => {
     if (activeCategory === category) {
