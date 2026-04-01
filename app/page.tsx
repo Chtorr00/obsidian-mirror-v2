@@ -1,7 +1,7 @@
 
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, Suspense } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { STEPMatrix } from '@/components/sections/STEPMatrix';
 import { SearchBar } from '@/components/sections/SearchBar';
@@ -13,7 +13,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { Hexagon, Clock, SortAsc, BookOpen, Search, Filter, Calendar, ChevronRight } from 'lucide-react';
 import { useRef, useEffect } from 'react';
 
-export default function Home() {
+function ArchiveDashboard() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const resultsScrollRef = useRef<HTMLDivElement>(null);
@@ -519,5 +519,20 @@ export default function Home() {
         </div>
       </div>
     </main>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={
+      <div className="h-screen w-screen bg-background flex items-center justify-center">
+        <div className="flex flex-col items-center gap-4">
+          <div className="w-12 h-12 rounded-full border-2 border-primary/20 border-t-primary animate-spin" />
+          <div className="text-[10px] font-mono text-muted-foreground uppercase tracking-[0.3em] animate-pulse">Initializing Archive...</div>
+        </div>
+      </div>
+    }>
+      <ArchiveDashboard />
+    </Suspense>
   );
 }
