@@ -62,7 +62,8 @@ export default function ArticlePage({ params }: PageProps) {
     return paragraphs.join('\n\n').trim();
   }, [article.body, article.title]);
 
-  const briefLabel = `Brief ${article.order}`;
+  const totalArticles = React.useMemo(() => (SYNO_DATA.articles as unknown as Article[]).length, []);
+  const briefLabel = `Brief ${article.order} of ${totalArticles}`;
   const categoryColor = `var(--${article.primary.toLowerCase()})`;
 
   return (
@@ -94,10 +95,18 @@ export default function ArticlePage({ params }: PageProps) {
             BACK TO ARCHIVE
           </Link>
           <div className="flex items-center gap-4">
-            <button className="p-2 rounded-lg hover:bg-white/5 text-muted-foreground transition-colors">
+            <button 
+              aria-label="Bookmark article"
+              title="Bookmark article"
+              className="p-2 rounded-lg hover:bg-white/5 text-muted-foreground transition-colors"
+            >
               <Bookmark size={18} />
             </button>
-            <button className="p-2 rounded-lg hover:bg-white/5 text-muted-foreground transition-colors">
+            <button 
+              aria-label="Share article"
+              title="Share article"
+              className="p-2 rounded-lg hover:bg-white/5 text-muted-foreground transition-colors"
+            >
               <Share2 size={18} />
             </button>
           </div>
@@ -108,12 +117,13 @@ export default function ArticlePage({ params }: PageProps) {
         {/* Article Header */}
         <header className="mb-16">
           <div className="flex items-center gap-4 mb-8">
-            <div 
-              className="px-3 py-1 rounded-full text-xs font-mono uppercase tracking-[0.2em] border border-current"
+            <Link 
+              href={`/?category=${article.primary}`}
+              className="px-3 py-1 rounded-full text-xs font-mono uppercase tracking-[0.2em] border border-current hover:bg-white/5 transition-colors"
               style={{ color: `hsl(${categoryColor})` }}
             >
               {article.primary}
-            </div>
+            </Link>
             <div className="flex items-center gap-4 text-xs font-mono text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Calendar size={14} />
@@ -133,12 +143,13 @@ export default function ArticlePage({ params }: PageProps) {
 
           <div className="flex flex-wrap gap-3">
             {article.secondary.map((cat) => (
-              <span 
+              <Link 
                 key={cat} 
-                className="text-[10px] font-mono uppercase tracking-widest text-muted-foreground px-2 py-1 bg-white/5 rounded border border-white/10"
+                href={`/?category=${cat}`}
+                className="text-[10px] font-mono uppercase tracking-widest text-muted-foreground px-2 py-1 bg-white/5 rounded border border-white/10 hover:border-primary/50 hover:text-primary transition-all"
               >
                 {cat}
-              </span>
+              </Link>
             ))}
           </div>
         </header>
@@ -181,13 +192,13 @@ export default function ArticlePage({ params }: PageProps) {
                 ARCHAEOLOGICAL REFERENCE / SOURCE MATERIAL
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                {article.source_meta.authors && (
+                {article.source_meta.author && (
                   <div className="space-y-2">
                     <div className="text-muted-foreground/40 text-[9px] uppercase tracking-widest font-black">AUTHORS / CONTRIBUTORS</div>
-                    <div className="text-foreground/80 leading-relaxed">{article.source_meta.authors}</div>
+                    <div className="text-foreground/80 leading-relaxed">{article.source_meta.author}</div>
                   </div>
                 )}
-                {article.source_meta.source && (
+                {article.source_meta.publication && (
                   <div className="space-y-2">
                     <div className="text-muted-foreground/40 text-[9px] uppercase tracking-widest font-black">ORIGINAL PUBLICATION</div>
                     <a 
@@ -196,7 +207,7 @@ export default function ArticlePage({ params }: PageProps) {
                       rel="noopener noreferrer" 
                       className="inline-block text-primary hover:text-white transition-all duration-300 underline decoration-primary/20 hover:decoration-white underline-offset-8 text-lg font-bold"
                     >
-                      {article.source_meta.source}
+                      {article.source_meta.publication}
                     </a>
                   </div>
                 )}

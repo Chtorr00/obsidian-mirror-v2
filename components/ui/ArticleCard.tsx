@@ -23,7 +23,8 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, inde
   };
   const categoryColor = `var(--${colorMap[article.primary] || article.primary.toLowerCase()})`;
   
-  const briefSummary = totalArticles ? `Brief ${article.order} of ${totalArticles}` : `Brief ${article.order}`;
+  const maxOrder = totalArticles ? Math.max(totalArticles, article.order) : article.order;
+  const briefSummary = `Brief ${article.order} of ${maxOrder}`;
 
   return (
     <motion.div

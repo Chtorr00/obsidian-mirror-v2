@@ -12,14 +12,12 @@ export interface Article {
   mtime: number;
   original_source?: string;
   source_meta?: {
-    title?: string;
-    author?: string;
-    authors?: string;
-    publication?: string;
-    source?: string;
-    date?: string;
     url?: string;
     archive_url?: string;
+    title?: string;
+    date?: string;
+    author?: string;
+    publication?: string;
   };
   order?: number;
   glossary_refs?: string[];

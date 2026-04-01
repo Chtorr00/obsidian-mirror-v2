@@ -24,9 +24,9 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content, cla
       return `[${term}](/glossary/${slug})`;
     });
 
-    // 2. Bold Acts and put them on their own line with a gap
-    // Matches Act 1: Text... or Act I: Text...
-    result = result.replace(/^(Act [0-9IVX]+: .*)$/gm, '\n\n**$1**\n\n');
+    // 2. Bold Acts and ensure they are isolated
+    // Matches Act 1: Text... and bolds until first period
+    result = result.replace(/^(Act [0-9IVX]+:.*?\.)(\s|$)/gm, '\n\n**$1**\n\n$2');
 
     // 3. Ensure double newlines for paragraph gaps
     // Replace single newline with double newline if not already preceded/followed by one

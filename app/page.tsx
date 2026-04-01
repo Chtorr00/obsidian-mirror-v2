@@ -9,11 +9,14 @@ import { ArticleCard } from '@/components/ui/ArticleCard';
 import { SYNO_DATA } from '@/lib/data';
 import { cn } from "@/lib/utils";
 import { STEPCategory, Article, GlossaryEntry } from '@/lib/types';
-import { useRouter } from 'next/navigation';
-import { Hexagon, Clock, SortAsc, BookOpen, Search, Filter, Calendar } from 'lucide-react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { Hexagon, Clock, SortAsc, BookOpen, Search, Filter, Calendar, ChevronRight } from 'lucide-react';
+import { useRef, useEffect } from 'react';
 
 export default function Home() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const resultsScrollRef = useRef<HTMLDivElement>(null);
   
   type LensMode = 'STEP' | 'GLOSSARY' | 'TIMELINE' | 'SEARCH';
   const [activeLens, setActiveLens] = useState<LensMode | null>(null);
@@ -21,6 +24,24 @@ export default function Home() {
   const [activeCategory, setActiveCategory] = useState<STEPCategory | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [glossarySort, setGlossarySort] = useState<'az' | 'freq'>('az');
+
+  // Handle category navigation from URL search params
+  useEffect(() => {
+    const categoryFromUrl = searchParams.get('category') as STEPCategory;
+    if (categoryFromUrl && ['Social', 'Technological', 'Economic', 'Political'].includes(categoryFromUrl)) {
+      setActiveLens('STEP');
+      setActiveCategory(categoryFromUrl);
+      setSelectedGlossaryTerm(null);
+      setSelectedTimelineTerm(null);
+      scrollToTop();
+    }
+  }, [searchParams]);
+
+  const scrollToTop = () => {
+    if (resultsScrollRef.current) {
+      resultsScrollRef.current.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
 
 
   // REAL DATA FROM DATA STORE
@@ -70,6 +91,7 @@ export default function Home() {
     setSearchQuery('');
     setSelectedGlossaryTerm(null);
     setSelectedTimelineTerm(null);
+    router.push('/');
   };
 
   return (
@@ -91,7 +113,8 @@ export default function Home() {
               <motion.h1 
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="text-3xl md:text-4xl lg:text-5xl font-heading font-extrabold tracking-tighter mb-2 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/50 pt-2"
+                onClick={clearFilters}
+                className="text-3xl md:text-4xl lg:text-5xl font-heading font-extrabold tracking-tighter mb-2 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/50 pt-2 cursor-pointer hover:opacity-80 transition-opacity"
               >
                 OBSIDIAN MIRROR
               </motion.h1>
@@ -180,10 +203,14 @@ export default function Home() {
                 </div>
                 <div className="flex gap-2 mb-4 text-xs font-mono">
                   <button 
-                    onClick={() => setGlossarySort('az')}
+                    onClick={() => {
+                      setActiveLens('GLOSSARY');
+                      setSelectedGlossaryTerm(null);
+                      setGlossarySort('az');
+                    }}
                     className={cn(
                       "flex-1 p-2 rounded transition-all flex items-center justify-center gap-2",
-                      glossarySort === 'az' 
+                      (glossarySort === 'az' && !selectedGlossaryTerm)
                         ? "bg-sky-500/10 text-sky-400 border border-sky-500/50 border-l-4 border-l-sky-400 font-bold" 
                         : "bg-secondary/20 border border-white/5 text-muted-foreground hover:bg-secondary/40"
                     )}
@@ -191,10 +218,14 @@ export default function Home() {
                     A-Z
                   </button>
                   <button 
-                    onClick={() => setGlossarySort('freq')}
+                    onClick={() => {
+                      setActiveLens('GLOSSARY');
+                      setSelectedGlossaryTerm(null);
+                      setGlossarySort('freq');
+                    }}
                     className={cn(
                       "flex-1 p-2 rounded transition-all flex items-center justify-center gap-2",
-                      glossarySort === 'freq' 
+                      (glossarySort === 'freq' && !selectedGlossaryTerm)
                         ? "bg-fuchsia-500/10 text-fuchsia-400 border border-fuchsia-500/50 border-l-4 border-l-fuchsia-400 font-bold" 
                         : "bg-secondary/20 border border-white/5 text-muted-foreground hover:bg-secondary/40"
                     )}
@@ -249,7 +280,10 @@ export default function Home() {
         </div>
 
         {/* Right Column: Results Stream */}
-        <div className="flex-1 h-full overflow-y-auto custom-scrollbar px-6 lg:px-12 py-8 relative">
+        <div 
+          ref={resultsScrollRef}
+          className="flex-1 h-full overflow-y-auto custom-scrollbar px-6 lg:px-12 py-8 relative scroll-smooth"
+        >
           
           {/* Default/Article View */}
           {(activeLens === null || activeLens === 'SEARCH' || activeLens === 'STEP' || (activeLens === 'GLOSSARY' && selectedGlossaryTerm) || (activeLens === 'TIMELINE' && selectedTimelineTerm)) && (
@@ -387,14 +421,17 @@ export default function Home() {
                 .map((item) => (
                 <button 
                   key={item.term} 
-                  onClick={() => setSelectedGlossaryTerm(item)} 
-                  className="text-left group flex items-center p-4 rounded-xl border border-white/5 bg-secondary/10 hover:bg-secondary/40 hover:border-white/20 transition-all cursor-pointer w-full"
+                  onClick={() => {
+                    setSelectedGlossaryTerm(item);
+                    scrollToTop();
+                  }} 
+                  className="text-left group flex items-center p-5 rounded-xl border border-white/5 bg-secondary/10 hover:bg-secondary/40 hover:border-white/20 transition-all cursor-pointer w-full shadow-sm"
                 >
                   <div className="w-48 xl:w-64 shrink-0 pr-4">
-                    <div className="font-heading font-bold text-base md:text-lg group-hover:text-primary transition-colors truncate">{item.term}</div>
+                    <div className="font-heading font-bold text-base md:text-lg group-hover:text-primary transition-colors line-clamp-1">{item.term}</div>
                   </div>
-                  <div className="flex-1 text-sm text-muted-foreground font-body truncate">
-                    {item.description.split('.')[0]}.
+                  <div className="flex-1 text-sm text-muted-foreground font-body line-clamp-2 leading-relaxed">
+                    {item.description}
                   </div>
                   {glossarySort === 'freq' && (
                     <div className="ml-4 px-2 py-1 rounded bg-fuchsia-500/10 text-fuchsia-400 text-[10px] font-mono border border-fuchsia-500/20">
@@ -447,7 +484,10 @@ export default function Home() {
                     return (
                       <div key={item.term} className="relative flex items-center group">
                         <button 
-                          onClick={() => setSelectedTimelineTerm(item)}
+                          onClick={() => {
+                            setSelectedTimelineTerm(item);
+                            scrollToTop();
+                          }}
                           className="w-64 shrink-0 pr-4 text-base md:text-lg font-heading font-bold text-muted-foreground group-hover:text-foreground hover:text-primary transition-colors text-left truncate cursor-pointer"
                         >
                           {item.term}
@@ -457,7 +497,10 @@ export default function Home() {
                           <div className="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
                           
                           <button 
-                            onClick={() => setSelectedTimelineTerm(item)}
+                            onClick={() => {
+                              setSelectedTimelineTerm(item);
+                              scrollToTop();
+                            }}
                             className="absolute h-full top-0 bg-primary/20 border border-primary/40 rounded-md flex items-center px-4 overflow-hidden hover:bg-primary/40 hover:shadow-[0_0_15px_rgba(var(--primary),0.3)] transition-all cursor-pointer text-left"
                             style={{ left: `${Math.max(0, leftOffset)}%`, width: `${Math.max(2, widthPercentage)}%` }}
                           >
