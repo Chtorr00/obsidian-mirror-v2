@@ -61,40 +61,41 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, inde
 
       {/* Content Content - Right Side */}
       <div className="p-6 flex flex-col flex-1 pl-6 md:pl-8">
-        <div className="flex items-center gap-4 text-[10px] font-mono text-muted-foreground mb-3">
-          <div className="flex items-center gap-1">
-            <Hexagon size={10} />
-            {briefSummary}
-          </div>
-          <div 
-            className="flex items-center gap-1 px-2 py-0.5 rounded-full border border-current"
-            style={{ color: `hsl(${categoryColor})` }}
-          >
-            <Tag size={10} />
-            {article.primary}
-          </div>
-        </div>
-
-        <h3 className="text-xl md:text-2xl font-heading font-bold mb-3 group-hover:text-primary transition-colors line-clamp-2">
+        <h3 className="text-lg md:text-xl font-heading font-bold mb-4 group-hover:text-primary transition-colors line-clamp-3 leading-tight">
           {article.title}
         </h3>
 
-        <p className="text-sm text-muted-foreground line-clamp-3 mb-6 font-body leading-relaxed flex-1">
-          {article.preview}
-        </p>
-
-        <div className="flex items-center justify-between mt-auto">
-          <div className="flex gap-2">
-            {article.secondary?.slice(0, 2).map((tag) => (
-              <span key={tag} className="text-[10px] uppercase tracking-widest text-muted-foreground/60 border border-white/10 px-2 py-0.5 rounded">
-                {tag}
+        {article.source_meta && (
+          <div className="flex flex-col mt-auto pb-1">
+            {article.source_meta.title && (
+              <span className="text-xs italic text-muted-foreground/90 line-clamp-2 mb-2">
+                {article.source_meta.title}
               </span>
-            ))}
+            )}
+            {(() => {
+                const pubRaw = article.source_meta.publication;
+                let pub = pubRaw;
+                if (pubRaw && pubRaw.includes(',')) {
+                  const idx = pubRaw.indexOf(',');
+                  pub = pubRaw.substring(0, idx).trim();
+                }
+                return (
+                  <div className="flex flex-col gap-1 mt-1">
+                    {article.source_meta.author && (
+                      <span className="text-[10px] font-mono text-muted-foreground/60 uppercase tracking-widest line-clamp-1">
+                        {article.source_meta.author}
+                      </span>
+                    )}
+                    {pub && (
+                      <span className="text-[10px] font-mono text-muted-foreground/60 uppercase tracking-widest line-clamp-1">
+                        {pub}
+                      </span>
+                    )}
+                  </div>
+                );
+            })()}
           </div>
-          <span className="text-xs font-mono text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all">
-            VIEW ARCHIVE →
-          </span>
-        </div>
+        )}
       </div>
       
       {/* Background glow on hover */}

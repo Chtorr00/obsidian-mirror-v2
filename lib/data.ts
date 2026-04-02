@@ -319,7 +319,14 @@ export const SYNO_DATA = {
         "The Sovereign Stacks",
         "The Virtual Koryos"
       ],
-      "order": 9
+      "order": 9,
+      "source_meta": {
+        "url": "https://jdanielsawyer.substack.com/p/so-youve-been-locked-out-of-life",
+        "title": "So You've Been Locked Out of Life: The Uncomfortable Truth About \"The Lost Generation\"",
+        "author": "J. Daniel Sawyer",
+        "date": "2025",
+        "publication": "Unfolding the World Substack"
+      }
     },
     {
       "title": "The Architecture of Inheritance",
@@ -621,7 +628,14 @@ export const SYNO_DATA = {
       "original_source": "",
       "month": "August",
       "glossary_refs": [],
-      "order": 19
+      "order": 19,
+      "source_meta": {
+        "url": "https://www.realtor.com/news/trends/multigenerational-home-buying-record-report-2025/",
+        "title": "Families Are Sticking Together: Multigenerational Homebuying Hits an All-Time High as Americans Battle Soaring Cost of Living",
+        "author": "Snejana Farberov",
+        "date": "2025",
+        "publication": "Realtor.com"
+      }
     },
     {
       "title": "The Battlefield Dissolves",
@@ -646,7 +660,14 @@ export const SYNO_DATA = {
       "glossary_refs": [
         "Polemics"
       ],
-      "order": 20
+      "order": 20,
+      "source_meta": {
+        "url": "https://hedgehogreview.com/issues/in-need-of-repair/articles/culture-wars-the-endgame",
+        "title": "Culture Wars: The Endgame",
+        "author": "James P. Hunter",
+        "date": "2025",
+        "publication": "The Hedgehog Review"
+      }
     },
     {
       "title": "The Cathedral of Rules",
@@ -2155,7 +2176,13 @@ export const SYNO_DATA = {
       "original_source": "",
       "month": "July",
       "glossary_refs": [],
-      "order": 65
+      "order": 65,
+      "source_meta": {
+        "url": "https://www.brookings.edu/wp-content/uploads/2025/04/20250401CRMBailyKaneAICaseStudiesElecFINAL.pdf",
+        "title": "AI in the Electricity Sector",
+        "author": "Martin Neil Baily and Erik Dean Kane",
+        "publication": "The Brookings Institution"
+      }
     },
     {
       "title": "The Financial Engine of the Fracture",
@@ -2269,7 +2296,13 @@ export const SYNO_DATA = {
         "The Sovereign Stacks",
         "The Supply Chain Wars"
       ],
-      "order": 69
+      "order": 69,
+      "source_meta": {
+        "url": "https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=2873&context=honorstheses",
+        "title": "Why Democracy Has Lost the Trust of Modern People in the Modern Era",
+        "author": "Erica Rubel",
+        "publication": "Portland State University (PDXScholar)"
+      }
     },
     {
       "title": "The Eulogy for the Old World, and a Flawed Map for the New",
@@ -2443,7 +2476,13 @@ export const SYNO_DATA = {
         "Polemics",
         "The Physics of Sovereignty"
       ],
-      "order": 75
+      "order": 75,
+      "source_meta": {
+        "url": "https://www.thearcticinstitute.org/arctic-council-shadow-geopolitics/",
+        "title": "The Arctic Council in the Shadow of Geopolitics",
+        "author": "Andreas Østhagen",
+        "publication": "The Arctic Institute"
+      }
     },
     {
       "title": "The Fragile Consensus",
@@ -2554,7 +2593,13 @@ export const SYNO_DATA = {
       "glossary_refs": [
         "Polemics"
       ],
-      "order": 79
+      "order": 79,
+      "source_meta": {
+        "url": "https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-august-9-2025",
+        "title": "Russian Offensive Campaign Assessment, August 9, 2025",
+        "author": "Institute for the Study of War",
+        "publication": "Institute for the Study of War"
+      }
     },
     {
       "title": "The Dream from the Top of the World",
@@ -4250,7 +4295,13 @@ export const SYNO_DATA = {
       "glossary_refs": [
         "Polemics"
       ],
-      "order": 128
+      "order": 128,
+      "source_meta": {
+        "url": "https://www.cjfp.org/navigating-tensions-in-the-south-china-sea-a-multidimensional-analysis/",
+        "title": "Navigating Tensions in the South China Sea: A Multidimensional Analysis",
+        "author": "CJFP Staff",
+        "publication": "Chicago Journal of Foreign Policy"
+      }
     },
     {
       "title": "The Last Audit",
@@ -4481,7 +4532,13 @@ export const SYNO_DATA = {
       "original_source": "",
       "month": "August",
       "glossary_refs": [],
-      "order": 136
+      "order": 136,
+      "source_meta": {
+        "url": "https://apnews.com/article/alaska-trump-putin-summit-ee0adee35b72a1d06d4e50557a0cd718",
+        "title": "Trump-Putin summit on Ukraine is latest chapter in Alaska's long history — and tension — with Russia",
+        "author": "Becky Bohrer, Aamer Madhani and Matthew Lee",
+        "publication": "Associated Press"
+      }
     },
     {
       "title": "The Paper Mountain and the Avalanche It Caused",
@@ -6379,7 +6436,13 @@ export const SYNO_DATA = {
       "glossary_refs": [
         "The AGI Contention of 2068"
       ],
-      "order": 192
+      "order": 192,
+      "source_meta": {
+        "url": "https://medium.com/@alanmossinger/the-10-trillion-ai-energy-revolution-what-ceos-need-to-know-and-what-ive-learned-leading-5e9a3df1c24e",
+        "title": "The $10 Trillion AI Energy Revolution: What CEOs Need to Know",
+        "author": "Alan Mössinger",
+        "publication": "Medium"
+      }
     },
     {
       "title": "The Schism in the New Priesthood",
@@ -6522,7 +6585,13 @@ export const SYNO_DATA = {
         "The Revaluation of the Real",
         "The Sterile Plague"
       ],
-      "order": 197
+      "order": 197,
+      "source_meta": {
+        "url": "https://futurism.com/chatgpt-marriages-divorces",
+        "title": "ChatGPT Is Blowing Up Marriages as Spouses Use AI to Attack Their Partners",
+        "author": "Maggie Harrison Dupré",
+        "publication": "Futurism"
+      }
     },
     {
       "title": "The Seed in the Nursery",
@@ -6672,7 +6741,13 @@ export const SYNO_DATA = {
       "glossary_refs": [
         "The Convivial Mandate"
       ],
-      "order": 202
+      "order": 202,
+      "source_meta": {
+        "url": "https://www.wider.unu.edu/news/world-social-report-2025-sounds-alarm-global-social-crisis",
+        "title": "World Social Report 2025 sounds alarm on global social crisis",
+        "author": "UNU WIDER & UN DESA",
+        "publication": "UNU WIDER"
+      }
     },
     {
       "title": "The Unspoken Compass",
