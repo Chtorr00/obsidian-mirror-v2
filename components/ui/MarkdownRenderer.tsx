@@ -6,6 +6,7 @@ import remarkGfm from 'remark-gfm';
 import remarkBreaks from 'remark-breaks';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
+import Image from 'next/image';
 import React from 'react';
 
 interface MarkdownRendererProps {
@@ -82,11 +83,15 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content, cla
           ),
           img: ({ ...props }) => (
             <span className="block my-16 relative group">
-              <img 
-                className="rounded-2xl border border-white/10 shadow-2xl transition-transform duration-700 group-hover:scale-[1.01] w-full" 
-                {...props} 
-                alt={props.alt || "Article Image"}
-              />
+              <span className="aspect-video relative block w-full overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
+                <Image 
+                  src={props.src || ''}
+                  alt={props.alt || "Article Image"}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 896px"
+                  className="object-cover transition-transform duration-700 group-hover:scale-[1.01]" 
+                />
+              </span>
               <span className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/10 pointer-events-none" />
             </span>
           ),

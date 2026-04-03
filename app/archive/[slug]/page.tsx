@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -8,6 +7,7 @@ import { SYNO_DATA } from '@/lib/data';
 import { Article, STEPCategory, GlossaryEntry } from '@/lib/types';
 import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 interface PageProps {
   params: {
@@ -211,12 +211,15 @@ export default function ArticlePage({ params }: PageProps) {
           {/* 2. Hero Image / Placeholder */}
           {article.image && (
             <div className="rounded-3xl overflow-hidden border border-white/10 shadow-3xl relative group h-full min-h-[300px]">
-              <img 
+              <Image 
                 src={article.image} 
                 alt={article.title}
-                className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+                fill
+                priority
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover transition-transform duration-1000 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent blend-overlay" />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent blend-overlay pointer-events-none" />
             </div>
           )}
         </div>

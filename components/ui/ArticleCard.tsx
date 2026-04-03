@@ -1,7 +1,7 @@
 
 'use client';
 
-import React from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Article } from '@/lib/types';
 import { cn } from '@/lib/utils';
@@ -46,17 +46,19 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, inde
       {/* Image Preview / Placeholder - Left Side */}
       <div className="relative w-full md:w-48 lg:w-64 shrink-0 h-48 md:h-auto bg-secondary/30 overflow-hidden border-b md:border-b-0 md:border-r border-white/5">
         {article.image ? (
-          <img 
+          <Image 
             src={article.image} 
             alt={article.title}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-60 group-hover:opacity-100"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 192px, 256px"
+            className="object-cover transition-transform duration-500 group-hover:scale-110 opacity-60 group-hover:opacity-100"
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center opacity-20">
             <Hexagon size={48} className="text-primary animate-pulse" />
           </div>
         )}
-        <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-secondary/80 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-secondary/80 to-transparent pointer-events-none" />
       </div>
 
       {/* Content Content - Right Side */}
