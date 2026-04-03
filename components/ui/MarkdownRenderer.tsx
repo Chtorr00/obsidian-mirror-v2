@@ -19,15 +19,15 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content, cla
     if (!content) return '';
     let result = content;
     
-    // 1. Convert [[WikiLinks]] to standard markdown links
+    // 1. Convert [[WikiLinks]] to standard dashboard filter links
     result = result.replace(/\[\[(.*?)\]\]/g, (match, term) => {
-      const slug = term.trim().toLowerCase().replace(/\s+/g, '-');
-      return `[${term}](/glossary/${slug})`;
+      const encodedTerm = encodeURIComponent(term.trim());
+      return `[${term}](/?glossary=${encodedTerm}&view=articles)`;
     });
 
     // 2. Bold Acts and ensure they are isolated
-    // Matches Act 1: Text... and bolds until first period
-    result = result.replace(/^(Act [0-9IVX]+:.*?\.)(\s|$)/gm, '\n\n**$1**\n\n$2');
+    // Matches "Act I: Title" (with optional whitespace) and bolds the entire line
+    result = result.replace(/^\s*(Act [0-9IVX]+:.*)$/gm, '\n\n**$1**\n\n');
 
     // 3. Ensure double newlines for paragraph gaps
     // Replace single newline with double newline if not already preceded/followed by one
@@ -50,7 +50,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content, cla
           strong: ({ ...props }) => <strong className="text-white font-bold" {...props} />,
           em: ({ ...props }) => <em className="italic text-foreground/90" {...props} />,
           a: ({ ...props }: any) => {
-            const isGlossary = props.href?.startsWith('/glossary');
+            const isGlossary = props.href?.includes('glossary=');
             if (isGlossary) {
               return (
                 <Link 

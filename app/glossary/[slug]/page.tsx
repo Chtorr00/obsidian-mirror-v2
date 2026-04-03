@@ -118,7 +118,7 @@ export default function TermPage() {
                   <span className="text-2xl font-heading font-black text-primary">{term.backlinks.length}</span>
                 </div>
                 <div className="flex justify-between items-end border-b border-white/5 pb-2">
-                  <span className="text-xs text-muted-foreground/50">Unique Sources</span>
+                  <span className="text-xs text-muted-foreground/50">STEP Breadth</span>
                   <span className="text-2xl font-heading font-black text-primary">{new Set(term.backlinks.map(a => a.primary)).size}</span>
                 </div>
               </div>

@@ -10,7 +10,8 @@ import { SYNO_DATA } from '@/lib/data';
 import { cn } from "@/lib/utils";
 import { STEPCategory, Article, GlossaryEntry } from '@/lib/types';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { Hexagon, Clock, SortAsc, BookOpen, Search, Filter, Calendar, ChevronRight } from 'lucide-react';
+import { Hexagon, Clock, SortAsc, BookOpen, Search, Filter, Calendar, ChevronRight, Quote } from 'lucide-react';
+import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
 import { useRef, useEffect } from 'react';
 
 function ArchiveDashboard() {
@@ -42,6 +43,7 @@ function ArchiveDashboard() {
   const [glossarySort, setGlossarySort] = useState<'az' | 'freq'>('az');
   const [selectedGlossaryTerm, setSelectedGlossaryTerm] = useState<GlossaryEntry | null>(null);
   const [selectedTimelineTerm, setSelectedTimelineTerm] = useState<GlossaryEntry | null>(null);
+  const [glossaryViewMode, setGlossaryViewMode] = useState<'articles' | 'context'>('articles');
 
   const scrollToTop = () => {
     if (resultsScrollRef.current) {
@@ -54,6 +56,7 @@ function ArchiveDashboard() {
     const categoryFromUrl = searchParams.get('category') as STEPCategory;
     const glossaryFromUrl = searchParams.get('glossary');
     const searchFromUrl = searchParams.get('search');
+    const viewFromUrl = searchParams.get('view') as 'articles' | 'context';
 
     if (categoryFromUrl && ['Social', 'Technological', 'Economic', 'Political'].includes(categoryFromUrl)) {
       setActiveLens('STEP');
@@ -65,6 +68,7 @@ function ArchiveDashboard() {
       setActiveLens('GLOSSARY');
       const term = glossary.find(g => g.term.toLowerCase() === glossaryFromUrl.toLowerCase());
       if (term) setSelectedGlossaryTerm(term);
+      if (viewFromUrl) setGlossaryViewMode(viewFromUrl);
       scrollToTop();
     } else if (searchFromUrl) {
       setActiveLens('SEARCH');
@@ -89,6 +93,24 @@ function ArchiveDashboard() {
 
     return results;
   }, [activeCategory, searchQuery, selectedGlossaryTerm, selectedTimelineTerm, articles]);
+
+  const getContextSnippet = (body: string, termText: string) => {
+    const termRegex = new RegExp(`\\[\\[${termText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\]\\]`, 'i');
+    const match = body.match(termRegex);
+    if (!match || match.index === undefined) return '';
+
+    const start = Math.max(0, match.index - 250);
+    const end = Math.min(body.length, match.index + match[0].length + 250);
+    let snippet = body.slice(start, end);
+    
+    // Clean up markdown
+    snippet = snippet.replace(/#+\s/g, '').replace(/\!\[.*\]\(.*\)/g, '');
+    
+    // Bold the term (no link)
+    snippet = snippet.replace(new RegExp(`\\[\\[(${termText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})\\]\\]`, 'gi'), '**$1**');
+    
+    return (start > 0 ? '...' : '') + snippet.trim() + (end < body.length ? '...' : '');
+  };
 
   const handleCategorySelect = (category: STEPCategory) => {
     if (activeCategory === category) {
@@ -328,24 +350,61 @@ function ArchiveDashboard() {
                     glossarySort === 'az' ? "bg-sky-500/20" : "bg-fuchsia-500/20"
                   )} />
                   <div className="relative z-10">
-                    <div className="flex justify-between items-start mb-6">
-                      <button onClick={() => setSelectedGlossaryTerm(null)} className="text-xs font-mono text-muted-foreground hover:text-white flex items-center gap-2 bg-black/20 px-3 py-1.5 rounded border border-white/5 transition-colors">
-                        ← BACK TO INDEX
-                      </button>
-                      <div 
-                        className={cn(
-                          "inline-flex px-4 py-2 bg-black/20 border rounded-lg text-xs font-mono font-bold tracking-widest uppercase shadow-inner",
-                          glossarySort === 'az' ? "border-sky-500/40 text-sky-400" : "border-fuchsia-500/40 text-fuchsia-400"
-                        )}
-                      >
-                        {selectedGlossaryTerm.years}
+                    <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-8 pb-8 border-b border-white/10">
+                      <div className="flex flex-col gap-1">
+                        <button onClick={() => setSelectedGlossaryTerm(null)} className="text-[10px] font-mono text-muted-foreground hover:text-white flex items-center gap-2 mb-2 transition-colors">
+                          ← RETURN TO INDEX
+                        </button>
+                        <h2 className="text-3xl md:text-4xl font-heading font-black text-white tracking-tighter uppercase italic">{selectedGlossaryTerm.term}</h2>
+                      </div>
+                      
+                      <div className="flex items-center gap-3 bg-black/40 p-1.5 rounded-xl border border-white/10">
+                        <button 
+                          onClick={() => setGlossaryViewMode('articles')}
+                          className={cn(
+                            "px-4 py-2 rounded-lg text-[10px] font-mono font-bold tracking-widest transition-all",
+                            glossaryViewMode === 'articles' 
+                              ? "bg-primary text-primary-foreground shadow-lg shadow-primary/20" 
+                              : "text-muted-foreground hover:text-white"
+                          )}
+                        >
+                          ARTICLE VIEW
+                        </button>
+                        <button 
+                          onClick={() => setGlossaryViewMode('context')}
+                          className={cn(
+                            "px-4 py-2 rounded-lg text-[10px] font-mono font-bold tracking-widest transition-all",
+                            glossaryViewMode === 'context' 
+                              ? "bg-primary text-primary-foreground shadow-lg shadow-primary/20" 
+                              : "text-muted-foreground hover:text-white"
+                          )}
+                        >
+                          CONTEXTUAL VIEW
+                        </button>
                       </div>
                     </div>
 
-                    <h2 className="text-2xl md:text-3xl font-heading font-extrabold text-white mb-4 tracking-tight drop-shadow-md">{selectedGlossaryTerm.term}</h2>
-                    <p className="text-sm md:text-base text-muted-foreground font-body leading-relaxed max-w-4xl">
-                      {selectedGlossaryTerm.description}
-                    </p>
+                    <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+                      <div className="lg:col-span-3">
+                        <p className="text-base text-muted-foreground font-body leading-relaxed max-w-4xl italic mb-6">
+                          {selectedGlossaryTerm.description}
+                        </p>
+                      </div>
+                      <div className="lg:col-span-1 space-y-4">
+                        <div className="p-4 rounded-2xl bg-white/5 border border-white/5">
+                          <h4 className="text-[9px] font-mono text-muted-foreground uppercase tracking-widest mb-2">STEP Breadth</h4>
+                          <p className="text-xl font-heading font-black text-primary">
+                            {new Set(articles.filter(a => a.glossary_refs?.includes(selectedGlossaryTerm.term)).map(a => a.primary)).size}
+                          </p>
+                        </div>
+                        <div className="p-4 rounded-2xl bg-white/5 border border-white/5">
+                          <h4 className="text-[9px] font-mono text-muted-foreground uppercase tracking-widest mb-2">Total References</h4>
+                          <p className="text-xl font-heading font-black text-primary">
+                            {articles.filter(a => a.glossary_refs?.includes(selectedGlossaryTerm.term)).length}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               )}
@@ -374,18 +433,54 @@ function ArchiveDashboard() {
 
               <section className="grid grid-cols-1 gap-6 pb-20">
                 <AnimatePresence mode="popLayout">
-                  {filteredArticles.map((article, index) => (
-                    <ArticleCard 
-                      key={article.filename} 
-                      article={article} 
-                      index={index}
-                      totalArticles={articles.length}
-                      onClick={() => {
-                        const slug = article.filename.replace('.md', '');
-                        router.push(`/archive/${slug}`);
-                      }}
-                    />
-                  ))}
+                  {glossaryViewMode === 'articles' || !selectedGlossaryTerm ? (
+                    filteredArticles.map((article, index) => (
+                      <ArticleCard 
+                        key={article.filename} 
+                        article={article} 
+                        index={index}
+                        totalArticles={articles.length}
+                        onClick={() => {
+                          const slug = article.filename.replace('.md', '');
+                          router.push(`/archive/${slug}`);
+                        }}
+                      />
+                    ))
+                  ) : (
+                    filteredArticles.map((article, index) => (
+                      <motion.div
+                        key={article.filename + '-context'}
+                        initial={{ opacity: 0, x: -20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: index * 0.05 }}
+                      >
+                        <button 
+                          onClick={() => {
+                            const slug = article.filename.replace('.md', '');
+                            router.push(`/archive/${slug}`);
+                          }}
+                          className="group w-full text-left p-8 rounded-2xl bg-secondary/10 border border-white/5 hover:border-white/20 transition-all hover:bg-secondary/20"
+                        >
+                          <div className="flex items-center gap-3 mb-4 text-xs font-mono text-primary uppercase tracking-widest font-bold">
+                            <span>[{article.primary}]</span>
+                            <div className="h-px flex-1 bg-white/5" />
+                          </div>
+                          <h3 className="text-2xl font-heading font-black text-white mb-4 group-hover:text-primary transition-colors uppercase italic">
+                            {article.title}
+                          </h3>
+                          <div className="flex items-start gap-4">
+                            <Quote size={20} className="text-primary/40 shrink-0 mt-1" />
+                            <div className="text-muted-foreground text-base leading-relaxed italic line-clamp-6 font-body opacity-90 group-hover:opacity-100 transition-opacity">
+                              <MarkdownRenderer 
+                                content={getContextSnippet(article.body, selectedGlossaryTerm.term)} 
+                                className="inline-block !p-0 !m-0 !text-base prose-p:!mb-0"
+                              />
+                            </div>
+                          </div>
+                        </button>
+                      </motion.div>
+                    ))
+                  )}
                 </AnimatePresence>
               </section>
 

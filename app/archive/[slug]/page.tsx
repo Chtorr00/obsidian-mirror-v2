@@ -254,7 +254,7 @@ export default function ArticlePage({ params }: PageProps) {
                 return (
                   <Link 
                     key={ref}
-                    href={`/?glossary=${encodeURIComponent(ref)}`}
+                    href={`/?glossary=${encodeURIComponent(ref)}&view=context`}
                     className="group p-6 rounded-2xl bg-secondary/10 border border-white/5 hover:border-primary/30 hover:bg-secondary/20 transition-all border-l-2 border-l-primary/30 shadow-sm"
                   >
                     <div className="flex items-center justify-between mb-2">
