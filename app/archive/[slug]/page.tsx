@@ -3,9 +3,9 @@ import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, Calendar, Tag, Share2, Bookmark } from 'lucide-react';
+import { ArrowLeft, Calendar, Tag, Share2, Bookmark, BookOpen } from 'lucide-react';
 import { SYNO_DATA } from '@/lib/data';
-import { Article, STEPCategory } from '@/lib/types';
+import { Article, STEPCategory, GlossaryEntry } from '@/lib/types';
 import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
 import { cn } from '@/lib/utils';
 
@@ -70,7 +70,7 @@ export default function ArticlePage({ params }: PageProps) {
     }
     
     return paragraphs.join('\n\n').trim();
-  }, [article.body, article.title]);
+  }, [article]);
 
   const totalArticles = React.useMemo(() => (SYNO_DATA.articles as unknown as Article[]).length, []);
   const briefLabel = `Brief ${article.order} of ${totalArticles}`;
@@ -237,6 +237,42 @@ export default function ArticlePage({ params }: PageProps) {
         <article className="article-body">
           <MarkdownRenderer content={cleanBody} />
         </article>
+
+        {/* Related Concepts (Lore) */}
+        {article.glossary_refs && article.glossary_refs.length > 0 && (
+          <section className="mt-20 pt-12 border-t border-white/5">
+            <h3 className="text-xs font-mono uppercase tracking-[0.3em] text-muted-foreground mb-8 flex items-center gap-2">
+              <BookOpen size={14} className="text-primary" />
+              Related Concepts & Lore
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {article.glossary_refs.map((ref) => {
+                const termEntry = ((SYNO_DATA as any).glossary as GlossaryEntry[]).find(g => g.term === ref);
+                return (
+                  <Link 
+                    key={ref}
+                    href={`/?glossary=${encodeURIComponent(ref)}`}
+                    className="group p-6 rounded-2xl bg-secondary/10 border border-white/5 hover:border-primary/30 hover:bg-secondary/20 transition-all border-l-2 border-l-primary/30 shadow-sm"
+                  >
+                    <div className="flex items-center justify-between mb-2">
+                      <h4 className="font-heading font-bold text-lg group-hover:text-primary transition-colors">
+                        {ref}
+                      </h4>
+                      <div className="text-[10px] font-mono text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity">
+                        VIEW CONCEPT →
+                      </div>
+                    </div>
+                    {termEntry && (
+                      <p className="text-sm text-muted-foreground font-body line-clamp-2 leading-relaxed">
+                        {termEntry.description}
+                      </p>
+                    )}
+                  </Link>
+                );
+              })}
+            </div>
+          </section>
+        )}
 
 
 

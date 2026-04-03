@@ -6897,9 +6897,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://www.compactmag.com/article/the-great-feminization/",
         "title": "The Great Feminization",
-        "author": "Helen Andrews",
-        "date": "2025",
-        "publication": "Compact Magazine, October 16"
+        "author": "HELEN ANDREWS",
+        "publication": "COMPACT MAGAZINE"
       }
     },
     {
@@ -6928,9 +6927,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://www.pewresearch.org/short-reads/2025/10/15/growing-share-of-americans-say-the-us-higher-education-system-is-headed-in-the-wrong-direction/",
         "title": "Growing share of Americans say the U.S. higher education system is headed in the wrong direction",
-        "author": "Kim Parker",
-        "date": "2025",
-        "publication": "Pew Research Center, October 15"
+        "author": "KIM PARKER",
+        "publication": "PEW RESEARCH CENTER"
       }
     },
     {
@@ -6956,9 +6954,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://www.youtube.com/watch?v=bdb5f4eSFIQ",
         "title": "The U.S. Is Planning a $37 Trillion Crypto Reset",
-        "author": "Mark Moss",
-        "date": "2025",
-        "publication": "Mark Moss Youtube, October 1"
+        "author": "MARK MOSS",
+        "publication": "MARK MOSS YOUTUBE"
       }
     },
     {
@@ -6988,9 +6985,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://trendsresearch.org/insight/ai-and-the-evolution-of-asymmetric-cyber-warfare-insights-from-the-2025-israel-iran-conflict/",
         "title": "AI and the Evolution of Asymmetric Cyber Warfare: Insights from the 2025 Israel-Iran Conflict",
-        "author": "Mike Sexton",
-        "date": "2025",
-        "publication": "TRENDS Research and Advisory, August 25"
+        "author": "MIKE SEXTON",
+        "publication": "TRENDS RESEARCH AND ADVISORY"
       }
     },
     {
@@ -7016,9 +7012,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://morgoth.substack.com/p/how-multiculturalism-consumes-everything",
         "title": "How Multiculturalism Consumes Everything",
-        "author": "Morgoth",
-        "date": "2025",
-        "publication": "Morgoth's Review Substack, October 4"
+        "author": "MORGOTH",
+        "publication": "MORGOTH'S REVIEW SUBSTACK"
       }
     },
     {
@@ -7084,9 +7079,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://www.noemamag.com/humanitys-endgame/",
         "title": "Humanity’s Endgame",
-        "author": "Henry Wismayer",
-        "date": "2025",
-        "publication": "Noema Magazine, November 6"
+        "author": "HENRY WISMAYER",
+        "publication": "NOEMA MAGAZINE"
       }
     },
     {
@@ -7117,9 +7111,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://www.justice.gov/opa/pr/department-justice-rule-restores-equal-protection-all-civil-rights-enforcement",
         "title": "Department of Justice Rule Restores Equal Protection for All in Civil Rights Enforcement",
-        "author": "Office of Public Affairs",
-        "date": "2025",
-        "publication": "Department of Justice, December 9"
+        "author": "OFFICE OF PUBLIC AFFAIRS",
+        "publication": "DEPARTMENT OF JUSTICE"
       }
     },
     {
@@ -7192,9 +7185,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://www.nas.org/blogs/statement/columbia-and-beyond-case-agreements-in-higher-ed",
         "title": "Columbia and Beyond: Case Agreements in Higher Ed",
-        "author": "the National Association of Scholars",
-        "date": "2025",
-        "publication": "NAS whitepaper, November 25"
+        "author": "THE NATIONAL ASSOCIATION OF SCHOLARS",
+        "publication": "NAS WHITEPAPER"
       }
     },
     {
@@ -7232,9 +7224,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://www.wired.com/story/dumbphone-owners-have-literally-lost-their-minds/",
         "title": "Dumbphone Owners Have Lost Their Minds",
-        "author": "Elana Klein",
-        "date": "2026",
-        "publication": "Wired Magazine, January 19"
+        "author": "ELANA KLEIN",
+        "publication": "WIRED MAGAZINE"
       }
     },
     {
@@ -7271,8 +7262,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://news.sky.com/story/ministers-to-launch-consultation-on-australia-style-under-16s-social-media-ban-13496366",
         "title": "Social media ban for children being considered by UK government",
-        "date": "2026",
-        "publication": "Sky News, January 20"
+        "author": "SKY NEWS",
+        "publication": "SKY NEWS"
       }
     },
     {
@@ -7310,9 +7301,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://mazetometanoia.substack.com/p/the-pentagon-calls-them-demons-the",
         "title": "The Pentagon Calls Them Demons. The Ancient Greeks Called Them Daimons. Both Might Be Right",
-        "author": "Meredith",
-        "date": "2026",
-        "publication": "The Maze to Metanoia Substack, January 2"
+        "author": "MEREDITH",
+        "publication": "THE MAZE TO METANOIA SUBSTACK"
       }
     },
     {
@@ -7350,8 +7340,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://news.sky.com/story/nearly-a-third-of-kids-cant-use-books-when-starting-school-and-try-to-swipe-them-like-phones-13497398",
         "title": "Nearly a third of kids can't use books when starting school - and try to swipe them like phones",
-        "date": "2026",
-        "publication": "Sky News, January 22"
+        "author": "SKY NEWS",
+        "publication": "SKY NEWS"
       }
     },
     {
@@ -7386,9 +7376,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://exiledheart.substack.com/p/the-metaphysics-of-bass-pro-shop",
         "title": "The Metaphysics Of Bass Pro Shops",
-        "author": "Javier Velazquez",
-        "date": "2026",
-        "publication": "Exiled Heart Substack, January 16"
+        "author": "JAVIER VELAZQUEZ",
+        "publication": "EXILED HEART SUBSTACK"
       }
     },
     {
@@ -7421,9 +7410,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://www.artificialintelligencemadesimple.com/p/ai-is-hitting-a-measurement-wall",
         "title": "AI is Hitting a Measurement Wall",
-        "author": "Devansh",
-        "date": "2026",
-        "publication": "Artificial Intelligence made simple Substack, January 17"
+        "author": "DEVANSH",
+        "publication": "ARTIFICIAL INTELLIGENCE MADE SIMPLE SUBSTACK"
       }
     },
     {
@@ -7458,9 +7446,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://www.nytimes.com/2026/01/30/dining/food-delivery-apps-doordash-uber.html",
         "title": "Freedom With a Side of Guilt: How Food Delivery Is Reshaping Mealtime",
-        "author": "Priya Krishna",
-        "date": "2026",
-        "publication": "The New York Times, January 30"
+        "author": "PRIYA KRISHNA",
+        "publication": "THE NEW YORK TIMES"
       }
     },
     {
@@ -7499,9 +7486,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://gcri.org/publications/commentary/statusquotastrophe-interviews",
         "title": "Statusquotastrophe: Interviews with US Public Reveal Dark Trend",
-        "author": "Charlton Yingling, Marissa Yingling",
-        "date": "2026",
-        "publication": "Global Catastrophic Risk Institute, January 9"
+        "author": "CHARLTON YINGLING, MARISSA YINGLING",
+        "publication": "GLOBAL CATASTROPHIC RISK INSTITUTE"
       }
     },
     {
@@ -7540,9 +7526,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://blog.exitgroup.us/p/its-only-a-blackpill-if-you-want",
         "title": "It's only a blackpill if you want things to stay like this",
-        "author": "Bennett's Phylactery",
-        "date": "2026",
-        "publication": "Exit Newsletter Substack, February 12"
+        "author": "BENNETT'S PHYLACTERY",
+        "publication": "EXIT NEWSLETTER SUBSTACK"
       }
     },
     {
@@ -7577,9 +7562,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://raginbakin.substack.com/p/a-marxist-economic-analysis-of-gen",
         "title": "A Marxist Economic Analysis of Gen Z Unemployment",
-        "author": "Eric Huang",
-        "date": "2026",
-        "publication": "De-Alienation Substack, January 10"
+        "author": "ERIC HUANG",
+        "publication": "DE-ALIENATION SUBSTACK"
       }
     },
     {
@@ -7618,8 +7602,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://www.newarab.com/news/kuwait-revokes-citizenship-renowned-national-team-goalkeeper",
         "title": "Kuwait revokes citizenship of renowned national team goalkeeper",
-        "date": "2026",
-        "publication": "New Arab, January 25"
+        "author": "NEW ARAB",
+        "publication": "NEW ARAB"
       }
     },
     {
@@ -7658,9 +7642,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://abiawomosu.substack.com/p/big-tech-does-not-own-ai",
         "title": "Big Tech Does Not Own AI",
-        "author": "Abi Awomosu",
-        "date": "2026",
-        "publication": "How Not To Use AI Substack, January 18"
+        "author": "ABI AWOMOSU",
+        "publication": "HOW NOT TO USE AI SUBSTACK"
       }
     },
     {
@@ -7697,9 +7680,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://www.theaustralian.com.au/business/technology/tech-boss-uses-ai-and-chatgpt-to-create-cancer-vaccine-for-his-dying-dog/news-story/292a21bcbe93efa17810bfcfcdfadbf7",
         "title": "Tech boss uses AI and ChatGPT to create cancer vaccine for his dying dog",
-        "author": "Natasha Bita",
-        "date": "2026",
-        "publication": "The Australian, March 13"
+        "author": "NATASHA BITA",
+        "publication": "THE AUSTRALIAN"
       }
     },
     {
@@ -7726,9 +7708,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://joincolossus.com/article/joe-liemandt-class-dismissed/",
         "title": "Class Dismissed",
-        "author": "Jeremy Stern",
-        "date": "August 2025",
-        "publication": "Colossus Magazine"
+        "author": "JEREMY STERN",
+        "publication": "COLOSSUS MAGAZINE"
       }
     },
     {
@@ -7767,9 +7748,8 @@ export const SYNO_DATA = {
       "source_meta": {
         "url": "https://nickandresen.substack.com/p/how-ai-is-learning-to-think-in-secret",
         "title": "How AI Is Learning to Think in Secret",
-        "author": "Nicholas Andresen",
-        "date": "2026",
-        "publication": "Nick's Notes Substack, January 06"
+        "author": "NICHOLAS ANDRESEN",
+        "publication": "NICK'S NOTES SUBSTACK"
       }
     },
     {

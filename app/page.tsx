@@ -18,35 +18,9 @@ function ArchiveDashboard() {
   const searchParams = useSearchParams();
   const resultsScrollRef = useRef<HTMLDivElement>(null);
   
-  type LensMode = 'STEP' | 'GLOSSARY' | 'TIMELINE' | 'SEARCH';
-  const [activeLens, setActiveLens] = useState<LensMode | null>(null);
-  
-  const [activeCategory, setActiveCategory] = useState<STEPCategory | null>(null);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [glossarySort, setGlossarySort] = useState<'az' | 'freq'>('az');
-
-  // Handle category navigation from URL search params
-  useEffect(() => {
-    const categoryFromUrl = searchParams.get('category') as STEPCategory;
-    if (categoryFromUrl && ['Social', 'Technological', 'Economic', 'Political'].includes(categoryFromUrl)) {
-      setActiveLens('STEP');
-      setActiveCategory(categoryFromUrl);
-      setSelectedGlossaryTerm(null);
-      setSelectedTimelineTerm(null);
-      scrollToTop();
-    }
-  }, [searchParams]);
-
-  const scrollToTop = () => {
-    if (resultsScrollRef.current) {
-      resultsScrollRef.current.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  };
-
-
   // REAL DATA FROM DATA STORE
-  const articles = SYNO_DATA.articles as unknown as Article[];
-  const glossary = (SYNO_DATA as any).glossary as GlossaryEntry[];
+  const articles = useMemo(() => SYNO_DATA.articles as unknown as Article[], []);
+  const glossary = useMemo(() => (SYNO_DATA as any).glossary as GlossaryEntry[], []);
 
   // Calculate term frequency for the 'Freq' sort
   const termFrequencies = useMemo(() => {
@@ -60,8 +34,44 @@ function ArchiveDashboard() {
     return freqs;
   }, [articles, glossary]);
 
+  type LensMode = 'STEP' | 'GLOSSARY' | 'TIMELINE' | 'SEARCH';
+  const [activeLens, setActiveLens] = useState<LensMode | null>(null);
+  
+  const [activeCategory, setActiveCategory] = useState<STEPCategory | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [glossarySort, setGlossarySort] = useState<'az' | 'freq'>('az');
   const [selectedGlossaryTerm, setSelectedGlossaryTerm] = useState<GlossaryEntry | null>(null);
   const [selectedTimelineTerm, setSelectedTimelineTerm] = useState<GlossaryEntry | null>(null);
+
+  const scrollToTop = () => {
+    if (resultsScrollRef.current) {
+      resultsScrollRef.current.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+
+  // Handle navigation from URL search params
+  useEffect(() => {
+    const categoryFromUrl = searchParams.get('category') as STEPCategory;
+    const glossaryFromUrl = searchParams.get('glossary');
+    const searchFromUrl = searchParams.get('search');
+
+    if (categoryFromUrl && ['Social', 'Technological', 'Economic', 'Political'].includes(categoryFromUrl)) {
+      setActiveLens('STEP');
+      setActiveCategory(categoryFromUrl);
+      setSelectedGlossaryTerm(null);
+      setSelectedTimelineTerm(null);
+      scrollToTop();
+    } else if (glossaryFromUrl) {
+      setActiveLens('GLOSSARY');
+      const term = glossary.find(g => g.term.toLowerCase() === glossaryFromUrl.toLowerCase());
+      if (term) setSelectedGlossaryTerm(term);
+      scrollToTop();
+    } else if (searchFromUrl) {
+      setActiveLens('SEARCH');
+      setSearchQuery(searchFromUrl);
+      scrollToTop();
+    }
+  }, [searchParams, glossary]);
 
   const filteredArticles = useMemo(() => {
     let results = articles.filter((article) => {

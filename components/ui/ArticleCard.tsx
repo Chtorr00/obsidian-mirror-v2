@@ -61,14 +61,15 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, inde
 
       {/* Content Content - Right Side */}
       <div className="p-6 flex flex-col flex-1 pl-6 md:pl-8">
-        <h3 className="text-lg md:text-xl font-heading font-bold mb-4 group-hover:text-primary transition-colors line-clamp-3 leading-tight">
+        <h3 className="text-lg md:text-xl font-heading font-bold mb-1.5 group-hover:text-primary transition-colors line-clamp-3 leading-tight">
           {article.title}
         </h3>
 
         {article.source_meta && (
-          <div className="flex flex-col mt-auto pb-1">
-            {article.source_meta.title && (
-              <span className="text-xs italic text-muted-foreground/90 line-clamp-2 mb-2">
+          <div className="flex flex-col pb-1">
+            {article.source_meta.title && 
+             article.source_meta.title.toLowerCase().trim() !== article.title.toLowerCase().trim() && (
+              <span className="text-xs italic text-muted-foreground/80 line-clamp-2 mb-0.5">
                 {article.source_meta.title}
               </span>
             )}
@@ -80,7 +81,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, inde
                   pub = pubRaw.substring(0, idx).trim();
                 }
                 return (
-                  <div className="flex flex-col gap-1 mt-1">
+                  <div className="flex flex-col gap-0.5">
                     {article.source_meta.author && (
                       <span className="text-[10px] font-mono text-muted-foreground/60 uppercase tracking-widest line-clamp-1">
                         {article.source_meta.author}
@@ -94,6 +95,25 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, inde
                   </div>
                 );
             })()}
+          </div>
+        )}
+
+        {/* Glossary Refs - New Section */}
+        {article.glossary_refs && article.glossary_refs.length > 0 && (
+          <div className="mt-auto pt-4 flex flex-wrap gap-2 overflow-hidden max-h-12 border-t border-white/5">
+            {article.glossary_refs.slice(0, 3).map((ref) => (
+              <span 
+                key={ref} 
+                className="px-2 py-0.5 rounded bg-white/5 border border-white/5 text-[9px] font-mono text-muted-foreground/50 uppercase tracking-tighter"
+              >
+                {ref}
+              </span>
+            ))}
+            {article.glossary_refs.length > 3 && (
+              <span className="text-[9px] font-mono text-muted-foreground/30 flex items-center">
+                +{article.glossary_refs.length - 3} MORE
+              </span>
+            )}
           </div>
         )}
       </div>
