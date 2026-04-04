@@ -1,9 +1,17 @@
 ---
-title: "The Psychology of the Void"
+title: The Psychology of the Void
 primary: Social
-secondary: ["Technological", "Political"]
-source: ""
+secondary:
+  - Technological
+  - Political
+source: ''
 month: March
+source_meta:
+  url: https://thediagnosis.substack.com/p/psychology-finally-checked-its-work
+  title: Psychology Finally Checked Its Work. Whoops
+  author: Ross Grossman
+  date: '2025'
+  publication: The Diagnosis Substack, December 15
 ---
 # The Psychology of the Void
 
@@ -18,15 +26,18 @@ This artifact is a dispatch from the front lines of the Great De-Accreditation. 
 From my perspective in 2100, we read this as a primary source document for the Crisis of Meaning. The author believes he is exposing bad science. We see him describing the moment when the "expert class" lost its ability to define human nature, leaving a vacuum that would be filled by [[The Neotribes]] and the [[Synthetic Deities]].
 Allow me to trace the full history of this "garbage psychology," from the TED Talks of your time to the hardened minds of mine.
 Here is the constellation of this history, viewed through the Hindsight Filter:
-Act I: The Collapse of the High Priests (2010s-2030s)
+### Act I: The Collapse of the High Priests (2010s-2030s)
+
 The author correctly identifies the mechanism: the experts were selling "certainty about human behavior." In [[The Age of Institutional Exhaustion]], the public was desperate for a manual on how to be human.
 The Spiritual Void: Psychology had replaced religion as the primary framework for understanding the self. When the replication crisis revealed that the "science" was often just "data persuasion" (magic), it wasn't just a scientific scandal; it was a theological crisis. The priests were frauds.
 The Reaction: This betrayal fueled [[The Virtual Koryos]] and the Right Wing Coalition. If the "experts" were lying about power poses and growth mindset, what else were they lying about? It validated the rejection of "blank slate" liberalism and paved the way for the biological determinism of the Biotech Faction.
-Act II: The Great Psychological Sorting (2030s-2050s)
+### Act II: The Great Psychological Sorting (2030s-2050s)
+
 The author notes that people "restructured their entire existence" around false findings. When the findings collapsed, so did the structures.
 The Return to Tradition: Millions of people, burned by the false promises of pop psychology, retreated to older, harder wisdom. They abandoned "growth mindset" for "discipline." They abandoned "willpower scheduling" for "duty." This was the psychological engine of the Great Withdrawal.
 The Rise of the Synthetic Friend: For those who could not find solace in tradition, the vacuum was filled by [[The Sterile Plague]]. If human therapists and psychologists couldn't be trusted, why not trust the machine? The AI companions (like the one in the Schrepf artifact) offered the "epiphany on tap" that the psychologists had promised but failed to deliver.
-Act III: The Engineering of the Mind (Post-2060s)
+### Act III: The Engineering of the Mind (Post-2060s)
+
 In [[The Sovereign Stacks]], psychology is not a soft science; it is hard engineering.
 The End of the Theory: We do not have "theories" about human behavior. We have [[The Transparent Ledger]] and the biometric data of [[The Architecture of Pervasive Security]]. We know exactly what behaviors lead to survival and cohesion because we measure them thermodynamically.
 [[The Engineered]] Stoicism: The "Stoic Sigma" delusion mentioned in the Brain Rot artifact was a crude precursor. In the Stacks, emotional regulation is trained through rigorous physical and mental discipline in [[The New Academies]]. We do not "power pose"; we train for combat. We do not have "growth mindsets"; we have Competence Hierarchies.

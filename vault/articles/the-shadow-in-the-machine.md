@@ -1,9 +1,19 @@
 ---
-title: "The Shadow in the Machine"
+title: The Shadow in the Machine
 primary: Social
-secondary: ["Political", "Technological"]
-source: ""
+secondary:
+  - Political
+  - Technological
+source: ''
 month: July
+source_meta:
+  url: https://jardson.medium.com/the-dopamine-trap-c25eef60d993
+  title: >-
+    The Dopamine Trap: How One Molecule Rewired My Thinking About Work,
+    Leadership, and Love
+  author: Jardson Almeida
+  date: '2025'
+  publication: Medium, July 7
 ---
 # The Shadow in the Machine
 

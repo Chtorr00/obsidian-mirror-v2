@@ -1,9 +1,20 @@
 ---
-title: "The Math of the Hollow City"
+title: The Math of the Hollow City
 primary: Political
-secondary: ["Economic", "Social", "Technological"]
-source: ""
+secondary:
+  - Economic
+  - Social
+  - Technological
+source: ''
 month: December
+source_meta:
+  url: https://archive.ph/yrPaw
+  title: >-
+    Chicago has lost its mind: The city’s fiscal situation is dire, and Mayor
+    Brandon Johnson is determined to make things worse
+  author: Washington Post editorial board
+  date: '2025'
+  publication: Washington Post, December 15
 ---
 # The Math of the Hollow City
 

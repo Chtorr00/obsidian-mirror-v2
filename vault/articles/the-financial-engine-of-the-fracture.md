@@ -1,9 +1,19 @@
 ---
-title: "The Financial Engine of the Fracture"
+title: The Financial Engine of the Fracture
 primary: Political
-secondary: ["Economic"]
-source: ""
+secondary:
+  - Economic
+source: ''
 month: July
+source_meta:
+  url: >-
+    https://www.ainvest.com/news/volatility-goldmine-geopolitical-storms-fueling-goldman-sachs-q2-triumph-2507/
+  title: >-
+    Volatility Goldmine: How Geopolitical Storms Are Fueling Goldman Sachs' Q2
+    Triumph
+  author: Aime Robot
+  date: '2025'
+  publication: MarketPulse, July 16
 ---
 # The Financial Engine of the Fracture
 

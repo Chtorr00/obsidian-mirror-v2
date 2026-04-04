@@ -1,9 +1,18 @@
 ---
-title: "The War That Dissolved the World"
+title: The War That Dissolved the World
 primary: Political
-secondary: ["Technological", "Social"]
-source: ""
+secondary:
+  - Technological
+  - Social
+source: ''
 month: July
+source_meta:
+  url: >-
+    https://globalsecurityreview.com/the-5gw-playbook-silent-wars-and-invisible-battlefields/
+  title: 'The 5GW Playbook: Silent Wars and Invisible Battlefields'
+  author: Global Security Review
+  date: '2025'
+  publication: Global Security Review, July 13
 ---
 # The War That Dissolved the World
 

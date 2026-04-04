@@ -1,9 +1,19 @@
 ---
-title: "The Ghost in the Network"
+title: The Ghost in the Network
 primary: Social
-secondary: ["Technological"]
-source: ""
+secondary:
+  - Technological
+source: ''
 month: July
+source_meta:
+  url: >-
+    https://lepiliernoirphilosophique.medium.com/blue-haired-antichrists-and-the-cult-of-castration-kai-anderson-cyber-incels-and-the-theater-d42579706ebe
+  title: >-
+    “Blue-Haired Antichrists and the Cult of Castration: Kai Anderson,
+    Cyber-Incels, and the Theater of Masculine Failure (2016–2025)”
+  author: Le "Pilier Noir" Philosophique
+  date: '2025'
+  publication: Medium, July 10
 ---
 # The Ghost in the Network
 

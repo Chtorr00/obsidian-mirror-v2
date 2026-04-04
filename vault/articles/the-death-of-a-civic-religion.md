@@ -1,9 +1,17 @@
 ---
-title: "The Death of a Civic Religion"
+title: The Death of a Civic Religion
 primary: Political
-secondary: ["Social"]
-source: ""
+secondary:
+  - Social
+source: ''
 month: July
+source_meta:
+  url: >-
+    https://aithor.com/essay-examples/how-nhs-staffing-shortages-affect-patient-care-and-system-trust-in-the-uk
+  title: How NHS staffing shortages affect patient care and system trust in the UK
+  author: Aitho
+  date: '2025'
+  publication: Aithor.com, July 19
 ---
 # The Death of a Civic Religion
 

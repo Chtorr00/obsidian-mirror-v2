@@ -1,9 +1,17 @@
 ---
-title: "The Brittle Bones of Globalization"
+title: The Brittle Bones of Globalization
 primary: Economic
-secondary: ["Political"]
-source: ""
+secondary:
+  - Political
+source: ''
 month: July
+source_meta:
+  url: >-
+    https://www.supplychainbrain.com/blogs/1-think-tank/post/41964-the-next-war-will-be-fought-in-supply-chains
+  title: The Next War Will Be Fought in Supply Chains
+  author: Dennis Groseclose
+  date: '2025'
+  publication: SupplyChainBrain, July 19
 ---
 # The Brittle Bones of Globalization
 

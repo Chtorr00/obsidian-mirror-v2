@@ -1,9 +1,19 @@
 ---
-title: "The Obituary for the Neutral Square"
+title: The Obituary for the Neutral Square
 primary: Political
-secondary: ["Social"]
-source: ""
+secondary:
+  - Social
+source: ''
 month: July
+source_meta:
+  url: >-
+    https://academic.oup.com/ojlr/advance-article/doi/10.1093/ojlr/rwaf007/8166020
+  title: >-
+    Spiritual Lawfare: The Use and Misuse of Litigation in the Context of Human
+    Rights, Religious Freedom, and Competing Human Rights
+  author: The Oxford Journal of Law and Religion
+  date: '2025'
+  publication: Oxford Journal of Law and Religion, July 11
 ---
 # The Obituary for the Neutral Square
 

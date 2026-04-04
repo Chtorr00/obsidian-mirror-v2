@@ -1,9 +1,19 @@
 ---
-title: "The Blueprints for the Fortress"
+title: The Blueprints for the Fortress
 primary: Economic
-secondary: ["Political"]
-source: ""
+secondary:
+  - Political
+source: ''
 month: July
+source_meta:
+  url: >-
+    https://www.tradecomplianceresourcehub.com/2025/07/17/trump-2-0-tariff-tracker/
+  title: Trump 2.0 tariff tracker
+  author: >-
+    Michael Lowell, Philippe Heeren, Justin Angotti, Lizbeth Rodriguez-Johnson,
+    Kirsten Lowell & Courtney E. Fisher
+  date: '2025'
+  publication: Reed Smith, Trade Compliance Resource Hub, July 17
 ---
 # The Blueprints for the Fortress
 

@@ -1,9 +1,17 @@
 ---
-title: "The Curriculum of Collapse"
+title: The Curriculum of Collapse
 primary: Social
-secondary: ["Political", "Economic"]
-source: ""
+secondary:
+  - Political
+  - Economic
+source: ''
 month: November
+source_meta:
+  url: https://doi.org/10.3390/rel15111345
+  title: Transhumanism, Human Moral Enhancement, and Virtues
+  author: by Vojko Strahovnik and Mateja Centa Strahovnik
+  date: '2025'
+  publication: Religions 2024, October 31
 ---
 # The Curriculum of Collapse
 

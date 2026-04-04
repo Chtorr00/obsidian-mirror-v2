@@ -1,9 +1,17 @@
 ---
-title: "The Engine of Tomorrow's Crises"
+title: The Engine of Tomorrow's Crises
 primary: Economic
-secondary: ["Technological"]
-source: ""
+secondary:
+  - Technological
+source: ''
 month: July
+source_meta:
+  url: >-
+    https://technologymagazine.com/news/microsoft-constellation-restarting-a-nuclear-reactor
+  title: Microsoft & Constellation to Power Data Centre with Nuclear
+  author: Alex Clere
+  date: '2025'
+  publication: Technology Magazine, July 8
 ---
 # The Engine of Tomorrow's Crises
 

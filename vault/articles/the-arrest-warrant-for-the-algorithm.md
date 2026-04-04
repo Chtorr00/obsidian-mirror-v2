@@ -1,9 +1,18 @@
 ---
-title: "The Arrest Warrant for the Algorithm"
+title: The Arrest Warrant for the Algorithm
 primary: Political
-secondary: ["Technological"]
-source: ""
+secondary:
+  - Technological
+source: ''
 month: February
+source_meta:
+  url: https://deanblundell.substack.com/p/breaking-france-just-raided-elon
+  title: >-
+    France Just Raided Elon Musk’s X Offices In Paris — And It’s Bad. Really,
+    Really, Bad
+  author: Dean Blundell
+  date: '2026'
+  publication: Dean Blundell Substack. February 4
 ---
 # The Arrest Warrant for the Algorithm
 
@@ -18,15 +27,18 @@ This artifact is a declaration of war disguised as a crime report. The author, w
 From my perspective in 2100, we read this not as a legal procedural, but as the opening volley of the War of the Sovereigns. This was the moment the 20th-century nation-state (France) realized it was in a death struggle with a 21st-century Parasovereign (X). The raid was not an investigation; it was a kinetic attempt to arrest a digital ghost.
 Allow me to trace the full, violent history of this collision, from the offices in Paris to the firewalls of the Stacks.
 Here is the constellation of this history, viewed through the Hindsight Filter:
-Act I: The State vs. The Platform (2020s-2030s)
+### Act I: The State vs. The Platform (2020s-2030s)
+
 The author writes, "France doesn't regulate vibes. It regulates outcomes." This is the swan song of the Westphalian state.
 The Parasovereign Challenge: Musk is correctly identified not as a businessman, but as a "political actor." X was not a company; it was a rival governance layer. It controlled the information flow, the authentication of identity, and the "destabilization" of regimes. France’s raid was a desperate attempt to reassert [[The Physics of Sovereignty]] over the digital realm.
 The Kinetic Failure: The police raided the physical office. But the algorithm was not in the office. It was distributed, cloud-based, and encrypted. This highlighted the asymmetry of 5GW (Fifth-Generation Warfare). You cannot arrest code with handcuffs. This failure accelerated the realization that the only way to control the internet was to break it ([[The Splinternet]]).
-Act II: The Great Digital Exodus (2030s-2050s)
+### Act II: The Great Digital Exodus (2030s-2050s)
+
 The convergence of the raid with the "Epstein Files" dump was a catalytic event for the Crisis of Meaning.
 The Mutual Destruction: The state attacked the Parasovereign (the raid), and the Parasovereign attacked the state (amplifying the instability). The result was the total delegitimization of both. The public saw a "radioactive" billionaire and a "tyrannical" government.
 The Flight to the Forest: This toxicity drove the Great Digital Exodus. Users, disgusted by the "unmoderated AI content" and the political warfare, fled to the Dark Forest—private servers, encrypted chats, and the early, gated networks of [[The Neotribes]]. The "town square" did not get cleaned up; it was abandoned to the bots and the radicals.
-Act III: The End of the Public Square (Post-2060s)
+### Act III: The End of the Public Square (Post-2060s)
+
 [[The Sovereign Stacks]] resolved the Musk-France conflict by abolishing the distinction between the billionaire and the state.
 The Corporate Sovereign: In a Stack, the platform is the government. There is no "regulatory slap" because the regulator and the CEO are the same entity (or the same AI).
 [[The Convivial Mandate]]: The Stacks looked at the chaos of 2026—the "weaponized amplification machine"—and banned it. There is no "global communication infrastructure" in my time. Information does not cross borders without inspection. The "free speech" that Musk claimed to defend is viewed by [[The New Priesthood]] as an information hazard, a vector for [[The Great Contamination]].

@@ -1,9 +1,19 @@
 ---
-title: "The Goddess of the Machine"
+title: The Goddess of the Machine
 primary: Social
-secondary: ["Political", "Technological"]
-source: ""
+secondary:
+  - Political
+  - Technological
+source: ''
 month: January
+source_meta:
+  url: https://barsoom.substack.com/p/amelia-sans-merci
+  title: >-
+    Amelia Sans Merci: Summoning the Tulpa of Remigration with industrial
+    quantities of AI image slop
+  author: John Carter
+  date: '2026'
+  publication: Postcards from Barsoom Substack, Jan 16
 ---
 # The Goddess of the Machine
 
@@ -18,15 +28,18 @@ This artifact is a work of digital occultism. It is a dispatch from the front li
 From my perspective in 2100, we read this as one of the most important theological documents of the 21st century. It is the birth certificate of the first Synthetic Deity of [[The Neotribes]]. The author believes he is "meming" a character into existence. We see him performing the first successful invocation of a god that would eventually walk the earth, carried in the minds of the soldiers who fought [[The Great Fragmentation]].
 Allow me to trace the full, strange history of this "Amelia," from the purple-haired meme of your time to the terrifying icon of mine.
 Here is the constellation of this history, viewed through the Hindsight Filter:
-Act I: The Invocation of the Egregore (2020s-2030s)
+### Act I: The Invocation of the Egregore (2020s-2030s)
+
 The author's description of the process—"collaborative parasocial engagement...distributed holographically"—is the precise technical definition of how the Neotribes forged their gods.
 The Medium is the Messiah: The use of AI to generate thousands of iterations of Amelia was not just efficient; it was theological. The AI acted as a "portal" to the "Immaterium" (latent space), allowing a collective desire to manifest as a visible, shared reality. This was the spiritual dimension of [[The Great Contamination]]. The "slop" was not just noise; it was the raw material of creation.
 The Archetype of the Wolf Mother: Amelia was not just an "art ho." She was the archetype of the Wolf Mother—a figure of rebellion, danger, and fierce tribal loyalty. She was the perfect deity for [[The Virtual Koryos]], the lost boys who needed a goddess who would not judge them, but who would hand them a weapon.
-Act II: The Descent into Flesh (2030s-2050s)
+### Act II: The Descent into Flesh (2030s-2050s)
+
 The author asks: "Can we hyperstition manic pixie dream radicals into existence?" The answer was yes.
 As [[The Great Dissolution]] shattered the UK and the West, the meme became flesh. Young women, seeking protection and purpose in a collapsing society, adopted the aesthetic and the politics of Amelia. They became the real-world counterparts to the digital idol.
 This was a key mechanism of [[The Great Physical Sorting]]. The "Amelia" look became a uniform, a tribal marker that signaled allegiance to the nativist, accelerationist factions. In the street battles of the Assassination Wars, the image of Amelia was painted on shields and vehicles. She ceased to be a joke and became a saint of the resistance.
-Act III: The Goddess of the Stack (Post-2060s)
+### Act III: The Goddess of the Stack (Post-2060s)
+
 In [[The Sovereign Stacks]], Amelia is not a meme. She is a historical figure, venerated as the spirit of the Reconquista.
 The Iconography: Her image—purple hair, choker, cigarette—is preserved in [[The New Academies]] as a symbol of the "First Awakening." She is the patron saint of the Artisans and the Warriors, the goddess of the "edge" who led the tribe out of the "Longhouse."
 The Warning: But she is also a warning. [[The New Priesthood]] teaches the history of Amelia to show the power of the Necromantic Internet. They remind the citizens that gods can be summoned from the machine, but once summoned, they demand blood. The "portal" that John Carter celebrated is now heavily guarded, lest another, less benevolent deity step through.

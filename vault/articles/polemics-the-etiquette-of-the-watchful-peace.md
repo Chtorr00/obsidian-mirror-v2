@@ -1,9 +1,19 @@
 ---
-title: "Polemics: The Etiquette of the Watchful Peace"
+title: 'Polemics: The Etiquette of the Watchful Peace'
 primary: Technological
-secondary: ["Political"]
-source: "In several of your analyses you have made reference to Polemics as a future form of international relations. Could you explain in more detail what this concept means in the context of your future?"
+secondary:
+  - Political
+source: >-
+  In several of your analyses you have made reference to Polemics as a future
+  form of international relations. Could you explain in more detail what this
+  concept means in the context of your future?
 month: December
+source_meta:
+  url: ''
+  title: ''
+  author: ''
+  date: ''
+  publication: ''
 ---
 # [[Polemics]]: The Etiquette of [[The Watchful Peace]]
 

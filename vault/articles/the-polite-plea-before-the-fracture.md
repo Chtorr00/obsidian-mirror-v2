@@ -1,9 +1,16 @@
 ---
-title: "The Polite Plea Before the Fracture"
+title: The Polite Plea Before the Fracture
 primary: Economic
-secondary: ["Political"]
-source: ""
+secondary:
+  - Political
+source: ''
 month: July
+source_meta:
+  url: ''
+  title: ''
+  author: ''
+  date: ''
+  publication: ''
 ---
 # The Polite Plea Before the Fracture
 

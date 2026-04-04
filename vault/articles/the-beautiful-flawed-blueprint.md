@@ -1,9 +1,16 @@
 ---
-title: "The Beautiful, Flawed Blueprint"
+title: The Beautiful, Flawed Blueprint
 primary: Economic
-secondary: ["Social"]
-source: ""
+secondary:
+  - Social
+source: ''
 month: July
+source_meta:
+  url: https://www.freiheit.org/north-america/us-economic-future-era-ai
+  title: 'The US'' Economic Future in the Era of AI: From disruption to resilience'
+  author: Claudia Del Pozo
+  date: '2025'
+  publication: Friedrich Naumann Foundation, July 18
 ---
 # The Beautiful, Flawed Blueprint
 

@@ -1,9 +1,19 @@
 ---
-title: "The Last Audit"
+title: The Last Audit
 primary: Political
-secondary: ["Technological", "Social", "Economic"]
-source: ""
+secondary:
+  - Technological
+  - Social
+  - Economic
+source: ''
 month: July
+source_meta:
+  url: >-
+    https://www.wider.unu.edu/sites/default/files/Publications/Working-paper/PDF/wp2025-34-trust-changing-world.pdf
+  title: Trust in a changing world
+  author: Patricia Justino and Melissa Samarin
+  date: '2025'
+  publication: UNU-WIDER, July 15
 ---
 # The Last Audit
 

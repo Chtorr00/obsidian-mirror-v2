@@ -1,9 +1,17 @@
 ---
-title: "The Connective Tissue"
+title: The Connective Tissue
 primary: Social
-secondary: ["Political"]
-source: ""
+secondary:
+  - Political
+source: ''
 month: July
+source_meta:
+  url: >-
+    https://aeon.co/essays/our-crisis-is-not-loneliness-but-human-beings-becoming-invisible
+  title: Our crisis is not loneliness but human beings becoming invisible
+  author: Allison Pugh
+  date: '2025'
+  publication: Aeon, July 12
 ---
 # The Connective Tissue
 

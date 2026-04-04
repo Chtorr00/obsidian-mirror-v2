@@ -1,9 +1,16 @@
 ---
-title: "The Paralysis of the Gavel"
+title: The Paralysis of the Gavel
 primary: Economic
-secondary: ["Political"]
-source: ""
+secondary:
+  - Political
+source: ''
 month: December
+source_meta:
+  url: https://amgreatness.com/2025/11/14/congress-has-forgotten-how-to-legislate/
+  title: Congress Has Forgotten How to Legislate
+  author: Michael S. Kochin
+  date: '2025'
+  publication: American Greatness, November 14
 ---
 # The Paralysis of the Gavel
 

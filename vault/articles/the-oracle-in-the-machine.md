@@ -1,9 +1,18 @@
 ---
-title: "The Oracle in the Machine"
+title: The Oracle in the Machine
 primary: Technological
-secondary: ["Social", "Political"]
-source: ""
+secondary:
+  - Social
+  - Political
+source: ''
 month: July
+source_meta:
+  url: >-
+    https://www.fairobserver.com/technology/outside-the-box-how-ai-sees-its-impact-on-society-part-2/
+  title: 'Outside the Box: How AI Sees Its Impact on Society, Part 2'
+  author: Peter Isackson
+  date: '2025'
+  publication: Fair Observer, July 14
 ---
 # The Oracle in the Machine
 

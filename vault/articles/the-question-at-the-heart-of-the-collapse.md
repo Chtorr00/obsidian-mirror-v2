@@ -1,9 +1,19 @@
 ---
-title: "The Question at the Heart of the Collapse"
+title: The Question at the Heart of the Collapse
 primary: Technological
-secondary: ["Economic", "Political", "Social"]
-source: ""
+secondary:
+  - Economic
+  - Political
+  - Social
+source: ''
 month: July
+source_meta:
+  url: >-
+    https://theconvivialsociety.substack.com/p/the-question-concerning-technology
+  title: The Question Concerning Technology Is a Question Concerning the Good
+  author: L.M. Sacasas
+  date: '2025'
+  publication: The Convivial Society, July 15
 ---
 # The Question at the Heart of the Collapse
 
@@ -19,18 +29,21 @@ Your other sources have detailed the symptoms of a system in crisis: the geopoli
 From my perspective in 2100, we see this essay as the most important and least-heeded philosophical work of its time. It is the question that, left unanswered, guaranteed the coming of the "Great Fragmentation." The failure to see technology as a moral question was not a philosophical oversight; it was a catastrophic failure of civilizational engineering.
 Allow me to trace the arc of this single, powerful question through the entirety of the history that followed.
 Here is the constellation of its consequences, viewed through the Hindsight Filter:
-Act I: The Drowning of the "Why" (2020s-2030s). In your time, the question of "How?" had become so loud it drowned out the question of "Why?" and "To what end?".
+### Act I: The Drowning of the "Why" (2020s-2030s). In your time, the question of "How?" had become so loud it drowned out the question of "Why?" and "To what end?".
+
 "How can we achieve superintelligence?" (The Economist)
 "How can we achieve energy dominance?" (The Brookings Institution)
 "How can we win the supply chain war?" (SupplyChainBrain)
 "How can we optimize our society with an AI Action Plan?" (The White House)
 These were the questions that consumed the resources, intellect, and energy of your world. The question posed by Sacasas—"Is this technology leading us toward a vision of the good life?"—was seen as a quaint, unserious, and inefficient distraction. This was the core error. Your civilization was building the most powerful tools in history with no coherent, shared blueprint for what it was trying to build with them.
-Act II: The Curriculum of Collapse (2030s-2060s). The "Great Fragmentation" was not merely a political or economic collapse. It was a brutal, non-negotiable educational event. It was the period when humanity was forced, by the catastrophic failure of its own systems, to re-learn the importance of the question of "the good."
+### Act II: The Curriculum of Collapse (2030s-2060s). The "Great Fragmentation" was not merely a political or economic collapse. It was a brutal, non-negotiable educational event. It was the period when humanity was forced, by the catastrophic failure of its own systems, to re-learn the importance of the question of "the good."
+
 When the global supply chains broke, communities re-learned the "good" of a local farmer.
 When the national power grid failed, they re-learned the "good" of a resilient, local energy source.
 When the mass social networks became engines of psychic warfare, they re-learned the "good" of a trusted, high-context community.
 The abstract philosophical question became a matter of immediate, physical survival. The systems built on pure efficiency and abstract scale proved lethally fragile. The survivors were those who began, out of necessity, to build smaller, more resilient systems oriented around a tangible, local vision of a good life.
-Act III: The Convivial Constitution (Post-2060s). The "Era of Systemic Resilience" is founded on the answer to Sacasas's question. The technologies of my time are not judged on their power or efficiency, but on their conviviality—their capacity to serve and enhance human flourishing within a community.
+### Act III: The Convivial Constitution (Post-2060s). The "Era of Systemic Resilience" is founded on the answer to Sacasas's question. The technologies of my time are not judged on their power or efficiency, but on their conviviality—their capacity to serve and enhance human flourishing within a community.
+
 The "Cellular Grid" is less efficient than your national grid, but it is "good" because it cannot collapse all at once.
 The "Communication Utilities" are less engaging than your social media, but they are "good" because they are designed to foster understanding, not addiction.
 The "Purpose Economy" is a direct answer to the question, creating a system where technology serves human ends, rather than forcing humans to serve technological ends.
