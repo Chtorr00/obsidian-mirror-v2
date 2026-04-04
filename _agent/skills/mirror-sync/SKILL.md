@@ -1,55 +1,56 @@
 ---
 name: obsidian-mirror-sync
-description: Synchronizes article data between the Obsidian vault and the website mirror, including mass ingestion and image matching.
+description: >
+  Synchronizes article data between the Obsidian vault and the website mirror, including mass ingestion and image matching.
+version: 1.1.0
+use_type: Expert
+triggers:
+  - "sync obsidian mirror"
+  - "mass ingest articles"
+  - "harmonize article content"
+  - "import march articles"
+allowedTools:
+  - run_command
+  - list_dir
+  - view_file
+  - write_to_file
+  - replace_file_content
 ---
 
-# Obsidian Mirror Sync Skill
+## Purpose
+This skill manages the synchronization pipeline between an Obsidian vault (markdown source) and its website mirror. It processes source documents, extracts complex metadata, harmonizes Act formatting, and manages image-to-article correspondences to ensure a stable, beautiful frontend display.
 
-This skill manages the pipeline between raw research notes, Obsidian files, and the live application data. It is designed to be the single source of truth for the project's intellectual history.
+## Inputs
+- **Source Articles**: A markdown document (e.g., "March Articles.md") with multiple articles or individual project files in `vault/articles/`.
+- **Source Photos**: A folder containing images indexed to article title keywords.
 
-## 🎯 Key Capabilities
+## Steps
+1. **Metadata Extraction**: Scrutinize headers for URL, author, date, and publication.
+2. **Ingestion & Splitting**: Segment mass-ingestion files and populate `vault/articles/`.
+3. **Harmonization & Build**: Run the `npm run sync` engine to:
+   - Stabilize "Act" section headers.
+   - Resolve "WikiLinks" and glossary references.
+   - Match images and move to `public/images/`.
+   - Update `lib/data.ts` with both `articles` and `glossary`.
+4. **Validation**: Test for client-side exceptions (like missing `glossary` keys).
 
-1. **Act Harmonization**: Automatically converts shorthand `Act I: Title` markers into structured `### Act I: Title` headers with proper spacing for clean web rendering.
-2. **Metadata Extraction**: Scrapes Author, Publication, Date, and URLs from article bodies to populate the source metadata fields.
-3. **Mass Ingestion**: Splits large compiled Google Doc exports into individual Obsidian-ready articles.
-4. **Smart Imaging**: Matches article titles to image filenames inside a provided folder using keyword intersection.
-5. **Database Sync**: Rebuilds the shared `lib/data.ts` file from the `vault/articles/` directory to ensure the website is perfectly up to date.
-
----
-
-## 🚀 How to Run
-
-### 1. Routine Vault Refresh
-
-Run this after making edits directly in your Obsidian vault to sync them to the website.
-
-```bash
-npm run sync
-```
-
-### 2. Monthly Ingestion (New Articles)
-
-Run this when you have a new batch of articles from your monthly Google Doc.
-
-```bash
-npm run sync -- --ingest="C:/Path/To/March_Articles.md" --images="C:/Path/To/March_Images"
-```
+## Output Register
+Calibrate output vocabulary and depth to match the invocation context:
+- Internal / practitioner use → precise, technical, process-oriented
+- Client-facing use → accessible, value-framed, jargon-light
+- Default (no context signal) → professional mid-register
 
 ---
-
-## 📁 Technical Blueprint
-
-- **Source of Truth**: `vault/articles/*.md`
-- **Build Artifact**: `lib/data.ts`
-- **Logic Engine**: `scripts/sync.ts`
-- **Images**: `public/images/`
-
+## Skill Metadata
+skill_id: obsidian-mirror-sync
+source_document: _agent/skills/mirror-sync/SKILL.md
+extraction_guide: n/a
+build_priority: 1
+generalizability: Medium
+complexity: Workflow
+depends_on: []
+workflow_affinity: []
+audience: practitioner
+audience_expertise: Antigravity user, developer
+schema_version: "1.0"
 ---
-
-## 🧪 Integration Tests
-
-When running an ingestion, the skill will:
-
-- Check for duplicate articles (based on slugified title).
-- Copy matched images into `public/images/` automatically.
-- Generate a 300-char preview for the main feed dossier view.
