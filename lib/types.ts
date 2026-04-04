@@ -20,6 +20,8 @@ export interface Article {
     publication?: string;
   };
   order?: number;
+  acts?: number[];
+  month?: string;
   glossary_refs?: string[];
 }
 

@@ -14,6 +14,7 @@ import * as yaml from 'js-yaml';
  */
 
 const VAULT_DIR = path.join(process.cwd(), 'vault', 'articles');
+const GLOSSARY_DIR = path.join(process.cwd(), 'vault', 'glossary');
 const DATA_PATH = path.join(process.cwd(), 'lib', 'data.ts');
 const IMAGE_DIR = path.join(process.cwd(), 'public', 'images');
 
@@ -184,7 +185,9 @@ function sync() {
   }
 
   const files = fs.readdirSync(VAULT_DIR).filter(f => f.endsWith('.md'));
-  const articles: ArticleMeta[] = [];
+  // Main variables
+  const articles: any[] = [];
+  const glossaryEntries: any[] = [];
 
   for (const filename of files) {
     const filePath = path.join(VAULT_DIR, filename);
@@ -284,15 +287,38 @@ function sync() {
     fs.writeFileSync(filePath, newContent);
   }
 
+  // 10. Process Glossary Entries
+  if (fs.existsSync(GLOSSARY_DIR)) {
+    const glossaryFiles = fs.readdirSync(GLOSSARY_DIR).filter(f => f.endsWith('.md'));
+    for (const filename of glossaryFiles) {
+      const filePath = path.join(GLOSSARY_DIR, filename);
+      const rawContent = fs.readFileSync(filePath, 'utf-8');
+      
+      const parts = rawContent.split('---');
+      if (parts.length < 3) continue;
+
+      const frontmatter = yaml.load(parts[1]) as any;
+      const body = parts.slice(2).join('---').trim();
+
+      glossaryEntries.push({
+        term: frontmatter.term || filename.replace('.md', '').replace(/_/g, ' '),
+        years: frontmatter.years || "",
+        description: body.replace(/^# .*\n/m, '').trim()
+      });
+    }
+  }
+
   // Final assembly
   articles.sort((a, b) => a.title.localeCompare(b.title));
   articles.forEach((a, i) => a.order = i + 1);
 
-  const dataExport = `export const SYNO_DATA = ${JSON.stringify({ articles }, null, 2)};\n`;
+  glossaryEntries.sort((a, b) => a.term.localeCompare(b.term));
+
+  const dataExport = `export const SYNO_DATA = ${JSON.stringify({ articles, glossary: glossaryEntries }, null, 2)};\n`;
   fs.writeFileSync(DATA_PATH, dataExport);
 
-  console.log(`\n✅ Success! Synchronized ${articles.length} articles.`);
-  console.log(`✨ Harmonized "Acts" headers and persisted source metadata.`);
+  console.log(`\n✅ Success! Synchronized ${articles.length} articles and ${glossaryEntries.length} glossary entries.`);
+  console.log(`✨ Harmonized "Acts" headers, promoted metadata, and restored glossary.`);
 }
 
 sync();
