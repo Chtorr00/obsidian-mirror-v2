@@ -1,4 +1,0 @@
-  File "<string>", line 10
-    print(f'=== {art[\
-                    ^
-SyntaxError: '[' was never closed

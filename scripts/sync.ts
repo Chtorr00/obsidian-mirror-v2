@@ -13,8 +13,9 @@ import * as yaml from 'js-yaml';
  * ----------------------------------------------------------------------------
  */
 
-const VAULT_DIR = path.join(process.cwd(), 'vault', 'articles');
-const GLOSSARY_DIR = path.join(process.cwd(), 'vault', 'glossary');
+const ARCHIVE_ROOT = 'C:\\Users\\markj\\OneDrive\\Documents\\ObsidianArchive\\Mirror\\2026\\Weblog-Sources';
+const VAULT_DIR = path.join(ARCHIVE_ROOT, 'articles');
+const GLOSSARY_DIR = path.join(ARCHIVE_ROOT, 'glossary');
 const DATA_PATH = path.join(process.cwd(), 'lib', 'data.ts');
 const IMAGE_DIR = path.join(process.cwd(), 'public', 'images');
 
