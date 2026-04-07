@@ -2,13 +2,14 @@
   "name": "obsidian-mirror-v2",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write .",
-    "sync": "ts-node scripts/sync.ts"
+    "sync": "ts-node-esm scripts/sync.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "latest",

@@ -51,7 +51,8 @@ function slugify(text: string): string {
 
 /**
  * Extracts source metadata from a text block
- * Matches structure: "Title, by Author\nPublication, Date\nURL"
+ * Matches structure: "Author\nPublication, Date\nURL" or similar.
+ * Returns the metadata, and the indices where the source block starts and ends.
  */
 function extractSourceMeta(body: string) {
     const lines = body.split('\n');
@@ -60,59 +61,82 @@ function extractSourceMeta(body: string) {
     let pub = "";
     let date = "";
     let url = "";
+    let sourceStartIndex = -1;
+    let sourceEndIndex = -1;
 
-    // Search for URL first as the anchor
-    for (let i = 0; i < Math.min(lines.length, 15); i++) {
-        const line = lines[i].trim().replace(/\r/g, '');
-        if (line.startsWith('http')) {
-            url = line;
-            const intro = lines.slice(0, i).map(l => l.trim().replace(/\r/g, '')).filter(l => l.length > 0 && !l.startsWith('#'));
+    // Search for URL as the anchor - look for http anywhere in the line
+    for (let i = 0; i < Math.min(lines.length, 30); i++) {
+        const rawLine = lines[i].trim().replace(/\r/g, '');
+        if (rawLine.match(/https?:\/\//)) {
+            url = rawLine.match(/(https?:\/\/[^\s\)\],]+)/)?.[1] || rawLine;
+            sourceEndIndex = i;
+
+            // Look backward to find the start of the citation block
+            // Citation blocks usually start with a "By " line or a title.
+            // We stop once we hit an image, a header, or multiple empty lines.
+            let firstLineOfBlock = i;
+            for (let j = i - 1; j >= 0; j--) {
+                const l = lines[j].trim().replace(/\r/g, '');
+                if (l.length === 0) continue;
+                if (l.startsWith('#') || l.startsWith('![')) break;
+                firstLineOfBlock = j;
+                if (j < i - 4) break; // Blocks are usually 1-4 lines long
+            }
+            sourceStartIndex = firstLineOfBlock;
             
-            if (intro.length >= 2) {
-                // Line right before URL: Publication, Date
-                const pubDateLine = intro[intro.length - 1];
+            const blockLines = lines.slice(sourceStartIndex, sourceEndIndex).map(l => l.trim().replace(/\r/g, ''));
+            
+            if (blockLines.length >= 2) {
+                const pubDateLine = blockLines[blockLines.length - 1];
                 if (pubDateLine.includes(',')) {
-                    const parts = pubDateLine.split(', ');
-                    date = (parts.pop() || "").trim();
-                    pub = parts.join(', ').trim();
+                    const parts = pubDateLine.split(',');
+                    const lastPart = parts.pop()?.trim() || "";
+                    if (lastPart.match(/\d{4}/)) {
+                        date = lastPart;
+                        pub = parts.join(',').trim();
+                    } else {
+                        pub = pubDateLine;
+                    }
+                } else {
+                    pub = pubDateLine;
                 }
 
-                // Line before that: Title info, Author
-                const authorInfoLine = intro[intro.length - 2];
-                if (authorInfoLine.includes(', by ') || authorInfoLine.includes(', By ')) {
-                    const parts = authorInfoLine.split(/, [Bb]y /);
+                const authorLine = blockLines[0].replace(/[\*#]/g, '').trim();
+                if (authorLine.match(/, [Bb]y /)) {
+                    const parts = authorLine.split(/, [Bb]y /);
                     title = parts[0].trim();
                     author = parts[1].trim();
-                } else if (authorInfoLine.includes(',')) {
-                    const parts = authorInfoLine.split(',');
-                    author = parts.pop()?.trim() || "";
-                    title = parts.join(',').trim();
+                } else if (authorLine.match(/^[Bb]y /)) {
+                    author = authorLine.replace(/^[Bb]y /i, '').trim();
+                    title = blockLines.length > 2 ? blockLines[0] : "";
                 } else {
-                    author = authorInfoLine;
+                    author = authorLine;
                 }
+            } else if (blockLines.length === 1) {
+                author = blockLines[0].replace(/[\*#]/g, '').trim();
             }
+            
             break;
         }
     }
 
-    return { title, author, publication: pub, date, url };
+    return {
+        meta: { url, title, author, publication: pub, date },
+        sourceStartIndex,
+        sourceEndIndex
+    };
 }
 
 function harmonizeContent(content: string): string {
     let body = content;
 
     // 1. Convert various "Act X:" variants to "### Act X: Title"
-    // Matches: "* **Act I: Title**", "Act I: Title", "Act I. Title", etc.
-    // Handles bulleted, bolded, or plain text variants.
-    // Regex breakdown:
-    // ^\s*(\* )?(\*\*)?Act ([0-9IVX]+)[:.]?\s*([^\n\*]+)(\*\*)?
-    // Matches optional bullet, optional bold, "Act", Roman/Arabic number, optional colon/period, and finally the title.
     body = body.replace(/^\s*(\* )?(\*\*)?Act ([0-9IVX]+)[:.]?\s*([^\n\*]+)\s*(\*\*)?.*$/gm, '### Act $3: $4');
 
-    // 2. Ensure spacing after Act headers and remove trailing periods from headers
+    // 2. Ensure spacing after Act headers
     body = body.replace(/^(### Act [0-9IVX]+:[^\n]+)\.?\n([^\n])/gm, '$1\n\n$2');
 
-    // 3. Clean up any double headering (if it was already a header)
+    // 3. Clean up any double headering
     body = body.replace(/^#+ (### Act)/gm, '$1');
 
     return body.trim();
@@ -130,13 +154,9 @@ function sync() {
   if (ingestFile && fs.existsSync(ingestFile)) {
     console.log(`\n📥 Ingesting new articles from: ${ingestFile}`);
     const sourceContent = fs.readFileSync(ingestFile, 'utf-8').replace(/\r\n/g, '\n');
-    
-    // Split by H1 or H3 markers (H3 is used in some compiled files)
-    // Using lookahead to keep the title in the chunk
     let chunks = sourceContent.split(/\n(?=###?\s)/);
     
-    // If first chunk doesn't start with header, skip preamble
-    if (!chunks[0].trim().startsWith('#')) {
+    if (chunks[0] && !chunks[0].trim().startsWith('#')) {
         chunks.shift();
     }
     
@@ -173,8 +193,6 @@ function sync() {
       if (!fs.existsSync(outPath)) {
         fs.writeFileSync(outPath, content);
         console.log(`  + Created: ${slug}.md`);
-      } else {
-        console.log(`  ~ Exists: ${slug}.md`);
       }
     }
   }
@@ -186,7 +204,6 @@ function sync() {
   }
 
   const files = fs.readdirSync(VAULT_DIR).filter(f => f.endsWith('.md'));
-  // Main variables
   const articles: any[] = [];
   const glossaryEntries: any[] = [];
 
@@ -207,33 +224,36 @@ function sync() {
     const extracted = extractSourceMeta(body);
     const existing = frontmatter.source_meta || {};
     
-    // Merge: prioritize extracted over existing to fix broken data
     frontmatter.source_meta = {
-        url: extracted.url || existing.url || "",
-        title: extracted.title || existing.title || "",
-        author: extracted.author || existing.author || "",
-        date: extracted.date || existing.date || "",
-        publication: extracted.publication || extracted.publication || ""
+        url: extracted.meta.url || existing.url || "",
+        title: extracted.meta.title || existing.title || "",
+        author: extracted.meta.author || existing.author || "",
+        date: extracted.meta.date || existing.date || "",
+        publication: extracted.meta.publication || existing.publication || ""
     };
 
-    // 3. Clean up any \r remainders in the frontmatter itself
+    // 3. Clean up frontmatter strings
     Object.keys(frontmatter.source_meta).forEach(key => {
         if (typeof frontmatter.source_meta[key] === 'string') {
             frontmatter.source_meta[key] = frontmatter.source_meta[key].trim().replace(/\r/g, '');
         }
     });
 
-    // 4. Extract Image Path
-    const imgMatch = body.match(/!\[.*?\]\((.*?)\)/);
-    let imagePath = frontmatter.image || (imgMatch ? imgMatch[1] : "");
-    
-    // 4. Clean Body for site storage
-    let cleanBody = body
+    // 4. Precise Excision: Remove the *block* from the body
+    let bodyLines = body.split('\n');
+    if (extracted.sourceStartIndex !== -1 && extracted.sourceEndIndex !== -1) {
+        // Remove lines from startIndex to endIndex (inclusive)
+        bodyLines.splice(extracted.sourceStartIndex, (extracted.sourceEndIndex - extracted.sourceStartIndex) + 1);
+    }
+    let cleanBody = bodyLines.join('\n').trim();
+
+    // 5. Regular cleanup for the site view (remove duplicate H1 and Image)
+    cleanBody = cleanBody
       .replace(/^# .*\n(\n)*/m, '')
       .replace(/^!\[.*?\]\(.*?\)(\n)*/m, '')
       .trim();
 
-    // 5. Extract Acts
+    // 6. Extract Acts
     const acts: number[] = [];
     const actMatches = Array.from(cleanBody.matchAll(/### Act ([0-9IVX]+)/g));
     for (const match of actMatches) {
@@ -245,12 +265,12 @@ function sync() {
     }
     if (acts.length === 0) acts.push(1);
 
-    // 6. WikiLinks
+    // 7. WikiLinks
     const glossaryRefs = Array.from(new Set(
         (cleanBody.match(/\[\[(.*?)\]\]/g) || []).map(m => m.slice(2, -2).trim())
     ));
 
-    // 7. Preview
+    // 8. Preview
     let preview = cleanBody
       .replace(/\[\[(.*?)\]\]/g, '$1') 
       .replace(/\[(.*?)\]\(.*?\)/g, '$1') 
@@ -267,23 +287,16 @@ function sync() {
       filename,
       primary: frontmatter.primary || "General",
       secondary: frontmatter.secondary || [],
-      image: imagePath,
+      image: frontmatter.image || (cleanBody.match(/!\[.*?\]\((.*?)\)/) ? cleanBody.match(/!\[.*?\]\((.*?)\)/)![1] : ""),
       acts: [...new Set(acts)].sort((a,b) => a-b),
       preview,
       body: cleanBody,
       month: frontmatter.month || "",
       glossary_refs: glossaryRefs,
       order: frontmatter.order || 0,
-      source_meta: {
-          url: frontmatter.source_meta.url || "",
-          title: frontmatter.source_meta.title || "",
-          author: frontmatter.source_meta.author || "",
-          date: frontmatter.source_meta.date || "",
-          publication: frontmatter.source_meta.publication || ""
-      }
+      source_meta: frontmatter.source_meta
     });
 
-    // Write back harmonized content and updated frontmatter
     const newContent = `---\n${yaml.dump(frontmatter)}---\n${body}`;
     fs.writeFileSync(filePath, newContent);
   }
@@ -300,11 +313,29 @@ function sync() {
 
       const frontmatter = yaml.load(parts[1]) as any;
       const body = parts.slice(2).join('---').trim();
+      
+      // Aggressive glossary cleaning
+      const cleanDescription = body
+        .replace(/^# .*\r?\n/m, '')
+        .replace(/^\*\*Timeline:\*\* .*\r?\n/m, '')
+        .replace(/^\s*\n/m, '')
+        .trim();
+      
+      let preview = cleanDescription
+        .replace(/\[\[(.*?)\]\]/g, '$1')
+        .replace(/[*_#`>]/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+      
+      if (preview.length > 250) {
+          preview = preview.substring(0, 247) + "...";
+      }
 
       glossaryEntries.push({
         term: frontmatter.term || filename.replace('.md', '').replace(/_/g, ' '),
         years: frontmatter.years || "",
-        description: body.replace(/^# .*\n/m, '').trim()
+        description: cleanDescription,
+        preview
       });
     }
   }

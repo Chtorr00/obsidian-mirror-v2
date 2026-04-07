@@ -57,22 +57,45 @@ function ArchiveDashboard() {
     const glossaryFromUrl = searchParams.get('glossary');
     const searchFromUrl = searchParams.get('search');
     const viewFromUrl = searchParams.get('view') as 'articles' | 'context';
+    const lensFromUrl = searchParams.get('lens') as LensMode;
 
+    // Determine target lens
+    let targetLens: LensMode | null = activeLens;
+    if (lensFromUrl) targetLens = lensFromUrl;
+    else if (categoryFromUrl) targetLens = 'STEP';
+    else if (glossaryFromUrl) targetLens = 'GLOSSARY';
+    else if (searchFromUrl) targetLens = 'SEARCH';
+    else if (activeLens === null) targetLens = 'TIMELINE'; // Default starting lens
+
+    setActiveLens(targetLens);
+
+    // Sync STEP Category
     if (categoryFromUrl && ['Social', 'Technological', 'Economic', 'Political'].includes(categoryFromUrl)) {
-      setActiveLens('STEP');
       setActiveCategory(categoryFromUrl);
-      setSelectedGlossaryTerm(null);
-      setSelectedTimelineTerm(null);
-      scrollToTop();
-    } else if (glossaryFromUrl) {
-      setActiveLens('GLOSSARY');
+    } else {
+      setActiveCategory(null);
+    }
+
+    // Sync Glossary Term
+    if (glossaryFromUrl) {
       const term = glossary.find(g => g.term.toLowerCase() === glossaryFromUrl.toLowerCase());
       if (term) setSelectedGlossaryTerm(term);
-      if (viewFromUrl) setGlossaryViewMode(viewFromUrl);
-      scrollToTop();
-    } else if (searchFromUrl) {
-      setActiveLens('SEARCH');
+      else setSelectedGlossaryTerm(null);
+      setGlossaryViewMode(viewFromUrl || 'articles');
+    } else {
+      setSelectedGlossaryTerm(null);
+      setGlossaryViewMode('articles');
+    }
+
+    // Sync Search Query
+    if (searchFromUrl) {
       setSearchQuery(searchFromUrl);
+    } else {
+      setSearchQuery('');
+    }
+
+    // Scroll to top on any major state change
+    if (categoryFromUrl || glossaryFromUrl || searchFromUrl || lensFromUrl) {
       scrollToTop();
     }
   }, [searchParams, glossary]);
