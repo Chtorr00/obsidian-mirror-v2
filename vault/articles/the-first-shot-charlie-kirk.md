@@ -11,6 +11,7 @@ source_meta:
   author: Ben Burgis and Meagan Day
   date: '2025'
   publication: Jacobin Magazine, September 11
+order: 67
 ---
 # The First Shot: Charlie Kirk
 

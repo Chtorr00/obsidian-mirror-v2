@@ -11,6 +11,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+order: 26
 ---
 # The Prophet of the Boom
 

@@ -13,6 +13,7 @@ source_meta:
   author: Office of the President of the United States
   date: '2025'
   publication: Whitehouse.gov, July 25
+order: 19
 ---
 # The Last Will and Testament of a Worldview
 

@@ -11,6 +11,7 @@ source_meta:
   author: Jesse Myers
   date: '2023'
   publication: Once in a Species Substack, Oct 30
+order: 188
 ---
 # The Blindness of the Insider
 

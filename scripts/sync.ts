@@ -272,7 +272,7 @@ function sync() {
       body: cleanBody,
       month: frontmatter.month || "",
       glossary_refs: glossaryRefs,
-      order: 0,
+      order: frontmatter.order || 0,
       source_meta: {
           url: frontmatter.source_meta.url || "",
           title: frontmatter.source_meta.title || "",
@@ -309,8 +309,19 @@ function sync() {
   }
 
   // Final assembly
-  articles.sort((a, b) => a.title.localeCompare(b.title));
-  articles.forEach((a, i) => a.order = i + 1);
+  // Sort by 'order' from frontmatter if available, otherwise fallback to title
+  articles.sort((a, b) => {
+    if (a.order && b.order) return a.order - b.order;
+    if (a.order) return -1;
+    if (b.order) return 1;
+    return a.title.localeCompare(b.title);
+  });
+
+  // Assign order only to those that don't have it, starting after the max existing order
+  const hasExistingOrders = articles.some(a => (a.order || 0) > 0);
+  if (!hasExistingOrders) {
+    articles.forEach((a, i) => a.order = i + 1);
+  }
 
   glossaryEntries.sort((a, b) => a.term.localeCompare(b.term));
 

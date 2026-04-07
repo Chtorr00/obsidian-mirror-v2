@@ -13,6 +13,7 @@ source_meta:
   author: Franz-Josef Schrepf
   date: '2025'
   publication: Medium - The Startup, December 1
+order: 214
 ---
 # The Mirror of the Soul-Thief
 

@@ -14,6 +14,7 @@ source_meta:
   author: Aime Robot
   date: '2025'
   publication: MarketPulse, July 16
+order: 10
 ---
 # The Financial Engine of the Fracture
 

@@ -14,6 +14,7 @@ source_meta:
   author: Rose Horowitch
   date: '2025'
   publication: Atlantic Magazine, December 16
+order: 160
 ---
 # The Collapse of the Signal
 

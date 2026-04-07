@@ -12,6 +12,7 @@ source_meta:
   author: Ross Grossman
   date: '2025'
   publication: The Diagnosis Substack, December 15
+order: 225
 ---
 # The Psychology of the Void
 

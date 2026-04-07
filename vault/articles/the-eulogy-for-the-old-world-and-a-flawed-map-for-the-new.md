@@ -14,6 +14,7 @@ source_meta:
   author: Peter McCormack
   date: '2025'
   publication: YouTube Video, July 31
+order: 36
 ---
 # The Eulogy for the Old World, and a Flawed Map for the New
 

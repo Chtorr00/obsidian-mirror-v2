@@ -13,6 +13,7 @@ source_meta:
   author: 'Future Lives: Social mobility in question'
   date: '2025'
   publication: Policy Horizons Canada, January 7
+order: 136
 ---
 # The Final, Sane Diagnosis
 

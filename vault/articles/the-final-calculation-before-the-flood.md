@@ -11,6 +11,7 @@ source_meta:
   author: Murray A. Rudd and Dennis Porter
   date: '2025'
   publication: Satoshi Action Education, Aug 12
+order: 40
 ---
 # The Final Calculation Before the Flood
 

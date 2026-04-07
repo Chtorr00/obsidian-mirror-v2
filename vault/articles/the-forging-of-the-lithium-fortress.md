@@ -11,6 +11,7 @@ source_meta:
   author: Carrie Kahn and John Bartlett
   date: '2025'
   publication: NPR Heard on Morning Edition, December 14
+order: 151
 ---
 # The Forging of the Lithium Fortress
 

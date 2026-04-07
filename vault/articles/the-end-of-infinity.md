@@ -13,6 +13,7 @@ source_meta:
   author: The End of Moore's Law for AI? Gemini Flash Offers a Warning
   date: '2025'
   publication: Sutro.sh website, Jul 3
+order: 63
 ---
 # The End of Infinity
 

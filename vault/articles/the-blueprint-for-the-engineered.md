@@ -10,6 +10,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+order: 246
 ---
 ### **The Blueprint for the Engineered**
 

@@ -12,6 +12,7 @@ source_meta:
   author: Instead of giving more money to useless mouths
   date: '2026'
   publication: J’accuse, February 1
+order: 219
 ---
 # The Architecture of Inheritance
 

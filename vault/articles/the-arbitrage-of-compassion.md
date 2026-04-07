@@ -16,6 +16,7 @@ source_meta:
   author: Elsa Johnson
   date: '2026'
   publication: The Times, February 2
+order: 211
 ---
 # The Arbitrage of Compassion
 

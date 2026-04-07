@@ -13,6 +13,7 @@ source_meta:
   author: Raphaël P.P. Dosson
   date: '2025'
   publication: Modern Diplomacy, July 23
+order: 17
 ---
 # The Last Map of a Vanishing World
 

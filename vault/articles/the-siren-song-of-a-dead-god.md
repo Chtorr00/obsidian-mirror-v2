@@ -15,6 +15,7 @@ source_meta:
   author: Arezki Amiri
   date: '2025'
   publication: Indian Defense review, August 26
+order: 57
 ---
 # The Siren Song of a Dead God
 

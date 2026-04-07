@@ -12,6 +12,7 @@ source_meta:
   author: Kulak
   date: '2024'
   publication: Anarchonomicon Substack, June 2
+order: 68
 ---
 # The Poisoner's Handbook
 

@@ -10,6 +10,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+order: 251
 ---
 ### **The Crucible of the Hearth**
 

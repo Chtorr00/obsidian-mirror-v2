@@ -11,6 +11,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+order: 48
 ---
 # The First Casualty of the Thaw
 

@@ -12,6 +12,7 @@ source_meta:
   author: Olivia Ireland, Brandon Drenon, and Bernd Debusmann
   date: '2026'
   publication: BBC.com, February 11
+order: 212
 ---
 # The First Flash of the Perimeter
 

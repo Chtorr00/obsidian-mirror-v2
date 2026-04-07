@@ -12,6 +12,7 @@ source_meta:
   author: Hermes of the Threshold
   date: '2025'
   publication: The Neo-Feudal Review Substack, November 28
+order: 198
 ---
 # The Tetrad of the Soul
 

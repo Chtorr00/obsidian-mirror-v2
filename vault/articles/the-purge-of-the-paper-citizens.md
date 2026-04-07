@@ -13,6 +13,7 @@ source_meta:
   author: Kuwait revokes citizenship of renowned national team goalkeeper
   date: '2026'
   publication: New Arab, January 25
+order: 205
 ---
 # The Purge of the Paper Citizens
 

@@ -11,6 +11,7 @@ source_meta:
   author: Nathan Pinkoski
   date: '2025'
   publication: American Greatness, November 13
+order: 117
 ---
 # The Last Indictment
 

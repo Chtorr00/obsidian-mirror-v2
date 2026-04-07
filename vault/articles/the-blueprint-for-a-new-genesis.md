@@ -15,6 +15,7 @@ source_meta:
   author: Emily Glazer and Katherine Long
   date: '2025'
   publication: Wall Street Journal, Nov. 8
+order: 116
 ---
 # The Blueprint for a New Genesis
 

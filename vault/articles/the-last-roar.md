@@ -12,6 +12,7 @@ source_meta:
   author: Vitalii Yalahuzian, Yann Tessier and Stuart McDill
   date: '2025'
   publication: Reuters UK, September 13
+order: 69
 ---
 # The Last Roar
 

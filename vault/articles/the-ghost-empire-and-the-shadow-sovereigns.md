@@ -15,6 +15,7 @@ source_meta:
   author: Sam Cooper
   date: '2025'
   publication: The Bureau, September 6
+order: 62
 ---
 # The Ghost Empire and the Shadow Sovereigns
 

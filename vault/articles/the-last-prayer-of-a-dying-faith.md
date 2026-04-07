@@ -13,6 +13,7 @@ source_meta:
   author: Caitlin Johnstone
   date: '2025'
   publication: Caitlin's Newsletter Substack, Nov 30
+order: 135
 ---
 # The Last Prayer of a Dying Faith
 

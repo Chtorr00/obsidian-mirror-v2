@@ -14,6 +14,7 @@ source_meta:
   author: '" By J. Daniel Sawyer'
   date: '2025'
   publication: Unfolding the World Substack, December 22
+order: 191
 ---
 # The Curriculum of the Castaway
 

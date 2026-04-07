@@ -12,6 +12,7 @@ source_meta:
   author: Kelsey Piper
   date: '2025'
   publication: The Argument, Aug 19
+order: 47
 ---
 # Curing the Wrong Disease
 

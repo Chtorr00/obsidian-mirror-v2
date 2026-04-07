@@ -126,6 +126,7 @@ function ArchiveDashboard() {
     setSearchQuery('');
     setSelectedGlossaryTerm(null);
     setSelectedTimelineTerm(null);
+    setGlossaryViewMode('articles');
     router.push('/');
   };
 
@@ -169,7 +170,14 @@ function ArchiveDashboard() {
               {(['TIMELINE', 'GLOSSARY', 'STEP', 'SEARCH'] as LensMode[]).map((lens) => (
                 <button
                   key={lens}
-                  onClick={() => setActiveLens(lens)}
+                  onClick={() => {
+                    setActiveLens(lens);
+                    setActiveCategory(null);
+                    setSearchQuery('');
+                    setSelectedGlossaryTerm(null);
+                    setSelectedTimelineTerm(null);
+                    setGlossaryViewMode('articles');
+                  }}
                   className={cn(
                     "flex-1 py-3 text-center rounded-lg transition-all",
                     activeLens === lens 
@@ -278,6 +286,13 @@ function ArchiveDashboard() {
                 animate={{ opacity: 1, x: 0 }}
                 className="w-full"
               >
+                <div className="flex items-center gap-2 mb-4 text-xs font-mono uppercase tracking-[0.3em] text-muted-foreground">
+                  <Clock size={14} />
+                  Historical Trajectory
+                </div>
+                <div className="p-4 rounded-xl bg-primary/10 border border-primary/20 text-[10px] font-mono text-primary leading-relaxed uppercase tracking-tighter shadow-inner">
+                  Select a concept below to see its projection across the 21st century
+                </div>
               </motion.section>
             )}
 

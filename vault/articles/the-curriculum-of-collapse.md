@@ -12,6 +12,7 @@ source_meta:
   author: by Vojko Strahovnik and Mateja Centa Strahovnik
   date: '2025'
   publication: Religions 2024, October 31
+order: 110
 ---
 # The Curriculum of Collapse
 

@@ -11,6 +11,7 @@ source_meta:
   author: Henry Wismayer
   date: '2025'
   publication: Noema Magazine, November 6
+order: 114
 ---
 # The Terminal Diagnosis
 

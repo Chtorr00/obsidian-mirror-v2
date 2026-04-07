@@ -11,6 +11,7 @@ source_meta:
   author: Jason Parham
   date: '2025'
   publication: Wired, Aug 1
+order: 27
 ---
 # [[The Sterile Plague]]
 

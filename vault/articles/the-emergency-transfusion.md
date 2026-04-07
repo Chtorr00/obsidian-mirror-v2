@@ -13,6 +13,7 @@ source_meta:
   author: Ryan P. Williams
   date: '2020'
   publication: The American Mind, September 19
+order: 75
 ---
 # The Emergency Transfusion
 

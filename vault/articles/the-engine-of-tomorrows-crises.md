@@ -12,6 +12,7 @@ source_meta:
   author: Alex Clere
   date: '2025'
   publication: Technology Magazine, July 8
+order: 2
 ---
 # The Engine of Tomorrow's Crises
 

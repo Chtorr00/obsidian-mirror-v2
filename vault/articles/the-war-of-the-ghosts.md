@@ -14,6 +14,7 @@ source_meta:
   author: Mike Sexton
   date: '2025'
   publication: TRENDS Research and Advisory, August 25
+order: 92
 ---
 # The War of the Ghosts
 

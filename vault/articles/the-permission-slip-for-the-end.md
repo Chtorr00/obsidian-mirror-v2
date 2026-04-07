@@ -12,6 +12,7 @@ source_meta:
   author: Charlton Yingling, Marissa Yingling
   date: '2026'
   publication: Global Catastrophic Risk Institute, January 9
+order: 209
 ---
 # The Permission Slip for the End
 

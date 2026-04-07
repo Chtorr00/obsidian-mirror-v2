@@ -12,6 +12,7 @@ source_meta:
   author: ''
   date: '2025'
   publication: Lanier Law Firm, September 25
+order: 80
 ---
 # The First Reckoning
 

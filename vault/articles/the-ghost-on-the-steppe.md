@@ -12,6 +12,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+order: 34
 ---
 # The Ghost on the Steppe
 

@@ -12,6 +12,7 @@ source_meta:
   author: Peter Leyden
   date: '2025'
   publication: Exponential View, Aug 20
+order: 45
 ---
 # The Two Cities: A Prophecy of the American Schism
 

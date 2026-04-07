@@ -14,6 +14,7 @@ source_meta:
   author: ET Online
   date: '2025'
   publication: The Economic Times, August 3
+order: 32
 ---
 # The Perfect Parasite
 

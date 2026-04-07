@@ -14,6 +14,7 @@ source_meta:
   author: Christopher Armitage
   date: '2025'
   publication: The Extentialist Republic Substack, August 13
+order: 206
 ---
 # The Manual of the Divorce
 

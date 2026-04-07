@@ -12,6 +12,7 @@ source_meta:
   author: Patrick Saltykov
   date: '2026'
   publication: Patrick Saltykov Substack, February 25
+order: 221
 ---
 # The Invention of the Hapaborean
 

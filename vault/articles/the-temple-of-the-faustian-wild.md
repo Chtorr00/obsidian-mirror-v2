@@ -12,6 +12,7 @@ source_meta:
   author: Javier Velazquez
   date: '2026'
   publication: Exiled Heart Substack, January 16
+order: 186
 ---
 # The Temple of the Faustian Wild
 

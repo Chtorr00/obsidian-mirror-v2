@@ -12,6 +12,7 @@ source_meta:
   author: Copernican
   date: '2025'
   publication: Always the Horizon Substack, November 13
+order: 140
 ---
 # The Gospel of the Earth
 

@@ -12,6 +12,7 @@ source_meta:
   author: The State of Public Trust in Government 2025
   date: '2025'
   publication: Partnership for Public Service August 12
+order: 171
 ---
 # The Measure of the Schism
 

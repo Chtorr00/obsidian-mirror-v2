@@ -10,6 +10,7 @@ source_meta:
   author: Varin Sikka and Vishal Sikka
   date: July 2025
   publication: Arxiv.org paper
+order: 240
 ---
 ### **The Mathematics of the Ceiling**
 

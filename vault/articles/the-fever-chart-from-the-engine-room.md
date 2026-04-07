@@ -14,6 +14,7 @@ source_meta:
   author: Arun Shankar
   date: '2025'
   publication: Intelligent CIO Middle East, January 5
+order: 39
 ---
 # The Fever Chart from the Engine Room
 

@@ -12,6 +12,7 @@ source_meta:
   author: ''
   date: '2024'
   publication: The Honest Sorcerer Substack, January 29
+order: 170
 ---
 # The Prophecy of the Grind
 

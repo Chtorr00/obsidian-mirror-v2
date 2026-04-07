@@ -13,6 +13,7 @@ source_meta:
   author: ''
   date: '2025'
   publication: Reuters, September 17
+order: 74
 ---
 # The Cannibal King
 

@@ -13,6 +13,7 @@ source_meta:
   author: Yakov Feygin and Nils Gilman
   date: '2020'
   publication: The Berggeruen Institute, April 23
+order: 53
 ---
 # The Winning Heresy
 

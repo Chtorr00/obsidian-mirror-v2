@@ -12,6 +12,7 @@ source_meta:
   author: Elizabeth Eads
   date: '2025'
   publication: little infinite blog, August 12
+order: 132
 ---
 # The Final Fantasy
 

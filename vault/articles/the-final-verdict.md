@@ -15,6 +15,7 @@ source_meta:
     The Era of Climate Impunity is Over— By Order of the World's Highest Court,
     by Center for International Environmental Law Center for International
     Environmental Law, July 23
+order: 59
 ---
 # The Final Verdict
 

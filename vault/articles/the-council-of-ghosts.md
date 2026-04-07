@@ -13,6 +13,7 @@ source_meta:
   author: '![The Council of Ghosts](/images/October30WEF.png)'
   date: '2025'
   publication: World Economic Forum, October 16
+order: 109
 ---
 # The Council of Ghosts
 

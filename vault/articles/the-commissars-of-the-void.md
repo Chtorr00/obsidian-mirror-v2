@@ -12,6 +12,7 @@ source_meta:
   author: Geoff Shullenberger
   date: '2025'
   publication: Compact Magazine Substack, December 19
+order: 165
 ---
 # The Commissars of the Void
 

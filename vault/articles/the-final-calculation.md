@@ -13,6 +13,7 @@ source_meta:
   author: Son Tran
   date: '2025'
   publication: Medium, October 6
+order: 128
 ---
 # The Final Calculation
 

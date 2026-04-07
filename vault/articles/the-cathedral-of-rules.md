@@ -15,6 +15,7 @@ source_meta:
   author: Silvana Curteanu-Tihon and Catalin Veliscu
   date: '2025'
   publication: WH Partners, August 12
+order: 50
 ---
 # The Cathedral of Rules
 

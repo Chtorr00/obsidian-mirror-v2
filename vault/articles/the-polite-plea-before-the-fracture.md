@@ -11,6 +11,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+order: 3
 ---
 # The Polite Plea Before the Fracture
 

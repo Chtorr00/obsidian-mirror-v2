@@ -14,6 +14,7 @@ source_meta:
   author: Ashley Sharp
   date: '2025'
   publication: CBS Sacramento, October 15
+order: 127
 ---
 # The Last Contract of a Dying City
 

@@ -12,6 +12,7 @@ source_meta:
   author: Akash Kapur
   date: '2025'
   publication: Foreign Policy, April 28
+order: 143
 ---
 # The Accidental Sovereigns
 

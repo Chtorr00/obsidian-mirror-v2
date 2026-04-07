@@ -12,6 +12,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+order: 38
 ---
 # The Last Great Photo-Op of the Old World
 

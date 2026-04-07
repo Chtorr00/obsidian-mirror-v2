@@ -13,6 +13,7 @@ source_meta:
   author: Peter McCormack
   date: '2025'
   publication: What Bitcoin Did, July 21
+order: 15
 ---
 # The Prophecy and Its Crooked Path
 

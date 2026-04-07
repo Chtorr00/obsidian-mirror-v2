@@ -11,6 +11,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+order: 43
 ---
 # The Accidental Blueprint
 

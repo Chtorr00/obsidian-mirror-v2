@@ -14,6 +14,7 @@ source_meta:
   author: Amy Liu, et. al
   date: '2022'
   publication: Brookings Institute, June 27
+order: 111
 ---
 # The Last Blueprint for a Ghost
 

@@ -12,6 +12,7 @@ source_meta:
   author: Jenny Anderson and Rebecca Winthrop
   date: '2025'
   publication: The New York Times, September 11
+order: 70
 ---
 # The Seed in the Nursery
 

@@ -11,6 +11,7 @@ source_meta:
   author: ''
   date: '2025'
   publication: The American Tribune, December 9
+order: 166
 ---
 # The Manifesto of the Bottleneck
 

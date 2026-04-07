@@ -11,6 +11,7 @@ source_meta:
   author: Mark Moss
   date: '2025'
   publication: Mark Moss Youtube, October 1
+order: 87
 ---
 # The Vulture's Prophecy
 

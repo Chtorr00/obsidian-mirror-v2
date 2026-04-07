@@ -12,6 +12,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+order: 28
 ---
 # The Eulogy for a Scale
 

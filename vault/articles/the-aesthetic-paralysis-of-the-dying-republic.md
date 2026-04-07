@@ -10,6 +10,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+order: 249
 ---
 ### **The Aesthetic Paralysis of the Dying Republic**
 

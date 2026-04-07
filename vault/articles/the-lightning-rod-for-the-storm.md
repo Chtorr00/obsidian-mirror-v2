@@ -12,6 +12,7 @@ source_meta:
   author: ''
   date: March 2025
   publication: V-Dem Democracy Report 2025 Carnegie Endowment
+order: 33
 ---
 # The Lightning Rod for the Storm
 

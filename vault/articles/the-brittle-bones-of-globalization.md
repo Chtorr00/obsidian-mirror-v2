@@ -12,6 +12,7 @@ source_meta:
   author: Dennis Groseclose
   date: '2025'
   publication: SupplyChainBrain, July 19
+order: 14
 ---
 # The Brittle Bones of Globalization
 
