@@ -50,6 +50,8 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, inde
             src={article.image} 
             alt={article.title}
             fill
+            quality={50}
+            priority={index < 4}
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 192px, 256px"
             className="object-cover transition-transform duration-500 group-hover:scale-110 opacity-60 group-hover:opacity-100"
           />
