@@ -44,6 +44,8 @@ function ArchiveDashboard() {
   const [selectedGlossaryTerm, setSelectedGlossaryTerm] = useState<GlossaryEntry | null>(null);
   const [selectedTimelineTerm, setSelectedTimelineTerm] = useState<GlossaryEntry | null>(null);
   const [glossaryViewMode, setGlossaryViewMode] = useState<'articles' | 'context'>('articles');
+  
+  const isSyncingFromUrl = useRef(false);
 
   const scrollToTop = () => {
     if (resultsScrollRef.current) {
@@ -53,6 +55,8 @@ function ArchiveDashboard() {
 
   // Handle navigation from URL search params
   useEffect(() => {
+    isSyncingFromUrl.current = true;
+    
     const categoryFromUrl = searchParams.get('category') as STEPCategory;
     const glossaryFromUrl = searchParams.get('glossary');
     const searchFromUrl = searchParams.get('search');
@@ -109,10 +113,18 @@ function ArchiveDashboard() {
     if (categoryFromUrl || glossaryFromUrl || searchFromUrl || lensFromUrl || timelineFromUrl) {
       scrollToTop();
     }
+    
+    // Allow React to process state updates before enabling URL syncing again
+    const timer = setTimeout(() => {
+      isSyncingFromUrl.current = false;
+    }, 50);
+    return () => clearTimeout(timer);
   }, [searchParams, glossary]);
 
   // Sync state changes back to URL
   useEffect(() => {
+    if (isSyncingFromUrl.current) return;
+
     const params = new URLSearchParams();
     if (activeLens && activeLens !== 'TIMELINE') params.set('lens', activeLens);
     if (activeCategory) params.set('category', activeCategory);
