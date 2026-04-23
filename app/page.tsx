@@ -58,12 +58,14 @@ function ArchiveDashboard() {
     const searchFromUrl = searchParams.get('search');
     const viewFromUrl = searchParams.get('view') as 'articles' | 'context';
     const lensFromUrl = searchParams.get('lens') as LensMode;
+    const timelineFromUrl = searchParams.get('timeline');
 
     // Determine target lens
     let targetLens: LensMode | null = activeLens;
     if (lensFromUrl) targetLens = lensFromUrl;
     else if (categoryFromUrl) targetLens = 'STEP';
     else if (glossaryFromUrl) targetLens = 'GLOSSARY';
+    else if (timelineFromUrl) targetLens = 'TIMELINE';
     else if (searchFromUrl) targetLens = 'SEARCH';
     else if (activeLens === null) targetLens = 'TIMELINE'; // Default starting lens
 
@@ -87,6 +89,15 @@ function ArchiveDashboard() {
       setGlossaryViewMode('articles');
     }
 
+    // Sync Timeline Term
+    if (timelineFromUrl) {
+      const term = glossary.find(g => g.term.toLowerCase() === timelineFromUrl.toLowerCase());
+      if (term) setSelectedTimelineTerm(term);
+      else setSelectedTimelineTerm(null);
+    } else {
+      setSelectedTimelineTerm(null);
+    }
+
     // Sync Search Query
     if (searchFromUrl) {
       setSearchQuery(searchFromUrl);
@@ -95,10 +106,28 @@ function ArchiveDashboard() {
     }
 
     // Scroll to top on any major state change
-    if (categoryFromUrl || glossaryFromUrl || searchFromUrl || lensFromUrl) {
+    if (categoryFromUrl || glossaryFromUrl || searchFromUrl || lensFromUrl || timelineFromUrl) {
       scrollToTop();
     }
   }, [searchParams, glossary]);
+
+  // Sync state changes back to URL
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (activeLens && activeLens !== 'TIMELINE') params.set('lens', activeLens);
+    if (activeCategory) params.set('category', activeCategory);
+    if (selectedGlossaryTerm) params.set('glossary', selectedGlossaryTerm.term);
+    if (selectedTimelineTerm) params.set('timeline', selectedTimelineTerm.term);
+    if (searchQuery) params.set('search', searchQuery);
+    if (glossaryViewMode && glossaryViewMode !== 'articles') params.set('view', glossaryViewMode);
+
+    const newUrl = params.toString() ? `/?${params.toString()}` : '/';
+    const currentUrl = window.location.pathname + window.location.search;
+    
+    if (newUrl !== currentUrl) {
+      router.replace(newUrl, { scroll: false });
+    }
+  }, [activeLens, activeCategory, selectedGlossaryTerm, selectedTimelineTerm, searchQuery, glossaryViewMode, router]);
 
   const filteredArticles = useMemo(() => {
     let results = articles.filter((article) => {
