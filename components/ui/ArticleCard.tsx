@@ -19,7 +19,8 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onClick, inde
     'Social': 'social',
     'Technological': 'tech',
     'Economic': 'economic',
-    'Political': 'political'
+    'Political': 'political',
+    'Environmental': 'environmental'
   };
   const categoryColor = `var(--${colorMap[article.primary] || article.primary.toLowerCase()})`;
   

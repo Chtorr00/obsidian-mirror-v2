@@ -3,7 +3,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Users, Cpu, TrendingUp, Landmark } from 'lucide-react';
+import { Users, Cpu, TrendingUp, Landmark, Leaf } from 'lucide-react';
 import { STEPCategory } from '@/lib/types';
 import { cn } from '@/lib/utils';
 
@@ -36,6 +36,12 @@ const categories: { id: STEPCategory; icon: any; color: string; description: str
     icon: Landmark,
     color: 'var(--political)',
     description: 'Governance, policy, and geopolitics',
+  },
+  {
+    id: 'Environmental',
+    icon: Leaf,
+    color: 'var(--environmental)',
+    description: 'Ecology, climate, and planetary boundaries',
   },
 ];
 

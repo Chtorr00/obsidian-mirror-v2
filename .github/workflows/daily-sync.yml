@@ -1,0 +1,37 @@
+name: Daily Embargo Sync (The Gatekeeper)
+
+on:
+  schedule:
+    - cron: '1 0 * * *' # 12:01 AM UTC (Every night)
+  workflow_dispatch:   # Allow manual trigger from GitHub UI
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Sync Engine
+        run: npm run sync
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "Mirror-Architect-Bot"
+          git config --global user.email "bot@obsidian-mirror.io"
+          git add lib/data.ts
+          git add public/images/
+          # Only commit if there are changes (i.e. an article was unlocked)
+          git commit -m "chore: nightly embargo sync [automated]" || echo "No changes to commit"
+          git push

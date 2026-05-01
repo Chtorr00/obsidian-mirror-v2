@@ -51,6 +51,7 @@ The Obsidian Mirror project uses a **three-location** storage model:
 | **Working copy** | `om_docs/Obsidian Mirror/` (this project) | Active `.docx` batches for the sync pipeline. Drop new batches here. |
 | **Archive vault** | `ObsidianArchive\Obsidian Mirror\` | Long-term, read-only record of all source batches after sync. |
 | **Markdown Source** | `ObsidianArchive\Mirror\2026\Weblog-Sources\` | Permanent home for processed markdown files. The website syncs from here. |
+| **Live Content** | `content/sources/` | Git-mirrored articles for GitHub Action synchronization. |
 
 > [!IMPORTANT]
 > **Do NOT write new batches to `[Vault]/Obsidian Mirror/`** (the main ObsidianVault).

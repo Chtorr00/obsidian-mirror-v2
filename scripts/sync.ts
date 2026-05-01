@@ -13,7 +13,12 @@ import * as yaml from 'js-yaml';
  * ----------------------------------------------------------------------------
  */
 
-const ARCHIVE_ROOT = 'C:\\Users\\markj\\OneDrive\\Documents\\ObsidianArchive\\Mirror\\2026\\Weblog-Sources';
+const LOCAL_ARCHIVE_ROOT = 'C:\\Users\\markj\\OneDrive\\Documents\\ObsidianArchive\\Mirror\\2026\\Weblog-Sources';
+const RELATIVE_SOURCE_ROOT = path.join(process.cwd(), 'content', 'sources');
+
+// Use local archive if available (for local dev), otherwise fallback to project content folder (for GitHub Actions)
+const ARCHIVE_ROOT = fs.existsSync(LOCAL_ARCHIVE_ROOT) ? LOCAL_ARCHIVE_ROOT : RELATIVE_SOURCE_ROOT;
+
 const VAULT_DIR = path.join(ARCHIVE_ROOT, 'articles');
 const GLOSSARY_DIR = path.join(ARCHIVE_ROOT, 'glossary');
 const DATA_PATH = path.join(process.cwd(), 'lib', 'data.ts');
@@ -31,6 +36,8 @@ interface ArticleMeta {
   month: string;
   glossary_refs: string[];
   order: number;
+  status?: 'draft' | 'published' | 'archive';
+  publish_date?: string;
   source_meta: {
     url: string;
     title: string;
@@ -145,10 +152,18 @@ function harmonizeContent(content: string): string {
 function sync() {
   const args = process.argv.slice(2);
   const ingestFile = args.find(a => a.startsWith('--ingest='))?.split('=')[1];
-  const imagesDir = args.find(a => a.startsWith('--images='))?.split('=')[1];
+  const RELATIVE_IMAGE_SOURCE = path.join(process.cwd(), 'content', 'sources', 'images');
+  let imagesDir = args.find(a => a.startsWith('--images='))?.split('=')[1];
+  
+  // Auto-discover images in the git-mirrored content folder if no flag is provided
+  if (!imagesDir && fs.existsSync(RELATIVE_IMAGE_SOURCE)) {
+      imagesDir = RELATIVE_IMAGE_SOURCE;
+  }
+
   const targetMonth = args.find(a => a.startsWith('--month='))?.split('=')[1] || "March";
 
   console.log("🚀 Starting Obsidian Mirror Master Sync...");
+  const today = new Date().toISOString().split('T')[0];
 
   // --- INGESTION PHASE ---
   if (ingestFile && fs.existsSync(ingestFile)) {
@@ -207,6 +222,9 @@ function sync() {
   const articles: any[] = [];
   const glossaryEntries: any[] = [];
 
+
+  console.log(`📅 Today's Date: ${today}`);
+
   for (const filename of files) {
     const filePath = path.join(VAULT_DIR, filename);
     const rawContent = fs.readFileSync(filePath, 'utf-8');
@@ -215,6 +233,7 @@ function sync() {
     if (parts.length < 3) continue;
 
     const frontmatter = yaml.load(parts[1]) as any;
+
     let body = parts.slice(2).join('---').trim();
 
     // 1. Harmonize Body
@@ -294,12 +313,29 @@ function sync() {
       month: frontmatter.month || "",
       glossary_refs: glossaryRefs,
       order: frontmatter.order || 0,
-      source_meta: frontmatter.source_meta
+      source_meta: frontmatter.source_meta,
+      status: frontmatter.status || 'published',
+      publish_date: frontmatter.publish_date || ""
     });
 
     const newContent = `---\n${yaml.dump(frontmatter)}---\n${body}`;
     fs.writeFileSync(filePath, newContent);
   }
+
+  // --- EMBARGO FILTERING ---
+  // Only include articles that are 'published' and where the publish_date has passed
+  const filteredArticles = articles.filter(a => {
+      // 1. If status is draft, hide it
+      if (a.status === 'draft') return false;
+      
+      // 2. If publish_date is in the future, hide it
+      if (a.publish_date && a.publish_date > today) {
+          console.log(`  🕒 Embargoed: ${a.title} (Releases on ${a.publish_date})`);
+          return false;
+      }
+      
+      return true;
+  });
 
   // 10. Process Glossary Entries
   if (fs.existsSync(GLOSSARY_DIR)) {
@@ -357,10 +393,10 @@ function sync() {
 
   glossaryEntries.sort((a, b) => a.term.localeCompare(b.term));
 
-  const dataExport = `export const SYNO_DATA = ${JSON.stringify({ articles, glossary: glossaryEntries }, null, 2)};\n`;
+  const dataExport = `export const SYNO_DATA = ${JSON.stringify({ articles: filteredArticles, glossary: glossaryEntries }, null, 2)};\n`;
   fs.writeFileSync(DATA_PATH, dataExport);
 
-  console.log(`\n✅ Success! Synchronized ${articles.length} articles and ${glossaryEntries.length} glossary entries.`);
+  console.log(`\n✅ Success! Synchronized ${filteredArticles.length} articles (${articles.length - filteredArticles.length} embargoed) and ${glossaryEntries.length} glossary entries.`);
   console.log(`✨ Harmonized "Acts" headers, promoted metadata, and restored glossary.`);
 }
 

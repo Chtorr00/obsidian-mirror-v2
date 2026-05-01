@@ -1,5 +1,5 @@
 
-export type STEPCategory = 'Social' | 'Technological' | 'Economic' | 'Political';
+export type STEPCategory = 'Social' | 'Technological' | 'Economic' | 'Political' | 'Environmental';
 
 export interface Article {
   title: string;
@@ -22,6 +22,8 @@ export interface Article {
   order?: number;
   acts?: number[];
   month?: string;
+  publish_date?: string; // ISO Date for embargo logic
+  status?: 'draft' | 'published' | 'archive';
   glossary_refs?: string[];
 }
 
