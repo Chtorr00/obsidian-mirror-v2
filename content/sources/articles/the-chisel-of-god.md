@@ -13,7 +13,7 @@ source_meta:
   author: Bill Drexel
   date: '2025'
   publication: En Tibi, October 13
-order: 99
+order: 130
 ---
 # The Chisel of God
 

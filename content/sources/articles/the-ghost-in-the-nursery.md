@@ -12,7 +12,7 @@ source_meta:
   author: Christopher Mims
   date: '2025'
   publication: Wall Street Journal, January 21
-order: 83
+order: 114
 ---
 # The Ghost in the Nursery
 

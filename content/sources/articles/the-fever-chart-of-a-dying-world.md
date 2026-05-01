@@ -15,7 +15,7 @@ source_meta:
   author: Potsdam Institute for Climate Impact Research (PIK)
   date: '2025'
   publication: PIK, September 24
-order: 126
+order: 156
 ---
 # The Fever Chart of a Dying World
 

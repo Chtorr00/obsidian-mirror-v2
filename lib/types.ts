@@ -25,6 +25,7 @@ export interface Article {
   publish_date?: string; // ISO Date for embargo logic
   status?: 'draft' | 'published' | 'archive';
   glossary_refs?: string[];
+  series?: string;
 }
 
 export interface GlossaryEntry {

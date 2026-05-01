@@ -12,7 +12,7 @@ source_meta:
   author: xraymike79
   date: '2025'
   publication: Collapse of Industrial Civilization Substack, October 4
-order: 173
+order: 18
 ---
 # The Almanac of the End
 

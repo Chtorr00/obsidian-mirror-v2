@@ -13,7 +13,7 @@ source_meta:
   author: Duncan Reyburn
   date: '2025'
   publication: Religions 2025, 16(3), 280, February 25
-order: 175
+order: 20
 ---
 # The Last Theologian
 

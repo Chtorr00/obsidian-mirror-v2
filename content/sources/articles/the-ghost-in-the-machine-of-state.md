@@ -11,7 +11,7 @@ source_meta:
   author: John Carter
   date: '2025'
   publication: Postcards From Barsoom Substack, October 10
-order: 95
+order: 126
 ---
 # The Ghost in the Machine-of-State
 

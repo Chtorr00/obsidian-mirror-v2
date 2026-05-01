@@ -13,7 +13,7 @@ source_meta:
   author: Dean Blundell
   date: '2026'
   publication: Dean Blundell Substack. February 4
-order: 202
+order: 208
 ---
 # The Arrest Warrant for the Algorithm
 

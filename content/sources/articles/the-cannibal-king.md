@@ -13,7 +13,7 @@ source_meta:
   author: China is sending its world-beating auto industry into a tailspin,
   date: '2025'
   publication: Reuters, September 17
-order: 74
+order: 106
 ---
 # The Cannibal King
 

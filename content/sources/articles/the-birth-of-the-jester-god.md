@@ -12,7 +12,7 @@ source_meta:
   author: Charles Cornish-Dale
   date: '2025'
   publication: The Spectator, October 23
-order: 104
+order: 135
 ---
 # The Birth of the Jester-God
 

@@ -13,7 +13,7 @@ source_meta:
   author: Staff Reporter
   date: ''
   publication: ''
-order: 34
+order: 68
 ---
 # The Ghost on the Steppe
 

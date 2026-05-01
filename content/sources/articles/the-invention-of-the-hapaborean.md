@@ -12,7 +12,7 @@ source_meta:
   author: Alysa Liu, The Hapaborean Princess, Patrick Saltykov
   date: '2026'
   publication: Patrick Saltykov Substack, February 25
-order: 221
+order: 223
 ---
 # The Invention of the Hapaborean
 

@@ -13,7 +13,7 @@ source_meta:
   author: A Manhattan Project for Elite Human Capital, Ryan P. Williams
   date: '2020'
   publication: The American Mind, September 19
-order: 75
+order: 2
 ---
 # The Emergency Transfusion
 

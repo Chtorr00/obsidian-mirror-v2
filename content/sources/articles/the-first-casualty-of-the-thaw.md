@@ -11,7 +11,7 @@ source_meta:
   author: Staff Reporter
   date: ''
   publication: ''
-order: 48
+order: 82
 ---
 # The First Casualty of the Thaw
 

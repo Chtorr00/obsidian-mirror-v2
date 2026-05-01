@@ -15,7 +15,7 @@ source_meta:
     United States
   date: '2025'
   publication: Whitehouse.gov, July 25
-order: 19
+order: 53
 ---
 # The Last Will and Testament of a Worldview
 

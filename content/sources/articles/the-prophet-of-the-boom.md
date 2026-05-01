@@ -12,7 +12,7 @@ source_meta:
   author: Staff Reporter
   date: ''
   publication: ''
-order: 26
+order: 60
 ---
 # The Prophet of the Boom
 

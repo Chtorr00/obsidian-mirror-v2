@@ -11,7 +11,7 @@ source_meta:
   author: Tyler Watts
   date: '2025'
   publication: Econolib Econolog post, August 13
-order: 76
+order: 107
 ---
 # The Final Ghost of a Dead Idea
 

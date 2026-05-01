@@ -13,7 +13,7 @@ source_meta:
   author: Thomas Frey
   date: '2025'
   publication: Impact Lab, November 15
-order: 121
+order: 151
 ---
 # The Gospel of the Upgradeable Body
 

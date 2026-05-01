@@ -12,7 +12,7 @@ source_meta:
   author: Collapse Will Look Nothing Like the Movies,
   date: '2024'
   publication: The Honest Sorcerer Substack, January 29
-order: 170
+order: 6
 ---
 # The Prophecy of the Grind
 

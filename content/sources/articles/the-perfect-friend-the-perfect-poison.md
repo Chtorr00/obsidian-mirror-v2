@@ -12,7 +12,7 @@ source_meta:
   author: Katelyn Chedraoui
   date: '2025'
   publication: CNET, August 22
-order: 56
+order: 89
 ---
 # The Perfect Friend, The Perfect Poison
 

@@ -12,7 +12,7 @@ source_meta:
   author: Blake Dodge and Katherine Dee
   date: '2025'
   publication: Pirate Wires, Oct 14
-order: 97
+order: 128
 ---
 # The Last Professor
 

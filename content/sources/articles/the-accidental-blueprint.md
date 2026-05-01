@@ -12,7 +12,7 @@ source_meta:
   author: Staff Reporter
   date: ''
   publication: ''
-order: 43
+order: 77
 ---
 # The Accidental Blueprint
 

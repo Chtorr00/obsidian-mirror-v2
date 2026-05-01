@@ -14,7 +14,7 @@ source_meta:
   author: Elana Klein
   date: '2026'
   publication: Wired Magazine, January 19
-order: 181
+order: 193
 ---
 # The Patient Zero of the Cyborg Age
 

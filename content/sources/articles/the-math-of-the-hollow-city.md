@@ -15,7 +15,7 @@ source_meta:
   author: Washington Post editorial board
   date: '2025'
   publication: Washington Post, December 15
-order: 157
+order: 186
 ---
 # The Math of the Hollow City
 

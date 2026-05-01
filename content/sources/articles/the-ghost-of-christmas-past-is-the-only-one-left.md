@@ -12,7 +12,7 @@ source_meta:
   author: Mark Justman (with Gemini 3.0)
   date: '2025'
   publication: Special for the Obsidian Mirror, Dec 25
-order: 155
+order: 184
 ---
 # The Ghost of Christmas Past Is the Only One Left
 

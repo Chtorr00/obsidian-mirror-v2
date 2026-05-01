@@ -15,7 +15,7 @@ source_meta:
     Gilman
   date: '2020'
   publication: The Berggeruen Institute, April 23
-order: 53
+order: 1
 ---
 # The Winning Heresy
 

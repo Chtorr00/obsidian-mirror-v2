@@ -15,7 +15,7 @@ source_meta:
   author: Armin Rosen
   date: '2025'
   publication: Country Highway, Vol. 3 Issue 3 November-December
-order: 138
+order: 167
 ---
 # The Autopsy of the Common Good
 

@@ -12,7 +12,7 @@ source_meta:
   author: 'Open-Source War Rooms: The “GameStop” Moment of Geopolitics?, Jamie Burke'
   date: '2026'
   publication: Jamie Burke Substack, February 25
-order: 227
+order: 228
 ---
 # The Casino of the Collapse
 

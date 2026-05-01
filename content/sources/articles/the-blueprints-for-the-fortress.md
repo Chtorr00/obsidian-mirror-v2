@@ -14,7 +14,7 @@ source_meta:
     Kirsten Lowell & Courtney E. Fisher
   date: '2025'
   publication: Reed Smith, Trade Compliance Resource Hub, July 17
-order: 11
+order: 45
 ---
 # The Blueprints for the Fortress
 

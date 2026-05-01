@@ -4,7 +4,7 @@ primary: General
 secondary: []
 image: /images/April17DiagnosisToxin.png
 month: April
-order: 17
+order: 3
 status: published
 source_meta:
   url: https://imperiumpress.substack.com/p/the-third-world-is-going-to-cop-it-b9e

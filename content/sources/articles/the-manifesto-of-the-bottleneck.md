@@ -11,7 +11,7 @@ source_meta:
   author: Our Duty Is To Survive the Genetic Bottleneck,
   date: '2025'
   publication: The American Tribune, December 9
-order: 166
+order: 12
 ---
 # The Manifesto of the Bottleneck
 

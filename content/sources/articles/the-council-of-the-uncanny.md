@@ -13,7 +13,7 @@ source_meta:
   author: Nick Land vs. Aleksandr Dugin Debate, Nick Land and Aleksandr Dugin
   date: '2025'
   publication: The Auron MacIntyre Podcast. October 6
-order: 89
+order: 120
 ---
 # The Council of the Uncanny
 

@@ -12,7 +12,7 @@ source_meta:
   author: Vincent Lê
   date: '2026'
   publication: Architectonics Substack, January 12
-order: 195
+order: 204
 ---
 # The Dialogue of the Ghost and the Machine (Part 1)
 

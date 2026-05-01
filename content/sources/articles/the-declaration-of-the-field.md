@@ -12,7 +12,7 @@ source_meta:
   author: Erik Prince & Dave Ramaswamy
   date: '2025'
   publication: IM-1776, October 29
-order: 108
+order: 139
 ---
 # The Declaration of the Field
 

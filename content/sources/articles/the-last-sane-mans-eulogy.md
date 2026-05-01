@@ -14,7 +14,7 @@ source_meta:
   publication: >-
     The West’s Last Chance - How to Build a New Global Order Before It’s Too
     Late, By Alexander Stubb Foreign Affairs, December 2
-order: 133
+order: 163
 ---
 # The Last Sane Man's Eulogy
 

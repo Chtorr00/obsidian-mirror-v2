@@ -11,7 +11,7 @@ source_meta:
   author: Pictures from the Past are Immensely Radicalizing
   date: '2026'
   publication: The American Tribune, January 23
-order: 207
+order: 210
 ---
 # The Iconography of the Fall
 

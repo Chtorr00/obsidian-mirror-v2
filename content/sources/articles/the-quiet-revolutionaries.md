@@ -12,7 +12,7 @@ source_meta:
   author: Jeremy Stern
   date: August 2025
   publication: Colossus Magazine
-order: 91
+order: 122
 ---
 # The Quiet Revolutionaries
 

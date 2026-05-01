@@ -17,7 +17,7 @@ source_meta:
     Could End the Continent’s Era of Peaceful Use, Arezki Amiri
   date: '2025'
   publication: Indian Defense review, August 26
-order: 57
+order: 90
 ---
 # The Siren Song of a Dead God
 

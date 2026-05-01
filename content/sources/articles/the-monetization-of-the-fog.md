@@ -15,7 +15,7 @@ source_meta:
   author: The Quantum Institute
   date: '2026'
   publication: MarketResearch.com blog, February 19
-order: 233
+order: 234
 ---
 # The Monetization of the Fog
 

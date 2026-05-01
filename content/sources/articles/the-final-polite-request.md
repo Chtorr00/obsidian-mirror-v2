@@ -12,7 +12,7 @@ source_meta:
   author: Tom Wheeler and Madison Smith
   date: '2025'
   publication: The Brookings Institution, July 14
-order: 29
+order: 63
 ---
 # The Final Polite Request
 

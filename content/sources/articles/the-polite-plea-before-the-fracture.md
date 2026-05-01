@@ -12,7 +12,7 @@ source_meta:
   author: 'Jubilee 2025: The new global debt crisis and its solutions'
   date: '2025'
   publication: Cafod.org website, July 9
-order: 3
+order: 38
 ---
 # The Polite Plea Before the Fracture
 

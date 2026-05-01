@@ -11,7 +11,7 @@ source_meta:
   author: Bitcoin supply, demand, and price dynamics,Murray A. Rudd and Dennis Porter
   date: '2025'
   publication: Satoshi Action Education, Aug 12
-order: 40
+order: 74
 ---
 # The Final Calculation Before the Flood
 

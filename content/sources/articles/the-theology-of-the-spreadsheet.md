@@ -4,7 +4,7 @@ primary: General
 secondary: []
 image: /images/April13TheologySpreadsheet.png
 month: April
-order: 13
+order: 267
 status: published
 source_meta:
   url: https://therepublicjournal.com/essays/ai-and-the-cultural-mandate/

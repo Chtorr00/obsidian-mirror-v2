@@ -11,7 +11,7 @@ source_meta:
   author: How the World Accumulated $315 Trillion in Debt
   date: '2025'
   publication: Diplomatic Watch, June 8
-order: 31
+order: 65
 ---
 # The Paper Mountain and the Avalanche It Caused
 
