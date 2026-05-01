@@ -71,7 +71,7 @@ function ArchiveDashboard() {
     else if (glossaryFromUrl) targetLens = 'GLOSSARY';
     else if (timelineFromUrl) targetLens = 'TIMELINE';
     else if (searchFromUrl) targetLens = 'SEARCH';
-    else if (activeLens === null) targetLens = 'TIMELINE'; // Default starting lens
+    else if (activeLens === null) targetLens = null; // Default starting lens is unfiltered
 
     setActiveLens(targetLens);
 
