@@ -10,8 +10,24 @@ import * as yaml from 'js-yaml';
  * 2. Harmonizes Act headers: "Act I: Title" -> "### Act I: Title"
  * 3. Extracts metadata (Author, Pub, Date, URL) into structured fields.
  * 4. Generates standard 300-char site previews.
+ * 5. Re-indexes 'order' property for consistent chronology.
  * ----------------------------------------------------------------------------
  */
+
+const monthMap: Record<string, number> = {
+    'January': 1,
+    'February': 2,
+    'March': 3,
+    'April': 4,
+    'May': 5,
+    'June': 6,
+    'July': 7,
+    'August': 8,
+    'September': 9,
+    'October': 10,
+    'November': 11,
+    'December': 12
+};
 
 const LOCAL_ARCHIVE_ROOT = 'C:\\Users\\markj\\OneDrive\\Documents\\ObsidianArchive\\Mirror\\2026\\Weblog-Sources';
 const RELATIVE_SOURCE_ROOT = path.join(process.cwd(), 'content', 'sources');
@@ -377,19 +393,43 @@ function sync() {
   }
 
   // Final assembly
-  // Sort by 'order' from frontmatter if available, otherwise fallback to title
+  // Sort by Year + Month primarily, then by existing 'order'
   articles.sort((a, b) => {
-    if (a.order && b.order) return a.order - b.order;
-    if (a.order) return -1;
-    if (b.order) return 1;
+    const getYear = (art: any) => {
+        const dateStr = art.source_meta?.date || "";
+        const match = dateStr.match(/\d{4}/);
+        if (match) return parseInt(match[0]);
+        // Fallback heuristics for this specific project archive
+        if (art.month === 'April' || art.month === 'March') return 2026;
+        return 2025;
+    };
+
+    const yearA = getYear(a);
+    const yearB = getYear(b);
+    if (yearA !== yearB) return yearA - yearB;
+
+    const monthA = monthMap[a.month] || 0;
+    const monthB = monthMap[b.month] || 0;
+    if (monthA !== monthB) return monthA - monthB;
+
+    if (a.order !== b.order) return (a.order || 0) - (b.order || 0);
     return a.title.localeCompare(b.title);
   });
 
-  // Assign order only to those that don't have it, starting after the max existing order
-  const hasExistingOrders = articles.some(a => (a.order || 0) > 0);
-  if (!hasExistingOrders) {
-    articles.forEach((a, i) => a.order = i + 1);
-  }
+  // Re-index ALL articles to ensure a clean, monotonically increasing 'order' sequence
+  articles.forEach((a, i) => {
+    const newOrder = i + 1;
+    
+    // Only update the source file if the order has actually changed to minimize disk noise
+    if (a.order !== newOrder) {
+        const filePath = path.join(VAULT_DIR, a.filename);
+        const content = fs.readFileSync(filePath, 'utf-8');
+        // Match 'order: [number]' or 'order:[number]'
+        const updated = content.replace(/order:\s*\d+/, `order: ${newOrder}`);
+        fs.writeFileSync(filePath, updated);
+        a.order = newOrder;
+    }
+  });
 
   glossaryEntries.sort((a, b) => a.term.localeCompare(b.term));
 
