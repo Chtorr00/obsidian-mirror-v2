@@ -15,11 +15,12 @@ import * as yaml from 'js-yaml';
  */
 
 const WORKING_COPY_DIR = path.join(process.cwd(), 'om_docs', 'Obsidian Mirror');
-const LOCAL_ARCHIVE_ROOT = 'C:\\Users\\markj\\OneDrive\\Documents\\ObsidianArchive\\Mirror\\2026\\Weblog-Sources';
-const ARCHIVE_VAULT_BATCHES = 'C:\\Users\\markj\\OneDrive\\Documents\\ObsidianArchive\\Obsidian Mirror\\';
+const LOCAL_ARCHIVE_ROOT = process.env.MIRROR_ARCHIVE_ROOT || 'C:\\Users\\markj\\OneDrive\\Documents\\ObsidianArchive\\Mirror\\2026\\Weblog-Sources';
+const ARCHIVE_VAULT_BATCHES = process.env.MIRROR_BATCH_ROOT || 'C:\\Users\\markj\\OneDrive\\Documents\\ObsidianArchive\\Obsidian Mirror\\';
 const PROJECT_SOURCES_DIR = path.join(process.cwd(), 'content', 'sources');
 const DATA_PATH = path.join(process.cwd(), 'lib', 'data.ts');
 const IMAGE_DIR = path.join(process.cwd(), 'public', 'images');
+const IS_CI = process.env.CI === 'true';
 
 const monthMap: Record<string, number> = {
     'January': 1, 'February': 2, 'March': 3, 'April': 4, 'May': 5, 'June': 6,
@@ -81,7 +82,15 @@ function extractSourceMeta(body: string) {
                     pub = pubDateLine;
                 }
 
-                const authorLine = blockLines[0].replace(/[\*#]/g, '').trim();
+                let authorLine = blockLines[0].replace(/[\*#]/g, '').trim();
+                if (authorLine === '---') {
+                    // Skip the separator and take the next line if available
+                    if (blockLines.length > 1) {
+                        authorLine = blockLines[1].replace(/[\*#]/g, '').trim();
+                    } else {
+                        authorLine = "";
+                    }
+                }
                 if (authorLine.match(/, [Bb]y /)) {
                     const parts = authorLine.split(/, [Bb]y /);
                     title = parts[0].trim();
@@ -108,10 +117,28 @@ function extractSourceMeta(body: string) {
 
 function harmonizeContent(content: string): string {
     let body = content;
-    body = body.replace(/^\s*(\* )?(\*\*)?Act ([0-9IVX]+)[:.]?\s*([^\n\*]+)\s*(\*\*)?.*$/gm, '### Act $3: $4');
+    body = body.replace(/^\s*(#+ )?(\* )?(\*\*)?Act ([0-9IVX]+)[:.]?\s*([^\n\*]+)\s*(\*\*)?.*$/gm, '### Act $4: $5');
     body = body.replace(/^(### Act [0-9IVX]+:[^\n]+)\.?\n([^\n])/gm, '$1\n\n$2');
     body = body.replace(/^#+ (### Act)/gm, '$1');
     return body.trim();
+}
+
+/**
+ * Splits a file into frontmatter and body
+ */
+function splitFrontmatter(text: string): { fm: any, body: string } {
+    text = text.trim();
+    if (!text.startsWith('---')) return { fm: null, body: text };
+    const parts = text.split('---');
+    // parts[0] is empty, parts[1] is fm, parts[2...] is body
+    if (parts.length < 3) return { fm: null, body: text };
+    try {
+        const fm = yaml.load(parts[1]) as any;
+        const body = parts.slice(2).join('---').trim();
+        return { fm, body };
+    } catch (e) {
+        return { fm: null, body: text };
+    }
 }
 
 /**
@@ -138,27 +165,44 @@ function ingestFromWorkingCopy(targetMonth: string, imagesDir?: string) {
         const batchPath = path.join(WORKING_COPY_DIR, batch);
         const sourceContent = fs.readFileSync(batchPath, 'utf-8').replace(/\r\n/g, '\n');
         
-        // Fix: Use a more specific split to avoid fragmenting articles at "Act" or sub-headers
-        // We look for headers that are NOT Acts or numbered lists
-        let chunks = sourceContent.split(/\n(?=###?\s(?!\*\*?Act|I\.|II\.|III\.|IV\.|V\.))/);
+        // Fix: Only split on headers that look like article titles (### **Title**)
+        // This prevents splitting single articles at sub-headers like "### Sub-title"
+        let chunks = sourceContent.split(/\n(?=###\s\*\*)/);
         
-        // Alternative: If articles are always separated by ---, we could use that,
-        // but often the batch files use ### as the primary delimiter.
-        
-        if (chunks[0] && !chunks[0].trim().includes('###')) chunks.shift();
+        // If there's only one chunk and it's not a bold header at the top,
+        // it might still be a single article without that specific header pattern.
+        if (chunks.length === 1 && !chunks[0].trim().startsWith('### **')) {
+            // Treat the whole file as one article if no internal titles are found
+            console.log(`  - ${batch} treated as single article.`);
+        }
+
 
         for (let chunk of chunks) {
             chunk = chunk.trim();
             if (chunk.length < 100) continue;
 
-            const lines = chunk.split('\n');
-            const titleLine = lines.find(l => l.startsWith('#')) || "# Unknown Title";
-            const title = titleLine.replace(/^#+\s+/, '').replace(/\*\*/g, '').trim();
+            const { fm: existingFm, body: bodyContent } = splitFrontmatter(chunk);
+            let title = existingFm?.title || "Unknown Title";
+
+            // Fallback to header search if no title in frontmatter
+            if (title === "Unknown Title") {
+                const lines = bodyContent.split('\n');
+                const titleLine = lines.find(l => l.startsWith('#'));
+                if (titleLine) {
+                    title = titleLine.replace(/^#+\s+/, '').replace(/\*\*/g, '').trim();
+                }
+            }
+
+            // Final fallback for single articles: use filename
+            if (title === "Unknown Title" && chunks.length === 1) {
+                title = batch.replace(/\.md$/, '');
+            }
+
             const slug = slugify(title);
             const outPath = path.join(vaultArticlesDir, `${slug}.md`);
 
-            let matchedImage = "";
-            if (imagesDir && fs.existsSync(imagesDir)) {
+            let matchedImage = existingFm?.image || "";
+            if (!matchedImage && imagesDir && fs.existsSync(imagesDir)) {
                 const possibleImages = fs.readdirSync(imagesDir);
                 const titleTokens = title.toLowerCase().split(/\s+/).filter(t => t.length > 3);
                 const match = possibleImages.find(img => {
@@ -174,20 +218,23 @@ function ingestFromWorkingCopy(targetMonth: string, imagesDir?: string) {
             }
 
             const frontmatter = {
+                ...(existingFm || {}),
                 title,
-                primary: 'General',
-                secondary: [],
+                primary: existingFm?.primary || 'General',
+                secondary: existingFm?.secondary || [],
                 image: matchedImage,
-                month: targetMonth,
-                status: 'published',
-                source_meta: { url: '', title: '', author: '', date: '', publication: '' }
+                month: existingFm?.month || targetMonth,
+                status: existingFm?.status || 'published',
+                source_meta: existingFm?.source_meta || { url: '', title: '', author: '', date: '', publication: '' }
             };
 
-            const finalContent = `---\n${yaml.dump(frontmatter)}---\n${chunk}`;
+            const finalContent = `---\n${yaml.dump(frontmatter)}---\n${bodyContent}`;
             if (!fs.existsSync(outPath)) {
                 fs.writeFileSync(outPath, finalContent);
                 console.log(`  + Created: ${slug}.md in Archive Vault`);
             } else {
+                // If it's a batch chunk, we might want to overwrite if the content changed,
+                // but for now we follow the "don't overwrite" rule to be safe.
                 console.log(`  ~ Skipping: ${slug}.md (already in Archive Vault)`);
             }
         }
@@ -206,7 +253,7 @@ function propagateToLiveContent() {
     const localGlossaryDir = path.join(PROJECT_SOURCES_DIR, 'glossary');
 
     if (!fs.existsSync(vaultArticlesDir)) {
-        console.error("❌ Master Archive Vault not found!");
+        if (!IS_CI) console.error("❌ Master Archive Vault not found!");
         return;
     }
 
@@ -258,7 +305,13 @@ function syncEngine() {
         const parts = rawContent.split('---');
         if (parts.length < 3) continue;
 
-        const frontmatter = yaml.load(parts[1]) as any;
+        let frontmatter: any;
+        try {
+            frontmatter = yaml.load(parts[1]) as any;
+        } catch (e) {
+            console.error(`  ! Error parsing frontmatter in ${filename}:`, (e as any).message);
+            continue;
+        }
         let body = parts.slice(2).join('---').trim();
         body = harmonizeContent(body);
 

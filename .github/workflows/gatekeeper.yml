@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * *' # Daily at midnight UTC
   workflow_dispatch: # Allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -27,6 +30,7 @@ jobs:
         run: npm run sync
         env:
           NODE_ENV: production
+          CI: true
 
       - name: Check for Changes
         id: git-check
@@ -44,4 +48,4 @@ jobs:
         if: steps.git-check.outputs.changed == 'true'
         run: |
           git commit -m "chore(sync): automated embargo release $(date +'%Y-%m-%d')"
-          git push
+          git push origin main
