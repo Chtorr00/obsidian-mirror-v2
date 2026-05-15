@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write .",
-    "sync": "ts-node-esm scripts/sync.ts"
+    "sync": "ts-node-esm scripts/sync.ts",
+    "intake": "ts-node-esm scripts/intake.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "latest",

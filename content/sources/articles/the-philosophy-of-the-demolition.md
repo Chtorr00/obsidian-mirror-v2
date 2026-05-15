@@ -13,7 +13,7 @@ source_meta:
   author: Bennett's Phylactery
   date: '2026'
   publication: Exit Newsletter Substack, February 12
-order: 239
+order: 240
 ---
 # The Philosophy of the Demolition
 

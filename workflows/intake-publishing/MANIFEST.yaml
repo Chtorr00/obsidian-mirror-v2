@@ -1,0 +1,22 @@
+name: intake-publishing
+version: 1.0.0
+description: Automates the ingestion of markdown files from a local Obsidian Vault to a GitHub repository for publishing.
+
+dependencies:
+  skills:
+    - obsidian-mirror
+  harnesses:
+    - none
+
+inputs:
+  project_state:
+    type: file
+    description: Root level PROJECT_STATE.md file defining absolute data paths.
+  obsidian_intake_directory:
+    type: directory
+    description: Local folder where draft markdown files are placed. Defined in project state.
+
+outputs:
+  github_archive_directory:
+    type: directory
+    description: The synced repository directory. Defined in project state.

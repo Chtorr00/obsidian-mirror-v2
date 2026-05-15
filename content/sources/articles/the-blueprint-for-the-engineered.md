@@ -10,7 +10,7 @@ source_meta:
   author: Bronze Age Pervert
   date: '2026'
   publication: J’accuse website, March 21
-order: 263
+order: 264
 ---
 ### **The Blueprint for the Engineered**
 

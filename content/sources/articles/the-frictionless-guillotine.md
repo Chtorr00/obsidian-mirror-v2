@@ -10,7 +10,7 @@ source_meta:
   author: Kevin Baker
   date: '2026'
   publication: Automated Bureaucracy Substack, March 21
-order: 262
+order: 263
 ---
 ### **The Frictionless Guillotine**
 

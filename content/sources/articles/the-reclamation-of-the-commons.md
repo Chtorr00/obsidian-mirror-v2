@@ -13,7 +13,7 @@ source_meta:
   author: Abi Awomosu
   date: '2026'
   publication: How Not To Use AI Substack, January 18
-order: 234
+order: 235
 ---
 # The Reclamation of the Commons
 

@@ -11,7 +11,7 @@ source_meta:
   author: Haosen Ge, Hamsa Bastani, Osbert Bastani
   date: '2026'
   publication: Wharton AI & Analytics Initiative, February 4
-order: 242
+order: 243
 ---
 # The Mathematics of the Pause
 
