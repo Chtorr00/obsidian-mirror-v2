@@ -303,7 +303,10 @@ function syncEngine() {
         const filePath = path.join(VAULT_DIR, filename);
         const rawContent = fs.readFileSync(filePath, 'utf-8');
         const parts = rawContent.split('---');
-        if (parts.length < 3) continue;
+        if (parts.length < 3) {
+            console.warn(`  ! Skipping ${filename}: Only ${parts.length} parts found (missing --- delimiters)`);
+            continue;
+        }
 
         let frontmatter: any;
         try {
@@ -388,7 +391,13 @@ function syncEngine() {
             const raw = fs.readFileSync(path.join(GLOSSARY_DIR, filename), 'utf-8');
             const parts = raw.split('---');
             if (parts.length < 3) continue;
-            const fm = yaml.load(parts[1]) as any;
+            let fm: any;
+            try {
+                fm = yaml.load(parts[1]) as any;
+            } catch (e) {
+                console.error(`  ! Error parsing glossary frontmatter in ${filename}:`, (e as any).message);
+                continue;
+            }
             const b = parts.slice(2).join('---').trim();
             const desc = b.replace(/^# .*\r?\n/m, '').replace(/^\*\*Timeline:\*\* .*\r?\n/m, '').trim();
             let p = desc.replace(/\[\[(.*?)\]\]/g, '$1').replace(/[*_#`>]/g, '').replace(/\s+/g, ' ').trim();
@@ -428,7 +437,7 @@ function syncEngine() {
         }
     });
 
-    const filtered = articles.filter(a => a.status !== 'draft' && (!a.publish_date || a.publish_date <= today));
+    const filtered = articles.filter(a => a.status !== 'draft' && (!a.publish_date || (a.publish_date instanceof Date ? a.publish_date.toISOString().split('T')[0] : a.publish_date) <= today));
     const dataExport = `export const SYNO_DATA = ${JSON.stringify({ articles: filtered, glossary: glossaryEntries.sort((a,b) => a.term.localeCompare(b.term)) }, null, 2)};\n`;
     fs.writeFileSync(DATA_PATH, dataExport);
     console.log(`✅ Success! Synced ${filtered.length} articles and ${glossaryEntries.length} glossary entries.`);
