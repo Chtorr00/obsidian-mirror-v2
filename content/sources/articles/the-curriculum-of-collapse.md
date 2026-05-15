@@ -14,7 +14,7 @@ source_meta:
     Mateja Centa Strahovnik
   date: '2025'
   publication: Religions 2024, October 31
-order: 141
+order: 150
 ---
 # The Curriculum of Collapse
 
