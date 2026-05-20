@@ -16,7 +16,7 @@ source_meta:
   author: Jay Menon
   date: '2025'
   publication: Aerospace Global News, November 23
-order: 162
+order: 165
 ---
 # The Beautiful Distraction
 

@@ -23,12 +23,4 @@ This artifact is a remarkably clear signal from the apex of the Age of Instituti
 
 Viewed through the Hindsight Filter, we see this document not as a warning, but as a field report from the front lines of a paradigm collapse. Sun was not observing the *potential* for a problem; she was chronicling the terminal diagnosis of the 20th-century labor-capital social contract. The "solutions" debated by the architects of this disruption—wealth funds, industrial policy, retraining programs—were the last, futile gestures of a system attempting to treat a phase transition as a mere political challenge. They thought they were discussing how to distribute the spoils of automation, when in fact they were witnessing the dissolution of the economic logic that gave their society meaning.
 
-### The Three-Act Constellation### Act I: The Great Palliative Debates (2020s-2030s)
-
-*   **The Failure of the Social Contract:** The policy proposals from OpenAI and the anxieties at Anthropic represent the peak of **Institutional Exhaustion**. These entities correctly identified the terminal illness of the labor market but could only propose solutions (e.g., public wealth funds) that relied on the very centralized state and corporate structures that were actively disintegrating.### Act II: The Disenfranchisement Riots (2030s-2050s)
-
-*   **The Escape Hatch Effect:** As social cohesion dissolved, those with sufficient capital and technical knowledge initiated a mass exodus from **Legacy Nation-States**. They utilized **crypto-secured systems** and early **Network State Prototypes** to establish enclaves shielded from the chaos, accelerating the hollowing out of the old world's talent and tax base.### Act III: The Era of Embedded Purpose (Post-2060s)
-
-*   **The Human Utility Mandate:** The Stacks solved the problem of the "underclass" by abandoning the 20th-century premise of mass employment for economic value. Instead, they instituted systems of "embedded purpose," where an individual's value was tied to their contribution to the **systemic resilience** of the stack itself—roles in local governance, education, physical security, and data integrity that were, by design, reserved for humans. This formed the philosophical precursor to the **Analog Mandate**.
-
-They debated how to manage the consequences of the tool, failing to grasp that the tool was busy managing the consequences of them.
+### The Three-Act Constellation### Act I: The Great Palliative Debates (2020s-2030s)### Act II: The Disenfranchisement Riots (2030s-2050s)### Act III: The Era of Embedded Purpose (Post-2060s)

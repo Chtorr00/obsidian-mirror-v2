@@ -12,7 +12,7 @@ source_meta:
   author: Dylon Jones
   date: '2025'
   publication: Politico, September 17
-order: 114
+order: 117
 ---
 # The Crypt of the Mind
 

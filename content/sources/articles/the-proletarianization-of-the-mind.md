@@ -12,7 +12,7 @@ source_meta:
   author: Eric Huang
   date: '2026'
   publication: De-Alienation Substack, January 10
-order: 237
+order: 246
 ---
 # The Proletarianization of the Mind
 

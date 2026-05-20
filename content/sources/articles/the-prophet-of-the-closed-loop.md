@@ -12,7 +12,7 @@ source_meta:
   author: William Kovarik
   date: '2026'
   publication: The Conversation, March 16
-order: 260
+order: 269
 ---
 ### **The Prophet of the Closed Loop**
 

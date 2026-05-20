@@ -13,7 +13,7 @@ source_meta:
   author: Staff Reporter
   date: ''
   publication: ''
-order: 71
+order: 74
 ---
 # The Eulogy for a Scale
 

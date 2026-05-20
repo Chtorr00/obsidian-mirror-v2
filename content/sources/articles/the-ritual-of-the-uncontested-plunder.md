@@ -25,16 +25,3 @@ Through the Hindsight Filter, we see this not as a policy failure, but as a syst
 
 #### The Three-Act Constellation
 ### Act I: The Age of Managed Atrophy (2020s-2030s)
-
-* **The Deter-Not-Detain Doctrine:** This policy represented the final surrender of the retail commons. It formalized a world where "security" was a performative layer of surveillance that lacked the mandate for enforcement.
-* **The Liability Trap:** The prioritization of legal and physical safety over social cohesion was a terminal symptom of a society that had replaced trust with a complex, fragile web of institutional risk-mitigation.
-### Act II: The Great Uncoupling (2030s-2050s)
-
-* **The Death of the Open Front:** The "open" supermarket and high-street retail model, predicated on a high-trust social environment, evaporated. It was replaced by hardened, automated distribution hubs and restricted-access membership enclaves.
-* **Kinetic Sovereignty:** As the state withdrew from the defense of local property, citizens and small collectives began to form their own **Sovereign Stacks**, implementing their own, often harsher, protocols for community security.
-### Act III: The Era of Algorithmic Enclosure (Post-2060s)
-
-* **The Transparent Ledger:** In the year 2100, "theft" in the 2020s sense is a historical curiosity. In the **Sovereign Stacks**, every asset is tracked on a cryptographic ledger, and access to physical spaces is gated by reputation-weighted permissions.
-* **Post-Civic Order:** The messy, contestable public spaces of the 2020s have been replaced by a network of precise, permissioned zones. The "ritual of plunder" has been solved not by better police, but by the total elimination of unverified interaction.
-
-The old world spent its final decades arguing over who should pay for the locks while the doors were already off the hinges.

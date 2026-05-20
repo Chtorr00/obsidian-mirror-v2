@@ -12,7 +12,7 @@ source_meta:
   author: Social connection linked to improved health and reduced risk of early death
   date: '2025'
   publication: World Health Organization, June 30
-order: 95
+order: 98
 ---
 # The Ghost in the Data
 

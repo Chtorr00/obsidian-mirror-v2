@@ -145,6 +145,7 @@ function splitFrontmatter(text: string): { fm: any, body: string } {
  * PHASE 1: Ingestion from om_docs/
  */
 function ingestFromWorkingCopy(targetMonth: string, imagesDir?: string) {
+    if (IS_CI) return []; // Skip ingestion in CI
     console.log("\n🔍 Phase 1: Discovering new batches in om_docs...");
     if (!fs.existsSync(WORKING_COPY_DIR)) {
         console.warn(`⚠️ Working copy directory not found: ${WORKING_COPY_DIR}`);
@@ -261,7 +262,12 @@ function propagateToLiveContent() {
         fs.mkdirSync(localArticlesDir, { recursive: true });
     } else {
         const localFiles = fs.readdirSync(localArticlesDir);
-        for (const f of localFiles) fs.unlinkSync(path.join(localArticlesDir, f));
+        for (const f of localFiles) {
+            const fullPath = path.join(localArticlesDir, f);
+            if (fs.lstatSync(fullPath).isFile()) {
+                fs.unlinkSync(fullPath);
+            }
+        }
     }
 
     const articles = fs.readdirSync(vaultArticlesDir).filter(f => f.endsWith('.md'));
@@ -274,7 +280,12 @@ function propagateToLiveContent() {
             fs.mkdirSync(localGlossaryDir, { recursive: true });
         } else {
             const localG = fs.readdirSync(localGlossaryDir);
-            for (const f of localG) fs.unlinkSync(path.join(localGlossaryDir, f));
+            for (const f of localG) {
+                const fullPath = path.join(localGlossaryDir, f);
+                if (fs.lstatSync(fullPath).isFile()) {
+                    fs.unlinkSync(fullPath);
+                }
+            }
         }
         const glossary = fs.readdirSync(vaultGlossaryDir).filter(f => f.endsWith('.md'));
         for (const file of glossary) {
@@ -314,6 +325,10 @@ function syncEngine() {
         } catch (e) {
             console.error(`  ! Error parsing frontmatter in ${filename}:`, (e as any).message);
             continue;
+        }
+        if (!frontmatter) {
+            console.warn(`  ⚠️ Empty frontmatter in ${filename}. Falling back to empty object.`);
+            frontmatter = {};
         }
         let body = parts.slice(2).join('---').trim();
         body = harmonizeContent(body);
@@ -381,7 +396,7 @@ function syncEngine() {
         fs.writeFileSync(filePath, newContent);
         // Also update Master Archive if possible
         const masterPath = path.join(LOCAL_ARCHIVE_ROOT, 'articles', filename);
-        if (fs.existsSync(masterPath)) fs.writeFileSync(masterPath, newContent);
+        if (!IS_CI && fs.existsSync(masterPath)) fs.writeFileSync(masterPath, newContent);
     }
 
     // Glossary
@@ -397,6 +412,10 @@ function syncEngine() {
             } catch (e) {
                 console.error(`  ! Error parsing glossary frontmatter in ${filename}:`, (e as any).message);
                 continue;
+            }
+            if (!fm) {
+                console.warn(`  ⚠️ Empty glossary frontmatter in ${filename}. Falling back to empty object.`);
+                fm = {};
             }
             const b = parts.slice(2).join('---').trim();
             const desc = b.replace(/^# .*\r?\n/m, '').replace(/^\*\*Timeline:\*\* .*\r?\n/m, '').trim();
@@ -429,7 +448,7 @@ function syncEngine() {
             fs.writeFileSync(filePath, content.replace(/order:\s*\d+/, `order: ${newOrder}`));
             // Update master too
             const masterPath = path.join(LOCAL_ARCHIVE_ROOT, 'articles', a.filename);
-            if (fs.existsSync(masterPath)) {
+            if (!IS_CI && fs.existsSync(masterPath)) {
                 const masterContent = fs.readFileSync(masterPath, 'utf-8');
                 fs.writeFileSync(masterPath, masterContent.replace(/order:\s*\d+/, `order: ${newOrder}`));
             }
@@ -447,6 +466,7 @@ function syncEngine() {
  * PHASE 4: Finalization (Move processed batches)
  */
 function finalizeBatches(batches: string[]) {
+    if (IS_CI) return; // Skip finalization in CI
     console.log("\n📦 Phase 4: Finalizing source batches...");
     if (!fs.existsSync(ARCHIVE_VAULT_BATCHES)) return;
     for (const batch of batches) {
@@ -460,21 +480,27 @@ function finalizeBatches(batches: string[]) {
 }
 
 function main() {
-    const args = process.argv.slice(2);
-    const targetMonth = args.find(a => a.startsWith('--month='))?.split('=')[1] || "May";
-    const imagesDir = args.find(a => a.startsWith('--images='))?.split('=')[1];
-    const shouldFinalize = args.includes('--finalize');
+    try {
+        const args = process.argv.slice(2);
+        const targetMonth = args.find(a => a.startsWith('--month='))?.split('=')[1] || "May";
+        const imagesDir = args.find(a => a.startsWith('--images='))?.split('=')[1];
+        const shouldFinalize = args.includes('--finalize');
 
-    console.log("🚀 Starting Obsidian Mirror Master Sync (Unified Pipeline)...");
-    
-    const batches = ingestFromWorkingCopy(targetMonth, imagesDir);
-    propagateToLiveContent();
-    syncEngine();
-    
-    if (shouldFinalize && batches.length > 0) {
-        finalizeBatches(batches);
-    } else if (batches.length > 0) {
-        console.log("\n💡 Note: Source batches were NOT archived. Run with --finalize after Git push to clean up om_docs.");
+        console.log("🚀 Starting Obsidian Mirror Master Sync (Unified Pipeline)...");
+        
+        const batches = ingestFromWorkingCopy(targetMonth, imagesDir);
+        propagateToLiveContent();
+        syncEngine();
+        
+        if (shouldFinalize && batches.length > 0) {
+            finalizeBatches(batches);
+        } else if (batches.length > 0) {
+            console.log("\n💡 Note: Source batches were NOT archived. Run with --finalize after Git push to clean up om_docs.");
+        }
+    } catch (error) {
+        console.error("\n❌ CRITICAL SYNC FAILURE:");
+        console.error(error);
+        process.exit(1);
     }
 }
 

@@ -13,7 +13,7 @@ source_meta:
   author: Edward Ring
   date: '2025'
   publication: American Greatness, November 5
-order: 151
+order: 154
 ---
 # The Gospel of the Physical
 

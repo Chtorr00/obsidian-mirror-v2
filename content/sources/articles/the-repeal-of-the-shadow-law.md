@@ -14,7 +14,7 @@ source_meta:
   author: Office of Public Affairs
   date: '2025'
   publication: Department of Justice, December 9
-order: 187
+order: 190
 ---
 # The Repeal of the Shadow Law
 

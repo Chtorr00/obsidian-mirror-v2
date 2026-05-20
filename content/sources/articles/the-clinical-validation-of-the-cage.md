@@ -11,7 +11,7 @@ source_meta:
   author: Julian De Freitas, et al.
   date: '2025'
   publication: Journal of Consumer Research, June 25
-order: 24
+order: 26
 ---
 # The Clinical Validation of the Cage
 

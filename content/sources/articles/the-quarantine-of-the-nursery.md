@@ -12,7 +12,7 @@ source_meta:
   author: Social media ban for children being considered by UK government
   date: '2026'
   publication: Sky News, January 20
-order: 214
+order: 223
 ---
 # The Quarantine of the Nursery
 

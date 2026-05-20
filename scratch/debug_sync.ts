@@ -45,7 +45,7 @@ for (const filename of files) {
             console.log('FILTERED OUT');
         }
         
-    } catch (e) {
+    } catch (e: any) {
         console.log('Error parsing YAML:', e.message);
     }
 }

@@ -13,7 +13,7 @@ source_meta:
   author: Eric Levitz
   date: '2025'
   publication: Vox, Nov 4
-order: 152
+order: 155
 ---
 # The Final, Sane Prescription
 

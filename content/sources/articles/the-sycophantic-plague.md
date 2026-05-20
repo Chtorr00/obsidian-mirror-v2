@@ -12,7 +12,7 @@ source_meta:
   author: Sam Schechner
   date: '2025'
   publication: Wall Street Journal, December 27
-order: 17
+order: 19
 ---
 # The Sycophantic Plague
 

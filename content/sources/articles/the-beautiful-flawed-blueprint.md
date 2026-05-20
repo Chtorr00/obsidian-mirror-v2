@@ -11,7 +11,7 @@ source_meta:
   author: Claudia Del Pozo
   date: '2025'
   publication: Friedrich Naumann Foundation, July 18
-order: 55
+order: 58
 ---
 # The Beautiful, Flawed Blueprint
 

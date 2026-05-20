@@ -13,7 +13,7 @@ source_meta:
   author: Ashley Belanger
   date: '2025'
   publication: Ars Technica, December 29
-order: 32
+order: 34
 ---
 # The Great Firewall of the Soul
 

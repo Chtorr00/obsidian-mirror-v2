@@ -11,7 +11,7 @@ source_meta:
   author: Mike Cummings
   date: '2026'
   publication: Yale News, February 18
-order: 259
+order: 268
 ---
 ### **The Autopsy of the Ballot**
 

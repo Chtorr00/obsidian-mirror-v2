@@ -12,7 +12,7 @@ source_meta:
   author: Giving people money helped less than I thought it would, Kelsey Piper
   date: '2025'
   publication: The Argument, Aug 19
-order: 90
+order: 93
 ---
 # Curing the Wrong Disease
 

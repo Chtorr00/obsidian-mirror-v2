@@ -14,7 +14,7 @@ source_meta:
   author: Matthew Gault
   date: '2026'
   publication: 404 Media, February 19
-order: 251
+order: 260
 ---
 # The Enclosure of the Eye
 
