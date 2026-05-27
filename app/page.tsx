@@ -47,11 +47,11 @@ function ArchiveDashboard() {
   
   const isSyncingFromUrl = useRef(false);
 
-  const scrollToTop = () => {
+  const scrollToTop = React.useCallback(() => {
     if (resultsScrollRef.current) {
       resultsScrollRef.current.scrollTo({ top: 0, behavior: 'smooth' });
     }
-  };
+  }, []);
 
   // Handle navigation from URL search params
   useEffect(() => {
@@ -119,7 +119,7 @@ function ArchiveDashboard() {
       isSyncingFromUrl.current = false;
     }, 50);
     return () => clearTimeout(timer);
-  }, [searchParams, glossary]);
+  }, [searchParams, glossary, activeLens, scrollToTop]);
 
   // Sync state changes back to URL
   useEffect(() => {
