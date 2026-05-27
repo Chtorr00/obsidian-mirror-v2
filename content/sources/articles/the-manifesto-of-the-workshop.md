@@ -12,7 +12,7 @@ source_meta:
   author: Tripp Ainsworth
   date: '2026'
   publication: Tripp's Substack, January 3
-order: 227
+order: 233
 ---
 # The Manifesto of the Workshop
 

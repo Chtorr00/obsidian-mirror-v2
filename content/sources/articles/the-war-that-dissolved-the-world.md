@@ -13,7 +13,7 @@ source_meta:
   author: Global Security Review
   date: '2025'
   publication: Global Security Review, July 13
-order: 54
+order: 55
 ---
 # The War That Dissolved the World
 

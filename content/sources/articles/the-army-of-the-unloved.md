@@ -14,7 +14,7 @@ source_meta:
   author: Drew Gorman
   date: 3:00 PM
   publication: Foreign Policy, December 12, 2025, 3:00 PM
-order: 187
+order: 188
 ---
 # The Army of the Unloved
 

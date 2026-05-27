@@ -12,7 +12,7 @@ source_meta:
   author: Adam Mastroianni
   date: '2025'
   publication: Experimental History Substack, October 28
-order: 24
+order: 25
 ---
 # The Last Audit of the Normie Age
 

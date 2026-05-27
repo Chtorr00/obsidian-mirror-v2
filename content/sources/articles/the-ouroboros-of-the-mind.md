@@ -15,7 +15,7 @@ source_meta:
   author: Lee Chong Ming
   date: '2026'
   publication: Business Insider, January 5
-order: 262
+order: 268
 ---
 # The Ouroboros of the Mind
 

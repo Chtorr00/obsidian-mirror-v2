@@ -4,7 +4,7 @@ primary: General
 secondary: []
 image: /images/April10VelvetCage.png
 month: April
-order: 283
+order: 289
 status: published
 source_meta:
   url: https://techculture.substack.com/p/best-april-fools-pranks-2026

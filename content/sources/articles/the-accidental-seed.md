@@ -14,7 +14,7 @@ source_meta:
   author: Ryan Weeks
   date: '2025'
   publication: LA Times, August 29
-order: 103
+order: 104
 ---
 # The Accidental Seed
 

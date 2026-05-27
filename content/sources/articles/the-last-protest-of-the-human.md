@@ -11,7 +11,7 @@ source_meta:
   author: James O'Sullivan
   date: '2025'
   publication: Noema Magazine, December 9
-order: 188
+order: 189
 ---
 # The Last Protest of the Human
 

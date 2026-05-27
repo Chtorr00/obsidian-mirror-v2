@@ -13,7 +13,7 @@ source_meta:
   author: World Economic Forum, October 16, 2025
   date: '2025'
   publication: World Economic Forum, October 16
-order: 152
+order: 153
 ---
 # The Council of Ghosts
 

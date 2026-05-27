@@ -13,7 +13,7 @@ source_meta:
   author: James Darley
   date: '2025'
   publication: Technology Magazine, August 12
-order: 88
+order: 89
 ---
 # The Schism in [[The New Priesthood]]
 

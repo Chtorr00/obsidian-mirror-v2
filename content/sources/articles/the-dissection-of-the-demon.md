@@ -12,7 +12,7 @@ source_meta:
   author: Will Douglas Heaven
   date: '2026'
   publication: Technology Review, January 12
-order: 233
+order: 239
 ---
 # The Dissection of the Demon
 

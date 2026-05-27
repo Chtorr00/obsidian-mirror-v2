@@ -12,7 +12,7 @@ source_meta:
   author: Art Chad
   date: '2025'
   publication: 1000 Singularities Substack, December 15
-order: 25
+order: 26
 ---
 # The Field Guide to the Dark Forest
 

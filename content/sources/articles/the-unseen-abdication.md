@@ -11,7 +11,7 @@ source_meta:
   author: Helen Andrews
   date: '2025'
   publication: Compact Magazine, October 16
-order: 139
+order: 140
 ---
 # The Unseen Abdication
 

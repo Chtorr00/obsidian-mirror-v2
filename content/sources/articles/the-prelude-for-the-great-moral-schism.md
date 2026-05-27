@@ -4,7 +4,7 @@ primary: General
 secondary: []
 image: /images/April30MoralSchism.png
 month: April
-order: 309
+order: 315
 status: published
 source_meta:
   url: https://metatrends.substack.com/p/humanity-is-about-to-fork

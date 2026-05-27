@@ -16,7 +16,7 @@ source_meta:
   author: Eva Roytburg
   date: '2025'
   publication: Fortune, November 20
-order: 164
+order: 165
 ---
 # The Forging of the Enemy
 

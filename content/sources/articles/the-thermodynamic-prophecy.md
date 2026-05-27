@@ -12,7 +12,7 @@ source_meta:
   author: Devansh
   date: '2026'
   publication: Artificial Intelligence made simple Substack, January 17
-order: 225
+order: 231
 ---
 # The Thermodynamic Prophecy
 

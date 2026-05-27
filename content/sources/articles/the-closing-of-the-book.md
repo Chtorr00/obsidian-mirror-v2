@@ -12,7 +12,7 @@ source_meta:
   author: James Marriott
   date: '2025'
   publication: Cultural Capital Substack, September 19
-order: 121
+order: 122
 ---
 # The Closing of the Book
 

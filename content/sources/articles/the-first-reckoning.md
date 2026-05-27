@@ -12,7 +12,7 @@ source_meta:
   author: Social media addiction lawsuit,
   date: '2025'
   publication: Lanier Law Firm, September 25
-order: 123
+order: 124
 ---
 # The First Reckoning
 
