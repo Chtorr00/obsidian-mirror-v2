@@ -12,7 +12,7 @@ source_meta:
   author: Maya Sulkin
   date: '2025'
   publication: The Free Press, October 21
-order: 147
+order: 149
 ---
 # The New Ministry of Truth
 

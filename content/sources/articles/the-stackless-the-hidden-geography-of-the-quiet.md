@@ -26,7 +26,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
-order: 186
+order: 188
 ---
 # The Stackless: The Hidden Geography of the Quiet
 

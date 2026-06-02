@@ -11,7 +11,7 @@ source_meta:
   author: Carly Cassella
   date: '2026'
   publication: Science Alert, March 25
-order: 281
+order: 288
 ---
 ### **The Wall at the End of the Bloodline**
 

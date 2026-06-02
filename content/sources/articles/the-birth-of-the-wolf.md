@@ -11,7 +11,7 @@ source_meta:
   author: The Right Wing Coalition
   date: '2025'
   publication: Arktos Journal, Nov 11
-order: 161
+order: 163
 ---
 # The Birth of the Wolf
 

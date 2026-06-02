@@ -12,7 +12,7 @@ source_meta:
   author: Manav C Parikh
   date: '2025'
   publication: J Community Hosp Intern Med Perspect, January 6
-order: 98
+order: 100
 ---
 # The Fragile Consensus
 

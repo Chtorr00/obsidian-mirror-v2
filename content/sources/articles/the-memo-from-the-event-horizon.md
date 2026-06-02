@@ -13,7 +13,7 @@ source_meta:
   author: Citrini and Alap Shah
   date: '2026'
   publication: Citrini Research, February 22
-order: 257
+order: 264
 ---
 # The Memo from the Event Horizon
 

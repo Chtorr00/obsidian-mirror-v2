@@ -13,7 +13,7 @@ source_meta:
   author: Yakubian Ape
   date: '2025'
   publication: The Lake of Lerna Substack, October 1
-order: 130
+order: 132
 ---
 # The Children's Crusade
 

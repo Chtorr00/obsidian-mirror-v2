@@ -12,7 +12,7 @@ source_meta:
   author: Mark Schniepp
   date: July 2025
   publication: California Economic Forecast
-order: 63
+order: 65
 ---
 # The Economist's Blind Spot
 

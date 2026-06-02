@@ -13,7 +13,7 @@ source_meta:
   author: Anne Bahr Thompson
   date: July 2025
   publication: Thinkers360
-order: 67
+order: 69
 ---
 # The Catalog of Coping Mechanisms
 

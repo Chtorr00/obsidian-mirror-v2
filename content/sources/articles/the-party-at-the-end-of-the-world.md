@@ -13,7 +13,7 @@ source_meta:
   author: Imperial Twilight
   date: '2025'
   publication: Imperial Twilight Substack, Dec 22
-order: 21
+order: 23
 ---
 # The Party at the End of the World
 

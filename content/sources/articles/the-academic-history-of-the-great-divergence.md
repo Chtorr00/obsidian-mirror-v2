@@ -13,7 +13,7 @@ source_meta:
   author: Luc Berlivet
   date: '2025'
   publication: 'Annales HSS 73, no. 2 (2018): 443–73, November 6'
-order: 31
+order: 33
 ---
 # The Academic History of the Great Divergence
 

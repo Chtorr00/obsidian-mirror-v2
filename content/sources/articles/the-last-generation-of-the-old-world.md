@@ -12,7 +12,7 @@ source_meta:
   author: David Runciman
   date: Vol. 47 No. 21 · 20 November 2025
   publication: London Review of Books
-order: 200
+order: 202
 ---
 # The Last Generation of the Old World
 

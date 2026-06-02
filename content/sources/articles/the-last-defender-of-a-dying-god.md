@@ -13,7 +13,7 @@ source_meta:
   author: Anna Krylov
   date: '2025'
   publication: The Free Press, November 12
-order: 162
+order: 164
 ---
 # The Last Defender of a Dying God
 

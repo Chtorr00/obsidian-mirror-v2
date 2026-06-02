@@ -14,7 +14,7 @@ source_meta:
     Keeps-a-Rollin. By Pepe Escobar
   date: '2025'
   publication: Sputnik International, September 8
-order: 112
+order: 114
 ---
 # The Dream from the Top of the World
 

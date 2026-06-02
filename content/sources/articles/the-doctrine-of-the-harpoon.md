@@ -12,7 +12,7 @@ source_meta:
   author: Dr. Ben Braddock
   date: '2026'
   publication: Defense Analyses and Research Corporation (DARC), February 23
-order: 265
+order: 272
 ---
 # The Doctrine of the Harpoon
 

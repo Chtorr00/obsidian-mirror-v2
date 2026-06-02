@@ -17,7 +17,7 @@ source_meta:
     WhatsApp chat. It led to a schism.
   date: '2026'
   publication: Washington Post, February 19
-order: 260
+order: 267
 ---
 # The Schism of the Stroller
 

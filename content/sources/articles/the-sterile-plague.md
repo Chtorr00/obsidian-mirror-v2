@@ -11,7 +11,7 @@ source_meta:
   author: Confessions of a Recovering AI Porn Addict, Jason Parham
   date: '2025'
   publication: Wired, Aug 1
-order: 74
+order: 76
 ---
 # [[The Sterile Plague]]
 

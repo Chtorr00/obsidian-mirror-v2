@@ -12,7 +12,7 @@ source_meta:
   author: James Marriott
   date: '2025'
   publication: Cultural Capital Substack, September 19
-order: 33
+order: 35
 ---
 # The Eulogy for the Linear Mind
 

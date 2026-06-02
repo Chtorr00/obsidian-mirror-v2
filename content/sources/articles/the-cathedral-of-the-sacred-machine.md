@@ -4,7 +4,7 @@ primary: General
 secondary: []
 image: /images/April20SacredMachine.png
 month: April
-order: 305
+order: 312
 status: published
 source_meta:
   url: https://arenamagazine.substack.com/p/wyomings-tech-savvy-monastery

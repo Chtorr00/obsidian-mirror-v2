@@ -15,7 +15,7 @@ source_meta:
   author: Nate B Jones
   date: '2026'
   publication: AI News & Strategy Daily YouTube, February 22
-order: 259
+order: 266
 ---
 # The Architect of the Cage
 

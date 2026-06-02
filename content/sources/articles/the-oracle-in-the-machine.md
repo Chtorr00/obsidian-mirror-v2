@@ -13,7 +13,7 @@ source_meta:
   author: Peter Isackson
   date: '2025'
   publication: Fair Observer, July 14
-order: 56
+order: 58
 ---
 # The Oracle in the Machine
 

@@ -15,7 +15,7 @@ source_meta:
   author: Mattha Busby
   date: '2025'
   publication: The Telegraph UK, December 19
-order: 22
+order: 24
 ---
 # The Cult of the Clean Air
 

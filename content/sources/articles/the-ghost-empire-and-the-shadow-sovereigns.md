@@ -17,7 +17,7 @@ source_meta:
     cartels, Sam Cooper
   date: '2025'
   publication: The Bureau, September 6
-order: 108
+order: 110
 ---
 # The Ghost Empire and the Shadow Sovereigns
 

@@ -12,7 +12,7 @@ source_meta:
   author: John Burn-Murdoch
   date: '2025'
   publication: Financial Times, August 29
-order: 116
+order: 118
 ---
 # The Surrender
 

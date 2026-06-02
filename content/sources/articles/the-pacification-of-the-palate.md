@@ -13,7 +13,7 @@ source_meta:
   author: Priya Krishna
   date: '2026'
   publication: The New York Times, January 30
-order: 251
+order: 258
 ---
 # The Pacification of the Palate
 

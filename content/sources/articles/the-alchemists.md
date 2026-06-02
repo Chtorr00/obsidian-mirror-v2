@@ -15,7 +15,7 @@ source_meta:
   author: Jim Shelton
   date: '2025'
   publication: Yale News, Oct 23
-order: 146
+order: 148
 ---
 # The Alchemists
 

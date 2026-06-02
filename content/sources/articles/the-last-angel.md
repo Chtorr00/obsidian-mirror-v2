@@ -14,7 +14,7 @@ source_meta:
   author: Emily Fox
   date: '2025'
   publication: The Daily Sceptic, October 21
-order: 145
+order: 147
 ---
 # The Last Angel
 
