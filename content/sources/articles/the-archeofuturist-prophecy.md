@@ -12,7 +12,7 @@ source_meta:
   author: Constantin von Hoffmeister
   date: '2026'
   publication: Russia Today, February 1
-order: 260
+order: 267
 ---
 # The Archeofuturist Prophecy
 

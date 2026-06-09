@@ -11,7 +11,7 @@ source_meta:
   author: Gary Marcus
   date: '2025'
   publication: The New York Times, September 3
-order: 109
+order: 111
 ---
 # The Breaking of the Fever
 

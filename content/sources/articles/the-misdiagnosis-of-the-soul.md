@@ -15,7 +15,7 @@ source_meta:
   author: Mohammed Hafiz Nabila, et al.
   date: July 2025
   publication: World Journal of Advanced Research and Reviews
-order: 67
+order: 69
 ---
 # The Misdiagnosis of the Soul
 

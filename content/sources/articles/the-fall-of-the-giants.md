@@ -13,7 +13,7 @@ source_meta:
   author: Beate Mangold
   date: '2025'
   publication: BR14, October 25
-order: 151
+order: 153
 ---
 # The Fall of the Giants
 

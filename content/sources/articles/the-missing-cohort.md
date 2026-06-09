@@ -11,7 +11,7 @@ source_meta:
   author: Jacob Savage
   date: '2025'
   publication: Compact Magazine, December 15
-order: 197
+order: 199
 ---
 # The Missing Cohort
 

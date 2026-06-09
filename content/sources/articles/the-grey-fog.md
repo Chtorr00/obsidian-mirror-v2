@@ -15,7 +15,7 @@ source_meta:
   author: Jason Koebler
   date: '2025'
   publication: 404media.co , September 3
-order: 108
+order: 110
 ---
 # [[The Grey Fog]]
 

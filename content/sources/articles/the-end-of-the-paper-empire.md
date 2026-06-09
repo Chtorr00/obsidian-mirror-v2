@@ -14,7 +14,7 @@ source_meta:
   author: Tracy Hughes
   date: '2025'
   publication: InvestorNews, August 15
-order: 90
+order: 92
 ---
 # The End of the Paper Empire
 

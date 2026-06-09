@@ -11,7 +11,7 @@ source_meta:
   author: Morgoth
   date: '2025'
   publication: Morgoth's Review Substack, October 4
-order: 140
+order: 142
 ---
 # The World Engine
 

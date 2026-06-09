@@ -11,7 +11,7 @@ source_meta:
   author: Hiroko Konishi
   date: '2025'
   publication: Zenodo Preprint, November 20
-order: 169
+order: 171
 ---
 # The Autopsy of a Lying God
 

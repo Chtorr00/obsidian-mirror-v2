@@ -11,7 +11,7 @@ source_meta:
   author: Adam Ellwanger
   date: '2026'
   publication: The American Mind, March 20
-order: 284
+order: 291
 ---
 ### **The Taxonomy of the Void**
 

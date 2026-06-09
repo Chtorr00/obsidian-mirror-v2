@@ -12,7 +12,7 @@ source_meta:
   author: Steven Veld
   date: '2026'
   publication: AI Futures Project, January 11
-order: 242
+order: 249
 ---
 # The Wargame of the Gods
 

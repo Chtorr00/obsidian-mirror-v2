@@ -14,7 +14,7 @@ source_meta:
   author: the National Association of Scholars
   date: '2025'
   publication: NAS whitepaper, November 25
-order: 196
+order: 198
 ---
 # The Terms of Surrender
 

@@ -12,7 +12,7 @@ source_meta:
   author: National Security Strategy of the United States of America,
   date: November 2025
   publication: The White House
-order: 183
+order: 185
 ---
 # The Last Will and Testament of a Unified America
 

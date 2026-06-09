@@ -12,7 +12,7 @@ source_meta:
   author: Democratic Backsliding Accelerates Under Second Trump Term, Steven Levitsky,
   date: March 2025
   publication: V-Dem Democracy Report 2025 Carnegie Endowment
-order: 82
+order: 84
 ---
 # The Lightning Rod for the Storm
 

@@ -15,7 +15,7 @@ source_meta:
   author: Jonathan Cioran
   date: '2025'
   publication: Postscript 1794 Substack, March 28
-order: 41
+order: 43
 ---
 # The Catechism of the Vampire
 

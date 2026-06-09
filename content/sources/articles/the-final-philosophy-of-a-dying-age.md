@@ -15,7 +15,7 @@ source_meta:
   author: Alex Buscemi
   date: '2025'
   publication: BuildersMovement.org, November 17
-order: 174
+order: 176
 ---
 # The Final Philosophy of a Dying Age
 

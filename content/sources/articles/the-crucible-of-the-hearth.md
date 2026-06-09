@@ -10,7 +10,7 @@ source_meta:
   author: Lane Scott
   date: '2026'
   publication: Matriarch Goals Substack, January 5
-order: 291
+order: 298
 ---
 ### **The Crucible of the Hearth**
 

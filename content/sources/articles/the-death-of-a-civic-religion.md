@@ -12,7 +12,7 @@ source_meta:
   author: Aitho
   date: '2025'
   publication: Aithor.com, July 19
-order: 62
+order: 64
 ---
 # The Death of a Civic Religion
 

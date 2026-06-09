@@ -4,7 +4,7 @@ primary: General
 secondary: []
 image: /images/April16SeanceCivicGhost.png
 month: April
-order: 309
+order: 316
 status: published
 source_meta:
   url: https://www.aaronrenn.com/p/civic-leadership

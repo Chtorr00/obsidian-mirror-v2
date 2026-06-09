@@ -12,7 +12,7 @@ source_meta:
   author: America’s fourth reinvention, Peter Leyden
   date: '2025'
   publication: Exponential View, Aug 20
-order: 94
+order: 96
 ---
 # The Two Cities: A Prophecy of the American Schism
 

@@ -17,7 +17,7 @@ source_meta:
     swipe them like phones
   date: '2026'
   publication: Sky News, January 22
-order: 239
+order: 246
 ---
 # The Swipe at the Silent Page
 
