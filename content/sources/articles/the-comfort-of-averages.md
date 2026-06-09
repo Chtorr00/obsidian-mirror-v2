@@ -22,7 +22,4 @@ This artifact is a perfect specimen of the intellectual state of the Age of Inst
 
 Through the Hindsight Filter, we see this was not a victory but a fatal intellectual tranquilizer. The obsession with a single, global, average temperature metric was the period's greatest blind spot. Walsh thought he was documenting a successful course correction. He was actually documenting the moment a lethal complacency took root, convincing global institutions that the crisis was becoming linear and manageable. They mistook the retirement of a statistical abstraction for a change in material reality, failing to comprehend that the true danger was never the average, but the volatility, the non-linear shocks, and the cascading regional collapses that a 2.8°C world guaranteed.
 
-This document is the epitaph for a worldview that believed a planetary-scale crisis could be graded on a curve. They celebrated dodging a hypothetical bullet, ignoring the cascade of real-world daggers that were already in flight.### Act I: The Great Complacency (2020s-2030s)### Act II: The Cascade of Localized Collapse (2030s-2050s)### Act III: The Age of Enclaves (Post-2060s)
-
-
-They took solace in having slain the dragon, never noticing the ground beneath their feet had turned to quicksand.
+This document is the epitaph for a worldview that believed a planetary-scale crisis could be graded on a curve. They celebrated dodging a hypothetical bullet, ignoring the cascade of real-world daggers that were already in flight.### Act I: The Great Complacency (2020s-2030s)### Act II: The Cascade of Localized Collapse (2030s-2050s)### Act III: The Age of Enclaves (Post-2060s)
