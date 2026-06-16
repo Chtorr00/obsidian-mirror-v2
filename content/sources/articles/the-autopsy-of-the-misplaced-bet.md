@@ -10,7 +10,7 @@ source_meta:
   author: T. Greer
   date: '2026'
   publication: The Scholar's Stage Substack, March 21
-order: 297
+order: 307
 ---
 ### **The Autopsy of the Misplaced Bet**
 

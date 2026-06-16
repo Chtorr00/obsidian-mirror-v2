@@ -11,7 +11,7 @@ source_meta:
   author: Scott Alexander
   date: '2026'
   publication: Astral Codex Ten, January 30
-order: 250
+order: 260
 ---
 # The Liturgy of the Exoskeleton
 

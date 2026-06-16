@@ -12,7 +12,7 @@ source_meta:
   author: Tim Kelly
   date: '2026'
   publication: Our Interesting Times Podcast, January 21
-order: 248
+order: 258
 ---
 # Herald of the Patchwork Era
 

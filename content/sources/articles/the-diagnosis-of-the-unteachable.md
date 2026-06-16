@@ -14,7 +14,7 @@ source_meta:
   author: Hua Bin
   date: '2026'
   publication: Hua's Substack, February 8
-order: 276
+order: 286
 ---
 # The Diagnosis of the Unteachable
 

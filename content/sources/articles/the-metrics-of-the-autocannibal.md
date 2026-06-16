@@ -4,7 +4,7 @@ primary: General
 secondary: []
 image: /images/April14MetricsAutocannibal.png
 month: April
-order: 315
+order: 325
 status: published
 source_meta:
   url: https://howardyu.substack.com/p/how-organizations-lose-their-minds

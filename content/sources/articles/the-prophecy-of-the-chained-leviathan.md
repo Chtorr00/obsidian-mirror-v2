@@ -4,7 +4,7 @@ primary: General
 secondary: []
 image: /images/April24ChainedLeviathan.png
 month: April
-order: 323
+order: 333
 status: published
 source_meta:
   url: https://www.socialmatter.us/p/a-dune-future-was-inevitable

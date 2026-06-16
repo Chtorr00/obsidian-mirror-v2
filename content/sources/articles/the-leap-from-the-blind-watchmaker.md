@@ -12,7 +12,7 @@ source_meta:
   author: Steve Keen
   date: '2026'
   publication: Building a New Economics Substack, February 3
-order: 260
+order: 270
 ---
 # The Leap from the Blind Watchmaker
 

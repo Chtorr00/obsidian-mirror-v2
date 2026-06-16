@@ -12,7 +12,7 @@ source_meta:
   author: Kayla Dones
   date: '2026'
   publication: DD Geopolitics, March 16
-order: 287
+order: 297
 ---
 ### **The Harvest of Dust**
 
