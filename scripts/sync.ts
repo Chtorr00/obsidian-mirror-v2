@@ -117,7 +117,7 @@ function extractSourceMeta(body: string) {
 
 function harmonizeContent(content: string): string {
     let body = content;
-    body = body.replace(/^\s*(#+ )?(\* )?(\*\*)?Act ([0-9IVX]+)[:.]?\s*([^\n\*]+)\s*(\*\*)?.*$/gm, '### Act $4: $5');
+    body = body.replace(/^[ \t]*(#+ )?(\* )?(\*\*)?Act ([0-9IVX]+)[:.]?[ \t]*([^\r\n\*]+)[ \t]*(\*\*)?[^\r\n]*$/gm, '### Act $4: $5');
     body = body.replace(/^(### Act [0-9IVX]+:[^\n]+)\.?\n([^\n])/gm, '$1\n\n$2');
     body = body.replace(/^#+ (### Act)/gm, '$1');
     return body.trim();
@@ -290,6 +290,26 @@ function propagateToLiveContent() {
         const glossary = fs.readdirSync(vaultGlossaryDir).filter(f => f.endsWith('.md'));
         for (const file of glossary) {
             fs.copyFileSync(path.join(vaultGlossaryDir, file), path.join(localGlossaryDir, file));
+        }
+    }
+
+    // Propagate Images
+    const vaultImagesDir = path.join(LOCAL_ARCHIVE_ROOT, 'images');
+    if (fs.existsSync(vaultImagesDir)) {
+        if (!fs.existsSync(IMAGE_DIR)) {
+            fs.mkdirSync(IMAGE_DIR, { recursive: true });
+        }
+        const images = fs.readdirSync(vaultImagesDir).filter(f => f.endsWith('.png') || f.endsWith('.jpg') || f.endsWith('.jpeg'));
+        let imageCount = 0;
+        for (const file of images) {
+            const dest = path.join(IMAGE_DIR, file);
+            if (!fs.existsSync(dest)) {
+                fs.copyFileSync(path.join(vaultImagesDir, file), dest);
+                imageCount++;
+            }
+        }
+        if (imageCount > 0) {
+            console.log(`  ✓ Copied ${imageCount} new images to public/images/`);
         }
     }
     console.log(`  ✓ Synced ${articles.length} articles to project.`);
