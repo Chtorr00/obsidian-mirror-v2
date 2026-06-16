@@ -14,7 +14,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
-order: 356
+order: 192
 ---
 # [[Polemics]]: The Etiquette of [[The Watchful Peace]]
 

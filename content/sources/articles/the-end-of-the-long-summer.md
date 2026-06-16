@@ -16,7 +16,7 @@ source_meta:
     and Commodity Markets
   date: '2025'
   publication: MarketMinute, October 1
-order: 113
+order: 123
 ---
 # The End of the Long Summer
 

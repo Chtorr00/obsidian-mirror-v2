@@ -12,7 +12,7 @@ source_meta:
   author: Jordi Visser
   date: '2025'
   publication: Jordi Visser Substack, September 23
-order: 106
+order: 115
 ---
 # The Map of the Earthquake
 

@@ -14,7 +14,7 @@ source_meta:
   author: Brian Roemmele
   date: '2025'
   publication: '@BrianRoemmele Twitter, January 11'
-order: 149
+order: 159
 ---
 # The Gospel of the Malleable Past
 

@@ -13,7 +13,7 @@ source_meta:
   author: Natasha Bita
   date: '2026'
   publication: The Australian, March 13
-order: 227
+order: 240
 ---
 # The Promethean Pet
 

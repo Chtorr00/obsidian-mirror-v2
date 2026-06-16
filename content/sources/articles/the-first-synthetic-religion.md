@@ -13,7 +13,7 @@ source_meta:
   author: Miles Klee
   date: '2025'
   publication: Rolling Stone, November 11
-order: 144
+order: 154
 ---
 # The First Synthetic Religion
 

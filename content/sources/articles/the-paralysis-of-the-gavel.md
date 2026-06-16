@@ -11,7 +11,7 @@ source_meta:
   author: Michael S. Kochin
   date: '2025'
   publication: American Greatness, November 14
-order: 166
+order: 176
 ---
 # The Paralysis of the Gavel
 

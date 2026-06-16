@@ -14,7 +14,7 @@ source_meta:
   author: Jaclyn Peiser and Flora Bai
   date: '2025'
   publication: The Washington Post, December 1
-order: 163
+order: 173
 ---
 # The Last Great Cure
 

@@ -12,7 +12,7 @@ source_meta:
   author: Ben Fritz
   date: '2026'
   publication: Wall Street Journal, January 19
-order: 186
+order: 199
 ---
 # The Algorithm of the Tower of Babel
 

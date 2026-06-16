@@ -12,7 +12,7 @@ source_meta:
   author: How donors can actually solve the fertility crisis
   date: '2026'
   publication: J’accuse, February 1
-order: 212
+order: 225
 ---
 # The Architecture of Inheritance
 

@@ -15,7 +15,7 @@ source_meta:
   publication: >-
     Marcellus Shale Coalition, Jim Welty on the Energy Impacts with David
     Blackmon, by The Energy Question YouTube, August 13
-order: 74
+order: 76
 ---
 # The Fuel for the New Gods
 

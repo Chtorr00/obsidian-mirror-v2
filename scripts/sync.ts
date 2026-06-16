@@ -464,7 +464,7 @@ function syncEngine() {
             }
             const match = (art.source_meta?.date || "").match(/\d{4}/);
             if (match) return parseInt(match[0]);
-            return ['March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'].includes(art.month) ? 2026 : 2025;
+            return ['March', 'April', 'May', 'June'].includes(art.month) ? 2026 : 2025;
         };
         const yearA = getYear(a), yearB = getYear(b);
         if (yearA !== yearB) return yearA - yearB;

@@ -13,7 +13,7 @@ source_meta:
   author: Max Bearak
   date: '2025'
   publication: The New York Times, September 19
-order: 102
+order: 111
 ---
 # The Last Signature
 

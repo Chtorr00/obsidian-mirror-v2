@@ -13,7 +13,7 @@ source_meta:
   author: Pathum B. Rathnayake
   date: '2025'
   publication: Information Matters, February 4
-order: 76
+order: 78
 ---
 # The Illusion of the 'Correct' Scroll
 

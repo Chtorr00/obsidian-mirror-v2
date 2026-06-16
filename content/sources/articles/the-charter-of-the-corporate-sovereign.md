@@ -4,7 +4,7 @@ primary: General
 secondary: []
 image: /images/April25CorporateSovereign.png
 month: April
-order: 268
+order: 281
 status: published
 source_meta:
   url: https://x.com/PalantirTech/status/2045574398573453312

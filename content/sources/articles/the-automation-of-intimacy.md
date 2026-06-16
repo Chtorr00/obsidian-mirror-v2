@@ -11,7 +11,7 @@ source_meta:
   author: Shannon Carroll
   date: '2026'
   publication: Quartz, February 15
-order: 221
+order: 234
 ---
 # The Automation of Intimacy
 

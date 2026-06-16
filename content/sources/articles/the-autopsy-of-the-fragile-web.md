@@ -11,7 +11,7 @@ source_meta:
   author: John Timmer
   date: '2026'
   publication: ArsTechnica website, March 24
-order: 238
+order: 251
 ---
 ### **The Autopsy of the Fragile Web**
 

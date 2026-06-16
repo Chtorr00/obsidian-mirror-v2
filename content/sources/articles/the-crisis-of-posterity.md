@@ -11,7 +11,7 @@ source_meta:
   author: Sustainability
   date: '2025'
   publication: Sustainability, May 26
-order: 69
+order: 71
 ---
 # [[The Crisis of Posterity]]
 

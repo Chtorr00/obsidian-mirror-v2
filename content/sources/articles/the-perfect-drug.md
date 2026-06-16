@@ -14,7 +14,7 @@ source_meta:
   author: Andreo Calonzo and Neil Jerome Morales
   date: '2025'
   publication: Bloomberg Businessweek, September 14
-order: 118
+order: 128
 ---
 # The Perfect Drug
 

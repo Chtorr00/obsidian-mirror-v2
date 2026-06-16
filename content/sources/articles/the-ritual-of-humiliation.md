@@ -12,7 +12,7 @@ source_meta:
   author: Howard Steen
   date: '2025'
   publication: Howard Steen Substack, October 10
-order: 131
+order: 141
 ---
 # The Ritual of Humiliation
 
