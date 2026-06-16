@@ -11,7 +11,7 @@ source_meta:
   author: Elizabeth Rembert, Amanda Albright, and Marie Patino
   date: '2026'
   publication: Bloomberg, January 18
-order: 251
+order: 185
 ---
 # The Foreclosure of the Mind
 

@@ -10,6 +10,7 @@ source_meta:
   author: DataRepublican
   date: '2026'
   publication: DataRepublican Substack, June 1
+month: June
 ---
 ### The Architecture of Synthetic Dissent
 

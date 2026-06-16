@@ -10,6 +10,7 @@ source_meta:
   author: Terminally_Drifting
   date: '2026'
   publication: Substack, March 23
+month: May
 ---
 ### The Ledger of Bare Branches
 

@@ -13,7 +13,7 @@ source_meta:
   author: Mattha Busby
   date: '2025'
   publication: Wired, December 17
-order: 40
+order: 28
 ---
 # The Sacrament of the Glitch
 

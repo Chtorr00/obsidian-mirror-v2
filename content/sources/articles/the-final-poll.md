@@ -15,7 +15,7 @@ source_meta:
   author: Elisa Shearer
   date: '2025'
   publication: Pew Research, July 30
-order: 105
+order: 83
 ---
 # The Final Poll
 

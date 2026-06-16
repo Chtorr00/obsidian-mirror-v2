@@ -11,6 +11,7 @@ source_meta:
   author: Julie Bort
   date: '2026'
   publication: TechCrunch, May 27
+month: June
 ---
 ### The Delusion of the Digital Foreman
 

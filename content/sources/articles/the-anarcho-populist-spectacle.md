@@ -10,6 +10,7 @@ source_meta:
   author: The Pratt Approach, By The American Mind, May 12, 2026
   date: ''
   publication: ''
+month: May
 ---
 ### The Anarcho-Populist Spectacle
 

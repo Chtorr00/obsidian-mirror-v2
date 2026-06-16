@@ -10,6 +10,7 @@ source_meta:
   author: Minegishi et al.,
   date: '2026'
   publication: ArXiv, June 11
+month: June
 ---
 ### The Geometry of the Epistemic Divorce
 

@@ -12,6 +12,7 @@ source_meta:
   author: elizabeth nickson
   date: '2026'
   publication: Welcome to Absurdistan Substack, June 5
+month: June
 ---
 ### The Puritan Mirage and the Topologies of Wrath
 

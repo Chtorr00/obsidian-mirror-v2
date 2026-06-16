@@ -12,7 +12,7 @@ source_meta:
   author: Dasha Burns
   date: '2025'
   publication: Politico, December 5
-order: 183
+order: 159
 ---
 # The Architect of the Fortress
 

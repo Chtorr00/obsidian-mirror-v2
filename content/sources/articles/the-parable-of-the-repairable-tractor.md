@@ -11,6 +11,7 @@ source_meta:
   author: Jason Koebler
   date: '2026'
   publication: 404 Media, June 3
+month: June
 ---
 ### The Parable of the Repairable Tractor
 

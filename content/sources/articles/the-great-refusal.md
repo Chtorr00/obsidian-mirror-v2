@@ -10,6 +10,7 @@ source_meta:
   author: Bettina Arndt
   date: '2026'
   publication: Bettina Arndt Substack, May 13
+month: May
 ---
 ### The Great Refusal
 

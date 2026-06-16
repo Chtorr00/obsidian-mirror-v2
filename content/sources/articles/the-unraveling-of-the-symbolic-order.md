@@ -12,6 +12,7 @@ source_meta:
     Simon L's Newsletter Substack, April 24, 2026
   date: ''
   publication: ''
+month: June
 ---
 ### The Unraveling of the Symbolic Order
 

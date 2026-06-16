@@ -10,6 +10,7 @@ source_meta:
   author: Lakshya Jain
   date: '2026'
   publication: The Argument, May 18
+month: May
 ---
 ### The Phantom Signal of the Messenger Class
 

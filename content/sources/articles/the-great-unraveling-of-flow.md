@@ -10,6 +10,7 @@ source_meta:
   author: Grant Smith and Yongchang Chin,
   date: '2026'
   publication: Bloomberg, May 13
+month: May
 ---
 ### The Great Unraveling of Flow
 

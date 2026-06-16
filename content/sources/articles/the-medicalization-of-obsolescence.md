@@ -15,7 +15,7 @@ source_meta:
   author: Preston Fore
   date: '2025'
   publication: Forbes, December 12
-order: 194
+order: 168
 ---
 # The Medicalization of Obsolescence
 

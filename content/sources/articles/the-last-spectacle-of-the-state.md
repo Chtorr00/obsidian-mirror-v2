@@ -13,6 +13,7 @@ source_meta:
   author: Raw Egg Nationalist
   date: '2026'
   publication: American Greatness, April 25
+month: May
 ---
 ### The Last Spectacle of the State
 

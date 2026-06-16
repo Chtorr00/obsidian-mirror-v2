@@ -11,6 +11,7 @@ source_meta:
   author: Bryan Walsh
   date: '2026'
   publication: Vox, May 23
+month: June
 ---
 ### The Comfort of Averages
 

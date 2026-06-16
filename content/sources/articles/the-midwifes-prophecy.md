@@ -11,7 +11,7 @@ source_meta:
   author: Rose Sybil
   date: '2025'
   publication: Arktos Journal, September 15
-order: 121
+order: 98
 ---
 # The Midwife's Prophecy
 

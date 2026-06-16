@@ -10,6 +10,7 @@ source_meta:
   author: Elisabeth Bumiller and Eileen Sullivan
   date: '2026'
   publication: The New York Times, April 21
+month: May
 ---
 ### The Unwinding of the Fiat Class
 

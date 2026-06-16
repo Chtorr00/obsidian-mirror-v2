@@ -11,6 +11,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+month: July
 ---
 ### The Brittle Mind
 

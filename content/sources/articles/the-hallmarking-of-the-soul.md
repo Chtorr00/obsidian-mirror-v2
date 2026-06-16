@@ -10,7 +10,7 @@ source_meta:
   author: Joe Tidy
   date: '2026'
   publication: BBC World Service, March 16
-order: 295
+order: 229
 ---
 ### **The Hallmarking of the Soul**
 

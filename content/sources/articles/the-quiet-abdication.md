@@ -10,6 +10,7 @@ source_meta:
   author: Why I Gave Up, By Stick, The SubStick Substack, February 22, 2026
   date: ''
   publication: ''
+month: June
 ---
 ### The Quiet Abdication
 

@@ -14,7 +14,7 @@ source_meta:
   author: L.M. Sacasas
   date: '2025'
   publication: The Convivial Society, July 15
-order: 76
+order: 61
 ---
 # The Question at the Heart of the Collapse
 

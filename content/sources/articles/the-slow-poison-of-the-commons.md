@@ -12,6 +12,7 @@ source_meta:
     water,  By Associated Press, Boston Herald, May 19, 2026
   date: ''
   publication: ''
+month: May
 ---
 ### The Slow Poison of the Commons
 

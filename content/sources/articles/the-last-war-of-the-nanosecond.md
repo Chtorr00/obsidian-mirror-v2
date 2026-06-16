@@ -12,7 +12,7 @@ source_meta:
   author: Alexander Osipovich
   date: '2025'
   publication: Wall Street Journal, December 15
-order: 202
+order: 176
 ---
 # The Last War of the Nanosecond
 

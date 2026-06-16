@@ -11,6 +11,7 @@ source_meta:
   author: Harry Brennan
   date: '2026'
   publication: The Telegraph, April 27
+month: May
 ---
 ### The Ritual of the Uncontested Plunder
 

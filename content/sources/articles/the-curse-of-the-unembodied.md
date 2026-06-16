@@ -10,6 +10,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+month: June
 ---
 ### The Curse of the Unembodied
 

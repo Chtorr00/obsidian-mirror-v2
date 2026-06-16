@@ -10,6 +10,7 @@ source_meta:
   author: Unbekoming
   date: '2026'
   publication: Unbekoming Substack, June 9
+month: June
 ---
 ### The Iatrogenic Harvest
 *The 12 Screenings That Manufacture the Patients They Claim to Find*, By Unbekoming

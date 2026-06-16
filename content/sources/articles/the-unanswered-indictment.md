@@ -17,7 +17,7 @@ source_meta:
   publication: >-
     The harms of social media are largely blamed on individuals instead of tech
     companies, by Communication and Marketing Staff USC Annenberg, June 26
-order: 72
+order: 59
 ---
 # The Unanswered Indictment
 

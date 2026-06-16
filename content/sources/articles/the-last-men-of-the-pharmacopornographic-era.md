@@ -10,6 +10,7 @@ source_meta:
   author: Alexander Avila
   date: '2026'
   publication: YouTube, May 27
+month: June
 ---
 ### The Last Men of the Pharmacopornographic Era
 

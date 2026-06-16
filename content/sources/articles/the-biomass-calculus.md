@@ -10,6 +10,7 @@ source_meta:
   author: Librarian of Celaeno
   date: '2026'
   publication: Librarian of Calaeno Substack, June 11
+month: June
 ---
 ### The Biomass Calculus
 

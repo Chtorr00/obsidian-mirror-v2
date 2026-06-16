@@ -14,7 +14,7 @@ source_meta:
   author: Le "Pilier Noir" Philosophique
   date: '2025'
   publication: Medium, July 10
-order: 56
+order: 43
 ---
 # The Ghost in the Network
 

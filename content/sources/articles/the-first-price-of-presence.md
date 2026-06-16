@@ -11,6 +11,7 @@ source_meta:
   author: Annie Sharma
   date: '2026'
   publication: ABPLive, June 8
+month: June
 ---
 ### The First Price of Presence
 

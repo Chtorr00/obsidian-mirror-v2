@@ -10,6 +10,7 @@ source_meta:
   author: '@Jringo1508'
   date: '2026'
   publication: X (Twitter), June 10
+month: June
 ---
 ### The Geometry of Generational Friction
 

@@ -10,6 +10,7 @@ source_meta:
   author: The Detroit News
   date: '2026'
   publication: The Detroit News, May 17
+month: May
 ---
 ### The Brittle Monopoly
 

@@ -11,6 +11,7 @@ source_meta:
   author: Rainer Zitelmann
   date: '2026'
   publication: American Greatness, June 13
+month: June
 ---
 ### The Extra-Terrestrial Enclosure
 

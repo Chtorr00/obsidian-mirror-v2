@@ -12,6 +12,7 @@ source_meta:
   author: William Murphy
   date: '2026'
   publication: The Dialectics of Destruction Substack, April 24
+month: May
 ---
 ### The Geography of Collapse
 

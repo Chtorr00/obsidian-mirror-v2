@@ -14,7 +14,7 @@ source_meta:
   author: John Carter
   date: '2026'
   publication: Postcards from Barsoom Substack, Jan 16
-order: 248
+order: 182
 ---
 # The Goddess of the Machine
 

@@ -10,6 +10,7 @@ source_meta:
   author: Dominik A. Leusder
   date: '2026.'
   publication: Jacobin, March 5
+month: June
 ---
 ### The Workshop of the World Winds Down
 

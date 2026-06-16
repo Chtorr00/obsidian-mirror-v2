@@ -10,6 +10,7 @@ source_meta:
   author: J. Daniel Sawyer
   date: '2026'
   publication: J. Daniel Sawyer Substack, April 5
+month: June
 ---
 ### The Flesh As Substrate
 

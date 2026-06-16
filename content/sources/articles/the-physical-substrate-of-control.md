@@ -10,6 +10,7 @@ source_meta:
   author: The Golden Order
   date: '2026'
   publication: The Golden Order Substack, May 26
+month: June
 ---
 ### The Physical Substrate of Control
 

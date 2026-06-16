@@ -12,7 +12,7 @@ source_meta:
   author: Allison Pugh
   date: '2025'
   publication: Aeon, July 12
-order: 58
+order: 45
 ---
 # The Connective Tissue
 

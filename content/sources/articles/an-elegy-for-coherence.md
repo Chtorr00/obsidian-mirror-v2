@@ -10,6 +10,7 @@ source_meta:
   author: Anamaria
   date: '2026'
   publication: The Affirmer Substack, April 7
+month: June
 ---
 ### An Elegy for Coherence
 

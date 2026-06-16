@@ -350,6 +350,14 @@ function syncEngine() {
             console.warn(`  ⚠️ Empty frontmatter in ${filename}. Falling back to empty object.`);
             frontmatter = {};
         }
+        // Derive month from publish_date if missing
+        if (!frontmatter.month && frontmatter.publish_date) {
+            const dateObj = new Date(frontmatter.publish_date);
+            if (!isNaN(dateObj.getTime())) {
+                const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+                frontmatter.month = months[dateObj.getUTCMonth()];
+            }
+        }
         let body = parts.slice(2).join('---').trim();
         body = harmonizeContent(body);
 
@@ -448,9 +456,15 @@ function syncEngine() {
     // Sorting & Re-indexing
     articles.sort((a, b) => {
         const getYear = (art: any) => {
+            if (art.publish_date) {
+                const dateObj = new Date(art.publish_date);
+                if (!isNaN(dateObj.getTime())) {
+                    return dateObj.getUTCFullYear();
+                }
+            }
             const match = (art.source_meta?.date || "").match(/\d{4}/);
             if (match) return parseInt(match[0]);
-            return (art.month === 'April' || art.month === 'March') ? 2026 : 2025;
+            return ['March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'].includes(art.month) ? 2026 : 2025;
         };
         const yearA = getYear(a), yearB = getYear(b);
         if (yearA !== yearB) return yearA - yearB;

@@ -10,6 +10,7 @@ source_meta:
   author: The American Tribune
   date: '2026'
   publication: The American Tribune Substack, May 29
+month: June
 ---
 ### The Autopsy of the Commons
 

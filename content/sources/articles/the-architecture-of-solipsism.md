@@ -10,6 +10,7 @@ source_meta:
   author: Andrew Sorota and Josh Hendler
   date: '2026'
   publication: MIT Technology Review, May 5
+month: May
 ---
 ### The Architecture of Solipsism
 

@@ -14,6 +14,7 @@ source_meta:
     2026
   date: ''
   publication: ''
+month: May
 ---
 ### The First Fissure in the Leviathan
 

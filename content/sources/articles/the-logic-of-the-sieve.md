@@ -11,6 +11,7 @@ source_meta:
   author: Brett Stevens
   date: '2026'
   publication: amerika.org, May 20
+month: May
 ---
 ### The Logic of the Sieve
 

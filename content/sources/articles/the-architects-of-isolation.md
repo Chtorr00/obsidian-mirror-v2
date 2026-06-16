@@ -13,6 +13,7 @@ source_meta:
   author: Orianna Rosa Royle
   date: '2026'
   publication: Fortune, April 17
+month: May
 ---
 ### The Architects of Isolation
 

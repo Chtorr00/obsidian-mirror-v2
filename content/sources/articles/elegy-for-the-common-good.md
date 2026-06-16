@@ -10,6 +10,7 @@ source_meta:
   author: David Goodhart
   date: '2026'
   publication: A Goodheart is Hard to Find Substack, May 23
+month: June
 ---
 ### Requiem for the Common Good
 

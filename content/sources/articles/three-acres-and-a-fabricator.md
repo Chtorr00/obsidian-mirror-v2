@@ -10,6 +10,7 @@ source_meta:
   author: Monsieur Z.
   date: '2026'
   publication: YouTube, May 23
+month: June
 ---
 ### Three Acres and a Fabricator
 

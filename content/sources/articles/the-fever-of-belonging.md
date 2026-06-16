@@ -10,6 +10,7 @@ source_meta:
   author: Librarian of Celaeno
   date: '2026'
   publication: The Librarian of Celaeno Substack, May 25
+month: June
 ---
 ### The Fever of Belonging
 

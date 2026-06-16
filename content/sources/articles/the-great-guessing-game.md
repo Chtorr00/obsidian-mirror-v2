@@ -14,7 +14,7 @@ source_meta:
   author: Spencer Kimball
   date: October 17 2025
   publication: CNBC News
-order: 148
+order: 125
 ---
 # The Great Guessing Game
 

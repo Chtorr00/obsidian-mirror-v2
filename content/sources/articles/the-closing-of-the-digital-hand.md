@@ -13,6 +13,7 @@ source_meta:
     War, By Daniel, Rare Earth Exchanges, May 17, 2026
   date: ''
   publication: ''
+month: May
 ---
 ### The Closing of the Digital Hand
 

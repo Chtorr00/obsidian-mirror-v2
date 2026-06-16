@@ -12,7 +12,7 @@ source_meta:
   author: The economics of superintelligence
   date: '2025'
   publication: The Economist, July 30
-order: 75
+order: 60
 ---
 # The Accountant's Guide to God
 

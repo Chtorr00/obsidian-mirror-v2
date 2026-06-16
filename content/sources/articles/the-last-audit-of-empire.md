@@ -14,7 +14,7 @@ source_meta:
   author: Alastair Crooke
   date: '2025'
   publication: Strategic Culture Foundation, December 17
-order: 205
+order: 179
 ---
 # The Last Audit of Empire
 

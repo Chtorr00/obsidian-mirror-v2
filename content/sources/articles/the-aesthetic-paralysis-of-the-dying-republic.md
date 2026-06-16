@@ -12,7 +12,7 @@ source_meta:
   author: Ben Domenech
   date: '2026'
   publication: DailyWire.com, March 26
-order: 306
+order: 240
 ---
 ### **The Aesthetic Paralysis of the Dying Republic**
 

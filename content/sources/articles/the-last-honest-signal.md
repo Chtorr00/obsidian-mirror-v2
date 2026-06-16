@@ -10,6 +10,7 @@ source_meta:
   author: Michael Haupt
   date: '2026'
   publication: Framer OS Substack, May 12
+month: May
 ---
 ### The Last Honest Signal
 

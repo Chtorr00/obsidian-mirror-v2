@@ -10,6 +10,7 @@ source_meta:
   author: Peter Turchin
   date: '2026'
   publication: Substack, May 19
+month: May
 ---
 ### A Calculus of Dust
 

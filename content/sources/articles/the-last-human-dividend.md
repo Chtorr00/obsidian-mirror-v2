@@ -10,6 +10,7 @@ source_meta:
   author: Jasmine Sun
   date: '2026'
   publication: The New York Times, April 30
+month: May
 ---
 ### The Last Human Dividend
 

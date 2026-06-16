@@ -10,6 +10,7 @@ source_meta:
   author: East Hunter
   date: '2026'
   publication: East Hunter Substack, June 9
+month: June
 ---
 ### The Calculus of the Womb
 

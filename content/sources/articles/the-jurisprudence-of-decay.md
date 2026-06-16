@@ -11,6 +11,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+month: June
 ---
 ### The Jurisprudence of Decay
 

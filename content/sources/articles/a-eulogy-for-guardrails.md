@@ -10,6 +10,7 @@ source_meta:
   author: Rob Henderson
   date: '2026'
   publication: Rob Henderson's Newsletter, May 17
+month: June
 ---
 ### A Eulogy for Guardrails
 

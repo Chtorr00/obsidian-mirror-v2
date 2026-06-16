@@ -10,6 +10,7 @@ source_meta:
   author: William M Briggs
   date: '2026'
   publication: Science is Not the Answer Substack, May 5
+month: May
 ---
 ### The Calculus of Grievance
 

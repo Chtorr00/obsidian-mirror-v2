@@ -14,7 +14,7 @@ source_meta:
   author: Meredith
   date: '2026'
   publication: The Maze to Metanoia Substack, January 2
-order: 249
+order: 183
 ---
 # The Retrieval of the Gods
 

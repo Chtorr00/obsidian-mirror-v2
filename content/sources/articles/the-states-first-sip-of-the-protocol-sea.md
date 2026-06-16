@@ -11,6 +11,7 @@ source_meta:
   author: ''
   date: ''
   publication: ''
+month: May
 ---
 ### The State's First Sip of the Protocol Sea
 

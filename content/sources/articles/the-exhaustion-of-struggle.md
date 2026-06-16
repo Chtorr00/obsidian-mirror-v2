@@ -12,6 +12,7 @@ source_meta:
     The Diplomat, May 1, 2026
   date: ''
   publication: ''
+month: May
 ---
 ### The Exhaustion of Struggle
 

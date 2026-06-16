@@ -11,6 +11,7 @@ source_meta:
   author: Cat Zakrzewski, Ellen Nakashima, and Nitasha Tiku
   date: '2026.'
   publication: The Washington Post*, May 11
+month: May
 ---
 ### The Schism of Control
 

@@ -10,6 +10,7 @@ source_meta:
   author: '@kunley_drukpa'
   date: '2026'
   publication: X (Twitter), April 26
+month: May
 ---
 ### The Last Pastel Sunset of Albion
 
