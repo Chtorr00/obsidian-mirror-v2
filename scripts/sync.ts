@@ -456,7 +456,17 @@ function syncEngine() {
         }
     });
 
-    const filtered = articles.filter(a => a.status !== 'draft' && (!a.publish_date || (a.publish_date instanceof Date ? a.publish_date.toISOString().split('T')[0] : a.publish_date) <= today));
+    const filtered = articles.filter(a => {
+        if (a.status === 'draft') return false;
+        if (!a.publish_date) return true;
+        // Normalize to YYYY-MM-DD regardless of whether it's a Date object,
+        // an ISO string like "2026-06-16T00:00:00.000Z", or a plain "2026-06-16"
+        const dateStr = String(a.publish_date instanceof Date
+            ? a.publish_date.toISOString()
+            : a.publish_date
+        ).split('T')[0];
+        return dateStr <= today;
+    });
     const dataExport = `export const SYNO_DATA = ${JSON.stringify({ articles: filtered, glossary: glossaryEntries.sort((a,b) => a.term.localeCompare(b.term)) }, null, 2)};\n`;
     fs.writeFileSync(DATA_PATH, dataExport);
     console.log(`✅ Success! Synced ${filtered.length} articles and ${glossaryEntries.length} glossary entries.`);
