@@ -14,7 +14,7 @@ source_meta:
   author: 'Culture Wars: The Endgame, by James P. Hunter'
   date: by James P. Hunter
   publication: 'Culture Wars: The Endgame'
-order: 90
+order: 95
 ---
 # The Battlefield Dissolves
 

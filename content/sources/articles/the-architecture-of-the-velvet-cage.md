@@ -4,7 +4,7 @@ primary: General
 secondary: []
 image: /images/April10VelvetCage.png
 month: April
-order: 268
+order: 273
 status: published
 source_meta:
   url: https://openai.com/index/industrial-policy-for-the-intelligence-age/

@@ -14,7 +14,7 @@ source_meta:
   author: The Oxford Journal of Law and Religion
   date: '2025'
   publication: Oxford Journal of Law and Religion, July 11
-order: 44
+order: 49
 ---
 # The Obituary for the Neutral Square
 

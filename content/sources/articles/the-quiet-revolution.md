@@ -14,7 +14,7 @@ source_meta:
   author: Natasha Khan
   date: '2025'
   publication: Wall Street Journal, October 5
-order: 125
+order: 130
 ---
 # The Quiet Revolution
 

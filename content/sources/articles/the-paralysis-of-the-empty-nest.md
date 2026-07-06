@@ -14,7 +14,7 @@ source_meta:
   author: Rachel Minkin
   date: '2025'
   publication: Pew Research Center, September 30
-order: 21
+order: 26
 ---
 # The Paralysis of the Empty Nest
 

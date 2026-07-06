@@ -13,7 +13,7 @@ source_meta:
   author: 'Governments Amass Bitcoin: A Double-Edged Sword for Global Finance'
   date: '2025'
   publication: MarketMinute, September 28
-order: 119
+order: 124
 ---
 # The King's New Treasure
 

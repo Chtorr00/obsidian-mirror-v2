@@ -12,7 +12,7 @@ source_meta:
   author: Geoff Brumfiel
   date: '2025'
   publication: National Public Radio, September 7
-order: 149
+order: 154
 ---
 # The Gospel of the Spectacle
 

@@ -12,7 +12,7 @@ source_meta:
   author: Mike Solana
   date: '2026'
   publication: Pirate Wires, January 23
-order: 211
+order: 216
 ---
 # The Exodus of the Architects
 

@@ -11,7 +11,7 @@ source_meta:
   author: Maggie Harrison Dupré
   date: '2025'
   publication: Futurism, September 18
-order: 118
+order: 123
 ---
 # The Perfect Third Parent
 

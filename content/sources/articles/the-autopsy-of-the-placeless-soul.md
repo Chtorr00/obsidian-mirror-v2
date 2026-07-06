@@ -10,7 +10,7 @@ source_meta:
   author: Robert Mariani
   date: Winter 2026
   publication: The New Atlantis
-order: 247
+order: 252
 ---
 ### **The Autopsy of the Placeless Soul**
 

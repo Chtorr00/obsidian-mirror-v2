@@ -12,7 +12,7 @@ source_meta:
   author: John Carter
   date: '2025'
   publication: Postcards from Barsoom Substack, December 19
-order: 184
+order: 189
 ---
 # The Manifesto of the Plunder
 

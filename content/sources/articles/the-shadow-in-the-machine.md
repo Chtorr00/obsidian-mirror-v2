@@ -14,7 +14,7 @@ source_meta:
   author: Jardson Almeida
   date: '2025'
   publication: Medium, July 7
-order: 40
+order: 45
 ---
 # The Shadow in the Machine
 

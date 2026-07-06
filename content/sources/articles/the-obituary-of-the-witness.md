@@ -16,7 +16,7 @@ source_meta:
   author: Charles Edward Gehrke
   date: '2026'
   publication: Japan Today, February 14
-order: 220
+order: 225
 ---
 # The Obituary of the Witness
 

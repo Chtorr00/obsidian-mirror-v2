@@ -12,7 +12,7 @@ source_meta:
   author: Alex
   date: '2025'
   publication: Left Brain Mystic Substack, December 17
-order: 34
+order: 39
 ---
 # The Patient Zero of the Un-Person
 

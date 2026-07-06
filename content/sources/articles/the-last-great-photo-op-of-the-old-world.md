@@ -13,7 +13,7 @@ source_meta:
   author: Staff Reporter
   date: ''
   publication: ''
-order: 91
+order: 96
 ---
 # The Last Great Photo-Op of the Old World
 

@@ -12,7 +12,7 @@ source_meta:
   author: Josh Neal and Mike Maxwell
   date: '2025'
   publication: Psychopolitics Podcast, November 20
-order: 165
+order: 170
 ---
 # The Midwives of a Harder Age
 

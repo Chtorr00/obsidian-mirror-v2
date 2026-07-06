@@ -12,7 +12,7 @@ source_meta:
   author: Uberboyo
   date: '2025'
   publication: Uberboyo Substack, March 26
-order: 32
+order: 37
 ---
 # The Schism of the Superman
 

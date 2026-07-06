@@ -4,7 +4,7 @@ primary: General
 secondary: []
 image: /images/April15CartographyAnalog.png
 month: April
-order: 39
+order: 44
 status: published
 source_meta:
   url: https://swiftenterprises.substack.com/p/retroculture-and-the-future

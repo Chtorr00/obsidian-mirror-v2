@@ -12,7 +12,7 @@ source_meta:
   author: Nicholas Andresen
   date: '2026'
   publication: Nick's Notes Substack, January 06
-order: 215
+order: 220
 ---
 # The Tower of Babble
 

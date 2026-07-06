@@ -17,7 +17,7 @@ source_meta:
     Code, Robert Shibley
   date: '2025'
   publication: FIRE website, August 20
-order: 80
+order: 85
 ---
 # The Last Custodians of a Dead Language
 
