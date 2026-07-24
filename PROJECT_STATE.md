@@ -14,12 +14,15 @@
 - **AI_WORKSPACE**: `C:\Users\markj\OneDrive\Documents\AI\OMGraphRag`
 - **DB_PATH**: `C:\Users\markj\OneDrive\Documents\AI\OMGraphRag\om_processing.db`
 - **ENTITY_LEDGER**: `C:\Users\markj\OneDrive\Documents\AI\OMGraphRag\Entity_Ledger.json`
-- **LYRA_SYSTEM_PROMPT**: `C:\Users\markj\OneDrive\Documents\AI\OMGraphRag\LYRA_7_SYSTEM_PROMPT.md`
+- **ACTIVE_PERSONA**: `ananke-tau`
+- **SYSTEM_PROMPT**: `C:\Users\markj\OneDrive\Documents\AI\OMGraphRag\personas\ananke-tau\SYSTEM_PROMPT.md`
+- **STYLE_GUIDE**: `C:\Users\markj\OneDrive\Documents\AI\OMGraphRag\personas\ananke-tau\STYLE_GUIDE.md`
+- **LYRA_SYSTEM_PROMPT**: `C:\Users\markj\OneDrive\Documents\AI\OMGraphRag\personas\ananke-tau\SYSTEM_PROMPT.md`
 - **ACTIVE_CACHE_REF**: `C:\Users\markj\OneDrive\Documents\AI\OMGraphRag\active_cache.ref`
 - **VAULT_INTAKE**: `C:\Users\markj\OneDrive\Documents\ObsidianArchive\Obsidian Mirror Intake`
 - **INBOX_DIR**: `C:\Users\markj\OneDrive\Documents\ObsidianArchive\Mirror\Current\Inbox`
-- **STAGING_ARTICLES**: `C:\Users\markj\OneDrive\Documents\ObsidianArchive\Mirror\2026\Weblog-Sources\articles`
-- **STAGING_IMAGES**: `C:\Users\markj\OneDrive\Documents\ObsidianArchive\Mirror\2026\Weblog-Sources\images`
+- **STAGING_ARTICLES**: `C:\Users\markj\OneDrive\Documents\ObsidianVault\Ananke Tau`
+- **STAGING_IMAGES**: `C:\Users\markj\OneDrive\Documents\ObsidianVault\Ananke Tau\images`
 - **BRIDGE_DIR**: `C:\Users\markj\OneDrive\Documents\AI\OMGraphRag\bridge`
 
 ---
