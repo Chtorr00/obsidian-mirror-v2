@@ -1,5 +1,5 @@
 # PROJECT STATE — Obsidian Mirror v2
-> Last updated: 2026-05-27 | Maintainer: Mirror Architect (@coder)
+> Last updated: 2026-09-07 | Maintainer: Mirror Architect (@coder)
 
 ## 1. Project Metadata & Anchors
 - **Client/Domain**: General / Obsidian Mirror
@@ -168,3 +168,4 @@ git push
 | 2026-05-26 | `PROJECT_STATE.md` did not exist; `om_config.py` fell back to hardcoded defaults. | Created this file. |
 | Prior | `intake.ts` called `init_registry.py` then `om_interactive_agent.py`, but moved files out of `VAULT_INTAKE` before the agent scanned it, causing the agent to find nothing. | Agent's `sync_vault_intake()` handles intake directly from `VAULT_INTAKE`. Skip `npm run intake`; run the agent directly. |
 | 2026-06-09 | Processed June 9 batch of 7 articles using new event-driven state machine and generalized prompts. | Successfully processed, matched images, merged GraphRAG master ledger (4,643 nodes, 6,755 edges), built website, and deployed to GitHub. |
+| 2026-09-07 | Processed September 7 batch of 16 articles using Ananke Tau persona. | Processed 16 articles through dual HITL gates, generated 2K Prism-Consensus images, merged GraphRAG master ledger (4,799 nodes, 31,820 edges), synced mirror data, and validated Next.js build. |
