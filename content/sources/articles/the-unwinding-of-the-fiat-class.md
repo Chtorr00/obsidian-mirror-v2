@@ -3,7 +3,7 @@ title: The Unwinding of the Fiat Class
 status: published
 publish_date: 2026-05-05T00:00:00.000Z
 primary: General
-image: /images/the-unwinding-of-the-fiat-class.png
+image: /images/the-unwinding-of-the-fiat-class.webp
 source_meta:
   url: https://www.nytimes.com/2026/04/21/us/politics/usaid-former-employees.html
   title: A Year After U.S.A.I.D.’s Death, Fired Workers Find Few Jobs and Much Loss

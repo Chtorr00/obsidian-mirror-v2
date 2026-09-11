@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-12T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-factional-dissolution-how-cognitive-automation-metabolized-the-two-party-consensus.png
+  /images/the-factional-dissolution-how-cognitive-automation-metabolized-the-two-party-consensus.webp
 month: August
 source_meta:
   url: https://minutes.substack.com/

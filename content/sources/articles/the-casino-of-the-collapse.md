@@ -18,7 +18,7 @@ order: 237
 
 
 
-![The Casino of the Collapse](/images/March7Casino.png)
+![The Casino of the Collapse](/images/March7Casino.webp)
 
 Open-Source War Rooms: The “GameStop” Moment of Geopolitics?, Jamie Burke
 Jamie Burke Substack, February 25, 2026

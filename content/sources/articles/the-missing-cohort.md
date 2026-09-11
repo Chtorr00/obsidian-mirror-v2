@@ -17,7 +17,7 @@ order: 188
 
 
 
-![The Missing Cohort](/images/December23NeoUniversities.png)
+![The Missing Cohort](/images/December23NeoUniversities.webp)
 
 The Lost Generation, By Jacob Savage
 Compact Magazine, December 15, 2025

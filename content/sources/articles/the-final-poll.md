@@ -21,7 +21,7 @@ order: 90
 
 
 
-![The Final Poll](/images/August31DigitalSiren.jpeg)
+![The Final Poll](/images/August31DigitalSiren.webp)
 
 Most Americans say Republican and Democratic voters cannot agree on basic facts, by Elisa Shearer
 Pew Research, July 30, 2025

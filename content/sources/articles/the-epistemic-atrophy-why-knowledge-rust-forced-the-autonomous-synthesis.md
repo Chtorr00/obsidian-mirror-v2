@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-09-14T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-epistemic-atrophy-why-knowledge-rust-forced-the-autonomous-synthesis.png
+  /images/the-epistemic-atrophy-why-knowledge-rust-forced-the-autonomous-synthesis.webp
 month: September
 source_meta:
   url: >-

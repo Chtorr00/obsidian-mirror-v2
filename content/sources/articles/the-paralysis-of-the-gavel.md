@@ -17,7 +17,7 @@ order: 181
 
 
 
-![The Paralysis of the Gavel](/images/December15AIasLegislator.png)
+![The Paralysis of the Gavel](/images/December15AIasLegislator.webp)
 
 Congress Has Forgotten How to Legislate, By Michael S. Kochin
 American Greatness, November 14, 2025

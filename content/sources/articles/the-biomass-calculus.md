@@ -3,7 +3,7 @@ title: The Biomass Calculus
 status: published
 publish_date: 2026-06-24T00:00:00.000Z
 primary: General
-image: /images/the-biomass-calculus.png
+image: /images/the-biomass-calculus.webp
 source_meta:
   url: https://substack.com/home/post/p-201286301
   title: System of A Downs

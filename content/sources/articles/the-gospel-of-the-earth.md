@@ -18,7 +18,7 @@ order: 177
 
 
 
-![The Gospel of the Earth](/images/December10CognitiveDefense.png)
+![The Gospel of the Earth](/images/December10CognitiveDefense.webp)
 
 Urban Bugmen and AI Model Collapse: A Unified Theory, By Copernican
 Always the Horizon Substack, November 13, 2025

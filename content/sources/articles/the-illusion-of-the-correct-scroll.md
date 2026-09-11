@@ -19,7 +19,7 @@ order: 83
 
 
 
-![The Illusion of the 'Correct' Scroll](/images/August22UBIwoes.jpeg)
+![The Illusion of the 'Correct' Scroll](/images/August22UBIwoes.webp)
 
 The Double-Edged Scroll: Active vs. Passive Social Media Use and Stress, by Pathum B. Rathnayake
 Information Matters, February 4, 2025

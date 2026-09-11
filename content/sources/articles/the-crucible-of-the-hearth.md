@@ -2,7 +2,7 @@
 title: The Crucible of the Hearth
 primary: General
 secondary: []
-image: /images/March31CrucibleHearth.png
+image: /images/March31CrucibleHearth.webp
 month: March
 source_meta:
   url: https://lanescott.substack.com/p/the-mothers-gauntlet-a93

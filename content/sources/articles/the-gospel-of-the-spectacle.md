@@ -18,7 +18,7 @@ order: 154
 
 
 
-![The Gospel of the Spectacle](/images/November10MarvelFaith.png)
+![The Gospel of the Spectacle](/images/November10MarvelFaith.webp)
 
 Fantasy or faith? One company’s AI-generated Bible content stirs controversy, By Geoff Brumfiel
 National Public Radio, September 7, 2025

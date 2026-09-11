@@ -22,7 +22,7 @@ order: 34
 
 
 
-![The Curriculum of the Castaway](/images/Jan30CastawayGen.png)
+![The Curriculum of the Castaway](/images/Jan30CastawayGen.webp)
 
 So You've Been Locked Out of Life: The Uncomfortable Truth About "The Lost Generation," By J. Daniel Sawyer
 Unfolding the World Substack, December 22, 2025

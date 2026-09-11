@@ -17,7 +17,7 @@ order: 219
 
 
 
-![The Iconography of the Fall](/images/Feb15IconFall.png)
+![The Iconography of the Fall](/images/Feb15IconFall.webp)
 
 Pictures from the Past are Immensely Radicalizing
 The American Tribune, January 23, 2026

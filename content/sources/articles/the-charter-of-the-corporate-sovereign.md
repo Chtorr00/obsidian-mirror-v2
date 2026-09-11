@@ -2,7 +2,7 @@
 title: The Charter of the Corporate Sovereign
 primary: General
 secondary: []
-image: /images/April25CorporateSovereign.png
+image: /images/April25CorporateSovereign.webp
 month: April
 order: 286
 status: published

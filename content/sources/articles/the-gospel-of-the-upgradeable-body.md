@@ -19,7 +19,7 @@ order: 160
 
 
 
-![The Gospel of the Upgradeable Body](/images/November19HumanPhyla.png)
+![The Gospel of the Upgradeable Body](/images/November19HumanPhyla.webp)
 
 Beyond Human: When Robot Eyes See Better and Bodies Become Upgradeable, By Thomas Frey
 Impact Lab, November 15, 2025

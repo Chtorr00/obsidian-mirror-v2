@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-08-06T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-density-inversion-how-diffuse-energy-starved-the-administrative-monolith.png
+  /images/the-density-inversion-how-diffuse-energy-starved-the-administrative-monolith.webp
 month: August
 source_meta:
   url: https://www.youtube.com/watch?v=7--0wDSfP-w&t=111s

@@ -3,7 +3,7 @@ title: The Architecture of the Silicon Polis
 status: published
 publish_date: 2026-06-27T00:00:00.000Z
 primary: General
-image: /images/the-architecture-of-the-silicon-polis.png
+image: /images/the-architecture-of-the-silicon-polis.webp
 month: June
 source_meta:
   url: https://www.science.org/doi/10.1126/science.aeg1895

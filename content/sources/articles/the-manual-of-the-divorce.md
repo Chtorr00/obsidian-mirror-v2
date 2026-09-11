@@ -20,7 +20,7 @@ order: 40
 
 
 
-![The Manual of the Divorce](/images/Feb14ManualDivorce.png)
+![The Manual of the Divorce](/images/Feb14ManualDivorce.webp)
 
 I researched every attempt to stop fascism in history. The success rate is 0%, By Christopher Armitage
 The Extentialist Republic Substack, August 13, 2025

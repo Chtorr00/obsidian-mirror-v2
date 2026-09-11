@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-29T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-necrotic-harvest-how-enterprise-bankruptcy-liquified-the-informational-commons.png
+  /images/the-necrotic-harvest-how-enterprise-bankruptcy-liquified-the-informational-commons.webp
 month: August
 source_meta:
   url: https://www.cnn.com/2026/08/18/business/google-spirit-airlines-data

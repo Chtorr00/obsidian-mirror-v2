@@ -17,7 +17,7 @@ order: 212
 
 
 
-![The Liturgy of the Exoskeleton](/images/Feb2MoltRepublic.png)
+![The Liturgy of the Exoskeleton](/images/Feb2MoltRepublic.webp)
 
 Best Of Moltbook, By Scott Alexander
 Astral Codex Ten, January 30, 2026

@@ -18,7 +18,7 @@ order: 27
 
 
 
-![The Almanac of the End](/images/Jan12EnergyCannibal.png)
+![The Almanac of the End](/images/Jan12EnergyCannibal.webp)
 
 Cascading Collapse: America at the Edge of Systemic Breakdown, By xraymike79
 Collapse of Industrial Civilization Substack, October 4, 2025

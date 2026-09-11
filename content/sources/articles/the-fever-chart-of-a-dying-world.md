@@ -21,7 +21,7 @@ order: 165
 
 
 
-![The Fever Chart of a Dying World](/images/November26PlanetBoundaries.png)
+![The Fever Chart of a Dying World](/images/November26PlanetBoundaries.webp)
 
 Seven of nine planetary boundaries now breached – ocean acidification joins the danger zone, By Potsdam Institute for Climate Impact Research (PIK)
 PIK, September 24, 2025

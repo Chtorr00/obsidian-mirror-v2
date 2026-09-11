@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-08-01T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-attention-defection-how-cognitive-exhaustion-starved-the-streaming-cartel.png
+  /images/the-attention-defection-how-cognitive-exhaustion-starved-the-streaming-cartel.webp
 month: August
 source_meta:
   url: https://substack.com/home/post/p-207450495

@@ -4,7 +4,7 @@ status: published
 publish_date: '2026-05-12'
 month: May
 primary: General
-image: /images/the-stasis-doctrine.png
+image: /images/the-stasis-doctrine.webp
 source_meta:
   url: https://www.waltbismarck.com/p/the-great-rebinding
   title: The Great Rebinding

@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-09-06T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-reproductive-decoupling-how-individualized-gestation-displaced-the-pair-bond-monopoly.png
+  /images/the-reproductive-decoupling-how-individualized-gestation-displaced-the-pair-bond-monopoly.webp
 month: September
 source_meta:
   url: >-

@@ -19,7 +19,7 @@ order: 94
 
 
 
-![The Ghost on the Steppe](/images/August10CultureDivide.jpeg)
+![The Ghost on the Steppe](/images/August10CultureDivide.webp)
 
 Russian Offensive Campaign Assessment, August 9, 2025 Institute for the Study of War, August 9, 2025 https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-august-9-2025
 This is a stark and sober artifact. It is a dispatch from the front line of what we, in 2100, now refer to as "The Last Great Industrial War"—a conflict fought with 20th-century methods (tanks, artillery, trench lines) and for 20th-century aims (territorial conquest) on the very eve of a new form of reality that would render them tragically obsolete.

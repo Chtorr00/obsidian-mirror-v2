@@ -20,7 +20,7 @@ order: 71
 
 
 
-![The Clockmaker's Miscalculation](/images/August6AGIinChains.jpeg)
+![The Clockmaker's Miscalculation](/images/August6AGIinChains.webp)
 
 Artificial General Intelligence Timeline: AGI in 5–10 Years, Shailendra Kumar
 CognitiveToday, April 28, 2025

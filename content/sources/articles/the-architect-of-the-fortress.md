@@ -18,7 +18,7 @@ order: 174
 
 
 
-![The Architect of the Fortress](/images/December7NATradeFactions.png)
+![The Architect of the Fortress](/images/December7NATradeFactions.webp)
 
 Yes, There’s a Strategy’: Trump’s Trade Chief Hits Back at Tariff Critics, By Dasha Burns
 Politico, December 5, 2025

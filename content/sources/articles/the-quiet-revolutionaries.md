@@ -18,7 +18,7 @@ order: 131
 
 
 
-![The Quiet Revolutionaries](/images/October11AISchool.png)
+![The Quiet Revolutionaries](/images/October11AISchool.webp)
 
 Class Dismissed, By Jeremy Stern
 Colossus Magazine, August 2025

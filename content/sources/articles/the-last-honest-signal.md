@@ -3,7 +3,7 @@ title: The Last Honest Signal
 status: published
 publish_date: 2026-05-25T00:00:00.000Z
 primary: General
-image: /images/the-last-honest-signal.png
+image: /images/the-last-honest-signal.webp
 source_meta:
   url: https://substack.com/inbox/post/197225788
   title: The Fork Map

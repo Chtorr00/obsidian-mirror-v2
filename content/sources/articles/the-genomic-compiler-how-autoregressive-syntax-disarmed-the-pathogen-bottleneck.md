@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-20T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-genomic-compiler-how-autoregressive-syntax-disarmed-the-pathogen-bottleneck.png
+  /images/the-genomic-compiler-how-autoregressive-syntax-disarmed-the-pathogen-bottleneck.webp
 month: August
 source_meta:
   url: https://www.biorxiv.org/content/10.1101/2025.09.12.675911v1.full

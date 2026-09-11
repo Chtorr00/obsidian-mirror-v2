@@ -17,7 +17,7 @@ order: 186
 
 
 
-![The Forging of the Lithium Fortress](/images/December21LithiumFortress.png)
+![The Forging of the Lithium Fortress](/images/December21LithiumFortress.webp)
 
 Chile shifts sharply right as José Antonio Kast wins the presidency, By Carrie Kahn and John Bartlett
 NPR Heard on Morning Edition, December 14, 2025

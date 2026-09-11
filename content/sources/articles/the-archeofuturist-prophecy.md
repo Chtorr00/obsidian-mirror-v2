@@ -18,7 +18,7 @@ order: 229
 
 
 
-![The Archeofuturist Prophecy](/images/Feb26Archeofuturist.png)
+![The Archeofuturist Prophecy](/images/Feb26Archeofuturist.webp)
 
 The liberal order will collapse from internal hollowing, By Constantin von Hoffmeister
 Russia Today, February 1, 2026

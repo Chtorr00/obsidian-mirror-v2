@@ -19,7 +19,7 @@ order: 227
 
 
 
-![The Pacification of the Palate](/images/Feb24PacificationPalate.png)
+![The Pacification of the Palate](/images/Feb24PacificationPalate.webp)
 
 Freedom With a Side of Guilt: How Food Delivery Is Reshaping Mealtime, By Priya Krishna
 The New York Times, January 30, 2026

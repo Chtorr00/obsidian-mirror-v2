@@ -2,7 +2,7 @@
 title: The Prelude for the Great Moral Schism
 primary: General
 secondary: []
-image: /images/April30MoralSchism.png
+image: /images/April30MoralSchism.webp
 month: April
 order: 291
 status: published

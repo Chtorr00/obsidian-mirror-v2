@@ -18,7 +18,7 @@ order: 228
 
 
 
-![The Proletarianization of the Mind](/images/Feb25ProleMind.png)
+![The Proletarianization of the Mind](/images/Feb25ProleMind.webp)
 
 A Marxist Economic Analysis of Gen Z Unemployment, By Eric Huang
 De-Alienation Substack, January 10, 2026

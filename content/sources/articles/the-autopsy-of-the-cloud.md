@@ -2,7 +2,7 @@
 title: The Autopsy of the Cloud
 primary: General
 secondary: []
-image: /images/March18AutopsyofCloud.png
+image: /images/March18AutopsyofCloud.webp
 month: March
 source_meta:
   url: https://www.youtube.com/watch?v=BCxH1gqEF4s

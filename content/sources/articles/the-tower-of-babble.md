@@ -18,7 +18,7 @@ order: 220
 
 
 
-![The Tower of Babble](/images/Feb16TowerBabble.png)
+![The Tower of Babble](/images/Feb16TowerBabble.webp)
 
 How AI Is Learning to Think in Secret, By Nicholas Andresen
 Nick's Notes Substack, January 06, 2026

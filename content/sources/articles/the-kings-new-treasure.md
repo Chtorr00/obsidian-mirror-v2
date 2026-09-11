@@ -19,7 +19,7 @@ order: 124
 
 
 
-![The King's New Treasure](/images/September30BitcoinKing.png)
+![The King's New Treasure](/images/September30BitcoinKing.webp)
 
 Governments Amass Bitcoin: A Double-Edged Sword for Global Finance
 MarketMinute, September 28, 2025

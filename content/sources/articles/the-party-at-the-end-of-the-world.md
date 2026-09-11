@@ -19,7 +19,7 @@ order: 18
 
 
 
-![The Party at the End of the World](/images/Jan2SexRecession.png)
+![The Party at the End of the World](/images/Jan2SexRecession.webp)
 
 The Hangover: How the Elites Created The 2020s Sex Recession Through A 2010s Free For All, By Imperial Twilight
 Imperial Twilight Substack, Dec 22, 2025

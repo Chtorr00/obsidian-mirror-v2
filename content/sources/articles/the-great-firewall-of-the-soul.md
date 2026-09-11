@@ -19,7 +19,7 @@ order: 32
 
 
 
-![The Great Firewall of the Soul](/images/Jan17AIFirewall.png)
+![The Great Firewall of the Soul](/images/Jan17AIFirewall.webp)
 
 China drafts world’s strictest rules to end AI-encouraged suicide, violence, By Ashley Belanger
 Ars Technica, December 29, 2025

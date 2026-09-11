@@ -18,7 +18,7 @@ order: 23
 
 
 
-![The Field Guide to the Dark Forest](/images/Jan7DarkForestInternet.png)
+![The Field Guide to the Dark Forest](/images/Jan7DarkForestInternet.webp)
 
 You're Running Out of Time to Hide, By Art Chad
 1000 Singularities Substack, December 15, 2025

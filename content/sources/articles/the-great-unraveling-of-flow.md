@@ -3,7 +3,7 @@ title: The Great Unraveling of Flow
 status: published
 publish_date: 2026-05-23T00:00:00.000Z
 primary: General
-image: /images/the-great-unraveling-of-flow.png
+image: /images/the-great-unraveling-of-flow.webp
 source_meta:
   url: https://archive.ph/WCYpt
   title: Iran War Is Draining World’s Oil Buffer at an Unprecedented Pace

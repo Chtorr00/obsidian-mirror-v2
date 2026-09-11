@@ -17,7 +17,7 @@ order: 69
 
 
 
-![The Sterile Plague](/images/August2AIAvatar.jpeg)
+![The Sterile Plague](/images/August2AIAvatar.webp)
 
 Confessions of a Recovering AI Porn Addict, Jason Parham
 Wired, Aug 1, 2025

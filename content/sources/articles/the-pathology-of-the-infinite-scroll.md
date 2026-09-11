@@ -2,7 +2,7 @@
 title: The Pathology of the Infinite Scroll
 primary: General
 secondary: []
-image: /images/April22PathologyInfinite.png
+image: /images/April22PathologyInfinite.webp
 month: April
 order: 283
 status: published

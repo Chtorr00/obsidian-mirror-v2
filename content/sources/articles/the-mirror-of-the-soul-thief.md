@@ -19,7 +19,7 @@ order: 41
 
 
 
-![The Mirror of the Soul-Thief](/images/Feb22SoulStealer.png)
+![The Mirror of the Soul-Thief](/images/Feb22SoulStealer.webp)
 
 I Fed Claude 7 Years of Daily Journals. It Showed Me The Future of AI, By Franz-Josef Schrepf
 Medium - The Startup, December 1, 2025

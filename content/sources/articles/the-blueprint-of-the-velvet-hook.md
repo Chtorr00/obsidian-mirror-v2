@@ -2,7 +2,7 @@
 title: The Blueprint of the Velvet Hook
 primary: General
 secondary: []
-image: /images/April18VelvetHook.png
+image: /images/April18VelvetHook.webp
 month: April
 order: 279
 status: published

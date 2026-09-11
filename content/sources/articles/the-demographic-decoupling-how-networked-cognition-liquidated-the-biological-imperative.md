@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-07-23T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-demographic-decoupling-how-networked-cognition-liquidated-the-biological-imperative.png
+  /images/the-demographic-decoupling-how-networked-cognition-liquidated-the-biological-imperative.webp
 month: July
 source_meta:
   url: ''

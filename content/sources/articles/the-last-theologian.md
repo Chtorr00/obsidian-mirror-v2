@@ -19,7 +19,7 @@ order: 29
 
 
 
-![The Last Theologian](/images/Jan14CrisisMeaning.png)
+![The Last Theologian](/images/Jan14CrisisMeaning.webp)
 
 The Crisis of Meaning: A Chestertonian Response, By Duncan Reyburn
 Religions 2025, 16(3), 280, February 25, 2025

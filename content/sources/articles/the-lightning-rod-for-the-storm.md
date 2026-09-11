@@ -18,7 +18,7 @@ order: 74
 
 
 
-![The Lightning Rod for the Storm](/images/August9FortressEuropa.jpeg)
+![The Lightning Rod for the Storm](/images/August9FortressEuropa.webp)
 
 Democratic Backsliding Accelerates Under Second Trump Term, Steven Levitsky,
 V-Dem Democracy Report 2025 Carnegie Endowment, March 2025

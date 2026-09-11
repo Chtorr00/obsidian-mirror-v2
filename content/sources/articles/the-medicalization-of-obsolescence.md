@@ -21,7 +21,7 @@ order: 183
 
 
 
-![The Medicalization of Obsolescence](/images/December18Neurodeficits.png)
+![The Medicalization of Obsolescence](/images/December18Neurodeficits.webp)
 
 40% of Stanford undergrads receive disability accommodations—but it’s become a college-wide phenomenon as Gen Z try to succeed in the current climate, By Preston Fore
 Forbes, December 12, 2025

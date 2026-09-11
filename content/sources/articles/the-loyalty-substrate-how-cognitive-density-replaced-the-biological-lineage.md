@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-07-28T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-loyalty-substrate-how-cognitive-density-replaced-the-biological-lineage.png
+  /images/the-loyalty-substrate-how-cognitive-density-replaced-the-biological-lineage.webp
 month: July
 source_meta:
   url: >-

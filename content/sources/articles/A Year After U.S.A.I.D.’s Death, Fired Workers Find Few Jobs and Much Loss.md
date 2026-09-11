@@ -4,7 +4,7 @@ status: published
 publish_date: '2026-05-02'
 primary: General
 image: >-
-  /images/a-year-after-u.s.a.i.d.’s-death,-fired-workers-find-few-jobs-and-much-loss.png
+  /images/a-year-after-u.s.a.i.d.’s-death,-fired-workers-find-few-jobs-and-much-loss.webp
 source_meta:
   url: ''
   title: ''

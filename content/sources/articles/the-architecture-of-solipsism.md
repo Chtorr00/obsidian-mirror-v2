@@ -3,7 +3,7 @@ title: The Architecture of Solipsism
 status: published
 publish_date: 2026-05-19T00:00:00.000Z
 primary: General
-image: /images/the-architecture-of-solipsism.png
+image: /images/the-architecture-of-solipsism.webp
 source_meta:
   url: https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint
   title: A blueprint for using AI to strengthen democracy

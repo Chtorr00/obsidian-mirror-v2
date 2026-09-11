@@ -18,7 +18,7 @@ order: 137
 
 
 
-![The Last Professor](/images/October17TribalKnowledge.png)
+![The Last Professor](/images/October17TribalKnowledge.webp)
 
 Heather Cox Richardson’s Revisionist History, By Blake Dodge and Katherine Dee
 Pirate Wires, Oct 14, 2025

@@ -3,7 +3,7 @@ title: The Architects of Isolation
 status: published
 publish_date: 2026-05-05T00:00:00.000Z
 primary: General
-image: /images/the-architects-of-isolation.png
+image: /images/the-architects-of-isolation.webp
 source_meta:
   url: >-
     https://fortune.com/2026/04/17/teen-boys-dating-ai-chatbot-girlfriend-experts-warn-kill-social-skills-gen-alpha-network-promotions/

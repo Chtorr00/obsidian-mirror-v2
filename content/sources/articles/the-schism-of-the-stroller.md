@@ -23,7 +23,7 @@ order: 236
 
 
 
-![The Schism of the Stroller](/images/March6SchismStroller.png)
+![The Schism of the Stroller](/images/March6SchismStroller.webp)
 
 A parents’ group tried to establish boundaries for discussion on their WhatsApp chat. It led to a schism.
 Washington Post, February 19, 2026

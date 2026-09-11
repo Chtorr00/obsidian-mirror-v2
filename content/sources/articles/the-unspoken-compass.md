@@ -20,7 +20,7 @@ order: 118
 
 
 
-![The Unspoken Compass](/images/September24Diversity.png)
+![The Unspoken Compass](/images/September24Diversity.webp)
 
 Study shows people are willing to travel further to the supermarket in order to live among 'similar' neighbors, by Jochem Tolsma
 Radboud University, September 2, 2025

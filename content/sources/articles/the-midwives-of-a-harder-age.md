@@ -18,7 +18,7 @@ order: 170
 
 
 
-![The Midwives of a Harder Age](/images/December1Parasovereigns.png)
+![The Midwives of a Harder Age](/images/December1Parasovereigns.webp)
 
 Tribal Future of the West, By Josh Neal and Mike Maxwell
 Psychopolitics Podcast, November 20, 2025

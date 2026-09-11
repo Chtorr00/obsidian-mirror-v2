@@ -21,7 +21,7 @@ order: 81
 
 
 
-![The Fuel for the New Gods](/images/August20BalkanizedUS.jpeg)
+![The Fuel for the New Gods](/images/August20BalkanizedUS.webp)
 
 Marcellus Shale Coalition, Jim Welty on the Energy Impacts with David Blackmon, by The Energy Question YouTube, August 13, 2025
 https://www.youtube.com/watch?v=D_YEClwF-X0

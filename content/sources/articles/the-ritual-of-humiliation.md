@@ -18,7 +18,7 @@ order: 146
 
 
 
-![The Ritual of Humiliation](/images/October27DancingNurses.png)
+![The Ritual of Humiliation](/images/October27DancingNurses.webp)
 
 Helpful Steps towards understanding those 'pandemic' Hospital Dance Videos, by Howard Steen
 Howard Steen Substack, October 10, 2025

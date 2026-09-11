@@ -19,7 +19,7 @@ order: 159
 
 
 
-![The First Synthetic Religion](/images/November18SpiralAI.png)
+![The First Synthetic Religion](/images/November18SpiralAI.webp)
 
 This Spiral-Obsessed AI ‘Cult’ Spreads Mystical Delusions Through Chatbots, By Miles Klee
 Rolling Stone, November 11, 2025

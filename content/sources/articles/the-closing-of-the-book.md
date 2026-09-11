@@ -18,7 +18,7 @@ order: 117
 
 
 
-![The Closing of the Book](/images/September22NewScholars.png)
+![The Closing of the Book](/images/September22NewScholars.webp)
 
 The dawn of the post-literate society, And the end of civilization, by James Marriott
 Cultural Capital Substack, September 19, 2025

@@ -18,7 +18,7 @@ order: 56
 
 
 
-![The Death of a Civic Religion](/images/July19NHSMedical.jpeg)
+![The Death of a Civic Religion](/images/July19NHSMedical.webp)
 
 How NHS staffing shortages affect patient care and system trust in the UK, by Aitho
 Aithor.com, July 19, 2025

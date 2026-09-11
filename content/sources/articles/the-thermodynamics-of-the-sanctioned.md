@@ -3,7 +3,7 @@ title: The Thermodynamics of the Sanctioned
 status: published
 publish_date: 2026-07-03T00:00:00.000Z
 primary: General
-image: /images/the-thermodynamics-of-the-sanctioned.png
+image: /images/the-thermodynamics-of-the-sanctioned.webp
 month: July
 source_meta:
   url: https://www.youtube.com/watch?v=Ma5QLXuUQb

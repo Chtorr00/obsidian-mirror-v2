@@ -2,7 +2,7 @@
 title: The Botanical Chimera
 primary: General
 secondary: []
-image: /images/April12BotanicalChimera.png
+image: /images/April12BotanicalChimera.webp
 month: April
 order: 275
 status: published

@@ -21,7 +21,7 @@ order: 36
 
 
 
-![The Catechism of the Vampire](/images/Feb8CatechismVampire.png)
+![The Catechism of the Vampire](/images/Feb8CatechismVampire.webp)
 
 Costin Alamariu's 'Selective Breeding' and the Birth of Peter Thiel's Vampire Elites, By Jonathan Cioran
 Postscript 1794 Substack, March 28, 2025

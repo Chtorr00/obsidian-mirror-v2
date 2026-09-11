@@ -18,7 +18,7 @@ order: 209
 
 
 
-![The Manifesto of the Workshop](/images/Jan29AIArtisan.png)
+![The Manifesto of the Workshop](/images/Jan29AIArtisan.webp)
 
 The Only Thing Stupider Than Your AI Witch Hunt Is You, By Tripp Ainsworth
 Tripp's Substack, January 3, 2026

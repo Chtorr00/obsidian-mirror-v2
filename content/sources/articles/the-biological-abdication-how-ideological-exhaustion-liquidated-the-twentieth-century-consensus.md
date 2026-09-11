@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-07-19T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-biological-abdication-how-ideological-exhaustion-liquidated-the-twentieth-century-consensus.png
+  /images/the-biological-abdication-how-ideological-exhaustion-liquidated-the-twentieth-century-consensus.webp
 month: July
 source_meta:
   url: ''

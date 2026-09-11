@@ -17,7 +17,7 @@ order: 76
 
 
 
-![The Crisis of Posterity](/images/August13Artic.jpeg)
+![The Crisis of Posterity](/images/August13Artic.webp)
 
 Are Global Birth Rates Really Declining? Yes, by Sustainability
 Sustainability, May 26, 2025

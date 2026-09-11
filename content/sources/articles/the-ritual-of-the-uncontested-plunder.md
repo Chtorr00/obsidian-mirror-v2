@@ -3,7 +3,7 @@ title: The Ritual of the Uncontested Plunder
 status: published
 publish_date: 2026-05-15T00:00:00.000Z
 primary: General
-image: /images/the-ritual-of-the-uncontested-plunder.png
+image: /images/the-ritual-of-the-uncontested-plunder.webp
 source_meta:
   url: >-
     https://www.telegraph.co.uk/money/consumer-affairs/security-guards-told-do-not-stop-shoplifters/

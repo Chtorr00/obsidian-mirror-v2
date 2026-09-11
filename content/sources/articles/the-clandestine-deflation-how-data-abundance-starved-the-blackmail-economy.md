@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-08-14T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-clandestine-deflation-how-data-abundance-starved-the-blackmail-economy.png
+  /images/the-clandestine-deflation-how-data-abundance-starved-the-blackmail-economy.webp
 month: August
 source_meta:
   url: https://vanguardistjournal.substack.com/p/the-power-is-power-theory-of-power

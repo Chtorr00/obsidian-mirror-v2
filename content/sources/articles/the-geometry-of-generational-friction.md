@@ -3,7 +3,7 @@ title: The Geometry of Generational Friction
 status: published
 publish_date: 2026-06-22T00:00:00.000Z
 primary: General
-image: /images/the-geometry-of-generational-friction.png
+image: /images/the-geometry-of-generational-friction.webp
 source_meta:
   url: https://x.com/Jringo1508/status/2064747783660171505
   title: Post by @Jringo1508 on X

@@ -21,7 +21,7 @@ order: 31
 
 
 
-![The Backdoor to the Phylum](/images/Jan16IVFEmbryo.png)
+![The Backdoor to the Phylum](/images/Jan16IVFEmbryo.webp)
 
 UK IVF couples use legal loophole to rank embryos based on potential IQ, height and health, By Hannah Devlin
 The Guardian UK, December 6, 2025

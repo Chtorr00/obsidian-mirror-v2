@@ -18,7 +18,7 @@ order: 216
 
 
 
-![The Exodus of the Architects](/images/Feb7ExodusArchitect.png)
+![The Exodus of the Architects](/images/Feb7ExodusArchitect.webp)
 
 Exodus: The Largest Wealth Flight in California History, By Mike Solana
 Pirate Wires, January 23, 2026

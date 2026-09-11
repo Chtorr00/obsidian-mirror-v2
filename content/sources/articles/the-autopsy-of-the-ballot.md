@@ -2,7 +2,7 @@
 title: The Autopsy of the Ballot
 primary: General
 secondary: []
-image: /images/March10BallotBalkans.png
+image: /images/March10BallotBalkans.webp
 month: March
 source_meta:
   url: >-

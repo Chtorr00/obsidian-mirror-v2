@@ -19,7 +19,7 @@ order: 51
 
 
 
-![The War That Dissolved the World](/images/July13WarThatDissolved.jpeg)
+![The War That Dissolved the World](/images/July13WarThatDissolved.webp)
 
 The 5GW Playbook: Silent Wars and Invisible Battlefields, by Global Security Review
 Global Security Review, July 13, 2025

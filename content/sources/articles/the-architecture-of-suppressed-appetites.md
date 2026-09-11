@@ -3,7 +3,7 @@ title: The Architecture of Suppressed Appetites
 status: published
 publish_date: 2026-07-04T00:00:00.000Z
 primary: General
-image: /images/the-architecture-of-suppressed-appetites.png
+image: /images/the-architecture-of-suppressed-appetites.webp
 month: July
 source_meta:
   url: https://mamathemagazine.com/chinas-war-on-female-delusion/

@@ -5,7 +5,7 @@ title: >-
 status: published
 publish_date: 2026-08-16T00:00:00.000Z
 primary: General
-image: /images/the-kinetic-disintermediation.png
+image: /images/the-kinetic-disintermediation.webp
 month: August
 source_meta:
   url: https://perfectingequilibrium.substack.com/p/to-the-victor-go-the-drones

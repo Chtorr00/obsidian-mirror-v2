@@ -17,7 +17,7 @@ order: 72
 
 
 
-![The Paper Mountain and the Avalanche It Caused](/images/August7AIperfectPartner.jpeg)
+![The Paper Mountain and the Avalanche It Caused](/images/August7AIperfectPartner.webp)
 
 How the World Accumulated $315 Trillion in Debt
 Diplomatic Watch, June 8, 2025

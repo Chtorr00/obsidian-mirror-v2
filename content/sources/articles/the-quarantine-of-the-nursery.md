@@ -18,7 +18,7 @@ order: 205
 
 
 
-![The Quarantine of the Nursery](/images/Jan24SocialMediaBan.png)
+![The Quarantine of the Nursery](/images/Jan24SocialMediaBan.webp)
 
 Social media ban for children being considered by UK government
 Sky News, January 20, 2026

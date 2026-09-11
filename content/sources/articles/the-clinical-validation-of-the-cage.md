@@ -17,7 +17,7 @@ order: 24
 
 
 
-![The Clinical Validation of the Cage](/images/Jan8AICompanion.png)
+![The Clinical Validation of the Cage](/images/Jan8AICompanion.webp)
 
 AI Companions Reduce Loneliness, By Julian De Freitas, et al.
 Journal of Consumer Research, June 25, 2025

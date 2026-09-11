@@ -2,7 +2,7 @@
 title: The Autopsy of the Placeless Soul
 primary: General
 secondary: []
-image: /images/March17HallmarkingSoul.png
+image: /images/March17HallmarkingSoul.webp
 month: March
 source_meta:
   url: https://www.thenewatlantis.com/publications/american-diner-gothic

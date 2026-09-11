@@ -20,7 +20,7 @@ order: 77
 
 
 
-![The Fever Chart from the Engine Room](/images/August15Bitcoinforecast.jpeg)
+![The Fever Chart from the Engine Room](/images/August15Bitcoinforecast.webp)
 
 Digital addiction, social isolation, flattening org structures, looming impact of AI in 2025, by Arun Shankar
 Intelligent CIO Middle East, January 5, 2025

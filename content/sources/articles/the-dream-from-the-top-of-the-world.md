@@ -20,7 +20,7 @@ order: 107
 
 
 
-![The Dream from the Top of the World](/images/September10BRICAxis.png)
+![The Dream from the Top of the World](/images/September10BRICAxis.webp)
 
 From Tianjin and Beijing to Vladivostok, the Eurasia High-Speed Train Keeps-a-Rollin. By Pepe Escobar
 Sputnik International, September 8, 2025

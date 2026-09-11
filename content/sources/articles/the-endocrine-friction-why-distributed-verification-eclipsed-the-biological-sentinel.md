@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-17T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-endocrine-friction-why-distributed-verification-eclipsed-the-biological-sentinel.png
+  /images/the-endocrine-friction-why-distributed-verification-eclipsed-the-biological-sentinel.webp
 month: August
 source_meta:
   url: https://jmpolemic.substack.com/p/androgenic-preference-cascade

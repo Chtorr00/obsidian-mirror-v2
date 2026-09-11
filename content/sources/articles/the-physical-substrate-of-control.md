@@ -3,7 +3,7 @@ title: The Physical Substrate of Control
 status: published
 publish_date: 2026-06-02T00:00:00.000Z
 primary: General
-image: /images/the-physical-substrate-of-control.png
+image: /images/the-physical-substrate-of-control.webp
 source_meta:
   url: https://goldenorder.substack.com/p/ai-data-centers-the-real-reason-theyre
   title: 'AI Data Centers: The Real Reason They’re Going Up Everywhere'

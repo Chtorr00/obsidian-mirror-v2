@@ -20,7 +20,7 @@ order: 166
 
 
 
-![The Last Contract of a Dying City](/images/November27SovStackBirth.png)
+![The Last Contract of a Dying City](/images/November27SovStackBirth.webp)
 
 California Forever submits final application outlining big plans for Solano County's smallest city, By Ashley Sharp
 CBS Sacramento, October 15, 2025

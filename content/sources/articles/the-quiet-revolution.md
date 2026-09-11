@@ -20,7 +20,7 @@ order: 130
 
 
 
-![The Quiet Revolution](/images/October10SharpieSupplyChain.png)
+![The Quiet Revolution](/images/October10SharpieSupplyChain.webp)
 
 Sharpie Found a Way to Make Pens More Cheaply—By Manufacturing Them in the U.S., By Natasha Khan
 Wall Street Journal, October 5, 2025

@@ -19,7 +19,7 @@ order: 151
 
 
 
-![The Gospel of the Physical](/images/November5Abundance.png)
+![The Gospel of the Physical](/images/November5Abundance.webp)
 
 Silicon Valley’s Growing Anti-Woke, Pro-Abundance Rebellion, By Edward Ring
 American Greatness, November 5, 2025

@@ -3,7 +3,7 @@ title: The Brittle Monopoly
 status: published
 publish_date: 2026-05-24T00:00:00.000Z
 primary: General
-image: /images/the-brittle-monopoly.png
+image: /images/the-brittle-monopoly.webp
 source_meta:
   url: https://archive.is/d7mqH#selection-292.0-674.0
   title: Michigan’s education board votes to oppose opportunity for students

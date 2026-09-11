@@ -17,7 +17,7 @@ order: 182
 
 
 
-![The Last Protest of the Human](/images/December17Superintelligence.png)
+![The Last Protest of the Human](/images/December17Superintelligence.webp)
 
 The Politics Of Superintelligence, By James O'Sullivan
 Noema Magazine, December 9, 2025

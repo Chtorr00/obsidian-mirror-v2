@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-09-17T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-caloric-decoupling-why-distributed-bioreactors-displaced-the-imperial-foodway.png
+  /images/the-caloric-decoupling-why-distributed-bioreactors-displaced-the-imperial-foodway.webp
 month: September
 source_meta:
   url: https://presterjohnsrevenge.substack.com/p/the-burger-age-collapse

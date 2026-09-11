@@ -3,7 +3,7 @@ title: The Flesh As Substrate
 status: published
 publish_date: 2026-06-21T00:00:00.000Z
 primary: General
-image: /images/the-flesh-as-substrate.png
+image: /images/the-flesh-as-substrate.webp
 source_meta:
   url: https://jdanielsawyer.substack.com/p/our-transhuman-future
   title: Our Transhuman Future?

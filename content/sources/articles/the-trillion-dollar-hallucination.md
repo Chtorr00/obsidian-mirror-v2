@@ -3,7 +3,7 @@ title: The Trillion-Dollar Hallucination
 status: published
 publish_date: 2026-07-02T00:00:00.000Z
 primary: General
-image: /images/the-trillion-dollar-hallucination.png
+image: /images/the-trillion-dollar-hallucination.webp
 month: July
 source_meta:
   url: https://wlockett.medium.com/the-ai-industry-is-panicking-db5edfd0b0b1

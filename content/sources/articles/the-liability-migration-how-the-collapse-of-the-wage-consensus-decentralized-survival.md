@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-07-30T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-liability-migration-how-the-collapse-of-the-wage-consensus-decentralized-survival.png
+  /images/the-liability-migration-how-the-collapse-of-the-wage-consensus-decentralized-survival.webp
 month: July
 source_meta:
   url: >-

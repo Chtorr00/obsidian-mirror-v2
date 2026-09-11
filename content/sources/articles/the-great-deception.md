@@ -5,7 +5,7 @@ publish_date: '2024-05-17'
 primary: General
 secondary:
   - Social
-image: /images/the-great-deception.png
+image: /images/the-great-deception.webp
 month: May
 source_meta:
   url: ''

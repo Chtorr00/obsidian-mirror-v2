@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-08-07T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-prestige-obsolescence-how-synthetic-cognition-bypassed-the-status-economy.png
+  /images/the-prestige-obsolescence-how-synthetic-cognition-bypassed-the-status-economy.webp
 month: August
 source_meta:
   url: >-

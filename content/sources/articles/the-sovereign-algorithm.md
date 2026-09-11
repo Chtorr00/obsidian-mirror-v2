@@ -3,7 +3,7 @@ title: The Sovereign Algorithm
 status: published
 publish_date: 2026-07-05T00:00:00.000Z
 primary: General
-image: /images/the-sovereign-algorithm.png
+image: /images/the-sovereign-algorithm.webp
 month: July
 source_meta:
   url: https://letter.palladiummag.com/p/war-by-other-means

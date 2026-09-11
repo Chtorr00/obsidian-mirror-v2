@@ -17,7 +17,7 @@ order: 135
 
 
 
-![The Ghost in the Machine-of-State](/images/October15Poasting.png)
+![The Ghost in the Machine-of-State](/images/October15Poasting.webp)
 
 Poastocracy, By John Carter
 Postcards From Barsoom Substack, October 10, 2025

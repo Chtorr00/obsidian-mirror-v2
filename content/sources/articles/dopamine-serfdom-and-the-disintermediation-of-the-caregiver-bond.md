@@ -3,7 +3,7 @@ title: Dopamine Serfdom and the Disintermediation of the Caregiver Bond
 status: published
 publish_date: 2026-07-24T00:00:00.000Z
 primary: General
-image: /images/dopamine-serfdom-and-the-disintermediation-of-the-caregiver-bond.png
+image: /images/dopamine-serfdom-and-the-disintermediation-of-the-caregiver-bond.webp
 month: July
 source_meta:
   url: ''

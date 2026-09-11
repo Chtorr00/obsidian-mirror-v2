@@ -21,7 +21,7 @@ order: 1
 
 
 
-![The Winning Heresy](/images/August29TradePlugs.jpeg)
+![The Winning Heresy](/images/August29TradePlugs.webp)
 
 The Mutualist Economy: A New Deal for Ownership, Yakov Feygin and Nils Gilman
 The Berggeruen Institute, April 23, 2020

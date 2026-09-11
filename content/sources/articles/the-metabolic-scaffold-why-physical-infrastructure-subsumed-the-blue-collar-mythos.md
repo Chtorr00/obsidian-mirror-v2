@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-09-19T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-metabolic-scaffold-why-physical-infrastructure-subsumed-the-blue-collar-mythos.png
+  /images/the-metabolic-scaffold-why-physical-infrastructure-subsumed-the-blue-collar-mythos.webp
 month: September
 source_meta:
   url: https://x.com/12Palehorse/status/2093368505303179458

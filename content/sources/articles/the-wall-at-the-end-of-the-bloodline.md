@@ -2,7 +2,7 @@
 title: The Wall at the End of the Bloodline
 primary: General
 secondary: []
-image: /images/March28EndBloodline.png
+image: /images/March28EndBloodline.webp
 month: March
 source_meta:
   url: >-

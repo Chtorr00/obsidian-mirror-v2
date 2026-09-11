@@ -17,7 +17,7 @@ order: 156
 
 
 
-![The Last Indictment](/images/November14Culling.png)
+![The Last Indictment](/images/November14Culling.webp)
 
 Enemies of the State, By Nathan Pinkoski
 American Greatness, November 13, 2025

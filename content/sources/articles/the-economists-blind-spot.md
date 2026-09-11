@@ -18,7 +18,7 @@ order: 59
 
 
 
-![The Economist's Blind Spot](/images/July22AIunemployment.jpeg)
+![The Economist's Blind Spot](/images/July22AIunemployment.webp)
 
 AI is already affecting the labor markets, by Mark Schniepp
 California Economic Forecast, July 2025

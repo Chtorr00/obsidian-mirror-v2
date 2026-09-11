@@ -2,7 +2,7 @@
 title: The Farce of the Feral Biology
 primary: General
 secondary: []
-image: /images/April21FarceFeral.png
+image: /images/April21FarceFeral.webp
 month: April
 order: 282
 status: published

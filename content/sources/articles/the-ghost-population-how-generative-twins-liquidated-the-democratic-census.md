@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-09-16T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-ghost-population-how-generative-twins-liquidated-the-democratic-census.png
+  /images/the-ghost-population-how-generative-twins-liquidated-the-democratic-census.webp
 month: September
 source_meta:
   url: https://nervegna.substack.com/p/stanford-hais-1000-person-ai-simulation

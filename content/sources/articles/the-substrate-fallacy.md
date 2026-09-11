@@ -3,7 +3,7 @@ title: The Substrate Fallacy
 status: published
 publish_date: 2026-05-05T00:00:00.000Z
 primary: General
-image: /images/the-substrate-fallacy.png
+image: /images/the-substrate-fallacy.webp
 source_meta:
   url: https://substack.com/home/post/p-192873022
   title: ''

@@ -19,7 +19,7 @@ order: 80
 
 
 
-![The Schism in the New Priesthood](/images/August18ExtendFamily.jpeg)
+![The Schism in the New Priesthood](/images/August18ExtendFamily.webp)
 
 'A Moment of Reckoning': Inside Anthropic's Landmark Lawsuit, by James Darley
 Technology Magazine, August 12, 2025

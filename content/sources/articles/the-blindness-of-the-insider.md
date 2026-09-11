@@ -17,7 +17,7 @@ order: 5
 
 
 
-![The Blindness of the Insider](/images/Jan27BTCelite.png)
+![The Blindness of the Insider](/images/Jan27BTCelite.webp)
 
 Why The Yuppie Elite Dismiss Bitcoin, By Jesse Myers
 Once in a Species Substack, Oct 30, 2023

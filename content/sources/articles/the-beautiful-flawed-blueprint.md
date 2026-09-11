@@ -17,7 +17,7 @@ order: 55
 
 
 
-![The Beautiful, Flawed Blueprint](/images/July18BlueprintAI.jpeg)
+![The Beautiful, Flawed Blueprint](/images/July18BlueprintAI.webp)
 
 The US' Economic Future in the Era of AI: From disruption to resilience, by Claudia Del Pozo
 Friedrich Naumann Foundation, July 18, 2025

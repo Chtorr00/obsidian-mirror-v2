@@ -18,7 +18,7 @@ order: 211
 
 
 
-![The Wargame of the Gods](/images/Feb1AnchorAI.png)
+![The Wargame of the Gods](/images/Feb1AnchorAI.webp)
 
 What Happens When Superhuman AIs Compete for Control?, By Steven Veld
 AI Futures Project, January 11, 2026

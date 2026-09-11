@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-09-02T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-costless-signal-how-synthetic-resonance-decoupled-intimacy-from-biological-risk.png
+  /images/the-costless-signal-how-synthetic-resonance-decoupled-intimacy-from-biological-risk.webp
 month: September
 source_meta:
   url: >-

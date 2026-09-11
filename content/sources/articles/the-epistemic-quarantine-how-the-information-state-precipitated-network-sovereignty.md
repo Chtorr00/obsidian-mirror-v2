@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-09-18T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-epistemic-quarantine-how-the-information-state-precipitated-network-sovereignty.png
+  /images/the-epistemic-quarantine-how-the-information-state-precipitated-network-sovereignty.webp
 month: September
 source_meta:
   url: https://arctotherium.substack.com/p/the-closure-of-the-internet

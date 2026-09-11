@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-23T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-semiotic-vector-how-recursive-feedback-transformed-the-symbolic-architecture.png
+  /images/the-semiotic-vector-how-recursive-feedback-transformed-the-symbolic-architecture.webp
 month: August
 source_meta:
   url: https://www.youtube.com/watch?v=XLlBumbX-dw

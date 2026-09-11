@@ -20,7 +20,7 @@ order: 133
 
 
 
-![The Perfect Drug](/images/October13OnlineGambling.png)
+![The Perfect Drug](/images/October13OnlineGambling.webp)
 
 Filipinos Are Addicted to Online Gambling. So Is Their Government, By Andreo Calonzo and Neil Jerome Morales
 Bloomberg Businessweek, September 14, 2025

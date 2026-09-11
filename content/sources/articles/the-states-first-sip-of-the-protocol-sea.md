@@ -3,7 +3,7 @@ title: The State's First Sip of the Protocol Sea
 status: published
 publish_date: '2024-05-21'
 primary: General
-image: /images/the-states-first-sip-of-the-protocol-sea.png
+image: /images/the-states-first-sip-of-the-protocol-sea.webp
 source_meta:
   url: >-
     https://gooden.house.gov/press-releases?ID=232F2920-4821-4B84-A676-A9521924FEBC

@@ -18,7 +18,7 @@ order: 213
 
 
 
-![The Dialogue of the Ghost and the Machine (Part 1)](/images/Feb3NickLandp1.png)
+![The Dialogue of the Ghost and the Machine (Part 1)](/images/Feb3NickLandp1.webp)
 
 A Conversation with Nick Land (Part 1), By Vincent Lê
 Architectonics Substack, January 12, 2026

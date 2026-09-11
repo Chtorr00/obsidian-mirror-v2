@@ -19,7 +19,7 @@ order: 68
 
 
 
-![The Irrelevant Ocean](/images/July29SouthChinaSea.jpeg)
+![The Irrelevant Ocean](/images/July29SouthChinaSea.webp)
 
 Navigating Tensions in the South China Sea: A Multidimensional Analysis, by CJFP Staff Chicago Journal of Foreign Policy, January 10, 2025 https://www.cjfp.org/navigating-tensions-in-the-south-china-sea-a-multidimensional-analysis/
 This is an exemplary artifact of your time's geopolitical analysis. It is meticulous, multidimensional, and entirely focused on what your era considered to be the central drama of the 21st century: the great power competition between the United States and China, played out across the chessboard of the South China Sea. Your analysts saw this as the conflict that would define the future.

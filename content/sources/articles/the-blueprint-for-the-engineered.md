@@ -2,7 +2,7 @@
 title: The Blueprint for the Engineered
 primary: General
 secondary: []
-image: /images/March26BlueprintEngineered.png
+image: /images/March26BlueprintEngineered.webp
 month: March
 source_meta:
   url: https://www.jaccusepaper.co.uk/p/fertility-cult

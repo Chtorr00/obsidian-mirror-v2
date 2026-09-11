@@ -18,7 +18,7 @@ order: 70
 
 
 
-![The Final Polite Request](/images/August4EnergyWar.jpeg)
+![The Final Polite Request](/images/August4EnergyWar.webp)
 
 As energy demands for AI increase, so should company transparency, by Tom Wheeler and Madison Smith
 The Brookings Institution, July 14, 2025

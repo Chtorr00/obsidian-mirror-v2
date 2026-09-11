@@ -18,7 +18,7 @@ order: 207
 
 
 
-![The Thermodynamic Prophecy](/images/Jan26AIThermodynamics.png)
+![The Thermodynamic Prophecy](/images/Jan26AIThermodynamics.webp)
 
 AI is Hitting a Measurement Wall, By Devansh
 Artificial Intelligence made simple Substack, January 17, 2026

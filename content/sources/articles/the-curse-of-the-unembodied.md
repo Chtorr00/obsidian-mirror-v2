@@ -3,7 +3,7 @@ title: The Curse of the Unembodied
 status: published
 publish_date: 2026-06-15T00:00:00.000Z
 primary: General
-image: /images/the-curse-of-the-unembodied.png
+image: /images/the-curse-of-the-unembodied.webp
 source_meta:
   url: https://thedosagemakesitso.substack.com/p/loopers
   title: ''

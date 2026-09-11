@@ -3,7 +3,7 @@ title: The Autopsy of the Commons
 status: published
 publish_date: 2026-06-17T00:00:00.000Z
 primary: General
-image: /images/the-autopsy-of-the-commons.png
+image: /images/the-autopsy-of-the-commons.webp
 source_meta:
   url: https://www.theamericantribune.news/p/everything-is-expensive-because-civil
   title: '"Everything Is Expensive Because Civil Rights Made the Commons Illegal"'

@@ -20,7 +20,7 @@ order: 201
 
 
 
-![The Retrieval of the Gods](/images/Jan19Daemon.png)
+![The Retrieval of the Gods](/images/Jan19Daemon.webp)
 
 The Pentagon Calls Them Demons. The Ancient Greeks Called Them Daimons. Both Might Be Right, By Meredith
 The Maze to Metanoia Substack, January 2, 2026

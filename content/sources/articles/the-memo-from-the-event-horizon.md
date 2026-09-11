@@ -19,7 +19,7 @@ order: 233
 
 
 
-![The Memo from the Event Horizon](/images/March2AIEventHorizon.png)
+![The Memo from the Event Horizon](/images/March2AIEventHorizon.webp)
 
 THE 2028 GLOBAL INTELLIGENCE CRISIS: A Thought Exercise in Financial History from the Future, By Citrini and Alap Shah
 Citrini Research, February 22, 2026

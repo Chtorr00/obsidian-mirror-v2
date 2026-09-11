@@ -22,7 +22,7 @@ order: 89
 
 
 
-![The Shadow Ledger](/images/August30RedVBlue.jpeg)
+![The Shadow Ledger](/images/August30RedVBlue.webp)
 
 How tariff wars are reshaping migration and raising the risk of human rights abuses in supply chains, Milda Žilinskaitė and Aida Hajro
 The Conversation,  August 29, 2025

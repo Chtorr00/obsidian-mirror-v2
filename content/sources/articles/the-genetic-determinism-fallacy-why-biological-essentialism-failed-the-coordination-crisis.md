@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-09-13T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-genetic-determinism-fallacy-why-biological-essentialism-failed-the-coordination-crisis.png
+  /images/the-genetic-determinism-fallacy-why-biological-essentialism-failed-the-coordination-crisis.webp
 month: September
 source_meta:
   url: https://williameijer.substack.com/p/meijers-law

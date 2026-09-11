@@ -20,7 +20,7 @@ order: 4
 
 
 
-![The Last Blueprint for a Ghost](/images/November4DecentralizedEcon.png)
+![The Last Blueprint for a Ghost](/images/November4DecentralizedEcon.webp)
 
 Making local economies prosperous and resilient: The case for a modern Economic Development Administration, by Amy Liu, et. al
 Brookings Institute, June 27, 2022

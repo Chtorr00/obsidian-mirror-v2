@@ -20,7 +20,7 @@ order: 172
 
 
 
-![The Last Sane Man's Eulogy](/images/December3LastChance.png)
+![The Last Sane Man's Eulogy](/images/December3LastChance.webp)
 
 The West’s Last Chance - How to Build a New Global Order Before It’s Too Late, By Alexander Stubb Foreign Affairs, December 2, 2025 https://www.foreignaffairs.com/united-states/wests-last-chance
 https://archive.is/K3twi

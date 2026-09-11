@@ -3,7 +3,7 @@ title: The Schism of Control
 status: published
 publish_date: 2026-05-22T00:00:00.000Z
 primary: General
-image: /images/the-schism-of-control.png
+image: /images/the-schism-of-control.webp
 source_meta:
   url: >-
     https://www.washingtonpost.com/politics/2026/05/11/trump-ai-regulation-commerce-intelligence/

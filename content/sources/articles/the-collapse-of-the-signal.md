@@ -20,7 +20,7 @@ order: 195
 
 
 
-![The Collapse of the Signal](/images/December30JobSignaling.png)
+![The Collapse of the Signal](/images/December30JobSignaling.webp)
 
 The entry-level hiring process is breaking down, By Rose Horowitch
 Atlantic Magazine, December 16, 2025

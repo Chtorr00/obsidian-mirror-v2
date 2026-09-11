@@ -2,7 +2,7 @@
 title: The Chronicle of the Atrophied Hand
 primary: General
 secondary: []
-image: /images/April27ChronicleHand.png
+image: /images/April27ChronicleHand.webp
 month: April
 order: 288
 status: published

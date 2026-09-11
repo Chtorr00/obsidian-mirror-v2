@@ -20,7 +20,7 @@ order: 73
 
 
 
-![The Perfect Parasite](/images/August8declingingDemocracy.jpeg)
+![The Perfect Parasite](/images/August8declingingDemocracy.webp)
 
 From friendship to love, AI chatbots are becoming much more than just tools for youth, warn mental health experts, by ET Online
 The Economic Times, August 3, 2025

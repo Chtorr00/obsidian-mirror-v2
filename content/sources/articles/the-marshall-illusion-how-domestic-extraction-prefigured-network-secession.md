@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-09-05T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-marshall-illusion-how-domestic-extraction-prefigured-network-secession.png
+  /images/the-marshall-illusion-how-domestic-extraction-prefigured-network-secession.webp
 month: September
 source_meta:
   url: https://amgreatness.com/2026/08/16/the-country-we-forgot-to-rebuild/

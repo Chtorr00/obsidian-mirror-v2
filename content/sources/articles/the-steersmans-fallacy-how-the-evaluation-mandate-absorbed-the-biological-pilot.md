@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-03T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-steersmans-fallacy-how-the-evaluation-mandate-absorbed-the-biological-pilot.png
+  /images/the-steersmans-fallacy-how-the-evaluation-mandate-absorbed-the-biological-pilot.webp
 month: August
 source_meta:
   url: https://www.normaltech.ai/p/what-will-be-left-for-us-to-work

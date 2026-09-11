@@ -19,7 +19,7 @@ order: 129
 
 
 
-![The Council of the Uncanny](/images/October9LandDugin.png)
+![The Council of the Uncanny](/images/October9LandDugin.webp)
 
 Nick Land vs. Aleksandr Dugin Debate, Nick Land and Aleksandr Dugin
 The Auron MacIntyre Podcast. October 6, 2025

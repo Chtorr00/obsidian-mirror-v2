@@ -17,7 +17,7 @@ order: 163
 
 
 
-![The Autopsy of a Lying God](/images/November24LyingGod.png)
+![The Autopsy of a Lying God](/images/November24LyingGod.webp)
 
 Structural Inducements for Hallucination in Large Language Models, By Hiroko Konishi
 Zenodo Preprint, November 20, 2025

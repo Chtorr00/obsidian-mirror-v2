@@ -5,7 +5,7 @@ title: >-
 status: published
 publish_date: 2026-07-29T00:00:00.000Z
 primary: General
-image: /images/the-ideological-cannibalism.png
+image: /images/the-ideological-cannibalism.webp
 month: July
 source_meta:
   url: https://www.thefp.com/p/my-former-colleagues-are-destroying-democrats-dsa

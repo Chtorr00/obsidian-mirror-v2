@@ -19,7 +19,7 @@ order: 106
 
 
 
-![The Silent Epidemic](/images/September8ReadingDecline.png)
+![The Silent Epidemic](/images/September8ReadingDecline.webp)
 
 Reading For Fun Is Plummeting in The US, And Experts Are Concerned, by David Neild
 ScienceAlert, August 27, 2025

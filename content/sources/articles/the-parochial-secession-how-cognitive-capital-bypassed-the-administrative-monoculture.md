@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-07-31T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-parochial-secession-how-cognitive-capital-bypassed-the-administrative-monoculture.png
+  /images/the-parochial-secession-how-cognitive-capital-bypassed-the-administrative-monoculture.webp
 month: July
 source_meta:
   url: https://www.socialmatter.us/p/reverse-rumspringa

@@ -18,7 +18,7 @@ order: 110
 
 
 
-![The Seed in the Nursery](/images/September14AInursery.png)
+![The Seed in the Nursery](/images/September14AInursery.webp)
 
 Parents, Your Job Has Changed in the AI Era, By Jenny Anderson and Rebecca Winthrop
 The New York Times, September 11, 2025

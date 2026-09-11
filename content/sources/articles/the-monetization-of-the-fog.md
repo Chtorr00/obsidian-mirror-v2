@@ -21,7 +21,7 @@ order: 243
 
 
 
-![The Monetization of the Fog](/images/March13MonetizationFog.png)
+![The Monetization of the Fog](/images/March13MonetizationFog.webp)
 
 The $26 Billion Threat: How AI Disinformation Is Reshaping Global Risk in 2026, By The Quantum Institute
 MarketResearch.com blog, February 19, 2026

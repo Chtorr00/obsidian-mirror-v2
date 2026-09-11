@@ -19,7 +19,7 @@ order: 245
 
 
 
-![The Promethean Pet](/images/March15PromethianPet.png)
+![The Promethean Pet](/images/March15PromethianPet.webp)
 
 Tech boss uses AI and ChatGPT to create cancer vaccine for his dying dog, By Natasha Bita
 The Australian, March 13, 2026

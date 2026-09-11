@@ -39,7 +39,7 @@ Nights are the hardest.
 
 “I can’t sleep because of our own situation,” Ms. Uccello, 49, said over coffee on a recent afternoon. “I can’t sleep because of what I know what’s happening around the world. I can’t sleep because my former colleagues and friends are also suffering.”
 
-![](https://static01.nyt.com/images/2026/05/10/us/politics/dc-usaid20/dc-usaid20-mobileMasterAt3x.jpg?quality=75&auto=webp&disable=upscale&width=1800)
+![](https://static01.nyt.com/images/2026/05/10/us/politics/dc-usaid20/dc-usaid20-mobileMasterAt3x.webp?quality=75&auto=webp&disable=upscale&width=1800)
 
 Amy Uccello was fired from her job with U.S.A.I.D. while on maternity leave. Her husband also lost his job when U.S.A.I.D. funding for his nonprofit dried up. Credit... Salwan Georges for The New York Times
 

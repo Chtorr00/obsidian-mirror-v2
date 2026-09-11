@@ -3,7 +3,7 @@ title: The Last Spectacle of the State
 status: published
 publish_date: 2026-05-05T00:00:00.000Z
 primary: General
-image: /images/the-last-spectacle-of-the-state.png
+image: /images/the-last-spectacle-of-the-state.webp
 source_meta:
   url: >-
     https://amgreatness.com/2026/04/25/the-meme-war-what-irans-anti-trump-memes-tell-us-about-the-war-and-the-future-of-us-politics/

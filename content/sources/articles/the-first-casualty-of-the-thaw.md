@@ -17,7 +17,7 @@ order: 98
 
 
 
-![The First Casualty of the Thaw](/images/August24UniversityDissolve.jpeg)
+![The First Casualty of the Thaw](/images/August24UniversityDissolve.webp)
 
 The Arctic Council in the Shadow of Geopolitics, by Andreas Østhagen The Arctic Institute, May 12, 2025 https://www.thearcticinstitute.org/arctic-council-shadow-geopolitics/
 This artifact is a work of quiet, institutional grief. The author is a scholar of a particular form of 20th-century idealism—the belief that a shared physical space, the Arctic, could create a zone of post-political, scientific cooperation. He is documenting, with scholarly precision, the death of that dream. He sees the Arctic Council being eclipsed by the "shadow of geopolitics."

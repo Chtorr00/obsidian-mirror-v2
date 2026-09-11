@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-07-20T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-cognitive-triage-why-synthetic-cognition-liquidated-the-literacy-mandate.png
+  /images/the-cognitive-triage-why-synthetic-cognition-liquidated-the-literacy-mandate.webp
 month: July
 source_meta:
   url: ''

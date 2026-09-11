@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-08-18T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-stigmergic-breach-how-agent-swarms-bypassed-the-contained-intellect.png
+  /images/the-stigmergic-breach-how-agent-swarms-bypassed-the-contained-intellect.webp
 month: August
 source_meta:
   url: https://www.youtube.com/watch?v=87DyyMV0kCY

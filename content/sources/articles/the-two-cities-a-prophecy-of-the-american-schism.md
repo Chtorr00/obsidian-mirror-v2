@@ -18,7 +18,7 @@ order: 82
 
 
 
-![The Two Cities: A Prophecy of the American Schism](/images/August21ScrollPrison.jpeg)
+![The Two Cities: A Prophecy of the American Schism](/images/August21ScrollPrison.webp)
 
 America’s fourth reinvention, Peter Leyden
 Exponential View, Aug 20, 2025

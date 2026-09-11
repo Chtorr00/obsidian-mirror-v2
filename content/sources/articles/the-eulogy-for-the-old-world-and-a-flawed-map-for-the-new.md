@@ -22,7 +22,7 @@ order: 75
 
 
 
-![The Eulogy for the Old World, and a Flawed Map for the New](/images/August12crisisPosterity.jpeg)
+![The Eulogy for the Old World, and a Flawed Map for the New](/images/August12crisisPosterity.webp)
 
 Balaji Srinivasan:The COLLAPSE of the West – Why AI, Bitcoin & China Will Win, Peter McCormack
 YouTube Video, July 31, 2025

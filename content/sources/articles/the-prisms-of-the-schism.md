@@ -3,7 +3,7 @@ title: The Prisms of the Schism
 primary: Political
 secondary:
   - 'STEP: Political'
-image: /images/April8PrismsSchism.png
+image: /images/April8PrismsSchism.webp
 month: April
 order: 272
 status: published

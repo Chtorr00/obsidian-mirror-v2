@@ -2,7 +2,7 @@
 title: The Hallmarking of the Soul
 primary: General
 secondary: []
-image: /images/March17HallmarkingSoul.png
+image: /images/March17HallmarkingSoul.webp
 month: March
 source_meta:
   url: https://archive.is/tJcKG

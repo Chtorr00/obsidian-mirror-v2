@@ -23,7 +23,7 @@ order: 208
 
 
 
-![The Swipe at the Silent Page](/images/Jan28PageSwipe.png)
+![The Swipe at the Silent Page](/images/Jan28PageSwipe.webp)
 
 Nearly a third of kids can't use books when starting school - and try to swipe them like phones
 Sky News, January 22, 2026

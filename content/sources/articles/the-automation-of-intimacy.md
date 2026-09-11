@@ -17,7 +17,7 @@ order: 239
 
 
 
-![The Automation of Intimacy](/images/March9AutomationIntimacy.png)
+![The Automation of Intimacy](/images/March9AutomationIntimacy.webp)
 
 Dating is broken. Can AI fix it?, By Shannon Carroll
 Quartz, February 15, 2026

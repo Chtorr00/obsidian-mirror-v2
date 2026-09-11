@@ -3,7 +3,7 @@ title: The Last Pastel Sunset of Albion
 status: published
 publish_date: 2026-05-16T00:00:00.000Z
 primary: General
-image: /images/the-last-pastel-sunset-of-albion.png
+image: /images/the-last-pastel-sunset-of-albion.webp
 source_meta:
   url: https://x.com/kunley_drukpa/status/2048477744489513130
   title: WHAT IS ‘PINK PANTHERESS BRITAIN’?

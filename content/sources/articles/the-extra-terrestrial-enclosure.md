@@ -3,7 +3,7 @@ title: The Extra-Terrestrial Enclosure
 status: published
 publish_date: 2026-06-23T00:00:00.000Z
 primary: General
-image: /images/the-extra-terrestrial-enclosure.png
+image: /images/the-extra-terrestrial-enclosure.webp
 source_meta:
   url: >-
     https://amgreatness.com/2026/06/13/property-rights-in-space-the-missing-piece-in-the-spacex-ipo-story/

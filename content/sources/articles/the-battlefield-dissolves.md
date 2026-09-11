@@ -20,7 +20,7 @@ order: 95
 
 
 
-![The Battlefield Dissolves](/images/August11NetworkStateish.jpeg)
+![The Battlefield Dissolves](/images/August11NetworkStateish.webp)
 
 Culture Wars: The Endgame, by James P. Hunter
 The Hedgehog Review, Summer 2025 https://hedgehogreview.com/issues/in-need-of-repair/articles/culture-wars-the-endgame

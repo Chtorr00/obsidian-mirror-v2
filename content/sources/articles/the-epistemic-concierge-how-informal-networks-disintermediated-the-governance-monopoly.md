@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-27T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-epistemic-concierge-how-informal-networks-disintermediated-the-governance-monopoly.png
+  /images/the-epistemic-concierge-how-informal-networks-disintermediated-the-governance-monopoly.webp
 month: August
 source_meta:
   url: https://archive.is/CA5pL

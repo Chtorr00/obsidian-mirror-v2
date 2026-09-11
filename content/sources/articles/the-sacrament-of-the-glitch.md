@@ -19,7 +19,7 @@ order: 33
 
 
 
-![The Sacrament of the Glitch](/images/Jan22DigitalLSD.png)
+![The Sacrament of the Glitch](/images/Jan22DigitalLSD.webp)
 
 People Are Paying to Get Their Chatbots High on ‘Drugs’, By Mattha Busby
 Wired, December 17, 2025

@@ -3,7 +3,7 @@ title: A Calculus of Dust
 status: published
 publish_date: 2026-05-29T00:00:00.000Z
 primary: General
-image: /images/a-calculus-of-dust.png
+image: /images/a-calculus-of-dust.webp
 source_meta:
   url: https://peterturchin.substack.com/p/is-ukraine-russia-war-entering-the
   title: Is Ukraine-Russia War Entering the End Game?

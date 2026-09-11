@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-09-22T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-posterity-paradox-how-demographic-contraction-fractured-the-hereditary-social-contract.png
+  /images/the-posterity-paradox-how-demographic-contraction-fractured-the-hereditary-social-contract.webp
 month: September
 source_meta:
   url: https://www.socialmatter.us/p/what-will-a-childless-ruled-society

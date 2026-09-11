@@ -17,7 +17,7 @@ order: 203
 
 
 
-![The Foreclosure of the Mind](/images/Jan21PostCollege.png)
+![The Foreclosure of the Mind](/images/Jan21PostCollege.webp)
 
 Plunging US Birth Rate Leaves Too Many Colleges With Too Few Kids, By Elizabeth Rembert, Amanda Albright, and Marie Patino
 Bloomberg, January 18, 2026

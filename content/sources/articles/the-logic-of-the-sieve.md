@@ -3,7 +3,7 @@ title: The Logic of the Sieve
 status: published
 publish_date: 2026-05-28T00:00:00.000Z
 primary: General
-image: /images/the-logic-of-the-sieve.png
+image: /images/the-logic-of-the-sieve.webp
 source_meta:
   url: >-
     https://www.amerika.org/politics/after-a-brief-interruption-the-great-filtering-continues/

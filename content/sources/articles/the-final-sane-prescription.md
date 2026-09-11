@@ -19,7 +19,7 @@ order: 152
 
 
 
-![The Final, Sane Prescription](/images/November6AIHierarchy.png)
+![The Final, Sane Prescription](/images/November6AIHierarchy.webp)
 
 The most likely AI apocalypse, By Eric Levitz
 Vox, Nov 4, 2025

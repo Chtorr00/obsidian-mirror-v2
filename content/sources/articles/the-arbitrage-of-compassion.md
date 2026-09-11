@@ -22,7 +22,7 @@ order: 223
 
 
 
-![The Arbitrage of Compassion](/images/Feb19AssistiveStudent.png)
+![The Arbitrage of Compassion](/images/Feb19AssistiveStudent.webp)
 
 Nearly 40% of Stanford undergraduates claim they’re disabled. I’m one of them, By Elsa Johnson
 The Times, February 2, 2026

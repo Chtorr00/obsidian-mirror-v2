@@ -18,7 +18,7 @@ order: 84
 
 
 
-![Curing the Wrong Disease](/images/August23ArticFortress.jpeg)
+![Curing the Wrong Disease](/images/August23ArticFortress.webp)
 
 Giving people money helped less than I thought it would, Kelsey Piper
 The Argument, Aug 19, 2025

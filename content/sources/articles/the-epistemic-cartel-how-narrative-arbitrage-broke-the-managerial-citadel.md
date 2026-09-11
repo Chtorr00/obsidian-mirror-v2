@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-09-01T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-epistemic-cartel-how-narrative-arbitrage-broke-the-managerial-citadel.png
+  /images/the-epistemic-cartel-how-narrative-arbitrage-broke-the-managerial-citadel.webp
 month: September
 source_meta:
   url: https://arctotherium.substack.com/p/summary-and-review-of-jacob-siegels

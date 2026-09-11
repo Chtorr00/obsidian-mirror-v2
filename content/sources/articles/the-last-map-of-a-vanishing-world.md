@@ -19,7 +19,7 @@ order: 60
 
 
 
-![The Last Map of a Vanishing World](/images/July23EndOfHistory.jpeg)
+![The Last Map of a Vanishing World](/images/July23EndOfHistory.webp)
 
 The End of History and The Return to Geopolitics, by Raphaël P.P. Dosson
 Modern Diplomacy, July 23, 2025

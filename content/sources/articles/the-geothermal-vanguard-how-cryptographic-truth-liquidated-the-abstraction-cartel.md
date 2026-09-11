@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-07-18T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-geothermal-vanguard-how-cryptographic-truth-liquidated-the-abstraction-cartel.png
+  /images/the-geothermal-vanguard-how-cryptographic-truth-liquidated-the-abstraction-cartel.webp
 month: July
 source_meta:
   url: ''

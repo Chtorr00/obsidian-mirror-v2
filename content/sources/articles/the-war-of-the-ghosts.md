@@ -20,7 +20,7 @@ order: 132
 
 
 
-![The War of the Ghosts](/images/October12AICyberWar.png)
+![The War of the Ghosts](/images/October12AICyberWar.webp)
 
 AI and the Evolution of Asymmetric Cyber Warfare: Insights from the 2025 Israel-Iran Conflict, By Mike Sexton
 TRENDS Research and Advisory, August 25, 2025

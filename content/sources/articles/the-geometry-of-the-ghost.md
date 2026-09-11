@@ -21,7 +21,7 @@ order: 38
 
 
 
-![The Geometry of the Ghost](/images/Feb11TransparentAI.png)
+![The Geometry of the Ghost](/images/Feb11TransparentAI.webp)
 
 Superposition Yields Robust Neural Scaling, By Yizhou Liu, Ziming Liu, and Jeff Gore Massachusetts Institute of Technology, November 29, 2025
 https://arxiv.org/abs/2505.10465

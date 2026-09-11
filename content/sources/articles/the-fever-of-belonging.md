@@ -3,7 +3,7 @@ title: The Fever of Belonging
 status: published
 publish_date: 2026-06-08T00:00:00.000Z
 primary: General
-image: /images/the-fever-of-belonging.png
+image: /images/the-fever-of-belonging.webp
 source_meta:
   url: https://librarianofcelaeno.substack.com/p/what-is-trumpism
   title: What is Trumpism?

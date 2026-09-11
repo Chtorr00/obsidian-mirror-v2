@@ -21,7 +21,7 @@ order: 102
 
 
 
-![The Grey Fog](/images/September4DigitalFog.png)
+![The Grey Fog](/images/September4DigitalFog.webp)
 
 AI Generated 'Boring History' Videos Are Flooding YouTube and Drowning Out Real History, by Jason Koebler
 404media.co , September 3, 2025

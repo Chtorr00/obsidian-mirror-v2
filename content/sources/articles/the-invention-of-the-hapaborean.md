@@ -18,7 +18,7 @@ order: 232
 
 
 
-![The Invention of the Hapaborean](/images/March1Hapaborean.png)
+![The Invention of the Hapaborean](/images/March1Hapaborean.webp)
 
 Alysa Liu, The Hapaborean Princess, Patrick Saltykov
 Patrick Saltykov Substack, February 25, 2026

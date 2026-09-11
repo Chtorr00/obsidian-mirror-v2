@@ -3,7 +3,7 @@ title: The Taxonomy of the Unwanted
 primary: Political
 secondary:
   - 'STEP: Political'
-image: /images/April5TaxonomyUnwanted.png
+image: /images/April5TaxonomyUnwanted.webp
 month: April
 order: 269
 status: published

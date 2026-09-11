@@ -22,7 +22,7 @@ order: 128
 
 
 
-![The End of the Long Summer](/images/October3SupplyChain.png)
+![The End of the Long Summer](/images/October3SupplyChain.webp)
 
 The Perfect Storm: How Intertwined Crises are Reshaping Global Food Security and Commodity Markets
 MarketMinute, October 1, 2025

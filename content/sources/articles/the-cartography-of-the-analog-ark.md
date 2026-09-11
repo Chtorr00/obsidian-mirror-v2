@@ -2,7 +2,7 @@
 title: The Cartography of the Analog Ark
 primary: General
 secondary: []
-image: /images/April15CartographyAnalog.png
+image: /images/April15CartographyAnalog.webp
 month: April
 order: 44
 status: published

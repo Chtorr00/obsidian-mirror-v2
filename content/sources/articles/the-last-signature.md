@@ -19,7 +19,7 @@ order: 116
 
 
 
-![The Last Signature](/images/September21OceanTreaty.png)
+![The Last Signature](/images/September21OceanTreaty.webp)
 
 Hard-Fought Treaty to Protect Ocean Life Clears a Final Hurdle, By Max Bearak
 The New York Times, September 19, 2025

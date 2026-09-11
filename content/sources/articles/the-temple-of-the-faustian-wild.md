@@ -18,7 +18,7 @@ order: 206
 
 
 
-![The Temple of the Faustian Wild](/images/Jan25BassPro.png)
+![The Temple of the Faustian Wild](/images/Jan25BassPro.webp)
 
 The Metaphysics Of Bass Pro Shops, By Javier Velazquez
 Exiled Heart Substack, January 16, 2026

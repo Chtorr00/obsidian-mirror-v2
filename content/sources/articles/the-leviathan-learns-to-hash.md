@@ -3,7 +3,7 @@ title: The Leviathan Learns to Hash
 status: published
 publish_date: 2026-05-05T00:00:00.000Z
 primary: General
-image: /images/the-leviathan-learns-to-hash.png
+image: /images/the-leviathan-learns-to-hash.webp
 source_meta:
   url: >-
     https://gooden.house.gov/press-releases?ID=232F2920-4821-4B84-A676-A9521924FEBC

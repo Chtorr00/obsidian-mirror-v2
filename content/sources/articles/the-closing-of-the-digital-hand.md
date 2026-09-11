@@ -3,7 +3,7 @@ title: The Closing of the Digital Hand
 status: published
 publish_date: 2026-05-19T00:00:00.000Z
 primary: General
-image: /images/the-closing-of-the-digital-hand.png
+image: /images/the-closing-of-the-digital-hand.webp
 source_meta:
   url: >-
     https://rareearthexchanges.com/news/beijing-declares-rare-earths-and-ai-the-front-lines-of-a-global-espionage-war/

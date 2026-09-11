@@ -20,7 +20,7 @@ order: 100
 
 
 
-![The Accidental Seed](/images/September2NetState.jpeg)
+![The Accidental Seed](/images/September2NetState.webp)
 
 Broken $100-billion dream city becomes refuge for tech utopians, by Ryan Weeks
 LA Times, August 29, 2025

@@ -3,7 +3,7 @@ title: The Great Refusal
 status: published
 publish_date: 2026-05-30T00:00:00.000Z
 primary: General
-image: /images/the-great-refusal.png
+image: /images/the-great-refusal.webp
 source_meta:
   url: https://bettinaarndt.substack.com/p/no-wonder-men-are-opting-out
   title: No wonder men are opting out

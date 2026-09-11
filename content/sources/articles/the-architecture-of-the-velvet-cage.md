@@ -2,7 +2,7 @@
 title: The Architecture of the Velvet Cage
 primary: General
 secondary: []
-image: /images/April10VelvetCage.png
+image: /images/April10VelvetCage.webp
 month: April
 order: 273
 status: published

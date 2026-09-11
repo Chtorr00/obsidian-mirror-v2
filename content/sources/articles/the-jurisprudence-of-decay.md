@@ -3,7 +3,7 @@ title: The Jurisprudence of Decay
 status: published
 publish_date: 2026-06-11T00:00:00.000Z
 primary: General
-image: /images/the-jurisprudence-of-decay.png
+image: /images/the-jurisprudence-of-decay.webp
 source_meta:
   url: >-
     https://www.realclearenergy.org/articles/2026/06/04/a_quiet_rewrite_that_could_shape_a_thousand_climate_cases_1186602.html

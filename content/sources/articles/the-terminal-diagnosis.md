@@ -17,7 +17,7 @@ order: 153
 
 
 
-![The Terminal Diagnosis](/images/November8Goliath.png)
+![The Terminal Diagnosis](/images/November8Goliath.webp)
 
 Humanity’s Endgame, By Henry Wismayer
 Noema Magazine, November 6, 2025

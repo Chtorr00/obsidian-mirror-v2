@@ -3,7 +3,7 @@ title: The Parable of the Repairable Tractor
 status: published
 publish_date: 2026-06-12T00:00:00.000Z
 primary: General
-image: /images/the-parable-of-the-repairable-tractor.png
+image: /images/the-parable-of-the-repairable-tractor.webp
 source_meta:
   url: >-
     https://www.404media.co/demand-is-booming-for-ursa-ag-new-no-tech-repairable-tractor/

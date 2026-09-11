@@ -20,7 +20,7 @@ order: 242
 
 
 
-![The Enclosure of the Eye](/images/March12EnclosureEye.png)
+![The Enclosure of the Eye](/images/March12EnclosureEye.webp)
 
 Pinterest Is Drowning in a Sea of AI Slop and Auto-Moderation, By Matthew Gault
 404 Media, February 19, 2026

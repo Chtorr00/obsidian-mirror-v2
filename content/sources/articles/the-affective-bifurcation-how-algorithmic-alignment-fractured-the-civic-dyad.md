@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-09-09T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-affective-bifurcation-how-algorithmic-alignment-fractured-the-civic-dyad.png
+  /images/the-affective-bifurcation-how-algorithmic-alignment-fractured-the-civic-dyad.webp
 month: September
 source_meta:
   url: https://auronmacintyre.substack.com/p/conservatives-are-scared-to-address

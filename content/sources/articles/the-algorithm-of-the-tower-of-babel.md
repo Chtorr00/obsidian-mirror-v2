@@ -18,7 +18,7 @@ order: 204
 
 
 
-![The Algorithm of the Tower of Babel](/images/Jan23FragCulture.png)
+![The Algorithm of the Tower of Babel](/images/Jan23FragCulture.webp)
 
 The Rise and Fall of the American Monoculture, By Ben Fritz
 Wall Street Journal, January 19, 2026

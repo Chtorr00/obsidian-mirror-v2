@@ -18,7 +18,7 @@ order: 88
 
 
 
-![The Ghost in the Data](/images/August28Mutualist.jpeg)
+![The Ghost in the Data](/images/August28Mutualist.webp)
 
 Social connection linked to improved health and reduced risk of early death
 World Health Organization, June 30, 2025

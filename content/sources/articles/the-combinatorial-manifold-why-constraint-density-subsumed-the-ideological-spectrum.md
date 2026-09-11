@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-22T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-combinatorial-manifold-why-constraint-density-subsumed-the-ideological-spectrum.png
+  /images/the-combinatorial-manifold-why-constraint-density-subsumed-the-ideological-spectrum.webp
 month: August
 source_meta:
   url: https://apxhard.substack.com/p/the-computational-core-of-the-left

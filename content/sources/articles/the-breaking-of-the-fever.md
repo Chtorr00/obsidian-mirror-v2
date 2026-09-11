@@ -17,7 +17,7 @@ order: 103
 
 
 
-![The Breaking of the Fever](/images/September5AIBarrier.png)
+![The Breaking of the Fever](/images/September5AIBarrier.webp)
 
 The Fever Dream of Imminent Superintelligence Is Finally Breaking, By Gary Marcus
 The New York Times, September 3, 2025

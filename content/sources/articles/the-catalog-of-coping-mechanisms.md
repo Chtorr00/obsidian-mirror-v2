@@ -19,7 +19,7 @@ order: 63
 
 
 
-![The Catalog of Coping Mechanisms](/images/July26SevenTrends.jpeg)
+![The Catalog of Coping Mechanisms](/images/July26SevenTrends.webp)
 
 Seven Cultural Trends Shaping 2025, by Anne Bahr Thompson
 Thinkers360, July 2025

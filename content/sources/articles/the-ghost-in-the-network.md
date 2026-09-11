@@ -20,7 +20,7 @@ order: 48
 
 
 
-![The Ghost in the Network](/images/July10GhostInNetwork.jpeg)
+![The Ghost in the Network](/images/July10GhostInNetwork.webp)
 
 “Blue-Haired Antichrists and the Cult of Castration: Kai Anderson, Cyber-Incels, and the Theater of Masculine Failure (2016–2025)”, by Le "Pilier Noir" Philosophique
 Medium, July 10, 2025

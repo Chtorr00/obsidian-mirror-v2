@@ -19,7 +19,7 @@ order: 167
 
 
 
-![The Final Calculation](/images/November28SovDefault.png)
+![The Final Calculation](/images/November28SovDefault.webp)
 
 The Inevitable Collapse — October 2025, The Month the Debt World Died, By Son Tran
 Medium, October 6, 2025

@@ -19,7 +19,7 @@ order: 67
 
 
 
-![The Engineer's Prayer Before the Flood](/images/July28AIGrid.jpeg)
+![The Engineer's Prayer Before the Flood](/images/July28AIGrid.webp)
 
 AI in the Electricity Sector, by Martin Neil Baily and Erik Dean Kane The Brookings Institution, April 2025 https://www.brookings.edu/wp-content/uploads/2025/04/20250401_CRM_BailyKane_AICaseStudies_Elec_FINAL.pdf
 This document is a masterpiece of 20th-century thinking, extended into your time. It is logical, rigorous, and deeply rational. It sees a complex system—the electrical grid—and correctly identifies AI as a powerful new tool to optimize it, increase its efficiency, and manage its intricacies. The authors are brilliant engineers sharpening their tools to perfect a machine they believe they understand.

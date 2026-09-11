@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-09-08T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-demographic-coercion-why-bureaucratic-shaming-failed-the-reproductive-transition.png
+  /images/the-demographic-coercion-why-bureaucratic-shaming-failed-the-reproductive-transition.webp
 month: September
 source_meta:
   url: >-

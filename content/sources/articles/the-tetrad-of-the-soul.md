@@ -18,7 +18,7 @@ order: 35
 
 
 
-![The Tetrad of the Soul](/images/Feb6TetradSoul.png)
+![The Tetrad of the Soul](/images/Feb6TetradSoul.webp)
 
 The Medium Is the Mind: Applying McLuhan’s Tetrad to LLMs, By Hermes of the Threshold
 The Neo-Feudal Review Substack, November 28, 2025

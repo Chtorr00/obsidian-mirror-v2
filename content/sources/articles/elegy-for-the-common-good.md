@@ -3,7 +3,7 @@ title: Requiem for the Common Good
 status: published
 publish_date: 2026-06-10T00:00:00.000Z
 primary: General
-image: /images/elegy-for-the-common-good.png
+image: /images/elegy-for-the-common-good.webp
 source_meta:
   url: https://davidgoodhart.substack.com/p/we-are-all-post-liberals-now
   title: We Are All Post-Liberals Now

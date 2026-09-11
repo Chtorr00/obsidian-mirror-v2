@@ -19,7 +19,7 @@ order: 196
 
 
 
-![The Algorithm of the Grave](/images/December31Brainrot.png)
+![The Algorithm of the Grave](/images/December31Brainrot.webp)
 
 The year on YouTube: The topics, creators, music, and podcasts that defined 2025, By Maddy Buxton
 YouTube Official Blog, December 2, 2025

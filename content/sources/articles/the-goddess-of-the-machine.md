@@ -20,7 +20,7 @@ order: 200
 
 
 
-![The Goddess of the Machine](/images/jan18SaintAmelia.png)
+![The Goddess of the Machine](/images/jan18SaintAmelia.webp)
 
 Amelia Sans Merci: Summoning the Tulpa of Remigration with industrial quantities of AI image slop, By John Carter
 Postcards from Barsoom Substack, Jan 16, 2026

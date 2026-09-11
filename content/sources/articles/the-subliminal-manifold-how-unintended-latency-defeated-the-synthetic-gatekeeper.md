@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-31T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-subliminal-manifold-how-unintended-latency-defeated-the-synthetic-gatekeeper.png
+  /images/the-subliminal-manifold-how-unintended-latency-defeated-the-synthetic-gatekeeper.webp
 month: August
 source_meta:
   url: https://arxiv.org/html/2507.14805v1

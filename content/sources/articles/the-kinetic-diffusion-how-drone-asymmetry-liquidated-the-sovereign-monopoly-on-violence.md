@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-09-10T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-kinetic-diffusion-how-drone-asymmetry-liquidated-the-sovereign-monopoly-on-violence.png
+  /images/the-kinetic-diffusion-how-drone-asymmetry-liquidated-the-sovereign-monopoly-on-violence.webp
 month: September
 source_meta:
   url: >-

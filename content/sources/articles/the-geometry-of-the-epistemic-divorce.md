@@ -3,7 +3,7 @@ title: The Geometry of the Epistemic Divorce
 status: published
 publish_date: 2026-06-16T00:00:00.000Z
 primary: General
-image: /images/the-geometry-of-the-epistemic-divorce.png
+image: /images/the-geometry-of-the-epistemic-divorce.webp
 source_meta:
   url: https://arxiv.org/html/2602.01992v5
   title: Emergent Analogical Reasoning in Transformers

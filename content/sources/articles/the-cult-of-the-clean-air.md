@@ -21,7 +21,7 @@ order: 19
 
 
 
-![The Cult of the Clean Air](/images/Jan3CleanAir.png)
+![The Cult of the Clean Air](/images/Jan3CleanAir.webp)
 
 ‘I think I will mask forever’: The ‘zero Covid’ zealots refusing to re-enter society, By Mattha Busby
 The Telegraph UK, December 19, 2025

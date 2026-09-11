@@ -18,7 +18,7 @@ order: 120
 
 
 
-![The Map of the Earthquake](/images/September26FourthTurning.png)
+![The Map of the Earthquake](/images/September26FourthTurning.webp)
 
 From Collapse to Renewal: The Fourth Turning Meets Creative Destruction, By Jordi Visser
 Jordi Visser Substack, September 23, 2025

@@ -21,7 +21,7 @@ order: 192
 
 
 
-![The Math of the Hollow City](/images/December27LootingChicago.png)
+![The Math of the Hollow City](/images/December27LootingChicago.webp)
 
 Chicago has lost its mind: The city’s fiscal situation is dire, and Mayor Brandon Johnson is determined to make things worse, By Washington Post editorial board
 Washington Post, December 15, 2025

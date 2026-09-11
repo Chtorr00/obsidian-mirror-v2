@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-02T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-orchestration-mandate-how-synthetic-execution-metabolized-the-corporate-hierarchy.png
+  /images/the-orchestration-mandate-how-synthetic-execution-metabolized-the-corporate-hierarchy.webp
 month: August
 source_meta:
   url: >-

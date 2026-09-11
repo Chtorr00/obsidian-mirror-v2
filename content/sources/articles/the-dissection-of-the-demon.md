@@ -18,7 +18,7 @@ order: 215
 
 
 
-![The Dissection of the Demon](/images/Feb5AlienLLM.png)
+![The Dissection of the Demon](/images/Feb5AlienLLM.webp)
 
 Meet the new biologists treating LLMs like aliens, By Will Douglas Heaven
 Technology Review, January 12, 2026

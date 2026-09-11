@@ -20,7 +20,7 @@ order: 164
 
 
 
-![The Gospel of the Malleable Past](/images/November25Retrocausality.png)
+![The Gospel of the Malleable Past](/images/November25Retrocausality.webp)
 
 The Future Shapes the Past: How Retrocausality Revolutionizes Our Understanding of Time and Reality, By Brian Roemmele
 @BrianRoemmele Twitter, January 11, 2025

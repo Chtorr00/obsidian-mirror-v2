@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-19T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-asymmetric-swarm-how-low-cost-coordination-dismantled-the-managerial-citadel.png
+  /images/the-asymmetric-swarm-how-low-cost-coordination-dismantled-the-managerial-citadel.webp
 month: August
 source_meta:
   url: https://barsoom.substack.com/p/gay-race-communism-vs-the-swarm

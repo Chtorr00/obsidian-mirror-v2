@@ -19,7 +19,7 @@ order: 226
 
 
 
-![The Reclamation of the Commons](/images/Feb23ReclamationCommons.png)
+![The Reclamation of the Commons](/images/Feb23ReclamationCommons.webp)
 
 Big Tech Does Not Own AI, By Abi Awomosu
 How Not To Use AI Substack, January 18, 2026

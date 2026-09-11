@@ -5,7 +5,7 @@ publish_date: '2024-05-15'
 primary: General
 secondary:
   - Social
-image: /images/the-accidental-ark.png
+image: /images/the-accidental-ark.webp
 month: May
 source_meta:
   url: ''

@@ -3,7 +3,7 @@ title: The Ghost in the Assembly Line
 status: published
 publish_date: 2026-07-07T00:00:00.000Z
 primary: General
-image: /images/the-ghost-in-the-assembly-line.png
+image: /images/the-ghost-in-the-assembly-line.webp
 month: July
 source_meta:
   url: >-

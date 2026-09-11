@@ -18,7 +18,7 @@ order: 224
 
 
 
-![The First Flash of the Perimeter](/images/Feb20FirstFlash.png)
+![The First Flash of the Perimeter](/images/Feb20FirstFlash.webp)
 
 Party balloon or cartel drones? Closure of El Paso airspace causes 'chaos', By Olivia Ireland, Brandon Drenon, and Bernd Debusmann
 BBC.com, February 11, 2026

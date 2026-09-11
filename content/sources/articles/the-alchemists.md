@@ -21,7 +21,7 @@ order: 142
 
 
 
-![The Alchemists](/images/October23ClimateAI.png)
+![The Alchemists](/images/October23ClimateAI.webp)
 
 Pushing boundaries: Yale-affiliated projects are winners in climate solutions/AI challenge, By Jim Shelton
 Yale News, Oct 23, 2025

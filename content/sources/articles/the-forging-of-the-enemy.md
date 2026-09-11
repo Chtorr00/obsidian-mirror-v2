@@ -22,7 +22,7 @@ order: 161
 
 
 
-![The Forging of the Enemy](/images/November20DigitalHate.png)
+![The Forging of the Enemy](/images/November20DigitalHate.webp)
 
 Millions of Gen Zers are watching Hitler and Holocaust denial clips on Instagram—right next to JPMorgan and U.S. Army ads after Meta’s hate-speech shift, By Eva Roytburg
 Fortune, November 20, 2025

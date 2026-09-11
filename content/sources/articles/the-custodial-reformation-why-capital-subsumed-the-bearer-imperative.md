@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-09-03T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-custodial-reformation-why-capital-subsumed-the-bearer-imperative.png
+  /images/the-custodial-reformation-why-capital-subsumed-the-bearer-imperative.webp
 month: September
 source_meta:
   url: https://x.com/saylor/article/2091923153542840808

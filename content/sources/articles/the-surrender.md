@@ -18,7 +18,7 @@ order: 111
 
 
 
-![The Surrender](/images/September15BabyBust.png)
+![The Surrender](/images/September15BabyBust.webp)
 
 Why progressives should care about falling birth rates, by John Burn-Murdoch
 Financial Times, August 29, 2025

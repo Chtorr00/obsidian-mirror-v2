@@ -18,7 +18,7 @@ order: 169
 
 
 
-![The Seeds of the Second Genesis](/images/November30AntiAging.png)
+![The Seeds of the Second Genesis](/images/November30AntiAging.webp)
 
 Scientists Have Discovered a Special Type of Immune Cell That Slows Aging, By David Nield
 Science Alert, November 19, 2025

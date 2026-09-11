@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-06T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-gestational-arbitrage-how-networked-capital-decoupled-the-biological-border.png
+  /images/the-gestational-arbitrage-how-networked-capital-decoupled-the-biological-border.webp
 month: August
 source_meta:
   url: >-

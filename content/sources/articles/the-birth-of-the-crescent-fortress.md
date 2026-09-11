@@ -2,7 +2,7 @@
 title: The Birth of the Crescent Fortress
 primary: General
 secondary: []
-image: /images/April19BirthCrescent.png
+image: /images/April19BirthCrescent.webp
 month: April
 order: 280
 status: published

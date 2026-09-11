@@ -22,7 +22,7 @@ order: 162
 
 
 
-![The Beautiful Distraction](/images/November23SpaceRocket.png)
+![The Beautiful Distraction](/images/November23SpaceRocket.webp)
 
 New Glenn success reshapes the commercial space race between Blue Origin and SpaceX, By Jay Menon
 Aerospace Global News, November 23, 2025

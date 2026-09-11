@@ -21,7 +21,7 @@ order: 175
 
 
 
-![The Autopsy of the Common Good](/images/December8Parasovreign.png)
+![The Autopsy of the Common Good](/images/December8Parasovreign.webp)
 
 The Shame of Our Cities: How Minneapolis-Saint Paul became the Medicaid fraud capital of the USA, By Armin Rosen
 Country Highway, Vol. 3 Issue 3 November-December, 2025

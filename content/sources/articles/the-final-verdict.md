@@ -24,7 +24,7 @@ order: 101
 
 
 
-![The Final Verdict](/images/September3EnvRuling.png)
+![The Final Verdict](/images/September3EnvRuling.webp)
 
 The Era of Climate Impunity is Over— By Order of the World's Highest Court, by Center for International Environmental Law Center for International Environmental Law, July 23, 2025
 https://www.ciel.org/news/icj-climate-opinion-ends-fossil-fuel-impunity/

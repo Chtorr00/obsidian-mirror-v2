@@ -37,7 +37,7 @@ jobs:
         run: |
           git config --global user.name "Mirror Architect (CI)"
           git config --global user.email "mirror-ci@antigravity.ai"
-          git add lib/data.ts
+          git add lib/data.ts public/images/
           if git diff --staged --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else

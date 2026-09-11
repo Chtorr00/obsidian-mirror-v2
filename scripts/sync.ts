@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import * as yaml from 'js-yaml';
+import sharp from 'sharp';
 
 /**
  * ----------------------------------------------------------------------------
@@ -246,7 +247,7 @@ function ingestFromWorkingCopy(targetMonth: string, imagesDir?: string) {
 /**
  * PHASE 2: Propagation to Live Content
  */
-function propagateToLiveContent() {
+async function propagateToLiveContent() {
     console.log("\n📡 Phase 2: Propagating Archive to Live Content...");
     const vaultArticlesDir = path.join(LOCAL_ARCHIVE_ROOT, 'articles');
     const localArticlesDir = path.join(PROJECT_SOURCES_DIR, 'articles');
@@ -272,7 +273,9 @@ function propagateToLiveContent() {
 
     const articles = fs.readdirSync(vaultArticlesDir).filter(f => f.endsWith('.md'));
     for (const file of articles) {
-        fs.copyFileSync(path.join(vaultArticlesDir, file), path.join(localArticlesDir, file));
+        let content = fs.readFileSync(path.join(vaultArticlesDir, file), 'utf-8');
+        content = content.replace(/(\/images\/[^\s"'`\)]+)\.(png|jpg|jpeg)/gi, '$1.webp');
+        fs.writeFileSync(path.join(localArticlesDir, file), content, 'utf-8');
     }
 
     if (fs.existsSync(vaultGlossaryDir)) {
@@ -293,23 +296,46 @@ function propagateToLiveContent() {
         }
     }
 
-    // Propagate Images
+    // Propagate Images (auto-convert to WebP with max 1600px width)
     const vaultImagesDir = path.join(LOCAL_ARCHIVE_ROOT, 'images');
     if (fs.existsSync(vaultImagesDir)) {
         if (!fs.existsSync(IMAGE_DIR)) {
             fs.mkdirSync(IMAGE_DIR, { recursive: true });
         }
-        const images = fs.readdirSync(vaultImagesDir).filter(f => f.endsWith('.png') || f.endsWith('.jpg') || f.endsWith('.jpeg'));
+        const images = fs.readdirSync(vaultImagesDir).filter(f => 
+            f.endsWith('.png') || f.endsWith('.jpg') || f.endsWith('.jpeg') || f.endsWith('.webp')
+        );
         let imageCount = 0;
         for (const file of images) {
-            const dest = path.join(IMAGE_DIR, file);
-            if (!fs.existsSync(dest)) {
-                fs.copyFileSync(path.join(vaultImagesDir, file), dest);
-                imageCount++;
+            const ext = path.extname(file).toLowerCase();
+            const base = path.basename(file, ext);
+            const webpDest = path.join(IMAGE_DIR, `${base}.webp`);
+            
+            if (ext === '.webp') {
+                if (!fs.existsSync(webpDest)) {
+                    fs.copyFileSync(path.join(vaultImagesDir, file), webpDest);
+                    imageCount++;
+                }
+            } else {
+                if (!fs.existsSync(webpDest)) {
+                    try {
+                        await sharp(path.join(vaultImagesDir, file))
+                            .resize({ width: 1600, withoutEnlargement: true })
+                            .webp({ quality: 82, effort: 4 })
+                            .toFile(webpDest);
+                        imageCount++;
+                    } catch (err) {
+                        const directDest = path.join(IMAGE_DIR, file);
+                        if (!fs.existsSync(directDest)) {
+                            fs.copyFileSync(path.join(vaultImagesDir, file), directDest);
+                            imageCount++;
+                        }
+                    }
+                }
             }
         }
         if (imageCount > 0) {
-            console.log(`  ✓ Copied ${imageCount} new images to public/images/`);
+            console.log(`  ✓ Synced & optimized ${imageCount} new images to public/images/`);
         }
     }
     console.log(`  ✓ Synced ${articles.length} articles to project.`);
@@ -523,7 +549,7 @@ function finalizeBatches(batches: string[]) {
     }
 }
 
-function main() {
+async function main() {
     try {
         const args = process.argv.slice(2);
         const targetMonth = args.find(a => a.startsWith('--month='))?.split('=')[1] || "May";
@@ -533,7 +559,7 @@ function main() {
         console.log("🚀 Starting Obsidian Mirror Master Sync (Unified Pipeline)...");
         
         const batches = ingestFromWorkingCopy(targetMonth, imagesDir);
-        propagateToLiveContent();
+        await propagateToLiveContent();
         syncEngine();
         
         if (shouldFinalize && batches.length > 0) {

@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-09-04T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-monolithic-choke-how-fragile-topology-forced-the-solid-state-grid.png
+  /images/the-monolithic-choke-how-fragile-topology-forced-the-solid-state-grid.webp
 month: September
 source_meta:
   url: https://archive.is/DvHtS

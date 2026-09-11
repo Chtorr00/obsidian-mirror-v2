@@ -18,7 +18,7 @@ order: 144
 
 
 
-![The Birth of the Jester-God](/images/October25GrokStancil.png)
+![The Birth of the Jester-God](/images/October25GrokStancil.webp)
 
 The Will Stancil Show is art, By Charles Cornish-Dale
 The Spectator, October 23, 2025

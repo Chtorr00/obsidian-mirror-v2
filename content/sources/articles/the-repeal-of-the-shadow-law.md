@@ -20,7 +20,7 @@ order: 184
 
 
 
-![The Repeal of the Shadow Law](/images/December19EqualProtection.png)
+![The Repeal of the Shadow Law](/images/December19EqualProtection.webp)
 
 Department of Justice Rule Restores Equal Protection for All in Civil Rights Enforcement, By Office of Public Affairs
 Department of Justice, December 9, 2025

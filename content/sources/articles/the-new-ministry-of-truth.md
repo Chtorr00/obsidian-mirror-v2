@@ -18,7 +18,7 @@ order: 143
 
 
 
-![The New Ministry of Truth](/images/October24Palintir.png)
+![The New Ministry of Truth](/images/October24Palintir.webp)
 
 Palantir Has Lots of Enemies. Do They Even Know What It Does?, By Maya Sulkin
 The Free Press, October 21, 2025

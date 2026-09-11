@@ -19,7 +19,7 @@ order: 149
 
 
 
-![The Council of Ghosts](/images/October30WEF.png)
+![The Council of Ghosts](/images/October30WEF.webp)
 
 World Economic Forum, October 16, 2025
 https://www.weforum.org/press/2025/10/annual-meetings-of-the-global-future-councils-and-cybersecurity-2025-resilience-and-future-ready-solutions/

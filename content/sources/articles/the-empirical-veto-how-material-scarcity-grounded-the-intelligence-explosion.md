@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-08-13T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-empirical-veto-how-material-scarcity-grounded-the-intelligence-explosion.png
+  /images/the-empirical-veto-how-material-scarcity-grounded-the-intelligence-explosion.webp
 month: August
 source_meta:
   url: >-

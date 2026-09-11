@@ -3,7 +3,7 @@ title: The Exhaustion of Struggle
 status: published
 publish_date: '2024-05-23'
 primary: General
-image: /images/the-exhaustion-of-struggle.png
+image: /images/the-exhaustion-of-struggle.webp
 source_meta:
   url: https://archive.ph/cuoiQ
   title: ''

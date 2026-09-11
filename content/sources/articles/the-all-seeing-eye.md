@@ -17,7 +17,7 @@ order: 121
 
 
 
-![The All-Seeing Eye](/images/September27Palantir.png)
+![The All-Seeing Eye](/images/September27Palantir.webp)
 
 Palantir Software Gotham – Background and Description, By Thomas Franke
 vernetztesicherheit.de, August 26, 2025

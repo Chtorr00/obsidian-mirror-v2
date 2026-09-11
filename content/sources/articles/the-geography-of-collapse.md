@@ -3,7 +3,7 @@ title: The Geography of Collapse
 status: published
 publish_date: 2026-05-05T00:00:00.000Z
 primary: General
-image: /images/the-geography-of-collapse.png
+image: /images/the-geography-of-collapse.webp
 source_meta:
   url: https://futuredude.substack.com/p/the-empire-comes-home-managed-neglect
   title: >-

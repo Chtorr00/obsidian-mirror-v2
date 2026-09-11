@@ -19,7 +19,7 @@ order: 2
 
 
 
-![The Emergency Transfusion](/images/September19SovStackU.png)
+![The Emergency Transfusion](/images/September19SovStackU.webp)
 
 A Manhattan Project for Elite Human Capital, Ryan P. Williams
 The American Mind, September 19, 2020

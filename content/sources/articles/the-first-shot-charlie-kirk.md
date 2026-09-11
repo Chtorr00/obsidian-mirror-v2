@@ -17,7 +17,7 @@ order: 108
 
 
 
-![The First Shot: Charlie Kirk](/images/September11KirkAssassination.png)
+![The First Shot: Charlie Kirk](/images/September11KirkAssassination.webp)
 
 Charlie Kirk’s Murder Is a Tragedy and a Disaster, By Ben Burgis and Meagan Day
 Jacobin Magazine, September 11, 2025

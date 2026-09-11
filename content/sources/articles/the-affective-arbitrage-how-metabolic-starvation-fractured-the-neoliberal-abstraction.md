@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-17T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-affective-arbitrage-how-metabolic-starvation-fractured-the-neoliberal-abstraction.png
+  /images/the-affective-arbitrage-how-metabolic-starvation-fractured-the-neoliberal-abstraction.webp
 month: August
 source_meta:
   url: https://alwaysthehorizon.substack.com/p/why-femboy-fascism

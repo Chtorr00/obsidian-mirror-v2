@@ -19,7 +19,7 @@ order: 147
 
 
 
-![The New Jerusalem](/images/October28DNAedit.png)
+![The New Jerusalem](/images/October28DNAedit.webp)
 
 Scientists just made gene editing far more powerful, By University of Texas at Austin
 ScienceDaily, October 25, 2025

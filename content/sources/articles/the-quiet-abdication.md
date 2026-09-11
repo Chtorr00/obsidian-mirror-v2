@@ -3,7 +3,7 @@ title: The Quiet Abdication
 status: published
 publish_date: 2026-06-09T00:00:00.000Z
 primary: General
-image: /images/the-quiet-abdication.png
+image: /images/the-quiet-abdication.webp
 source_meta:
   url: https://thesubstick.substack.com/p/why-i-gave-up
   title: ''

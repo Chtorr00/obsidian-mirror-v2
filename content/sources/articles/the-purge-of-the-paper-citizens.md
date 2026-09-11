@@ -19,7 +19,7 @@ order: 218
 
 
 
-![The Purge of the Paper Citizens](/images/Feb12PurgePaper.png)
+![The Purge of the Paper Citizens](/images/Feb12PurgePaper.webp)
 
 Kuwait revokes citizenship of renowned national team goalkeeper
 New Arab, January 25, 2026

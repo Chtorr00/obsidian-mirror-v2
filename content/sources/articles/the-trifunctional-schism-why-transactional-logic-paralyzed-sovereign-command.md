@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-09-07T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-trifunctional-schism-why-transactional-logic-paralyzed-sovereign-command.png
+  /images/the-trifunctional-schism-why-transactional-logic-paralyzed-sovereign-command.webp
 month: September
 source_meta:
   url: https://noahrevoy.substack.com/p/why-our-current-elites-are-failing

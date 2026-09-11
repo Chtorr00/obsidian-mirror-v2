@@ -18,7 +18,7 @@ order: 241
 
 
 
-![The Doctrine of the Harpoon](/images/March11DoctrineHarpoon.png)
+![The Doctrine of the Harpoon](/images/March11DoctrineHarpoon.webp)
 
 A Blue Shield: Kinetic conservation in the Western Hemisphere, By Dr. Ben Braddock
 Defense Analyses and Research Corporation (DARC), February 23, 2026

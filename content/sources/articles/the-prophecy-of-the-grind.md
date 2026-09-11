@@ -18,7 +18,7 @@ order: 6
 
 
 
-![The Prophecy of the Grind](/images/Jan9CollapseMovie.png)
+![The Prophecy of the Grind](/images/Jan9CollapseMovie.webp)
 
 Collapse Will Look Nothing Like the Movies,
 The Honest Sorcerer Substack, January 29, 2024

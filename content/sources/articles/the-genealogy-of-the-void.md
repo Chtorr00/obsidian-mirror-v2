@@ -2,7 +2,7 @@
 title: The Genealogy of the Void
 primary: General
 secondary: []
-image: /images/April28GeneologVoid.png
+image: /images/April28GeneologVoid.webp
 month: April
 order: 289
 status: published

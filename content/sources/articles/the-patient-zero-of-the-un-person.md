@@ -18,7 +18,7 @@ order: 39
 
 
 
-![The Patient Zero of the Un-Person](/images/Feb12PatientZero.png)
+![The Patient Zero of the Un-Person](/images/Feb12PatientZero.webp)
 
 Philosophy of Modern Brain Rot, By Alex
 Left Brain Mystic Substack, December 17, 2025

@@ -2,7 +2,7 @@
 title: The Mathematics of the Ceiling
 primary: General
 secondary: []
-image: /images/March20MathCeiling.png
+image: /images/March20MathCeiling.webp
 month: March
 source_meta:
   url: https://arxiv.org/pdf/2507.07505

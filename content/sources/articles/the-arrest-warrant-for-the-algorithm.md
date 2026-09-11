@@ -19,7 +19,7 @@ order: 217
 
 
 
-![The Arrest Warrant for the Algorithm](/images/Feb10ArrestAlgo.png)
+![The Arrest Warrant for the Algorithm](/images/Feb10ArrestAlgo.webp)
 
 France Just Raided Elon Musk’s X Offices In Paris — And It’s Bad. Really, Really, Bad, By Dean Blundell
 Dean Blundell Substack. February 4, 2026

@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-15T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-cybernetic-inversion-why-autonomous-compute-overwrote-the-humanist-architecture.png
+  /images/the-cybernetic-inversion-why-autonomous-compute-overwrote-the-humanist-architecture.webp
 month: August
 source_meta:
   url: https://killtheswitch.substack.com/p/the-ultimate-guide-to-accelerationism

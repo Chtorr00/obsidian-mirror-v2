@@ -3,7 +3,7 @@ title: The First Fissure in the Leviathan
 status: published
 publish_date: '2024-05-21'
 primary: General
-image: /images/the-first-fissure-in-the-leviathan.png
+image: /images/the-first-fissure-in-the-leviathan.webp
 source_meta:
   url: >-
     https://empoweringamerica.org/good-news-fifth-circuit-says-governments-tax-power-is-not-designed-to-control-behavior/

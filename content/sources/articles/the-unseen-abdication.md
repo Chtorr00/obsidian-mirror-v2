@@ -17,7 +17,7 @@ order: 136
 
 
 
-![The Unseen Abdication](/images/October16FeminineWoke.png)
+![The Unseen Abdication](/images/October16FeminineWoke.webp)
 
 The Great Feminization, By Helen Andrews
 Compact Magazine, October 16, 2025

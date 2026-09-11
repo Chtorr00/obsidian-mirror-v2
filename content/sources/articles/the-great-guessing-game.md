@@ -20,7 +20,7 @@ order: 140
 
 
 
-![The Great Guessing Game](/images/October20AIEnergyWall.png)
+![The Great Guessing Game](/images/October20AIEnergyWall.webp)
 
 Utilities grapple with a multibillion question: How much AI data center power demand is real, By Spencer Kimball
 CNBC News, October 17 2025

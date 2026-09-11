@@ -18,7 +18,7 @@ order: 230
 
 
 
-![The Architecture of Inheritance](/images/Feb27ArchInherit.png)
+![The Architecture of Inheritance](/images/Feb27ArchInherit.webp)
 
 How donors can actually solve the fertility crisis
 Instead of giving more money to useless mouths

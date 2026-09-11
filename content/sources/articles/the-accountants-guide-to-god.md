@@ -18,7 +18,7 @@ order: 65
 
 
 
-![The Accountant's Guide to God](/images/July30Superintelligence.jpeg)
+![The Accountant's Guide to God](/images/July30Superintelligence.webp)
 
 The economics of superintelligence
 The Economist, July 30, 2025

@@ -18,7 +18,7 @@ order: 16
 
 
 
-![The Poisoner's Handbook](/images/September12PoisonerHandbook.png)
+![The Poisoner's Handbook](/images/September12PoisonerHandbook.webp)
 
 Assassination War & the Death of Bureaucracy, by Kulak
 Anarchonomicon Substack, June 2, 2024

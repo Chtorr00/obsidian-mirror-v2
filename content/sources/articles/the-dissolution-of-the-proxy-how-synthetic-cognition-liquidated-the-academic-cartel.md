@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-07-16T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-dissolution-of-the-proxy-how-synthetic-cognition-liquidated-the-academic-cartel.png
+  /images/the-dissolution-of-the-proxy-how-synthetic-cognition-liquidated-the-academic-cartel.webp
 month: July
 source_meta:
   url: ''

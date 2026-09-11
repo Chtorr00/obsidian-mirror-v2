@@ -20,7 +20,7 @@ order: 79
 
 
 
-![The End of the Paper Empire](/images/August17AIpriesthood.jpeg)
+![The End of the Paper Empire](/images/August17AIpriesthood.webp)
 
 Critical Minerals Report 08.15.2025 – The Rise of Critical Minerals as the Currency of Geopolitical Power, by Tracy Hughes
 InvestorNews, August 15, 2025

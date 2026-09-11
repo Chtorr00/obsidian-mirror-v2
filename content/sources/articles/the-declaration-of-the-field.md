@@ -18,7 +18,7 @@ order: 148
 
 
 
-![The Declaration of the Field](/images/October29FiatExperts.png)
+![The Declaration of the Field](/images/October29FiatExperts.webp)
 
 Time To Win, By Erik Prince & Dave Ramaswamy
 IM-1776, October 29, 2025

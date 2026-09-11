@@ -19,7 +19,7 @@ order: 105
 
 
 
-![The End of Infinity](/images/September7AIEnergyGoliath.png)
+![The End of Infinity](/images/September7AIEnergyGoliath.webp)
 
 The End of Moore's Law for AI? Gemini Flash Offers a Warning
 Sutro.sh website, Jul 3, 2025

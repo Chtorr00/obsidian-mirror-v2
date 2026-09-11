@@ -3,7 +3,7 @@ title: The First Price of Presence
 status: published
 publish_date: 2026-06-16T00:00:00.000Z
 primary: General
-image: /images/the-first-price-of-presence.png
+image: /images/the-first-price-of-presence.webp
 source_meta:
   url: >-
     https://news.abplive.com/technology/silicon-valley-escorts-charging-thousands-ai-economy-human-connection-luxury-1848897

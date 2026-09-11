@@ -2,7 +2,7 @@
 title: The Blueprint of the Micro-Sovereign
 primary: General
 secondary: []
-image: /images/April29MicroSovereign.png
+image: /images/April29MicroSovereign.webp
 month: April
 order: 290
 status: published

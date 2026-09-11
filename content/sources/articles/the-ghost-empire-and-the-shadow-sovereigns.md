@@ -23,7 +23,7 @@ order: 104
 
 
 
-![The Ghost Empire and the Shadow Sovereigns](/images/September6ShadowEconomy.jpeg)
+![The Ghost Empire and the Shadow Sovereigns](/images/September6ShadowEconomy.webp)
 
 U.S. Treasury Warns of $312 Billion in Chinese Laundering For Mexican cartels, Sam Cooper
 The Bureau, September 6, 2025

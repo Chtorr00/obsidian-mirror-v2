@@ -17,7 +17,7 @@ order: 21
 
 
 
-![The Manifesto of the Bottleneck](/images/Jan5Bottleneck.png)
+![The Manifesto of the Bottleneck](/images/Jan5Bottleneck.webp)
 
 Our Duty Is To Survive the Genetic Bottleneck,
 The American Tribune, December 9, 2025

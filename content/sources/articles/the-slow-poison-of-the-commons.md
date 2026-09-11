@@ -3,7 +3,7 @@ title: The Slow Poison of the Commons
 status: published
 publish_date: 2026-05-21T00:00:00.000Z
 primary: General
-image: /images/the-slow-poison-of-the-commons.png
+image: /images/the-slow-poison-of-the-commons.webp
 source_meta:
   url: https://archive.is/vxBxL
   title: ''

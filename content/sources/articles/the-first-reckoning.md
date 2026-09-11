@@ -18,7 +18,7 @@ order: 119
 
 
 
-![The First Reckoning](/images/September25SocialMediaLawsuit.png)
+![The First Reckoning](/images/September25SocialMediaLawsuit.webp)
 
 Social media addiction lawsuit,
 Lanier Law Firm, September 25, 2025

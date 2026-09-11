@@ -3,7 +3,7 @@ title: The Brittle Mind
 status: published
 publish_date: '2024-07-16'
 primary: General
-image: /images/the-brittle-mind.png
+image: /images/the-brittle-mind.webp
 source_meta:
   url: >-
     https://www.realcleardefense.com/articles/2026/04/22/americas_ai_advantage_runs_into_trouble_in_the_strait_of_hormuz_1178127.html

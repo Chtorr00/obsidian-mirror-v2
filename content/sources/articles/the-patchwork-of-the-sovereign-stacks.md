@@ -3,7 +3,7 @@ title: The Patchwork of the Sovereign Stacks
 primary: Political
 secondary:
   - 'STEP: Political'
-image: /images/April20SacredMachine.png
+image: /images/April20SacredMachine.webp
 month: April
 order: 266
 status: published

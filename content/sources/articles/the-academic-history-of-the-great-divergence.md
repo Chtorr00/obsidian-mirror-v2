@@ -19,7 +19,7 @@ order: 28
 
 
 
-![The Academic History of the Great Divergence](/images/Jan13BlankSlate.png)
+![The Academic History of the Great Divergence](/images/Jan13BlankSlate.webp)
 
 “What’s Bred in the Bone …”: The Social Sciences Coming to Grips with Biological Determinism (Review Article), By Luc Berlivet
 Annales HSS 73, no. 2 (2018): 443–73, November 6, 2025

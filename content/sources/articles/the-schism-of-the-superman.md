@@ -18,7 +18,7 @@ order: 37
 
 
 
-![The Schism of the Superman](/images/Feb9SchismSuperman.jpg)
+![The Schism of the Superman](/images/Feb9SchismSuperman.webp)
 
 Why Nietzsche’s Superman stands AGAINST Silicon Valley’s Transhuman Project, By Uberboyo
 Uberboyo Substack, March 26, 2025

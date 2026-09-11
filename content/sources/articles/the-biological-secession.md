@@ -3,7 +3,7 @@ title: The Biological Secession
 status: published
 publish_date: 2026-06-26T00:00:00.000Z
 primary: General
-image: /images/the-biological-secession.png
+image: /images/the-biological-secession.webp
 month: June
 source_meta:
   url: https://doi.org/10.1038/s41598-026-57582-3

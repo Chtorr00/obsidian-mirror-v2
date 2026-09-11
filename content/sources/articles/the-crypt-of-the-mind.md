@@ -18,7 +18,7 @@ order: 113
 
 
 
-![The Crypt of the Mind](/images/September17MemeNihilist.png)
+![The Crypt of the Mind](/images/September17MemeNihilist.webp)
 
 How Charlie Kirk’s Killer Poisoned Everyone With Meme-Slop, By Dylon Jones
 Politico, September 17, 2025

@@ -17,7 +17,7 @@ order: 112
 
 
 
-![The Midwife's Prophecy](/images/September16maternalbond.png)
+![The Midwife's Prophecy](/images/September16maternalbond.webp)
 
 Female Initiation and the Devouring Mother, by Rose Sybil
 Arktos Journal, September 15, 2025

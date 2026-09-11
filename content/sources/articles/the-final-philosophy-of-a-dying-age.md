@@ -21,7 +21,7 @@ order: 168
 
 
 
-![The Final Philosophy of a Dying Age](/images/November29GenZbuilder.png)
+![The Final Philosophy of a Dying Age](/images/November29GenZbuilder.webp)
 
 The Dangerous Mindset Spreading Across America: Cultural Nihilism Among Gen Z, By Alex Buscemi
 BuildersMovement.org, November 17, 2025

@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-09-20T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-fluency-decoupling-how-synthetic-syntax-broke-the-proof-of-thought-cartel.png
+  /images/the-fluency-decoupling-how-synthetic-syntax-broke-the-proof-of-thought-cartel.webp
 month: September
 source_meta:
   url: https://hereisyourbrain.substack.com/p/ai-generated-content-mind-virus

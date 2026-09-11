@@ -21,7 +21,7 @@ order: 86
 
 
 
-![The Cathedral of Rules](/images/August26GeneSequence.png)
+![The Cathedral of Rules](/images/August26GeneSequence.webp)
 
 AI Act milestone: August 2025 introduces major rules for General-Purpose AI in Europe, by Silvana Curteanu-Tihon and Catalin Veliscu
 WH Partners, August 12, 2025

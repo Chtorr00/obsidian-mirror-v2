@@ -17,7 +17,7 @@ order: 115
 
 
 
-![The Final Ghost of a Dead Idea](/images/September20StablecoinBanking.png)
+![The Final Ghost of a Dead Idea](/images/September20StablecoinBanking.webp)
 
 Stable/Genius: Stablecoins and Free Banking, by Tyler Watts
 Econolib Econolog post, August 13, 2025

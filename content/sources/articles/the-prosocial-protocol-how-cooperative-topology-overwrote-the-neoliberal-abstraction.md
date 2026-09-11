@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-11T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-prosocial-protocol-how-cooperative-topology-overwrote-the-neoliberal-abstraction.png
+  /images/the-prosocial-protocol-how-cooperative-topology-overwrote-the-neoliberal-abstraction.webp
 month: August
 source_meta:
   url: >-

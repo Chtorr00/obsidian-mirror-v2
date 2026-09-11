@@ -20,7 +20,7 @@ order: 199
 
 
 
-![The Army of the Unloved](/images/December16IncelFodder.png)
+![The Army of the Unloved](/images/December16IncelFodder.webp)
 
 What Happens to China’s Surplus Men?: The one-child policy’s gender imbalance has spawned desperate bachelors, dubious gurus, and a rising manosphere, By Drew Gorman
 Foreign Policy, December 12, 2025, 3:00 PM

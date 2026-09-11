@@ -3,7 +3,7 @@ title: The Fractal Geometry of the State
 primary: Political
 secondary:
   - 'STEP: Political'
-image: /images/April30MoralSchism.png
+image: /images/April30MoralSchism.webp
 month: April
 order: 267
 status: published

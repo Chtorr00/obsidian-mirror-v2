@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-07-27T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-markov-integration-how-active-inference-dissolved-the-biological-cranium.png
+  /images/the-markov-integration-how-active-inference-dissolved-the-biological-cranium.webp
 month: July
 source_meta:
   url: https://www.preprints.org/manuscript/202607.0507

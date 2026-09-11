@@ -21,7 +21,7 @@ order: 155
 
 
 
-![The Blueprint for a New Genesis](/images/November12HumanPhyla.png)
+![The Blueprint for a New Genesis](/images/November12HumanPhyla.webp)
 
 Genetically Engineered Babies Are Banned. Tech Titans Are Trying to Make One Anyway, By Emily Glazer and Katherine Long
 Wall Street Journal, Nov. 8, 2025

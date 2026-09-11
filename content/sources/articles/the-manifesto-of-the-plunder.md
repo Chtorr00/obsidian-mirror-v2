@@ -18,7 +18,7 @@ order: 189
 
 
 
-![The Manifesto of the Plunder](/images/December24Lustration.png)
+![The Manifesto of the Plunder](/images/December24Lustration.webp)
 
 DEI, the Dispossessed Generation, and the Digital Koryos, By John Carter
 Postcards from Barsoom Substack, December 19, 2025

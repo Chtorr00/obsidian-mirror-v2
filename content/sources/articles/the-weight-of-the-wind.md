@@ -2,7 +2,7 @@
 title: The Weight of the Wind
 primary: General
 secondary: []
-image: /images/March16WeightWind.png
+image: /images/March16WeightWind.webp
 month: March
 source_meta:
   url: >-

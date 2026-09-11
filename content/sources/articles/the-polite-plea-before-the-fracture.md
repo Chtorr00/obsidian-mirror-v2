@@ -18,7 +18,7 @@ order: 47
 
 
 
-![The Polite Plea Before the Fracture](/images/July9PleaForPolite.jpeg)
+![The Polite Plea Before the Fracture](/images/July9PleaForPolite.webp)
 
 Jubilee 2025: The new global debt crisis and its solutions
 Cafod.org website, July 9, 2025

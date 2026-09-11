@@ -20,7 +20,7 @@ order: 197
 
 
 
-![Polemics: The Etiquette of the Watchful Peace](/images/December4Polemics.png)
+![Polemics: The Etiquette of the Watchful Peace](/images/December4Polemics.webp)
 
 To understand Polemics, you must first understand the world that necessitated it. You must hold in your mind the last, noble plea of the statesman, Alexander Stubb, for a world of "dialogue among equals." He was pleading for the survival of a system built on persuasion, shared values, and human reason. Polemics is the system the survivors built after that plea failed, and the world it represented was consumed by fire.
 Polemics is not diplomacy. It is an engineering solution to the catastrophic failure of diplomacy. It is the cold, formal, and machine-mediated etiquette of the Watchful Peace, the grammar of a world that has accepted permanent, irreconcilable difference as its baseline condition. It is the system you build when you must coexist with powerful rivals whose values you do not share, whose motives you do not trust, and whose language you no longer believe.

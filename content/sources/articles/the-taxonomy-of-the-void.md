@@ -2,7 +2,7 @@
 title: The Taxonomy of the Void
 primary: General
 secondary: []
-image: /images/March24TaxonomyVoid.png
+image: /images/March24TaxonomyVoid.webp
 month: March
 source_meta:
   url: >-

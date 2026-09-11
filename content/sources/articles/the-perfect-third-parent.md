@@ -17,7 +17,7 @@ order: 123
 
 
 
-![The Perfect Third Parent](/images/September29AIparent.png)
+![The Perfect Third Parent](/images/September29AIparent.webp)
 
 ChatGPT Is Blowing Up Marriages as Spouses Use AI to Attack Their Partners, By Maggie Harrison Dupré
 Futurism, September 18, 2025

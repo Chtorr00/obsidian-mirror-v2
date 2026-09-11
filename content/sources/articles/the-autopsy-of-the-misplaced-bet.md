@@ -2,7 +2,7 @@
 title: The Autopsy of the Misplaced Bet
 primary: General
 secondary: []
-image: /images/March18AutopsyofCloud.png
+image: /images/March18AutopsyofCloud.webp
 month: March
 source_meta:
   url: https://scholarstage.substack.com/p/china-and-the-future-of-science

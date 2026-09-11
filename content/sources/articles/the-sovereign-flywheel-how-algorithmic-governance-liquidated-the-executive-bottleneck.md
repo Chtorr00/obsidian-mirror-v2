@@ -5,7 +5,7 @@ title: >-
 status: published
 publish_date: 2026-07-16T00:00:00.000Z
 primary: General
-image: /images/the-sovereign-flywheel.png
+image: /images/the-sovereign-flywheel.webp
 month: July
 source_meta:
   url: >-

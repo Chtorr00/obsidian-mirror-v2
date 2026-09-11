@@ -19,7 +19,7 @@ order: 58
 
 
 
-![The Prophecy and Its Crooked Path](/images/July21BitcoinNewSystem.jpeg)
+![The Prophecy and Its Crooked Path](/images/July21BitcoinNewSystem.webp)
 
 What Bitcoin Did: The Beginning of a New Financial System with Mauricio Di Bartolomeo, by Peter McCormack
 What Bitcoin Did, July 21, 2025

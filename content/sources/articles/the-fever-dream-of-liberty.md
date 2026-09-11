@@ -3,7 +3,7 @@ title: The Fever Dream of Liberty
 primary: Political
 secondary:
   - 'STEP: Political'
-image: /images/April6FeverDream.png
+image: /images/April6FeverDream.webp
 month: April
 order: 270
 status: published

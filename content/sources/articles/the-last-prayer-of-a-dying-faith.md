@@ -19,7 +19,7 @@ order: 173
 
 
 
-![The Last Prayer of a Dying Faith](/images/December5CurePoverty.png)
+![The Last Prayer of a Dying Faith](/images/December5CurePoverty.webp)
 
 The Craziest Thing In The World Is That We Could End Poverty, But We Don't, By Caitlin Johnstone
 Caitlin's Newsletter Substack, Nov 30, 2025

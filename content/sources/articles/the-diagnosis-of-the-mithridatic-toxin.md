@@ -2,7 +2,7 @@
 title: The Diagnosis of the Mithridatic Toxin
 primary: General
 secondary: []
-image: /images/April17DiagnosisToxin.png
+image: /images/April17DiagnosisToxin.webp
 month: April
 order: 3
 status: published

@@ -23,7 +23,7 @@ order: 85
 
 
 
-![The Last Custodians of a Dead Language](/images/August25EuroAI.jpeg)
+![The Last Custodians of a Dead Language](/images/August25EuroAI.webp)
 
 The findings against Harvard are a blueprint for a National Campus Speech Code, Robert Shibley
 FIRE website, August 20, 2025

@@ -21,7 +21,7 @@ order: 62
 
 
 
-![The Last Will and Testament of a Worldview](/images/July25AIplanUS.jpeg)
+![The Last Will and Testament of a Worldview](/images/July25AIplanUS.webp)
 
 America’s AI Action Plan, The White House, Office of the President of the United States
 Whitehouse.gov, July 25, 2025

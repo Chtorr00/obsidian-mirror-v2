@@ -3,7 +3,7 @@ title: The Unraveling of the Symbolic Order
 status: published
 publish_date: 2026-06-04T00:00:00.000Z
 primary: General
-image: /images/the-unraveling-of-the-symbolic-order.png
+image: /images/the-unraveling-of-the-symbolic-order.webp
 source_meta:
   url: https://simonlaird.substack.com/p/its-impossible-to-be-a-moderate-if
   title: ''

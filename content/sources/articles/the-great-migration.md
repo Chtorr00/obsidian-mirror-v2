@@ -5,7 +5,7 @@ publish_date: '2024-05-18'
 primary: General
 secondary:
   - Social
-image: /images/the-great-migration.png
+image: /images/the-great-migration.webp
 month: May
 source_meta:
   url: ''

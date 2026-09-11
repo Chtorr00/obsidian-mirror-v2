@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-08-21T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-combustion-realism-how-baseload-density-decoupled-the-global-south.png
+  /images/the-combustion-realism-how-baseload-density-decoupled-the-global-south.webp
 month: August
 source_meta:
   url: >-

@@ -3,7 +3,7 @@ title: The Iatrogenic Harvest
 status: published
 publish_date: 2026-06-25T00:00:00.000Z
 primary: General
-image: /images/the-iatrogenic-harvest.png
+image: /images/the-iatrogenic-harvest.webp
 source_meta:
   url: https://unbekoming.substack.com/p/the-12-screenings-that-manufacture
   title: The 12 Screenings That Manufacture the Patients They Claim to Find

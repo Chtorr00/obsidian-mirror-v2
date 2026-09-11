@@ -2,7 +2,7 @@
 title: The Theology of the Spreadsheet
 primary: General
 secondary: []
-image: /images/April13TheologySpreadsheet.png
+image: /images/April13TheologySpreadsheet.webp
 month: April
 order: 276
 status: published

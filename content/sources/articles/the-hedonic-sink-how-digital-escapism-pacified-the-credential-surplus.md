@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-08-08T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-hedonic-sink-how-digital-escapism-pacified-the-credential-surplus.png
+  /images/the-hedonic-sink-how-digital-escapism-pacified-the-credential-surplus.webp
 month: August
 source_meta:
   url: https://www.youtube.com/watch?v=NkMUbao6bQY

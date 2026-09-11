@@ -3,7 +3,7 @@ title: The Delusion of the Digital Foreman
 status: published
 publish_date: 2026-06-06T00:00:00.000Z
 primary: General
-image: /images/the-delusion-of-the-digital-foreman.png
+image: /images/the-delusion-of-the-digital-foreman.webp
 source_meta:
   url: >-
     https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis/

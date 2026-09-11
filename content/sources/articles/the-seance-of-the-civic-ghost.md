@@ -2,7 +2,7 @@
 title: The Seance of the Civic Ghost
 primary: General
 secondary: []
-image: /images/April16SeanceCivicGhost.png
+image: /images/April16SeanceCivicGhost.webp
 month: April
 order: 278
 status: published

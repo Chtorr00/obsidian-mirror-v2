@@ -18,7 +18,7 @@ order: 25
 
 
 
-![The Measure of the Schism](/images/Jan10PublicTrust.png)
+![The Measure of the Schism](/images/Jan10PublicTrust.webp)
 
 The State of Public Trust in Government 2025
 Partnership for Public Service August 12, 2025

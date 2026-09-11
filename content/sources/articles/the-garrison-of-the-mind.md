@@ -3,7 +3,7 @@ title: The Garrison of the Mind
 primary: Political
 secondary:
   - 'STEP: Political'
-image: /images/April7GarrisonMind.png
+image: /images/April7GarrisonMind.webp
 month: April
 order: 271
 status: published

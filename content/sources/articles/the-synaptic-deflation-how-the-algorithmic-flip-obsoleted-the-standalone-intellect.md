@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-10T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-synaptic-deflation-how-the-algorithmic-flip-obsoleted-the-standalone-intellect.png
+  /images/the-synaptic-deflation-how-the-algorithmic-flip-obsoleted-the-standalone-intellect.webp
 month: August
 source_meta:
   url: >-

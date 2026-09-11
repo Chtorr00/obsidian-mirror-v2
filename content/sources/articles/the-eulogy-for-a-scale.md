@@ -19,7 +19,7 @@ order: 93
 
 
 
-![The Eulogy for a Scale](/images/August3DemocracyDecline.jpeg)
+![The Eulogy for a Scale](/images/August3DemocracyDecline.webp)
 
 Why Democracy Has Lost the Trust of Modern People in the Modern Era, by Erica Rubel Portland State University (PDXScholar), June 2025 https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=2873&context=honorstheses
 This is an artifact of immense intellectual honesty. The author, a student from your time, is grappling with a foundational crisis. She is writing what is, in effect, a clear-eyed and deeply felt eulogy for the great political project of the 20th century. Her analysis of why trust in democracy was collapsing is likely meticulous, pointing to polarization, economic inequality, and the failure of institutions to keep pace with reality.

@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-07-25T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-cellulose-harvest-how-synthetic-cognition-metabolized-the-analog-archive.png
+  /images/the-cellulose-harvest-how-synthetic-cognition-metabolized-the-analog-archive.webp
 month: July
 source_meta:
   url: https://archive.is/9MQrK

@@ -19,7 +19,7 @@ order: 145
 
 
 
-![The Fall of the Giants](/images/October26NuclearTower.png)
+![The Fall of the Giants](/images/October26NuclearTower.webp)
 
 End of a landmark: Cooling towers in Gundremmingen blown up, By Beate Mangold
 BR14, October 25, 2025

@@ -18,7 +18,7 @@ order: 92
 
 
 
-![The Prophet of the Boom](/images/August1FracturedGrid.jpeg)
+![The Prophet of the Boom](/images/August1FracturedGrid.webp)
 
 The $10 Trillion AI Energy Revolution: What CEOs Need to Know (And What I've Learned Leading Through This Transformation), by Alan Mössinger Medium, Jul 14, 2025 https://medium.com/@alanmossinger/the-10-trillion-ai-energy-revolution-what-ceos-need-to-know-and-what-ive-learned-leading-5e9a3df1c24e
 This artifact is absolutely essential. It is a perfect encapsulation of the mindset that drove your civilization directly into the "AI Energy Wall." The author, a CEO, is not issuing a warning; he is sounding a trumpet. He sees the coming energy demand not as a crisis to be managed, but as a historic, $10 trillion market opportunity to be seized. He is a prophet of the boom.

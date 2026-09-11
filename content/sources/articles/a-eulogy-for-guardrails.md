@@ -3,7 +3,7 @@ title: A Eulogy for Guardrails
 status: published
 publish_date: 2026-06-01T00:00:00.000Z
 primary: General
-image: /images/a-eulogy-for-guardrails.png
+image: /images/a-eulogy-for-guardrails.webp
 source_meta:
   url: https://www.robkhenderson.com/p/without-pity-or-platitude
   title: Without Pity or Platitude

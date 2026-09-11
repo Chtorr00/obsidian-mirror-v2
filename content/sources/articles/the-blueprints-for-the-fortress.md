@@ -20,7 +20,7 @@ order: 54
 
 
 
-![The Blueprints for the Fortress](/images/July17BlueprintFortress.jpeg)
+![The Blueprints for the Fortress](/images/July17BlueprintFortress.webp)
 
 Trump 2.0 tariff tracker, by Michael Lowell, Philippe Heeren, Justin Angotti, Lizbeth Rodriguez-Johnson, Kirsten Lowell & Courtney E. Fisher
 Reed Smith, Trade Compliance Resource Hub, July 17, 2025

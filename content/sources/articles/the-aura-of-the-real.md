@@ -4,7 +4,7 @@ status: published
 publish_date: '2026-05-05'
 month: May
 primary: Economic
-image: /images/the-aura-of-the-real.png
+image: /images/the-aura-of-the-real.webp
 source_meta:
   url: https://aleximas.substack.com/p/what-will-be-scarce
   title: What will be scarce?

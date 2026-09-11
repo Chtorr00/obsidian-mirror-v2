@@ -20,7 +20,7 @@ order: 141
 
 
 
-![The Last Angel](/images/October21Angel.png)
+![The Last Angel](/images/October21Angel.webp)
 
 Victoria’s Secret Has Paid the Price for Replacing its Angels With Trans and Plus-Size Models, By Emily Fox
 The Daily Sceptic, October 21, 2025

@@ -20,7 +20,7 @@ order: 202
 
 
 
-![The Patient Zero of the Cyborg Age](/images/Jan20extendedmind.png)
+![The Patient Zero of the Cyborg Age](/images/Jan20extendedmind.webp)
 
 Dumbphone Owners Have Lost Their Minds, By Elana Klein
 Wired Magazine, January 19, 2026

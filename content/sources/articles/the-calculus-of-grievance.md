@@ -3,7 +3,7 @@ title: The Calculus of Grievance
 status: published
 publish_date: 2026-05-14T00:00:00.000Z
 primary: General
-image: /images/the-calculus-of-grievance.png
+image: /images/the-calculus-of-grievance.webp
 source_meta:
   url: https://wmbriggs.substack.com/p/how-experts-use-calamities-to-find
   title: How Experts Use “Calamities” to Find Official Victims & Gain Power

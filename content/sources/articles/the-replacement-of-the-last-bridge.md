@@ -2,7 +2,7 @@
 title: The Replacement of the Last Bridge
 primary: General
 secondary: []
-image: /images/April11LastBridge.png
+image: /images/April11LastBridge.webp
 month: April
 order: 274
 status: published

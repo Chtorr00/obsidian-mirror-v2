@@ -21,7 +21,7 @@ order: 244
 
 
 
-![The Ouroboros of the Mind](/images/March14OroborosMind.png)
+![The Ouroboros of the Mind](/images/March14OroborosMind.webp)
 
 An NYU professor who hates that students' work reads like McKinsey memos held AI oral exams to 'fight fire with fire', By Lee Chong Ming
 Business Insider, January 5, 2026

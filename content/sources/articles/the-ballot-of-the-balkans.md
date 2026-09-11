@@ -20,7 +20,7 @@ order: 240
 
 
 
-![The Ballot of the Balkans](/images/March10BallotBalkans.png)
+![The Ballot of the Balkans](/images/March10BallotBalkans.webp)
 
 What a frightening - and toxic - new world Britain just woke up to. The Greens are poison..., By Daniel Hannan
 The Daily Mail UK, February 26 2026

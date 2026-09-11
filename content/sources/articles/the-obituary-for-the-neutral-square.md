@@ -20,7 +20,7 @@ order: 49
 
 
 
-![The Obituary for the Neutral Square](/images/July11ObituaryForNeural.jpeg)
+![The Obituary for the Neutral Square](/images/July11ObituaryForNeural.webp)
 
 Spiritual Lawfare: The Use and Misuse of Litigation in the Context of Human Rights, Religious Freedom, and Competing Human Rights, by The Oxford Journal of Law and Religion
 Oxford Journal of Law and Religion, July 11, 2025

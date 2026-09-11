@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-07-17T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-epistemic-offload-why-synthetic-cognition-bypassed-the-isolated-mind.png
+  /images/the-epistemic-offload-why-synthetic-cognition-bypassed-the-isolated-mind.webp
 month: July
 source_meta:
   url: ''

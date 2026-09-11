@@ -2,7 +2,7 @@
 title: The Cathedral of the Sacred Machine
 primary: General
 secondary: []
-image: /images/April20SacredMachine.png
+image: /images/April20SacredMachine.webp
 month: April
 order: 281
 status: published

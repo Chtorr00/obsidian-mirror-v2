@@ -23,7 +23,7 @@ order: 99
 
 
 
-![The Siren Song of a Dead God](/images/September1Antartica.jpeg)
+![The Siren Song of a Dead God](/images/September1Antartica.webp)
 
 Russia Uncovers 511 Billion Barrels of Oil Beneath Antarctica: A Find That Could End the Continent’s Era of Peaceful Use, Arezki Amiri
 Indian Defense review, August 26, 2025

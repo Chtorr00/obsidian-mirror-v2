@@ -18,7 +18,7 @@ order: 193
 
 
 
-![The Last Generation of the Old World](/images/December28FertilityBottleneck.png)
+![The Last Generation of the Old World](/images/December28FertilityBottleneck.webp)
 
 Are we doomed?, By David Runciman
 London Review of Books, Vol. 47 No. 21 · 20 November 2025

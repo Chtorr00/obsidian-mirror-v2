@@ -3,7 +3,7 @@ title: Three Acres and a Fabricator
 status: published
 publish_date: 2026-06-03T00:00:00.000Z
 primary: General
-image: /images/three-acres-and-a-fabricator.png
+image: /images/three-acres-and-a-fabricator.webp
 source_meta:
   url: https://www.youtube.com/watch?v=cgqcbuLNAYM
   title: Is This The Only REAL Alternative To Capitalism And Socialism?

@@ -20,7 +20,7 @@ order: 238
 
 
 
-![The Diagnosis of the Unteachable](/images/March8DiagnosisUnteachable.png)
+![The Diagnosis of the Unteachable](/images/March8DiagnosisUnteachable.webp)
 
 No, thank you very much. You can keep your “democracy” and shove it up your a**, By Hua Bin
 Hua's Substack, February 8, 2026

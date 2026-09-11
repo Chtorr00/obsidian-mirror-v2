@@ -20,7 +20,7 @@ order: 178
 
 
 
-![The Last Great Cure](/images/December11Ozempic.png)
+![The Last Great Cure](/images/December11Ozempic.webp)
 
 Ozempic is changing how we spend money and time, plus what we eat, By Jaclyn Peiser and Flora Bai
 The Washington Post, December 1, 2025

@@ -19,7 +19,7 @@ order: 158
 
 
 
-![The Last Defender of a Dying God](/images/November15SciCollapse.png)
+![The Last Defender of a Dying God](/images/November15SciCollapse.webp)
 
 Why I Cut Ties with Science’s Top Publisher, By Anna Krylov
 The Free Press, November 12, 2025

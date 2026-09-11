@@ -3,7 +3,7 @@ title: The Calculus of the Womb
 status: published
 publish_date: 2026-06-19T00:00:00.000Z
 primary: General
-image: /images/the-calculus-of-the-womb.png
+image: /images/the-calculus-of-the-womb.webp
 source_meta:
   url: https://easthunter.substack.com/p/on-solving-the-fertility-crisis-could
   title: Solving the fertility crisis could require a further marginalization of men

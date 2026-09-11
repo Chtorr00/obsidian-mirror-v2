@@ -18,7 +18,7 @@ order: 176
 
 
 
-![The Last Will and Testament of a Unified America](/images/December9USStack.png)
+![The Last Will and Testament of a Unified America](/images/December9USStack.webp)
 
 National Security Strategy of the United States of America,
 The White House, November 2025

@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-09-15T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-imperative-delusion-how-executive-centralization-failed-the-coordination-crisis.png
+  /images/the-imperative-delusion-how-executive-centralization-failed-the-coordination-crisis.webp
 month: September
 source_meta:
   url: https://imperativemagazine.com/p/out-of-many-one-ai-and-the-american

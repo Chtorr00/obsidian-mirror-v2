@@ -20,7 +20,7 @@ order: 66
 
 
 
-![The Question at the Heart of the Collapse](/images/July31TechnologyForGood.jpeg)
+![The Question at the Heart of the Collapse](/images/July31TechnologyForGood.webp)
 
 The Question Concerning Technology Is a Question Concerning the Good, by L.M. Sacasas
 The Convivial Society, July 15, 2025

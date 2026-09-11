@@ -17,7 +17,7 @@ order: 78
 
 
 
-![The Final Calculation Before the Flood](/images/August16ResourceWars.jpeg)
+![The Final Calculation Before the Flood](/images/August16ResourceWars.webp)
 
 Bitcoin supply, demand, and price dynamics,Murray A. Rudd and Dennis Porter
 Satoshi Action Education, Aug 12, 2025

@@ -3,7 +3,7 @@ title: The Comfort of Averages
 status: published
 publish_date: 2026-06-02T00:00:00.000Z
 primary: General
-image: /images/the-comfort-of-averages.png
+image: /images/the-comfort-of-averages.webp
 source_meta:
   url: >-
     https://www.vox.com/future-perfect/489488/climate-change-scenario-rcp-8-5-warming-emissions

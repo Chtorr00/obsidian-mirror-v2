@@ -18,7 +18,7 @@ order: 191
 
 
 
-![The Last War of the Nanosecond](/images/Dec26AlgoTrading.png)
+![The Last War of the Nanosecond](/images/Dec26AlgoTrading.webp)
 
 High-Speed Traders Are Feuding Over a Way to Save 3.2 Billionths of a Second, By Alexander Osipovich
 Wall Street Journal, December 15, 2025

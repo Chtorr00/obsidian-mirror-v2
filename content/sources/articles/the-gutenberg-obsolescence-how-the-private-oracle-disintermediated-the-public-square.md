@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-09T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-gutenberg-obsolescence-how-the-private-oracle-disintermediated-the-public-square.png
+  /images/the-gutenberg-obsolescence-how-the-private-oracle-disintermediated-the-public-square.webp
 month: August
 source_meta:
   url: https://innospective.net/how-ai-is-changing-the-way-we-think/

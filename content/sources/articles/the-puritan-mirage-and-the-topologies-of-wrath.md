@@ -3,7 +3,7 @@ title: The Puritan Mirage and the Topologies of Wrath
 status: published
 publish_date: 2026-06-18T00:00:00.000Z
 primary: General
-image: /images/the-puritan-mirage-and-the-topologies-of-wrath.png
+image: /images/the-puritan-mirage-and-the-topologies-of-wrath.webp
 source_meta:
   url: https://elizabethnickson.substack.com/p/not-civil-war-not-world-war-3-not
   title: >-

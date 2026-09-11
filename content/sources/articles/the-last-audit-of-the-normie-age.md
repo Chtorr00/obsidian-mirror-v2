@@ -18,7 +18,7 @@ order: 22
 
 
 
-![The Last Audit of the Normie Age](/images/Jan6DeclineWierdness.png)
+![The Last Audit of the Normie Age](/images/Jan6DeclineWierdness.webp)
 
 The Decline of Deviance: Where has all the weirdness gone?, By Adam Mastroianni
 Experimental History Substack, October 28, 2025

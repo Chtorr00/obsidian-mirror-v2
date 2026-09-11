@@ -3,7 +3,7 @@ title: The Architecture of Epistemic Divorce
 status: published
 publish_date: 2026-07-11T00:00:00.000Z
 primary: General
-image: /images/architecture-of-epistemic-divorce.png
+image: /images/architecture-of-epistemic-divorce.webp
 month: July
 source_meta:
   url: >-

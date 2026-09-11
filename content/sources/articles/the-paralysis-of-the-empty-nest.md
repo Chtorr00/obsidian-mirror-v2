@@ -20,7 +20,7 @@ order: 26
 
 
 
-![The Paralysis of the Empty Nest](/images/Jan11BabyBust.png)
+![The Paralysis of the Empty Nest](/images/Jan11BabyBust.webp)
 
 Growing share of Americans say fewer people having kids would negatively impact the U.S., By Rachel Minkin
 Pew Research Center, September 30, 2025

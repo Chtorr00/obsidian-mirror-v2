@@ -2,7 +2,7 @@
 title: The Ledger of the Cannibal State
 primary: General
 secondary: []
-image: /images/April23CannibalState.jpg
+image: /images/April23CannibalState.webp
 month: April
 order: 284
 status: published

@@ -3,7 +3,7 @@ title: The Thermodynamics of the Vulgar Tongue
 status: published
 publish_date: 2026-06-30T00:00:00.000Z
 primary: General
-image: /images/the-thermodynamics-of-the-vulgar-tongue.png
+image: /images/the-thermodynamics-of-the-vulgar-tongue.webp
 month: June
 source_meta:
   url: https://substack.com/inbox/post/201405903

@@ -18,7 +18,7 @@ order: 17
 
 
 
-![The Sycophantic Plague](/images/Jan1SycophanticAI.png)
+![The Sycophantic Plague](/images/Jan1SycophanticAI.webp)
 
 AI Chatbots Linked to Psychosis, Say Doctors, By Sam Schechner
 Wall Street Journal, December 27, 2025

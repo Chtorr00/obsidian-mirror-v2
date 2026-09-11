@@ -18,7 +18,7 @@ order: 57
 
 
 
-![The Brittle Bones of Globalization](/images/July20SupplyChain.jpeg)
+![The Brittle Bones of Globalization](/images/July20SupplyChain.webp)
 
 The Next War Will Be Fought in Supply Chains, by Dennis Groseclose
 SupplyChainBrain, July 19, 2025

@@ -21,7 +21,7 @@ order: 138
 
 
 
-![The Vote of No Confidence](/images/October18HigherEdFailing.png)
+![The Vote of No Confidence](/images/October18HigherEdFailing.webp)
 
 Growing share of Americans say the U.S. higher education system is headed in the wrong direction, By Kim Parker
 Pew Research Center, October 15, 2025

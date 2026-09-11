@@ -23,7 +23,7 @@ order: 64
 
 
 
-![The Unanswered Indictment](/images/July27TechCoToBlame.jpeg)
+![The Unanswered Indictment](/images/July27TechCoToBlame.webp)
 
 The harms of social media are largely blamed on individuals instead of tech companies, by Communication and Marketing Staff USC Annenberg, June 26, 2025
 https://learcenter.s3.us-west-1.amazonaws.com/OffTheHook_BigTechinMedia_LearCenter.pdf

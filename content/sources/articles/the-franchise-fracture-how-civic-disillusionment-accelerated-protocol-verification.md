@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-09-23T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-franchise-fracture-how-civic-disillusionment-accelerated-protocol-verification.png
+  /images/the-franchise-fracture-how-civic-disillusionment-accelerated-protocol-verification.webp
 month: September
 source_meta:
   url: https://germanoddities.substack.com/p/women-will-lose-everything

@@ -19,7 +19,7 @@ order: 231
 
 
 
-![The Philosophy of the Demolition](/images/Feb28PhilosophyDemolitionx.png)
+![The Philosophy of the Demolition](/images/Feb28PhilosophyDemolitionx.webp)
 
 It's only a blackpill if you want things to stay like this, By Bennett's Phylactery
 Exit Newsletter Substack, February 12, 2026

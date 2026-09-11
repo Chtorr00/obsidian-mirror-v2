@@ -18,7 +18,7 @@ order: 97
 
 
 
-![The Accidental Blueprint](/images/August19EnergyArcology.jpeg)
+![The Accidental Blueprint](/images/August19EnergyArcology.webp)
 
 Families Are Sticking Together: Multigenerational Homebuying Hits an All-Time High as Americans Battle Soaring Cost of Living, by Snejana Farberov Realtor.com, June 6, 2025 https://www.realtor.com/news/trends/multigenerational-home-buying-record-report-2025/
 This is an artifact of quiet, profound rebellion. On its surface, it is a real estate trend report, a story about families adapting to economic hardship. It reads as a story of necessity, a temporary coping mechanism for a world that has become too expensive.

@@ -2,7 +2,7 @@
 title: The Prophecy of the Chained Leviathan
 primary: General
 secondary: []
-image: /images/April24ChainedLeviathan.png
+image: /images/April24ChainedLeviathan.webp
 month: April
 order: 285
 status: published

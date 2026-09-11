@@ -18,7 +18,7 @@ order: 122
 
 
 
-![The Ghost in the Nursery](/images/September28AINursery.png)
+![The Ghost in the Nursery](/images/September28AINursery.webp)
 
 The Virtual Worlds Where AI Is Making Its Next Big Leap, By Christopher Mims
 Wall Street Journal, January 21, 2025

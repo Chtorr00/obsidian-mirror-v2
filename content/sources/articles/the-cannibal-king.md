@@ -19,7 +19,7 @@ order: 114
 
 
 
-![The Cannibal King](/images/September18ChinaEVoverproduction.png)
+![The Cannibal King](/images/September18ChinaEVoverproduction.webp)
 
 China is sending its world-beating auto industry into a tailspin,
 Reuters, September 17, 2025

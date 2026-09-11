@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-09-12T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-synthetic-overhang-why-agentic-automation-fractured-the-corporate-monolith.png
+  /images/the-synthetic-overhang-why-agentic-automation-fractured-the-corporate-monolith.webp
 month: September
 source_meta:
   url: >-

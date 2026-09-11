@@ -3,7 +3,7 @@ title: The Phantom Signal of the Messenger Class
 status: published
 publish_date: 2026-05-26T00:00:00.000Z
 primary: General
-image: /images/the-phantom-signal-of-the-messenger-class.png
+image: /images/the-phantom-signal-of-the-messenger-class.webp
 source_meta:
   url: https://www.theargumentmag.com/p/we-tested-one-of-the-medias-favorite
   title: We tested one of the media's favorite economic theories

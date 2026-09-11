@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-08-30T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-epistemic-harness-how-execution-frameworks-subsumed-the-model-monolith.png
+  /images/the-epistemic-harness-how-execution-frameworks-subsumed-the-model-monolith.webp
 month: August
 source_meta:
   url: >-

@@ -3,7 +3,7 @@ title: The Last Human Dividend
 status: published
 publish_date: 2026-05-05T00:00:00.000Z
 primary: General
-image: /images/the-last-human-dividend.png
+image: /images/the-last-human-dividend.webp
 source_meta:
   url: https://archive.is/yimb2
   title: Silicon Valley Is Bracing for a Permanent Underclass

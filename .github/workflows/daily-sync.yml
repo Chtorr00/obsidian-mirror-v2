@@ -1,8 +1,7 @@
 name: Daily Embargo Sync (The Gatekeeper)
 
 on:
-  schedule:
-    - cron: '1 0 * * *' # 12:01 AM UTC (Every night)
+  # schedule disabled in favor of gatekeeper.yml to prevent duplicate nightly deployments
   workflow_dispatch:   # Allow manual trigger from GitHub UI
 
 jobs:

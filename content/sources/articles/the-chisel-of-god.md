@@ -19,7 +19,7 @@ order: 139
 
 
 
-![The Chisel of God](/images/October19GeneEditing.png)
+![The Chisel of God](/images/October19GeneEditing.webp)
 
 The AI-Genetics Revolution Looms: Ethics, Power, and an Unequal Future, By Bill Drexel
 En Tibi, October 13, 2025

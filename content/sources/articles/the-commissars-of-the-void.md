@@ -18,7 +18,7 @@ order: 20
 
 
 
-![The Commissars of the Void](/images/Jan4BernieBro.png)
+![The Commissars of the Void](/images/Jan4BernieBro.webp)
 
 Bernie Bro Elegy: White male millennial socialists in the age of DEI, By Geoff Shullenberger
 Compact Magazine Substack, December 19, 2025

@@ -20,7 +20,7 @@ order: 187
 
 
 
-![The Terms of Surrender](/images/December22SettlementU.png)
+![The Terms of Surrender](/images/December22SettlementU.webp)
 
 Columbia and Beyond: Case Agreements in Higher Ed, By the National Association of Scholars
 NAS whitepaper, November 25, 2025

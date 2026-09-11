@@ -2,7 +2,7 @@
 title: The Harvest of Dust
 primary: General
 secondary: []
-image: /images/March19HarvestDust.png
+image: /images/March19HarvestDust.webp
 month: March
 source_meta:
   url: https://ddgeopolitics.substack.com/p/the-famine-signal-chinas-fertilizer

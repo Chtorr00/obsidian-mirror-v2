@@ -18,7 +18,7 @@ order: 210
 
 
 
-![Herald of the Patchwork Era](/images/Jan31TribalPatchwork.png)
+![Herald of the Patchwork Era](/images/Jan31TribalPatchwork.webp)
 
 Episode 622: Mike Maxwell on the Tribal Future of the West, By Tim Kelly
 Our Interesting Times Podcast, January 21, 2026

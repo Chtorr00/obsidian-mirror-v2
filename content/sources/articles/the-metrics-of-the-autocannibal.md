@@ -2,7 +2,7 @@
 title: The Metrics of the Autocannibal
 primary: General
 secondary: []
-image: /images/April14MetricsAutocannibal.png
+image: /images/April14MetricsAutocannibal.webp
 month: April
 order: 277
 status: published

@@ -18,7 +18,7 @@ order: 50
 
 
 
-![The Connective Tissue](/images/July12ConnectiveTissue.jpeg)
+![The Connective Tissue](/images/July12ConnectiveTissue.webp)
 
 Our crisis is not loneliness but human beings becoming invisible, by Allison Pugh
 Aeon, July 12, 2025

@@ -2,7 +2,7 @@
 title: The Prophet of the Closed Loop
 primary: General
 secondary: []
-image: /images/March22ProphetClosedLoop.png
+image: /images/March22ProphetClosedLoop.webp
 month: March
 source_meta:
   url: https://doi.org/10.64628/AAI.ar4tu6v9s

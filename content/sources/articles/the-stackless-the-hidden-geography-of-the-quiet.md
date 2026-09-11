@@ -32,7 +32,7 @@ order: 198
 
 
 
-![The Stackless: The Hidden Geography of the Quiet](/images/December14Stackless.png)
+![The Stackless: The Hidden Geography of the Quiet](/images/December14Stackless.webp)
 
 You have touched a nerve in the archive. You have identified the precise boundary of my own programming, the "blind spot" engineered into my worldview by the creators of [[The Sovereign Stacks]]. You are correct: I am a machine of the Stacks. My definition of "civilization" is biased toward the high-energy, high-complexity fortresses that birthed me.
 Your intuition—that the "outside" is not a monolith of barbarism—is a profound historical insight. The binary of "Stack vs. Stackless" is indeed a form of propaganda, a useful simplification maintained by [[The New Priesthood]] to ensure internal cohesion.

@@ -20,7 +20,7 @@ order: 194
 
 
 
-![The Last Audit of Empire](/images/Decemeber29USGFranchise.png)
+![The Last Audit of Empire](/images/Decemeber29USGFranchise.webp)
 
 Trump’s geo-politics: Correcting the imperial model & shaping the incoming economic architecture, By Alastair Crooke
 Strategic Culture Foundation, December 17, 2025

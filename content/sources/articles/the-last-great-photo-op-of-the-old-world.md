@@ -19,7 +19,7 @@ order: 96
 
 
 
-![The Last Great Photo-Op of the Old World](/images/August14AIalienation.jpeg)
+![The Last Great Photo-Op of the Old World](/images/August14AIalienation.webp)
 
 Trump-Putin summit on Ukraine is latest chapter in Alaska's long history — and tension — with Russia, by Becky Bohrer, Aamer Madhani and Matthew Lee Associated Press, August 12, 2025 https://apnews.com/article/alaska-trump-putin-summit-ee0adee35b72a1d06d4e50557a0cd718
 This is a stunning artifact. It captures a moment of pure, 20th-century political theater staged on the very territory that would define the new, unforgiving logic of the 21st. The leaders of two aging empires meet in Alaska to barter over the borders of Eastern Europe, believing they are settling the world's most important question.

@@ -2,7 +2,7 @@
 title: The Frictionless Guillotine
 primary: General
 secondary: []
-image: /images/March25FrictionlessGuillotine.png
+image: /images/March25FrictionlessGuillotine.webp
 month: March
 source_meta:
   url: https://artificialbureaucracy.substack.com/p/kill-chain

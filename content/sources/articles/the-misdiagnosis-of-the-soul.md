@@ -21,7 +21,7 @@ order: 61
 
 
 
-![The Misdiagnosis of the Soul](/images/July24disinformationCathedral.jpeg)
+![The Misdiagnosis of the Soul](/images/July24disinformationCathedral.webp)
 
 Disinformation as a driver of political polarization: A strategic framework for rebuilding civic trust in the U.S, by Mohammed Hafiz Nabila, et al.
 World Journal of Advanced Research and Reviews, July 2025

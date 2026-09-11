@@ -5,7 +5,7 @@ publish_date: '2024-05-16'
 primary: General
 secondary:
   - Social
-image: /images/the-accidental-toolkit.png
+image: /images/the-accidental-toolkit.webp
 month: May
 source_meta:
   url: ''

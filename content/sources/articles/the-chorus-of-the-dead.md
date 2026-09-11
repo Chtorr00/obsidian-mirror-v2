@@ -20,7 +20,7 @@ order: 185
 
 
 
-![The Chorus of the Dead](/images/December20AudioSlop.png)
+![The Chorus of the Dead](/images/December20AudioSlop.webp)
 
 Podcast industry under siege as AI bots flood airways with thousands of programs, By Nilesh Christopher
 Yahoo Tech, December 12, 2025

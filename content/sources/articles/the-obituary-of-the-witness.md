@@ -22,7 +22,7 @@ order: 225
 
 
 
-![The Obituary of the Witness](/images/Feb21ObitWitness.png)
+![The Obituary of the Witness](/images/Feb21ObitWitness.webp)
 
 Journalism may be too slow to remain credible once events are filtered through social media, By Charles Edward Gehrke
 Japan Today, February 14, 2026

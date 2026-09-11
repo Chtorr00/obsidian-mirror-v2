@@ -18,7 +18,7 @@ order: 222
 
 
 
-![The Leap from the Blind Watchmaker](/images/Feb18BlindWatch.png)
+![The Leap from the Blind Watchmaker](/images/Feb18BlindWatch.webp)
 
 Natura Facit Saltum: Preface to The Frozen Gene - The End of Human Evolution, By Steve Keen
 Building a New Economics Substack, February 3, 2026

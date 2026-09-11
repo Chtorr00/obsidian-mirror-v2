@@ -17,7 +17,7 @@ order: 157
 
 
 
-![The Birth of the Wolf](/images/November14BirthWolf.png)
+![The Birth of the Wolf](/images/November14BirthWolf.webp)
 
 Gen Z: From Liberal to Far-Right, by The Right Wing Coalition
 Arktos Journal, Nov 11, 2025

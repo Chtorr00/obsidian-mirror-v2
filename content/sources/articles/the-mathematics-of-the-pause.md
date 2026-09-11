@@ -17,7 +17,7 @@ order: 234
 
 
 
-![The Mathematics of the Pause](/images/March3AIPlateau.png)
+![The Mathematics of the Pause](/images/March3AIPlateau.webp)
 
 Are AI Capabilities Increasing Exponentially? A Competing Hypothesis, By Haosen Ge, Hamsa Bastani, Osbert Bastani
 Wharton AI & Analytics Initiative, February 4, 2026

@@ -18,7 +18,7 @@ order: 190
 
 
 
-![The Ghost of Christmas Past Is the Only One Left](/images/December25Eternal1955.png)
+![The Ghost of Christmas Past Is the Only One Left](/images/December25Eternal1955.webp)
 
 The Eternal 1955: Why Christmas Proves We Are Culturally Exhausted, By Mark Justman (with Gemini 3.0)
 Special for the Obsidian Mirror, Dec 25, 2025

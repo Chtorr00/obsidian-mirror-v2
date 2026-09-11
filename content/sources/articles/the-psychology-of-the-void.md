@@ -18,7 +18,7 @@ order: 42
 
 
 
-![The Psychology of the Void](/images/March5PsychVoid.png)
+![The Psychology of the Void](/images/March5PsychVoid.webp)
 
 Psychology Finally Checked Its Work. Whoops, By Ross Grossman
 The Diagnosis Substack, December 15, 2025

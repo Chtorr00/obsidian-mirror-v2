@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-05T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-kinetic-premium-how-resource-scarcity-financialized-the-biological-commons.png
+  /images/the-kinetic-premium-how-resource-scarcity-financialized-the-biological-commons.webp
 month: August
 source_meta:
   url: >-

@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-09-21T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-solvency-mirage-how-fictitious-capital-precipitated-the-protocol-state.png
+  /images/the-solvency-mirage-how-fictitious-capital-precipitated-the-protocol-state.webp
 month: September
 source_meta:
   url: https://fabiovighi.substack.com/p/there-is-no-america

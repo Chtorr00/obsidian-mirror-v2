@@ -3,7 +3,7 @@ title: The Calculus of the Abattoir
 status: published
 publish_date: 2026-07-08T00:00:00.000Z
 primary: General
-image: /images/the-calculus-of-the-abattoir.png
+image: /images/the-calculus-of-the-abattoir.webp
 month: July
 source_meta:
   url: >-

@@ -4,7 +4,7 @@ status: published
 publish_date: 2026-09-11T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-relational-deficit-how-metabolic-atomization-starved-the-civic-hearth.png
+  /images/the-relational-deficit-how-metabolic-atomization-starved-the-civic-hearth.webp
 month: September
 source_meta:
   url: https://thedogepatriarch.substack.com/p/i-am-the-male-loneliness-epidemic

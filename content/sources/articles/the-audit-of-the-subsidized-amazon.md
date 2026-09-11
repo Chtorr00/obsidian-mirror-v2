@@ -2,7 +2,7 @@
 title: The Audit of the Subsidized Amazon
 primary: General
 secondary: []
-image: /images/April26AuditAmazon.png
+image: /images/April26AuditAmazon.webp
 month: April
 order: 287
 status: published

@@ -18,7 +18,7 @@ order: 180
 
 
 
-![The Accidental Sovereigns](/images/Dec13Splinternet.png)
+![The Accidental Sovereigns](/images/Dec13Splinternet.webp)
 
 Digital Public Infrastructure Could Make a Better Internet, By Akash Kapur
 Foreign Policy, April 28, 2025

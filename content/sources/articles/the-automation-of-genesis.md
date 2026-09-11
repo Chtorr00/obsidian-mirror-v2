@@ -3,7 +3,7 @@ title: The Automation of Genesis
 status: published
 publish_date: 2026-07-10T00:00:00.000Z
 primary: General
-image: /images/the-automation-of-genesis.png
+image: /images/the-automation-of-genesis.webp
 month: July
 source_meta:
   url: https://peterturchin.substack.com/p/the-future-has-arrived

@@ -19,7 +19,7 @@ order: 126
 
 
 
-![The Children's Crusade](/images/October1GenZriot.png)
+![The Children's Crusade](/images/October1GenZriot.webp)
 
 Havoc in the Himalayas, By Yakubian Ape
 The Lake of Lerna Substack, October 1, 2025

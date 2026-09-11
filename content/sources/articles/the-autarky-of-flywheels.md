@@ -3,7 +3,7 @@ title: The Autarky of Flywheels
 status: published
 publish_date: 2026-06-28T00:00:00.000Z
 primary: General
-image: /images/the-autarky-of-flywheels.png
+image: /images/the-autarky-of-flywheels.webp
 month: June
 source_meta:
   url: https://substack.com/inbox/post/201727323

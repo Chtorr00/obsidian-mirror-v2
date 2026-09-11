@@ -3,7 +3,7 @@ title: The Ledger of Bare Branches
 status: published
 publish_date: 2026-05-18T00:00:00.000Z
 primary: General
-image: /images/the-ledger-of-bare-branches.png
+image: /images/the-ledger-of-bare-branches.webp
 source_meta:
   url: https://terminaldrift.substack.com/p/you-are-not-the-one-chinese-dating
   title: You Are Not The One - Chinese Dating Dystopia

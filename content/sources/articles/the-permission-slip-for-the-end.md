@@ -18,7 +18,7 @@ order: 221
 
 
 
-![The Permission Slip for the End](/images/Feb17PermissionSlip.png)
+![The Permission Slip for the End](/images/Feb17PermissionSlip.webp)
 
 Statusquotastrophe: Interviews with US Public Reveal Dark Trend, by Charlton Yingling, Marissa Yingling
 Global Catastrophic Risk Institute, January 9, 2026

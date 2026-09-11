@@ -17,7 +17,7 @@ order: 127
 
 
 
-![The Vulture's Prophecy](/images/October2BitcoinProphesy.png)
+![The Vulture's Prophecy](/images/October2BitcoinProphesy.webp)
 
 The U.S. Is Planning a $37 Trillion Crypto Reset, By Mark Moss
 Mark Moss Youtube, October 1, 2025

@@ -2,7 +2,7 @@
 title: The Aesthetic Paralysis of the Dying Republic
 primary: General
 secondary: []
-image: /images/March29AestheticParalysis.png
+image: /images/March29AestheticParalysis.webp
 month: March
 source_meta:
   url: https://archive.is/0AxKN

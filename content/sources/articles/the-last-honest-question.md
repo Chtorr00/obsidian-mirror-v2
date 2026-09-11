@@ -17,7 +17,7 @@ order: 179
 
 
 
-![The Last Honest Question](/images/December12Neofertility.png)
+![The Last Honest Question](/images/December12Neofertility.webp)
 
 The demographic future that we do not know about, by Anne Goujon
 Science Vol 390, Issue 6775, November 20, 2025

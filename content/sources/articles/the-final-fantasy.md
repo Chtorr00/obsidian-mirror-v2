@@ -18,7 +18,7 @@ order: 171
 
 
 
-![The Final Fantasy](/images/December2Romantasy.png)
+![The Final Fantasy](/images/December2Romantasy.webp)
 
 Why We Crave Monster Romance, By Elizabeth Eads
 little infinite blog, August 12, 2025

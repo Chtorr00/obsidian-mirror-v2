@@ -3,7 +3,7 @@ title: The Architecture of Synthetic Dissent
 status: published
 publish_date: 2026-06-26T00:00:00.000Z
 primary: General
-image: /images/the-architecture-of-synthetic-dissent.png
+image: /images/the-architecture-of-synthetic-dissent.webp
 source_meta:
   url: https://datarepublican.substack.com/p/which-ngos-are-organizing-the-newark
   title: Which NGOs Are Organizing the Newark Protests, and How

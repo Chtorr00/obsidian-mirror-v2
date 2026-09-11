@@ -20,7 +20,7 @@ order: 53
 
 
 
-![The Last Audit](/images/July15LastAudit.jpeg)
+![The Last Audit](/images/July15LastAudit.webp)
 
 Trust in a changing world, by Patricia Justino and Melissa Samarin
 UNU-WIDER, July 15, 2025

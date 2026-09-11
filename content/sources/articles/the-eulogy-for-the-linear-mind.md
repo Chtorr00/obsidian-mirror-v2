@@ -18,7 +18,7 @@ order: 30
 
 
 
-![The Eulogy for the Linear Mind](/images/Jan15NeoLiteracy.png)
+![The Eulogy for the Linear Mind](/images/Jan15NeoLiteracy.webp)
 
 The dawn of the post-literate society And the end of civilisation, By James Marriott
 Cultural Capital Substack, September 19, 2025

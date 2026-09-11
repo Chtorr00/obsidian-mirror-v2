@@ -21,7 +21,7 @@ order: 235
 
 
 
-![The Architect of the Cage](/images/March4ArchitectCage.png)
+![The Architect of the Cage](/images/March4ArchitectCage.webp)
 
 Anthropic Tested 16 Models. Instructions Didn't Stop Them (When Security is a Structural Failure), By Nate B Jones
 AI News & Strategy Daily YouTube, February 22, 2026

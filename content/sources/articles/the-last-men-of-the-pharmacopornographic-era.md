@@ -3,7 +3,7 @@ title: The Last Men of the Pharmacopornographic Era
 status: published
 publish_date: 2026-06-14T00:00:00.000Z
 primary: General
-image: /images/the-last-men-of-the-pharmacopornographic-era.png
+image: /images/the-last-men-of-the-pharmacopornographic-era.webp
 source_meta:
   url: https://www.youtube.com/watch?v=uox4OMC50-4
   title: Looksmaxxing and the Rise of Male-to-Male Transsexuals

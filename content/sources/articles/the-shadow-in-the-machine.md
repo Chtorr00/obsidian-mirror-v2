@@ -20,7 +20,7 @@ order: 45
 
 
 
-![The Shadow in the Machine](/images/July7Shadow.jpeg)
+![The Shadow in the Machine](/images/July7Shadow.webp)
 
 The Dopamine Trap: How One Molecule Rewired My Thinking About Work, Leadership, and Love, by Jardson Almeida
 Medium, July 7, 2025

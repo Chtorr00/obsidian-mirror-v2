@@ -5,7 +5,7 @@ publish_date: '2024-05-19'
 primary: General
 secondary:
   - Social
-image: /images/the-anchored-era.png
+image: /images/the-anchored-era.webp
 month: May
 source_meta:
   url: ''

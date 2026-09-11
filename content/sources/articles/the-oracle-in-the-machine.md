@@ -19,7 +19,7 @@ order: 52
 
 
 
-![The Oracle in the Machine](/images/July14OracleMachine.jpeg)
+![The Oracle in the Machine](/images/July14OracleMachine.webp)
 
 Outside the Box: How AI Sees Its Impact on Society, Part 2, by Peter Isackson
 Fair Observer, July 14, 2025

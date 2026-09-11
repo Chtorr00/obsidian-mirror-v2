@@ -2,7 +2,7 @@
 title: The Autopsy of the Sanctioned Lie
 primary: General
 secondary: []
-image: /images/April10VelvetCage.png
+image: /images/April10VelvetCage.webp
 month: April
 order: 265
 status: published

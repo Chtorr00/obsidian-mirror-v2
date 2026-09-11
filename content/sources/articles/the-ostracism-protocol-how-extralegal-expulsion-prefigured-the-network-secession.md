@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-28T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-ostracism-protocol-how-extralegal-expulsion-prefigured-the-network-secession.png
+  /images/the-ostracism-protocol-how-extralegal-expulsion-prefigured-the-network-secession.webp
 month: August
 source_meta:
   url: https://www.thewaywardrabbler.com/p/for-an-american-ostracism

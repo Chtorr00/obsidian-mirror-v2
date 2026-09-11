@@ -20,7 +20,7 @@ order: 150
 
 
 
-![The Curriculum of Collapse](/images/November2CurricCollapse.png)
+![The Curriculum of Collapse](/images/November2CurricCollapse.webp)
 
 Transhumanism, Human Moral Enhancement, and Virtues,by Vojko Strahovnik and Mateja Centa Strahovnik
 Religions 2024, October 31, 2025

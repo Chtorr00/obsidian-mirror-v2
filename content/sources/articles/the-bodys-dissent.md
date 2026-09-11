@@ -3,7 +3,7 @@ title: The Body's Dissent
 status: published
 publish_date: 2026-05-31T00:00:00.000Z
 primary: General
-image: /images/the-bodys-dissent.png
+image: /images/the-bodys-dissent.webp
 source_meta:
   url: >-
     https://www.msn.com/en-us/money/other/the-american-rebellion-against-ai-is-gaining-steam/ar-AA23w1HH

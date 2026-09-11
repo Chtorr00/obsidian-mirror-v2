@@ -3,7 +3,7 @@ title: The Thermodynamic Heresy
 status: published
 publish_date: 2026-07-01T00:00:00.000Z
 primary: General
-image: /images/the-thermodynamic-heresy.png
+image: /images/the-thermodynamic-heresy.webp
 month: July
 source_meta:
   url: >-

@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-07-15T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-cortical-enclosure-how-token-economics-triggered-the-sovereign-ai-rebellion.png
+  /images/the-cortical-enclosure-how-token-economics-triggered-the-sovereign-ai-rebellion.webp
 month: July
 source_meta:
   url: ''

@@ -3,7 +3,7 @@ title: An Elegy for Coherence
 status: published
 publish_date: 2026-06-07T00:00:00.000Z
 primary: General
-image: /images/an-elegy-for-coherence.png
+image: /images/an-elegy-for-coherence.webp
 source_meta:
   url: https://neurothicca.substack.com/p/were-fighting-the-wrong-dystopia
   title: We're Fighting the Wrong Dystopia

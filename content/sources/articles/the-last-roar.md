@@ -18,7 +18,7 @@ order: 109
 
 
 
-![The Last Roar](/images/September13LondonStack.png)
+![The Last Roar](/images/September13LondonStack.webp)
 
 Police and protesters scuffle as 110,000 join anti-migrant London protest, By Vitalii Yalahuzian, Yann Tessier and Stuart McDill
 Reuters UK, September 13, 2025

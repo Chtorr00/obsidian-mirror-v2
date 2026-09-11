@@ -3,7 +3,7 @@ title: The Workshop of the World Winds Down
 status: published
 publish_date: 2026-06-13T00:00:00.000Z
 primary: General
-image: /images/the-workshop-of-the-world-winds-down.png
+image: /images/the-workshop-of-the-world-winds-down.webp
 source_meta:
   url: https://jacobin.com/2026/03/germany-deindustrialization-trade-green-elite
   title: German Deindustrialization Is Self-Inflicted

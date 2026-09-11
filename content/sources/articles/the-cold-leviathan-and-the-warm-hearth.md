@@ -3,7 +3,7 @@ title: The Cold Leviathan and the Warm Hearth
 primary: Political
 secondary:
   - 'STEP: Political'
-image: /images/April4ColdLeviathan.png
+image: /images/April4ColdLeviathan.webp
 month: April
 order: 268
 status: published

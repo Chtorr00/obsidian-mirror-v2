@@ -18,7 +18,7 @@ order: 87
 
 
 
-![The Fragile Consensus](/images/August27Lonlinessepidemic.png)
+![The Fragile Consensus](/images/August27Lonlinessepidemic.webp)
 
 Gene Editing: Developments, Ethical Considerations, and Future Directions, by Manav C Parikh
 J Community Hosp Intern Med Perspect, January 6, 2025

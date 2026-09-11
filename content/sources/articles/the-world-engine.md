@@ -17,7 +17,7 @@ order: 134
 
 
 
-![The World Engine](/images/October14MulticulturalismUK.png)
+![The World Engine](/images/October14MulticulturalismUK.webp)
 
 How Multiculturalism Consumes Everything, By Morgoth
 Morgoth's Review Substack, October 4, 2025

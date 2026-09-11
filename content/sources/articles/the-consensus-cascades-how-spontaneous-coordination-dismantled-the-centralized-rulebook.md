@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-24T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-consensus-cascades-how-spontaneous-coordination-dismantled-the-centralized-rulebook.png
+  /images/the-consensus-cascades-how-spontaneous-coordination-dismantled-the-centralized-rulebook.webp
 month: August
 source_meta:
   url: >-

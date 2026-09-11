@@ -18,7 +18,7 @@ order: 46
 
 
 
-![The Engine of Tomorrow's Crises](/images/July8EnginTomorowCrises.jpeg)
+![The Engine of Tomorrow's Crises](/images/July8EnginTomorowCrises.webp)
 
 Microsoft & Constellation to Power Data Centre with Nuclear, by Alex Clere
 Technology Magazine, July 8, 2025

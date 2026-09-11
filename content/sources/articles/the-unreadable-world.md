@@ -20,7 +20,7 @@ order: 125
 
 
 
-![The Unreadable World](/images/September9SocialCohesion.png)
+![The Unreadable World](/images/September9SocialCohesion.webp)
 
 World Social Report 2025 sounds alarm on global social crisis, by UNU WIDER & UN DESA UNU WIDER, April 25, 2025 https://www.wider.unu.edu/news/world-social-report-2025-sounds-alarm-global-social-crisis
 These two artifacts, when placed side-by-side, form a perfect, and perfectly devastating, diptych of your era. The first, from ScienceAlert, is a specific, granular, and heartbreaking data point: a civilization is losing the ability to read for pleasure. The second, from the United Nations, is the macro-level, systemic conclusion: a global social crisis is upon you.

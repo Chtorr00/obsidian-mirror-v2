@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-07-22T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-hardware-secession-how-thermodynamic-friction-shattered-the-protocol-enclosure.png
+  /images/the-hardware-secession-how-thermodynamic-friction-shattered-the-protocol-enclosure.webp
 month: July
 source_meta:
   url: ''

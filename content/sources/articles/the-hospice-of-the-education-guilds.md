@@ -3,7 +3,7 @@ title: The Hospice of the Education Guilds
 status: published
 publish_date: 2026-07-09T00:00:00.000Z
 primary: General
-image: /images/the-hospice-of-the-education-guilds.png
+image: /images/the-hospice-of-the-education-guilds.webp
 month: July
 source_meta:
   url: >-

@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-07-21T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-entropy-of-consent-how-thermodynamic-friction-fractured-the-consensus-state.png
+  /images/the-entropy-of-consent-how-thermodynamic-friction-fractured-the-consensus-state.webp
 month: July
 source_meta:
   url: ''

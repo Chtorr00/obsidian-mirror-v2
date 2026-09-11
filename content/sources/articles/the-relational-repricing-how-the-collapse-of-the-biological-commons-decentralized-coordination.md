@@ -6,7 +6,7 @@ status: published
 publish_date: 2026-08-04T00:00:00.000Z
 primary: General
 image: >-
-  /images/the-relational-repricing-how-the-collapse-of-the-biological-commons-decentralized-coordination.png
+  /images/the-relational-repricing-how-the-collapse-of-the-biological-commons-decentralized-coordination.webp
 month: August
 source_meta:
   url: https://becomingnoble.substack.com/p/young-adults-are-poor-despite-every
