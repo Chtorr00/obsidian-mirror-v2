@@ -19,6 +19,7 @@ if not api_key:
     exit(1)
 
 client = genai.Client(api_key=api_key)
+DISCOVERY_MODEL = os.environ.get("ANTIGRAVITY_TIER_1_MODEL") or os.environ.get("ANTIGRAVITY_TIER_2_MODEL")
 
 def get_glossary_concepts(glossary_dir):
     """Read markdown files from the glossary directory to extract concepts."""
@@ -68,7 +69,7 @@ CRITICAL RULES:
 - Output ONLY the 3 search queries, one per line. Do not include numbers, bullet points, or quotes.
 """
     try:
-        response = client.models.generate_content(model='gemini-2.5-pro', contents=prompt)
+        response = client.models.generate_content(model=DISCOVERY_MODEL, contents=prompt)
         queries = [q.strip() for q in response.text.strip().split('\n') if q.strip()]
         # Clean up any bullet points or quotes if the model ignored instructions
         queries = [q.replace('"', '').replace('-', '').replace('*', '').strip() for q in queries]
@@ -139,7 +140,7 @@ Your task:
 Format your response in Markdown. Do NOT include Wikipedia, dictionary entries, or generic explainers. Only select news, features, or deep-dive analysis.
 """
     try:
-        response = client.models.generate_content(model='gemini-2.5-pro', contents=prompt)
+        response = client.models.generate_content(model=DISCOVERY_MODEL, contents=prompt)
         return response.text
     except Exception as e:
         print(f"Error scoring articles: {e}")
